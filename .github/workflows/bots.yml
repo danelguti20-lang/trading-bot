@@ -1,9 +1,11 @@
 name: Bots de trading (Paper)
 
 on:
-  schedule:
-    - cron: "*/15 13-21 * * 1-5"   # colonia diaria: cada 15 min en horario de bolsa de EE. UU. (UTC)
-    - cron: "30 21 * * 1-5"        # colonia de tendencia: tras el cierre (22:30 España en invierno)
+  # DESACTIVADO: los bots funcionan en el ordenador. Para pasarlos a la nube, añadir los Secrets
+  # ALPACA_KEY y ALPACA_SECRET y quitar el # de estas 3 líneas.
+  # schedule:
+  #   - cron: "*/15 13-21 * * 1-5"   # colonia diaria: cada 15 min en horario de bolsa de EE. UU. (UTC)
+  #   - cron: "30 21 * * 1-5"        # colonia de tendencia: tras el cierre (22:30 España en invierno)
   workflow_dispatch:
     inputs:
       colonia:
