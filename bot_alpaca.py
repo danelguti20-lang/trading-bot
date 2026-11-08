@@ -151,6 +151,40 @@ def familia(estado):
         pinta(raiz, 0)
 
 
+def historia_regla(cierres, n):
+    """Máquina del Tiempo para bots de tendencia: cada vez que en los últimos años el precio cruzó por
+    encima de su media de n días, ¿cuánto ganó manteniendo hasta cruzar por debajo? (con comisiones)"""
+    media = cierres.rolling(n).mean()
+    dentro = (cierres > media) & media.notna()
+    res, entrada = [], None
+    for px, d in zip(cierres.values, dentro.values):
+        if d and entrada is None:
+            entrada = px
+        elif not d and entrada is not None:
+            res.append(px / entrada * (1 - 2 * COMISION) - 1)
+            entrada = None
+    if not res:
+        return {"n": 0, "media": 0.0, "ganadores": 0.0}
+    return {"n": len(res), "media": sum(res) / len(res), "ganadores": sum(r > 0 for r in res) / len(res)}
+
+
+def skill_dice_si(bot, a, cierres, cache):
+    """Método de la skill antes de una NUEVA entrada: noticias + historia de su propia regla."""
+    import bot_skill as S  # aquí para no crear un import circular
+    if a not in cache:
+        nt = S.herramienta("trader-news/news.py", "--tickers", a, "--hours", "24", "--no-sec", "--json", "--dry-run", "--all")
+        malas = [i for i in (nt or {}).get("items", []) if S.NOTICIAS_MALAS & set(i.get("tags", []))]
+        cache[a] = malas[0] if malas else None
+    if cache[a]:
+        log(f"📰 Bot {bot['id']} no entra en {a}: {cache[a]['title'][:80]} ({', '.join(cache[a]['tags'])})")
+        return False
+    h = historia_regla(cierres, bot["media"])
+    vale = h["n"] >= 5 and h["media"] > 0
+    log(f"🕰️ Bot {bot['id']} {a} media {bot['media']}: {h['n']} entradas pasadas, media {h['media']:+.1%}, "
+        f"{h['ganadores']:.0%} ganadoras (con comisión) -> {'✅ entra' if vale else '❌ no entra'}")
+    return vale
+
+
 def main(prueba=False):
     cargar_env()
     key, secret = os.environ["ALPACA_KEY"], os.environ["ALPACA_SECRET"]
@@ -164,7 +198,7 @@ def main(prueba=False):
 
     barras = datos.get_stock_bars(StockBarsRequest(
         symbol_or_symbols=ACTIVOS, timeframe=TimeFrame.Day,
-        start=datetime.now() - timedelta(days=max(MEDIAS) * 2), feed="iex")).df
+        start=datetime.now() - timedelta(days=365 * 6), feed="iex")).df  # 6 años: para la historia de la skill
     cierres = {a: barras.loc[a]["close"] for a in ACTIVOS}
     precios = {a: float(cierres[a].iloc[-1]) for a in ACTIVOS}
     estado["precios"] = precios
@@ -201,11 +235,18 @@ def main(prueba=False):
                 f"({activo} media {media}) con {dote:,.2f}$")
 
     # 2) cada bot decide su posición
+    noticias_cache = {}
     for bot in estado["bots"]:
         if bot["estado"] == "muerto":
             continue
         a, n = bot["activo"], bot["media"]
         dentro = precios[a] > float(cierres[a].tail(n).mean())
+        if dentro and bot["acciones"] == 0:
+            try:
+                dentro = skill_dice_si(bot, a, cierres[a], noticias_cache)
+            except Exception as ex:
+                log(f"  Bot {bot['id']}: la skill falló ({ex}); no entra.")
+                dentro = False
         if dentro and bot["acciones"] == 0 and C.panico(estado, a, log):
             if C.OBEDECER:
                 dentro = False  # cerebro: con noticias de pánico no entra (si ya está dentro, sigue)
