@@ -52,5 +52,7 @@ jobs:
         run: |
           git config user.name "bot-trading"
           git config user.email "bot-trading@users.noreply.github.com"
-          git add -A colonia*.json historial.csv registro.log panel.html 2>/dev/null || true
+          for f in colonia.json colonia_diaria.json historial.csv registro.log panel.html; do
+            [ -f "$f" ] && git add "$f"
+          done
           git diff --cached --quiet || (git commit -m "Estado de los bots $(date '+%Y-%m-%d %H:%M')" && git pull --rebase && git push)
