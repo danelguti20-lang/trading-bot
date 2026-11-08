@@ -11,3 +11,4 @@ SPY.csv
 resultados*.csv
 *.bak
 pasar_a_la_nube.ps1
+subir_claves.py
