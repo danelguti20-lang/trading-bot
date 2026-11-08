@@ -9,7 +9,7 @@ on:
       colonia:
         description: "Qué colonia ejecutar"
         type: choice
-        options: [diaria, tendencia]
+        options: [diaria, tendencia, skill]
         default: diaria
 
 concurrency:
@@ -43,6 +43,10 @@ jobs:
         if: github.event.schedule == '*/15 13-21 * * 1-5' || inputs.colonia == 'diaria'
         run: python bot_diario.py
 
+      - name: Colonia skill
+        if: github.event.schedule == '*/15 13-21 * * 1-5' || inputs.colonia == 'skill'
+        run: python bot_skill.py
+
       - name: Actualizar panel
         if: always()
         run: python panel.py || true
@@ -52,7 +56,7 @@ jobs:
         run: |
           git config user.name "bot-trading"
           git config user.email "bot-trading@users.noreply.github.com"
-          for f in colonia.json colonia_diaria.json historial.csv registro.log panel.html; do
+          for f in colonia.json colonia_diaria.json colonia_skill.json historial.csv registro.log panel.html; do
             [ -f "$f" ] && git add "$f"
           done
           git diff --cached --quiet || (git commit -m "Estado de los bots $(date '+%Y-%m-%d %H:%M')" && git pull --rebase && git push)
