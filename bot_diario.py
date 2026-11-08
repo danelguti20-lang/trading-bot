@@ -10,6 +10,10 @@ Estrategias (todas cierran antes del final del día):
   mañana  : a partir de las 12:00 (Nueva York) compra si el precio va un P % por encima de la apertura.
   rebote  : compra si el RSI(2) de velas de 15 min baja de P; vende cuando supera su media de 5 velas.
 
+MÉTODO SKILL (day-trader-skill, como la colonia skill) — este SÍ decide:
+  cuando un bot quiere comprar: noticias de la skill (descarta halt/legal/regulatory/risk) -> plan con stop y
+  objetivo 2R -> Máquina del Tiempo; solo compra si con comisiones la simulación da > +0,05R y la historia > 0R.
+  Tamaño: pierde como mucho un 0,5 % de su dinero si salta el stop. Vende en el stop o en el objetivo.
 CEREBRO (cerebro.py, ideas de day-trader-skill): noticias de pánico, memoria de las últimas sesiones,
 stop del 1 % y descanso tras 3 pérdidas seguidas.
 
@@ -25,6 +29,7 @@ import pandas as pd
 
 import bot_alpaca as B
 import cerebro as C
+import bot_skill as S
 from alpaca.data.historical import StockHistoricalDataClient
 from alpaca.data.requests import StockBarsRequest
 from alpaca.data.timeframe import TimeFrame, TimeFrameUnit
@@ -172,6 +177,44 @@ def memoria_dice_no(estado, bot, velas, hoy):
     return m["n"] >= 5 and m["media"] < 0
 
 
+def plan_skill(bot, a, px, velas, ahora, cache):
+    """Método de la skill para la compra de un bot. Devuelve el plan o None (y el motivo en el log)."""
+    hora_txt = ahora.strftime("%Y-%m-%d %H:%M")
+    # noticias (una vez por fondo y ejecución)
+    if a not in cache:
+        n = S.herramienta("trader-news/news.py", "--tickers", a, "--hours", "24", "--no-sec", "--json", "--dry-run", "--all")
+        malas = [i for i in (n or {}).get("items", []) if S.NOTICIAS_MALAS & set(i.get("tags", []))]
+        cache[a] = malas[0] if malas else None
+    if cache[a]:
+        log(f"📰 Bot D{bot['id']} no compra {a}: {cache[a]['title'][:80]} ({', '.join(cache[a]['tags'])})")
+        return None
+    # plan: en ruptura el stop va a la mitad del rango; en las demás, un 1 % por debajo
+    hoy = velas[velas.index.date == ahora.date()]
+    stop = px * (1 - C.STOP)
+    if bot["estrategia"] == "ruptura":
+        rango = hoy[hoy.index < hoy.index[0] + timedelta(minutes=bot["p"])]
+        stop = max(stop, (float(rango["high"].max()) + float(rango["low"].min())) / 2)
+    stop = int(stop * 100) / 100
+    riesgo = px - stop
+    if riesgo <= 0.02:
+        log(f"  Bot D{bot['id']} {a}: el stop ({stop:.2f}) no queda por debajo del precio ({px:.2f}); no compra.")
+        return None
+    meta = round(px + S.OBJETIVO_R * riesgo, 2)
+    t5 = ahora.floor("5min")
+    tm = S.herramienta("trader-timemachine/timemachine.py", "run", "--symbol", a, "--date", str(ahora.date()),
+                       "--entry", f"{px:.2f}", "--stop", f"{stop:.2f}", "--target", f"{meta:.2f}",
+                       "--entry-time", t5.strftime("%I:%M %p").lstrip("0"), "--until", S.CIERRE,
+                       "--now", hora_txt, "--json")
+    if not tm:
+        return None
+    coste = 2 * B.COMISION * px / riesgo
+    sim, hist, casos = tm["mc"]["avg_R"] - coste, tm["history"]["avg_R"] - coste, tm["history"]["triggered"]
+    vale = sim > S.MIN_SIM_R and hist > S.MIN_HIST_R and casos >= S.MIN_CASOS
+    log(f"🕰️ Bot D{bot['id']} {a}: stop {stop:.2f} objetivo {meta:.2f} | con comisión: simulación {sim:+.2f}R, "
+        f"historia {hist:+.2f}R ({casos} casos) -> {'✅ COMPRA' if vale else '❌ no'}")
+    return {"stop": stop, "meta": meta, "riesgo": riesgo} if vale else None
+
+
 def main(prueba=False):
     B.cargar_env()
     key, secret = os.environ["ALPACA_KEY"], os.environ["ALPACA_SECRET"]
@@ -211,17 +254,21 @@ def main(prueba=False):
                 log(f"🧠 Bot D{bot['id']} lleva {C.PERDIDAS_DESCANSO} pérdidas seguidas: hoy DESCANSA.")
 
     # 1) cada bot decide (al final del día todos venden)
+    noticias_cache = {}
     for bot in estado["bots"]:
         if bot["estado"] == "muerto":
             continue
         a, px = bot["activo"], precios[bot["activo"]]
         quiere = False if final else senal(bot, velas[a], ahora)
-        # --- cerebro ---
-        if bot["acciones"] > 0 and bot.get("entrada") and px <= bot["entrada"] * (1 - C.STOP):
-            if quiere:
-                log(f"🧠 Bot D{bot['id']} STOP: {a} cayó a {px:.2f} (entró a {bot['entrada']:.2f}).")
-            quiere = False
-            bot["operado_hoy"] = True
+        # --- salidas del plan de la skill: stop u objetivo ---
+        if bot["acciones"] > 0 and bot.get("entrada"):
+            stop = bot.get("stop") or bot["entrada"] * (1 - C.STOP)
+            if px <= stop or (bot.get("meta") and px >= bot["meta"]):
+                if quiere:
+                    log(f"{'🛑' if px <= stop else '🎯'} Bot D{bot['id']} {'STOP' if px <= stop else 'OBJETIVO'}: "
+                        f"{a} a {px:.2f} (entró a {bot['entrada']:.2f}).")
+                quiere = False
+                bot["operado_hoy"] = True
         razones = []
         if quiere and bot["acciones"] == 0:
             if bot.get("descansa"):
@@ -232,9 +279,19 @@ def main(prueba=False):
                 razones.append("noticias")
             if razones and C.OBEDECER:
                 quiere = False
+        plan = None
+        if quiere and bot["acciones"] == 0:
+            try:
+                plan = plan_skill(bot, a, px, velas[a], ahora, noticias_cache)
+            except Exception as ex:
+                log(f"  Bot D{bot['id']}: la skill falló ({ex}); no compra.")
+            if not plan:
+                quiere = False
         v = B.valor(bot, precios)
         peso = B.PESO * (0.5 if bot["estado"] == "herido" else 1.0)
         objetivo = round(v * peso / px / (1 + B.COMISION), B.DECIMALES) if quiere else 0.0
+        if plan:  # tamaño de la skill: si salta el stop pierde como mucho RIESGO_TRADE de su dinero
+            objetivo = min(objetivo, round(S.RIESGO_TRADE * v / (plan["riesgo"] + 2 * B.COMISION * px), B.DECIMALES))
         if quiere and bot["acciones"] > 0:
             objetivo = bot["acciones"]  # ya está dentro: no reajusta
         cambio = round(objetivo - bot["acciones"], B.DECIMALES)
@@ -244,6 +301,7 @@ def main(prueba=False):
             if cambio > 0:
                 bot["operado_hoy"] = True
                 bot["entrada"] = px
+                bot["stop"], bot["meta"] = (plan["stop"], plan["meta"]) if plan else (None, None)
                 bot["contra_cerebro"] = bool(razones)
                 if razones:
                     log(f"🧠 Bot D{bot['id']} compra aunque el cerebro diría NO ({', '.join(razones)}).")
@@ -251,7 +309,7 @@ def main(prueba=False):
                 res = px / bot["entrada"] * (1 - 2 * B.COMISION) - 1
                 bot["perdidas"] = bot.get("perdidas", 0) + 1 if res < 0 else 0
                 C.apuntar(estado, bot.get("contra_cerebro", False), res)
-                bot["entrada"] = None
+                bot["entrada"] = bot["stop"] = bot["meta"] = None
             log(f"Bot D{bot['id']} ({bot['estrategia']} {bot['p']}) {'COMPRA' if cambio > 0 else 'VENDE'} "
                 f"{abs(cambio):.4f} {a} a {px:.2f} | vida {B.valor(bot, precios):,.0f}$")
 
