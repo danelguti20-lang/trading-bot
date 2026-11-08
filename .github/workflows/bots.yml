@@ -1,0 +1,56 @@
+name: Bots de trading (Paper)
+
+on:
+  schedule:
+    - cron: "*/15 13-21 * * 1-5"   # colonia diaria: cada 15 min en horario de bolsa de EE. UU. (UTC)
+    - cron: "30 21 * * 1-5"        # colonia de tendencia: tras el cierre (22:30 España en invierno)
+  workflow_dispatch:
+    inputs:
+      colonia:
+        description: "Qué colonia ejecutar"
+        type: choice
+        options: [diaria, tendencia]
+        default: diaria
+
+concurrency:
+  group: bots          # nunca dos ejecuciones a la vez (comparten el estado)
+  cancel-in-progress: false
+
+permissions:
+  contents: write      # para guardar el estado de los bots en el repositorio
+
+jobs:
+  bots:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      ALPACA_KEY: ${{ secrets.ALPACA_KEY }}
+      ALPACA_SECRET: ${{ secrets.ALPACA_SECRET }}
+      TZ: Europe/Madrid
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: Colonia de tendencia
+        if: github.event.schedule == '30 21 * * 1-5' || inputs.colonia == 'tendencia'
+        run: python bot_alpaca.py
+
+      - name: Colonia diaria
+        if: github.event.schedule == '*/15 13-21 * * 1-5' || inputs.colonia == 'diaria'
+        run: python bot_diario.py
+
+      - name: Actualizar panel
+        if: always()
+        run: python panel.py || true
+
+      - name: Guardar estado
+        if: always()
+        run: |
+          git config user.name "bot-trading"
+          git config user.email "bot-trading@users.noreply.github.com"
+          git add -A colonia*.json historial.csv registro.log panel.html 2>/dev/null || true
+          git diff --cached --quiet || (git commit -m "Estado de los bots $(date '+%Y-%m-%d %H:%M')" && git pull --rebase && git push)

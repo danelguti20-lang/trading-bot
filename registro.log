@@ -1,0 +1,51 @@
+2026-11-08 19:05 | QQQ 656.31 | media200 680.85 | señal FUERA | capital 100,000$ | tengo 0 | objetivo 0
+2026-11-08 19:05 | Sin cambios.
+2026-11-08 19:11 | Bot 1 [vivo] QQQ 656.31 media200 | FUERA | vida 100,000$ (ref 100,000) | 0 acc.
+2026-11-08 19:11 | Colonia: 1 vivos, 0 muertos, reserva 0$
+2026-11-08 19:12 | Bot 1 [vivo] QQQ 656.31 media200 | FUERA | vida 100,000$ (ref 100,000) | 0 acc.
+2026-11-08 19:12 | Colonia: 1 vivos, 0 muertos, reserva 0$
+2026-11-08 19:15 | Bot 1 [vivo] QQQ 656.31 media200 | FUERA | vida 16,667$ (ref 16,667) | 0 acc.
+2026-11-08 19:15 | Bot 2 [vivo] QQQ 656.31 media150 | FUERA | vida 16,667$ (ref 16,667) | 0 acc.
+2026-11-08 19:15 | Bot 3 [vivo] SPY 735.40 media200 | DENTRO | vida 16,667$ (ref 16,667) | 21 acc.
+2026-11-08 19:15 | Bot 4 [vivo] SPY 735.40 media150 | FUERA | vida 16,667$ (ref 16,667) | 0 acc.
+2026-11-08 19:15 | Bot 5 [vivo] GLD 372.55 media200 | FUERA | vida 16,667$ (ref 16,667) | 0 acc.
+2026-11-08 19:15 | Bot 6 [vivo] GLD 372.55 media100 | FUERA | vida 16,667$ (ref 16,667) | 0 acc.
+2026-11-08 19:15 | [PRUEBA] buy 21 SPY
+2026-11-08 19:15 | Colonia: 6 vivos, 0 muertos, reserva 0$
+2026-11-08 19:15 | Bot 1 [vivo] QQQ 656.31 media200 | FUERA | vida 16,667$ (ref 16,667) | 0 acc.
+2026-11-08 19:15 | Bot 2 [vivo] QQQ 656.31 media150 | FUERA | vida 16,667$ (ref 16,667) | 0 acc.
+2026-11-08 19:15 | Bot 3 [vivo] SPY 735.40 media200 | DENTRO | vida 16,667$ (ref 16,667) | 21 acc.
+2026-11-08 19:15 | Bot 4 [vivo] SPY 735.40 media150 | FUERA | vida 16,667$ (ref 16,667) | 0 acc.
+2026-11-08 19:15 | Bot 5 [vivo] GLD 372.55 media200 | FUERA | vida 16,667$ (ref 16,667) | 0 acc.
+2026-11-08 19:15 | Bot 6 [vivo] GLD 372.55 media100 | FUERA | vida 16,667$ (ref 16,667) | 0 acc.
+2026-11-08 19:15 | Orden enviada: buy 21 SPY (id a84d1d23-5d21-4f6a-a4af-c2c67720e508)
+2026-11-08 19:15 | Colonia: 6 vivos, 0 muertos, reserva 0$
+2026-11-08 19:21 | Bot 1 [vivo] QQQ 656.31 media200 | FUERA | vida 33.33$ (ref 33.33) | 0.0000 acc.
+2026-11-08 19:21 | Bot 2 [vivo] SPY 735.40 media200 | DENTRO | vida 33.25$ (ref 33.33) | 0.0429 acc.
+2026-11-08 19:21 | Bot 3 [vivo] GLD 372.55 media200 | FUERA | vida 33.33$ (ref 33.33) | 0.0000 acc.
+2026-11-08 19:21 | [PRUEBA] buy 0.042949 SPY
+2026-11-08 19:21 | Colonia: 3 vivos, 0 muertos, reserva 0.00$ | total 99.91$
+2026-11-08 19:21 | Bot 1 [vivo] QQQ 656.31 media200 | FUERA | vida 33.33$ (ref 33.33) | 0.0000 acc.
+2026-11-08 19:21 | Bot 2 [vivo] SPY 735.40 media200 | DENTRO | vida 33.25$ (ref 33.33) | 0.0429 acc.
+2026-11-08 19:21 | Bot 3 [vivo] GLD 372.55 media200 | FUERA | vida 33.33$ (ref 33.33) | 0.0000 acc.
+2026-11-08 19:21 | Orden enviada: buy 0.042949 SPY (id f6cef487-fcd8-410d-af47-c09948af37aa)
+2026-11-08 19:21 | Colonia: 3 vivos, 0 muertos, reserva 0.00$ | total 99.91$
+2026-11-08 19:22 | Bot 1 [vivo] QQQ 656.31 media200 | FUERA | vida 33,333.33$ (ref 33,333.33) | 0.0000 acc.
+2026-11-08 19:22 | Bot 2 [vivo] SPY 735.40 media200 | DENTRO | vida 33,254.36$ (ref 33,333.33) | 42.9531 acc.
+2026-11-08 19:22 | Bot 3 [vivo] GLD 372.55 media200 | FUERA | vida 33,333.33$ (ref 33,333.33) | 0.0000 acc.
+2026-11-08 19:22 | Orden enviada: buy 42.953079 SPY (id 172b4b3f-2337-486a-b382-c8d9c5a941c0)
+2026-11-08 19:22 | Colonia: 3 vivos, 0 muertos, reserva 0.00$ | total 99,921.02$
+2026-11-08 19:26 | Bot 1 [vivo] QQQ 656.31 media200 | FUERA | vida 33,333$ = 30,864€ (con 100 €: 33.33€) | ref 33,333$ | 0.0000 acc.
+2026-11-08 19:26 | Bot 2 [vivo] SPY 735.40 media200 | DENTRO | vida 33,302$ = 30,835€ (con 100 €: 33.30€) | ref 33,333$ | 42.9531 acc.
+2026-11-08 19:26 | Bot 3 [vivo] GLD 372.55 media200 | FUERA | vida 33,333$ = 30,864€ (con 100 €: 33.33€) | ref 33,333$ | 0.0000 acc.
+2026-11-08 19:26 | [PRUEBA] buy 42.953079 SPY
+2026-11-08 19:26 | Colonia: 3 vivos, 0 muertos, reserva 0$ | total 99,968$ = 92,563€ | con 100 € reales: 99.97€
+2026-11-08 19:28 | Aviso: no se pudo leer el cambio euro-dólar; uso el último guardado.
+2026-11-08 19:28 | Bot 1 [vivo] QQQ 656.31 media200 | FUERA | vida 33,333$ = 30,864€ (con 100 €: 33.33€) | ref 33,333$ | 0.0000 acc.
+2026-11-08 19:28 | Bot 2 [vivo] SPY 735.40 media200 | DENTRO | vida 33,302$ = 30,835€ (con 100 €: 33.30€) | ref 33,333$ | 42.9531 acc.
+2026-11-08 19:28 | Bot 3 [vivo] GLD 372.55 media200 | FUERA | vida 33,333$ = 30,864€ (con 100 €: 33.33€) | ref 33,333$ | 0.0000 acc.
+2026-11-08 19:28 | Canceladas 1 órdenes pendientes antes de recalcular.
+2026-11-08 19:28 | Orden enviada: buy 42.953079 SPY (id a0af7b0c-3fd7-4a0e-af75-8ed24b074ece)
+2026-11-08 19:28 | Colonia: 3 vivos, 0 muertos, reserva 0$ | total 99,968$ = 92,563€ | con 100 € reales: 99.97€
+2026-11-08 19:35 | Usuario: canceladas todas las órdenes activas; bots sin posiciones.
+2026-11-08 19:39 | Aviso: no se pudo leer el cambio euro-dólar; uso el último guardado.

@@ -1,0 +1,170 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="refresh" content="300">
+<title>Mis bots</title><style>
+:root{--bg:#f6f5f2;--card:#fff;--tx:#1d1d1b;--mut:#6b6a66;--ln:#e4e2dc;--pos:#1a7f4b;--neg:#c0392b;--amb:#c77700;--t:#2f6fdf;--d:#8e44ad}
+@media (prefers-color-scheme:dark){:root{--bg:#151514;--card:#1f1f1d;--tx:#eceae4;--mut:#9a988f;--ln:#33322f;--pos:#4cc38a;--neg:#ff6b5b;--amb:#f0a63a;--t:#6c9cff;--d:#c58af0}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.45 system-ui,-apple-system,Segoe UI,sans-serif}
+main{max-width:900px;margin:auto;padding:20px 16px 60px}h1{margin:0 0 4px;font-size:26px}h2{margin:0;font-size:20px}
+.nota,.suave{color:var(--mut)}.nota{margin:4px 0 14px;font-size:14px}
+.colonia,.caja{background:var(--card);border:1px solid var(--ln);border-radius:14px;padding:18px;margin-top:18px}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:14px}.kpis div{border:1px solid var(--ln);border-radius:10px;padding:10px}
+.kpis div{display:flex;flex-direction:column}.kpis small{display:block;color:var(--mut);font-size:12px}.grande{font-size:20px;font-weight:650;font-variant-numeric:tabular-nums}
+.bot{border:1px solid var(--ln);border-left:4px solid var(--pos);border-radius:10px;padding:10px 12px;margin-top:8px}
+.bot.herido{border-left-color:var(--amb)}.bot.muerto{border-left-color:var(--mut);opacity:.55}
+.cab{display:flex;flex-wrap:wrap;gap:6px;align-items:center}.tag{font-size:12px;border:1px solid var(--ln);border-radius:20px;padding:1px 8px}
+.tag.dentro{color:var(--pos);border-color:var(--pos)}.tag.fuera{color:var(--mut)}
+.nums{display:flex;flex-wrap:wrap;gap:12px;align-items:baseline;margin-top:6px}.pos{color:var(--pos)}.neg{color:var(--neg)}
+.fila{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:8px}.dato{display:flex;flex-direction:column}.dato small{color:var(--mut);font-size:12px}
+.saber{font-size:13px;margin-top:8px;background:var(--bg);border-radius:8px;padding:6px 10px}.peq{font-size:12px;margin-top:6px}
+@media (max-width:600px){.fila{grid-template-columns:repeat(2,1fr)}}
+.barra{height:5px;background:var(--ln);border-radius:4px;margin-top:8px;position:relative}.barra i{display:block;height:100%;border-radius:4px;background:linear-gradient(90deg,var(--neg),var(--amb) 25%,var(--pos) 50%,var(--pos))}
+.barra:after{content:"";position:absolute;left:50%;top:-3px;height:11px;border-left:1px dashed var(--mut)}
+.leyenda{font-size:12px;color:var(--mut);display:flex;justify-content:space-between;margin-top:2px}
+.graf{width:100%;height:auto}.graf .linea{fill:none;stroke-width:2.5}.graf .tendencia{stroke:var(--t);fill:var(--t)}.graf .diaria{stroke:var(--d);fill:var(--d)}
+.graf polyline.tendencia,.graf polyline.diaria{fill:none}.graf .base{stroke:var(--mut);stroke-dasharray:4 4}.graf .eje,.graf .et{font-size:12px;fill:var(--mut)}
+.graf text.tendencia{fill:var(--t)}.graf text.diaria{fill:var(--d)}
+pre{white-space:pre-wrap;font-size:12px;color:var(--mut);max-height:320px;overflow:auto;margin:0}
+@media (max-width:600px){.kpis{grid-template-columns:repeat(2,1fr)}}
+</style></head><body><main>
+<h1>🤖 Mis colonias de bots</h1>
+<p class="nota">Dinero falso (Alpaca Paper) · cada colonia representa 100 € reales · actualizado 08/11/2026 19:41 · la página se recarga sola cada 5 min</p>
+<div class="caja"><h2>Evolución (con 100 € reales)</h2>
+<p class="nota"><span style="color:var(--t)">━ Tendencia</span> &nbsp; <span style="color:var(--d)">━ Diaria</span> &nbsp; - - 100 € de partida</p><p class="nota">La gráfica aparecerá cuando haya al menos 2 días de datos.</p></div>
+
+  <section class="colonia">
+    <h2>🐢 Colonia de tendencia</h2><p class="nota">Compra si el precio está por encima de su media; decide cada día a las 22:30.</p>
+    <div class="kpis">
+      <div><small>Con 100 € reales</small><span class="grande pos">100.00 €</span><span class="pos">+0.00 € (+0.0%)</span></div>
+      <div><small>Vivos</small><span class="grande">3</span></div>
+      <div><small>Muertos</small><span class="grande">0</span></div>
+      <div><small>Reserva</small><span class="grande">0.00 €</span></div>
+    </div>
+    
+    <div class="bot vivo" style="margin-left:0px">
+      <div class="cab"><span class="ico">🟢</span><b>Bot 1</b>
+        <span class="tag">Nasdaq 100 · QQQ → EQQQ</span>
+        <span class="tag suave">media 200 días</span>
+        <span class="tag fuera">FUERA</span></div>
+      <div class="fila">
+        <div class="dato"><small>Tiene ahora</small><span class="grande">33.33 €</span></div>
+        <div class="dato"><small>Ganancia / pérdida</small><span class="grande ">+0.00 €</span><span class="">+0.0%</span></div>
+        <div class="dato"><small>Empezó con</small><span>33.33 €</span></div>
+        <div class="dato"><small>Qué está haciendo</small><span>Esperando en efectivo</span></div>
+      </div>
+      <div class="saber">👶 Le faltan <b>6.67 €</b> para tener un hijo · 💀 Puede perder <b>6.67 €</b> antes de morir</div>
+      <div class="suave peq">16,667 $ ficticios · nacido 2026-11-08 · fundador</div>
+      <div class="barra"><i style="width:50%"></i></div>
+    </div>
+    <div class="bot vivo" style="margin-left:0px">
+      <div class="cab"><span class="ico">🟢</span><b>Bot 2</b>
+        <span class="tag">S&P 500 · SPY → SXR8</span>
+        <span class="tag suave">media 200 días</span>
+        <span class="tag fuera">FUERA</span></div>
+      <div class="fila">
+        <div class="dato"><small>Tiene ahora</small><span class="grande">33.33 €</span></div>
+        <div class="dato"><small>Ganancia / pérdida</small><span class="grande ">+0.00 €</span><span class="">+0.0%</span></div>
+        <div class="dato"><small>Empezó con</small><span>33.33 €</span></div>
+        <div class="dato"><small>Qué está haciendo</small><span>Esperando en efectivo</span></div>
+      </div>
+      <div class="saber">👶 Le faltan <b>6.67 €</b> para tener un hijo · 💀 Puede perder <b>6.67 €</b> antes de morir</div>
+      <div class="suave peq">16,667 $ ficticios · nacido 2026-11-08 · fundador</div>
+      <div class="barra"><i style="width:50%"></i></div>
+    </div>
+    <div class="bot vivo" style="margin-left:0px">
+      <div class="cab"><span class="ico">🟢</span><b>Bot 3</b>
+        <span class="tag">Oro · GLD → 4GLD</span>
+        <span class="tag suave">media 200 días</span>
+        <span class="tag fuera">FUERA</span></div>
+      <div class="fila">
+        <div class="dato"><small>Tiene ahora</small><span class="grande">33.33 €</span></div>
+        <div class="dato"><small>Ganancia / pérdida</small><span class="grande ">+0.00 €</span><span class="">+0.0%</span></div>
+        <div class="dato"><small>Empezó con</small><span>33.33 €</span></div>
+        <div class="dato"><small>Qué está haciendo</small><span>Esperando en efectivo</span></div>
+      </div>
+      <div class="saber">👶 Le faltan <b>6.67 €</b> para tener un hijo · 💀 Puede perder <b>6.67 €</b> antes de morir</div>
+      <div class="suave peq">16,667 $ ficticios · nacido 2026-11-08 · fundador</div>
+      <div class="barra"><i style="width:50%"></i></div>
+    </div>
+  </section>
+  <section class="colonia">
+    <h2>⚡ Colonia diaria</h2><p class="nota">Compra y vende dentro del mismo día; mira cada 15 min y cierra todo antes del cierre.</p>
+    <div class="kpis">
+      <div><small>Con 100 € reales</small><span class="grande pos">100.00 €</span><span class="pos">+0.00 € (+0.0%)</span></div>
+      <div><small>Vivos</small><span class="grande">3</span></div>
+      <div><small>Muertos</small><span class="grande">0</span></div>
+      <div><small>Reserva</small><span class="grande">0.00 €</span></div>
+    </div>
+    
+    <div class="bot vivo" style="margin-left:0px">
+      <div class="cab"><span class="ico">🟢</span><b>Bot D1</b>
+        <span class="tag">Nasdaq 100 · QQQM → EQQQ</span>
+        <span class="tag suave">ruptura 30</span>
+        <span class="tag fuera">FUERA</span></div>
+      <div class="fila">
+        <div class="dato"><small>Tiene ahora</small><span class="grande">33.33 €</span></div>
+        <div class="dato"><small>Ganancia / pérdida</small><span class="grande ">+0.00 €</span><span class="">+0.0%</span></div>
+        <div class="dato"><small>Empezó con</small><span>33.33 €</span></div>
+        <div class="dato"><small>Qué está haciendo</small><span>Esperando en efectivo</span></div>
+      </div>
+      <div class="saber">👶 Le faltan <b>6.67 €</b> para tener un hijo · 💀 Puede perder <b>6.67 €</b> antes de morir</div>
+      <div class="suave peq">16,667 $ ficticios · nacido 2026-11-08 · fundador</div>
+      <div class="barra"><i style="width:50%"></i></div>
+    </div>
+    <div class="bot vivo" style="margin-left:0px">
+      <div class="cab"><span class="ico">🟢</span><b>Bot D2</b>
+        <span class="tag">S&P 500 · VOO → SXR8</span>
+        <span class="tag suave">mañana 0.3</span>
+        <span class="tag fuera">FUERA</span></div>
+      <div class="fila">
+        <div class="dato"><small>Tiene ahora</small><span class="grande">33.33 €</span></div>
+        <div class="dato"><small>Ganancia / pérdida</small><span class="grande ">+0.00 €</span><span class="">+0.0%</span></div>
+        <div class="dato"><small>Empezó con</small><span>33.33 €</span></div>
+        <div class="dato"><small>Qué está haciendo</small><span>Esperando en efectivo</span></div>
+      </div>
+      <div class="saber">👶 Le faltan <b>6.67 €</b> para tener un hijo · 💀 Puede perder <b>6.67 €</b> antes de morir</div>
+      <div class="suave peq">16,667 $ ficticios · nacido 2026-11-08 · fundador</div>
+      <div class="barra"><i style="width:50%"></i></div>
+    </div>
+    <div class="bot vivo" style="margin-left:0px">
+      <div class="cab"><span class="ico">🟢</span><b>Bot D3</b>
+        <span class="tag">Oro · IAU → 4GLD</span>
+        <span class="tag suave">rebote 10</span>
+        <span class="tag fuera">FUERA</span></div>
+      <div class="fila">
+        <div class="dato"><small>Tiene ahora</small><span class="grande">33.33 €</span></div>
+        <div class="dato"><small>Ganancia / pérdida</small><span class="grande ">+0.00 €</span><span class="">+0.0%</span></div>
+        <div class="dato"><small>Empezó con</small><span>33.33 €</span></div>
+        <div class="dato"><small>Qué está haciendo</small><span>Esperando en efectivo</span></div>
+      </div>
+      <div class="saber">👶 Le faltan <b>6.67 €</b> para tener un hijo · 💀 Puede perder <b>6.67 €</b> antes de morir</div>
+      <div class="suave peq">16,667 $ ficticios · nacido 2026-11-08 · fundador</div>
+      <div class="barra"><i style="width:50%"></i></div>
+    </div>
+  </section>
+<p class="nota" style="margin-top:10px">Barra de vida: izquierda = muerte (-20 %), centro = punto de partida, derecha = hijo (+20 %). 🟢 vivo · 🟠 herido · 💀 muerto</p>
+<div class="caja"><h2>Últimos movimientos</h2><pre>2026-11-08 19:39 | Aviso: no se pudo leer el cambio euro-dólar; uso el último guardado.
+2026-11-08 19:35 | Usuario: canceladas todas las órdenes activas; bots sin posiciones.
+2026-11-08 19:28 | Colonia: 3 vivos, 0 muertos, reserva 0$ | total 99,968$ = 92,563€ | con 100 € reales: 99.97€
+2026-11-08 19:28 | Orden enviada: buy 42.953079 SPY (id a0af7b0c-3fd7-4a0e-af75-8ed24b074ece)
+2026-11-08 19:28 | Canceladas 1 órdenes pendientes antes de recalcular.
+2026-11-08 19:28 | Bot 3 [vivo] GLD 372.55 media200 | FUERA | vida 33,333$ = 30,864€ (con 100 €: 33.33€) | ref 33,333$ | 0.0000 acc.
+2026-11-08 19:28 | Bot 2 [vivo] SPY 735.40 media200 | DENTRO | vida 33,302$ = 30,835€ (con 100 €: 33.30€) | ref 33,333$ | 42.9531 acc.
+2026-11-08 19:28 | Bot 1 [vivo] QQQ 656.31 media200 | FUERA | vida 33,333$ = 30,864€ (con 100 €: 33.33€) | ref 33,333$ | 0.0000 acc.
+2026-11-08 19:28 | Aviso: no se pudo leer el cambio euro-dólar; uso el último guardado.
+2026-11-08 19:26 | Colonia: 3 vivos, 0 muertos, reserva 0$ | total 99,968$ = 92,563€ | con 100 € reales: 99.97€
+2026-11-08 19:26 | [PRUEBA] buy 42.953079 SPY
+2026-11-08 19:26 | Bot 3 [vivo] GLD 372.55 media200 | FUERA | vida 33,333$ = 30,864€ (con 100 €: 33.33€) | ref 33,333$ | 0.0000 acc.
+2026-11-08 19:26 | Bot 2 [vivo] SPY 735.40 media200 | DENTRO | vida 33,302$ = 30,835€ (con 100 €: 33.30€) | ref 33,333$ | 42.9531 acc.
+2026-11-08 19:26 | Bot 1 [vivo] QQQ 656.31 media200 | FUERA | vida 33,333$ = 30,864€ (con 100 €: 33.33€) | ref 33,333$ | 0.0000 acc.
+2026-11-08 19:22 | Colonia: 3 vivos, 0 muertos, reserva 0.00$ | total 99,921.02$
+2026-11-08 19:22 | Orden enviada: buy 42.953079 SPY (id 172b4b3f-2337-486a-b382-c8d9c5a941c0)
+2026-11-08 19:22 | Bot 3 [vivo] GLD 372.55 media200 | FUERA | vida 33,333.33$ (ref 33,333.33) | 0.0000 acc.
+2026-11-08 19:22 | Bot 2 [vivo] SPY 735.40 media200 | DENTRO | vida 33,254.36$ (ref 33,333.33) | 42.9531 acc.
+2026-11-08 19:22 | Bot 1 [vivo] QQQ 656.31 media200 | FUERA | vida 33,333.33$ (ref 33,333.33) | 0.0000 acc.
+2026-11-08 19:21 | Colonia: 3 vivos, 0 muertos, reserva 0.00$ | total 99.91$
+2026-11-08 19:21 | Orden enviada: buy 0.042949 SPY (id f6cef487-fcd8-410d-af47-c09948af37aa)
+2026-11-08 19:21 | Bot 3 [vivo] GLD 372.55 media200 | FUERA | vida 33.33$ (ref 33.33) | 0.0000 acc.
+2026-11-08 19:21 | Bot 2 [vivo] SPY 735.40 media200 | DENTRO | vida 33.25$ (ref 33.33) | 0.0429 acc.
+2026-11-08 19:21 | Bot 1 [vivo] QQQ 656.31 media200 | FUERA | vida 33.33$ (ref 33.33) | 0.0000 acc.
+2026-11-08 19:21 | Colonia: 3 vivos, 0 muertos, reserva 0.00$ | total 99.91$</pre></div>
+</main></body></html>

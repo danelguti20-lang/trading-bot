@@ -1,0 +1,12 @@
+# claves: NUNCA se suben
+.env
+__pycache__/
+# datos de pruebas (grandes, se pueden volver a descargar)
+*_15m.csv
+*_1h.csv
+BTC-USD.csv
+GLD.csv
+QQQ.csv
+SPY.csv
+resultados*.csv
+*.bak
