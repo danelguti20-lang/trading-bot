@@ -8,6 +8,10 @@
   RACHA    (Risk Manager) : si un bot pierde 3 operaciones seguidas, descansa el día siguiente.
 
 Si no hay internet para las noticias, el cerebro no bloquea nada (sigue como antes).
+
+MODO OBSERVADOR (OBEDECER = False): los bots operan igual y el cerebro solo apunta lo que habría hecho.
+En la colonia diaria se lleva la cuenta de las operaciones "a favor" y "en contra" del cerebro, para ver
+con datos si hacerle caso mejora o no. El STOP sí se aplica siempre.
 """
 import re
 import urllib.request
@@ -22,6 +26,7 @@ UMBRAL_PANICO = 2       # titulares de pánico en 12 h para no comprar
 STOP = 0.01             # stop de pérdidas por operación (colonia diaria)
 PERDIDAS_DESCANSO = 3   # operaciones perdedoras seguidas para descansar un día
 REFRESCO_MIN = 60       # cada cuánto se vuelven a leer las noticias
+OBEDECER = False        # False = modo observador: solo avisa; True = el cerebro bloquea compras
 
 
 def _leer_titulares(ticker, horas=12):
@@ -59,3 +64,22 @@ def panico(estado, activo, log=print):
     if len(malos) >= UMBRAL_PANICO:
         log(f"🧠 Noticias de pánico en {t}: " + " | ".join(malos[:2]))
     return len(malos) >= UMBRAL_PANICO
+
+
+def apuntar(estado, contra, resultado):
+    """Suma una operación cerrada al marcador del cerebro."""
+    m = estado.setdefault("cerebro", {})
+    k = m.setdefault("en_contra" if contra else "a_favor", {"n": 0, "ganadas": 0, "suma": 0.0})
+    k["n"] += 1
+    k["ganadas"] += resultado > 0
+    k["suma"] = round(k["suma"] + resultado, 6)
+
+
+def marcador(estado):
+    m = estado.get("cerebro", {})
+    partes = []
+    for clave, nombre in [("a_favor", "haciendo caso al cerebro"), ("en_contra", "contra el cerebro")]:
+        k = m.get(clave)
+        if k and k["n"]:
+            partes.append(f"{nombre}: {k['n']} op., {k['ganadas'] / k['n']:.0%} ganadas, media {k['suma'] / k['n']:+.2%}")
+    return " | ".join(partes) or "aún sin operaciones"

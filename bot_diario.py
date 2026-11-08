@@ -222,12 +222,15 @@ def main(prueba=False):
                 log(f"🧠 Bot D{bot['id']} STOP: {a} cayó a {px:.2f} (entró a {bot['entrada']:.2f}).")
             quiere = False
             bot["operado_hoy"] = True
+        razones = []
         if quiere and bot["acciones"] == 0:
             if bot.get("descansa"):
-                quiere = False
-            elif memoria_dice_no(estado, bot, velas[a], str(ahora.date())):
-                quiere = False
-            elif C.panico(estado, a, log):
+                razones.append("descanso")
+            if memoria_dice_no(estado, bot, velas[a], str(ahora.date())):
+                razones.append("memoria")
+            if C.panico(estado, a, log):
+                razones.append("noticias")
+            if razones and C.OBEDECER:
                 quiere = False
         v = B.valor(bot, precios)
         peso = B.PESO * (0.5 if bot["estado"] == "herido" else 1.0)
@@ -241,9 +244,13 @@ def main(prueba=False):
             if cambio > 0:
                 bot["operado_hoy"] = True
                 bot["entrada"] = px
+                bot["contra_cerebro"] = bool(razones)
+                if razones:
+                    log(f"🧠 Bot D{bot['id']} compra aunque el cerebro diría NO ({', '.join(razones)}).")
             elif objetivo == 0 and bot.get("entrada"):
                 res = px / bot["entrada"] * (1 - 2 * B.COMISION) - 1
                 bot["perdidas"] = bot.get("perdidas", 0) + 1 if res < 0 else 0
+                C.apuntar(estado, bot.get("contra_cerebro", False), res)
                 bot["entrada"] = None
             log(f"Bot D{bot['id']} ({bot['estrategia']} {bot['p']}) {'COMPRA' if cambio > 0 else 'VENDE'} "
                 f"{abs(cambio):.4f} {a} a {px:.2f} | vida {B.valor(bot, precios):,.0f}$")
@@ -274,6 +281,7 @@ def main(prueba=False):
         tot = sum(B.valor(b, precios) for b in vivos) + estado["reserva"]
         log(f"Fin del día: {len(vivos)} vivos | total {tot:,.0f}$ = {B.en_eur(tot, estado):,.0f}€ "
             f"| con 100 € reales: {B.con_100(tot, estado):.2f}€")
+        log(f"🧠 Marcador del cerebro: {C.marcador(estado)}")
 
     # 3) enviar a Alpaca solo la diferencia neta por fondo
     for a in ACTIVOS:
