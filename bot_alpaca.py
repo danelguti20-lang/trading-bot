@@ -19,6 +19,8 @@ Uso:  python bot_alpaca.py            -> opera y guarda el estado
 import json
 import os
 import random
+
+import cerebro as C
 import sys
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -204,6 +206,8 @@ def main(prueba=False):
             continue
         a, n = bot["activo"], bot["media"]
         dentro = precios[a] > float(cierres[a].tail(n).mean())
+        if dentro and bot["acciones"] == 0 and C.panico(estado, a, log):
+            dentro = False  # cerebro: con noticias de pánico no entra (si ya está dentro, sigue)
         peso = PESO * (0.5 if bot["estado"] == "herido" else 1.0)
         objetivo = round(valor(bot, precios) * peso / precios[a] / (1 + COMISION), DECIMALES) if dentro else 0
         cambio = round(objetivo - bot["acciones"], DECIMALES)

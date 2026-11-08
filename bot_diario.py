@@ -10,6 +10,9 @@ Estrategias (todas cierran antes del final del día):
   mañana  : a partir de las 12:00 (Nueva York) compra si el precio va un P % por encima de la apertura.
   rebote  : compra si el RSI(2) de velas de 15 min baja de P; vende cuando supera su media de 5 velas.
 
+CEREBRO (cerebro.py, ideas de day-trader-skill): noticias de pánico, memoria de las últimas sesiones,
+stop del 1 % y descanso tras 3 pérdidas seguidas.
+
 Ejecutar cada 15 minutos con la bolsa abierta (la tarea programada lo hace; fuera de hora no hace nada).
 Uso:  python bot_diario.py [--prueba] [--familia]
 """
@@ -21,6 +24,7 @@ from datetime import datetime, timedelta
 import pandas as pd
 
 import bot_alpaca as B
+import cerebro as C
 from alpaca.data.historical import StockHistoricalDataClient
 from alpaca.data.requests import StockBarsRequest
 from alpaca.data.timeframe import TimeFrame, TimeFrameUnit
@@ -125,6 +129,49 @@ def senal(bot, velas, ahora):
     return False
 
 
+def memoria(estrategia, p, velas, dias=20):
+    """Time Machine: repite la regla en las últimas sesiones completas (sin hoy).
+    Devuelve rentabilidad media por día, % de días ganadores y días con operación."""
+    fechas = sorted(set(velas.index.date))[:-1][-dias:]
+    resultados = []
+    for d in fechas:
+        hasta = velas[velas.index.date <= d]
+        dia = hasta[hasta.index.date == d]
+        if len(dia) < 20:
+            continue
+        bot = {"estrategia": estrategia, "p": p, "acciones": 0, "operado_hoy": False}
+        entrada, r, opero = None, 1.0, False
+        for i, t in enumerate(dia.index):
+            px = float(dia["close"].iloc[i])
+            final = i == len(dia) - 1
+            parado = entrada is not None and px <= entrada * (1 - C.STOP)
+            quiere = False if (final or parado) else senal(bot, hasta[hasta.index <= t], t)
+            if quiere and entrada is None:
+                entrada, bot["acciones"], bot["operado_hoy"], opero = px, 1, True, True
+            elif not quiere and entrada is not None:
+                r *= px / entrada * (1 - 2 * B.COMISION)
+                entrada, bot["acciones"] = None, 0
+        if opero:
+            resultados.append(r - 1)
+    if not resultados:
+        return {"media": 0.0, "ganadores": 0.0, "n": 0}
+    return {"media": sum(resultados) / len(resultados),
+            "ganadores": sum(x > 0 for x in resultados) / len(resultados), "n": len(resultados)}
+
+
+def memoria_dice_no(estado, bot, velas, hoy):
+    """Calcula la memoria una vez al día por regla; True si la regla viene perdiendo."""
+    clave = f"{bot['activo']}-{bot['estrategia']}-{bot['p']}"
+    mem = estado.setdefault("memoria", {})
+    if mem.get(clave, {}).get("fecha") != hoy:
+        m = memoria(bot["estrategia"], bot["p"], velas)
+        mem[clave] = {"fecha": hoy, **{k: round(v, 5) for k, v in m.items()}}
+        log(f"🧠 Memoria {clave}: {m['n']} días operados, media {m['media']:+.2%}/día, "
+            f"{m['ganadores']:.0%} ganadores -> {'NO entra hoy' if m['n'] >= 5 and m['media'] < 0 else 'puede entrar'}")
+    m = mem[clave]
+    return m["n"] >= 5 and m["media"] < 0
+
+
 def main(prueba=False):
     B.cargar_env()
     key, secret = os.environ["ALPACA_KEY"], os.environ["ALPACA_SECRET"]
@@ -134,7 +181,7 @@ def main(prueba=False):
 
     barras = datos.get_stock_bars(StockBarsRequest(
         symbol_or_symbols=ACTIVOS, timeframe=TimeFrame(15, TimeFrameUnit.Minute),
-        start=datetime.now() - timedelta(days=7), feed="iex")).df
+        start=datetime.now() - timedelta(days=35), feed="iex")).df
     velas = {}
     for a in ACTIVOS:
         v = barras.loc[a].copy()
@@ -158,6 +205,10 @@ def main(prueba=False):
     for bot in estado["bots"]:
         if bot["hoy"] != str(ahora.date()):
             bot["hoy"], bot["operado_hoy"] = str(ahora.date()), False
+            bot["descansa"] = bot.get("perdidas", 0) >= C.PERDIDAS_DESCANSO
+            if bot["descansa"]:
+                bot["perdidas"] = 0
+                log(f"🧠 Bot D{bot['id']} lleva {C.PERDIDAS_DESCANSO} pérdidas seguidas: hoy DESCANSA.")
 
     # 1) cada bot decide (al final del día todos venden)
     for bot in estado["bots"]:
@@ -165,6 +216,19 @@ def main(prueba=False):
             continue
         a, px = bot["activo"], precios[bot["activo"]]
         quiere = False if final else senal(bot, velas[a], ahora)
+        # --- cerebro ---
+        if bot["acciones"] > 0 and bot.get("entrada") and px <= bot["entrada"] * (1 - C.STOP):
+            if quiere:
+                log(f"🧠 Bot D{bot['id']} STOP: {a} cayó a {px:.2f} (entró a {bot['entrada']:.2f}).")
+            quiere = False
+            bot["operado_hoy"] = True
+        if quiere and bot["acciones"] == 0:
+            if bot.get("descansa"):
+                quiere = False
+            elif memoria_dice_no(estado, bot, velas[a], str(ahora.date())):
+                quiere = False
+            elif C.panico(estado, a, log):
+                quiere = False
         v = B.valor(bot, precios)
         peso = B.PESO * (0.5 if bot["estado"] == "herido" else 1.0)
         objetivo = round(v * peso / px / (1 + B.COMISION), B.DECIMALES) if quiere else 0.0
@@ -176,6 +240,11 @@ def main(prueba=False):
             bot["efectivo"] -= cambio * px + abs(cambio * px) * B.COMISION
             if cambio > 0:
                 bot["operado_hoy"] = True
+                bot["entrada"] = px
+            elif objetivo == 0 and bot.get("entrada"):
+                res = px / bot["entrada"] * (1 - 2 * B.COMISION) - 1
+                bot["perdidas"] = bot.get("perdidas", 0) + 1 if res < 0 else 0
+                bot["entrada"] = None
             log(f"Bot D{bot['id']} ({bot['estrategia']} {bot['p']}) {'COMPRA' if cambio > 0 else 'VENDE'} "
                 f"{abs(cambio):.4f} {a} a {px:.2f} | vida {B.valor(bot, precios):,.0f}$")
 
