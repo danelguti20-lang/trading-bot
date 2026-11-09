@@ -78,10 +78,14 @@ def sincronizar(trading, precios, log, prueba=False, minimo=1.0, sobrescribir=No
     from alpaca.trading.requests import GetOrdersRequest, MarketOrderRequest
     quiero = libro(sobrescribir)
     fuera = de_skill()
-    tengo = {p.symbol: float(p.qty) for p in trading.get_all_positions()}
+    tengo = {p.symbol: float(p.qty) for p in trading.get_all_positions() if p.asset_class.value != "crypto"}
+    pendientes = {}
     for o in trading.get_orders(GetOrdersRequest(status=QueryOrderStatus.OPEN, nested=False)):
         if o.order_class and o.order_class.value != "simple":
             continue  # brackets = colonia skill
+        if "/" in o.symbol:
+            continue  # cripto: es de bot_cripto.py
+        pendientes.setdefault(o.symbol, []).append(o)
         resto = float(o.qty or 0) - float(o.filled_qty or 0)
         tengo[o.symbol] = tengo.get(o.symbol, 0.0) + (resto if o.side == OrderSide.BUY else -resto)
     for s in sorted(set(quiero) | set(tengo)):
@@ -89,13 +93,26 @@ def sincronizar(trading, precios, log, prueba=False, minimo=1.0, sobrescribir=No
             continue
         q, t = round(quiero.get(s, 0.0), 6), round(tengo.get(s, 0.0), 6)
         dif = round(q - t, 6)
+        if dif and any((o.side == OrderSide.BUY) != (dif > 0) for o in pendientes.get(s, [])):
+            # hay una orden pendiente en sentido contrario: se cancela en vez de operar contra ella
+            for o in pendientes[s]:
+                resto = float(o.qty or 0) - float(o.filled_qty or 0)
+                t -= resto if o.side == OrderSide.BUY else -resto
+                if not prueba:
+                    try:
+                        trading.cancel_order_by_id(o.id)
+                        log(f"Cancelada orden pendiente {o.side.value} {resto:.4f} {s} (ya no la quiere ningún bot).")
+                    except Exception as ex:
+                        log(f"  no se pudo cancelar la orden de {s}: {ex}")
+            t = round(t, 6)
+            dif = round(q - t, 6)
         px = precios.get(s)
         if px is None:
             try:
                 px = float(trading.get_open_position(s).current_price)
             except Exception:
                 px = 0.0
-        if dif == 0 or (abs(dif * px) < minimo and not (q == 0 and t > 0)):
+        if dif == 0 or (abs(dif * px) < minimo and not (q == 0 and t > 0)) or (dif < 0 and t <= 0):
             continue
         try:
             if not trading.get_asset(s).fractionable:
