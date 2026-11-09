@@ -90,3 +90,5 @@
 2026-11-09 19:00 | [DIARIO] 🕰️ Bot D1 QQQM: stop 276.09 objetivo 284.46 | con comisión: simulación -0.27R, historia -0.33R (43 casos) -> ❌ no
 2026-11-09 19:00 | [DIARIO] 🕰️ Bot D2 VOO: stop 684.81 objetivo 705.57 | con comisión: simulación -0.26R, historia -0.27R (39 casos) -> ❌ no
 2026-11-09 19:00 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: the entry is not in the data: no complete 12:55 bar (closing 1:00 PM) on 2026-11-09 for IAU (the data stops at the 12:50 bar)
+2026-11-09 19:15 | [DIARIO] 🕰️ Bot D1 QQQM: stop 276.00 objetivo 284.37 | con comisión: simulación -0.24R, historia -0.33R (43 casos) -> ❌ no
+2026-11-09 19:15 | [DIARIO] 🕰️ Bot D2 VOO: stop 684.79 objetivo 705.55 | con comisión: simulación -0.24R, historia -0.27R (39 casos) -> ❌ no
