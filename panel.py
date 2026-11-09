@@ -14,10 +14,10 @@ REAL = 100.0
 
 COLONIAS = [
     ("tendencia", "🐢 Colonia de tendencia", "colonia.json",
-     "Compra si el precio está por encima de su media; decide cada día a las 22:30.",
-     lambda b: f"media {b['media']} días"),
+     "Autónomos: cada bot investiga ~140 ETF y acciones y elige dónde estar mientras el precio siga sobre su media. Decide cada día tras el cierre.",
+     lambda b: f"media {b['media']} días · gusto {b.get('gusto', 'historia')}"),
     ("diaria", "⚡ Colonia diaria", "colonia_diaria.json",
-     "Compra y vende dentro del mismo día; mira cada 15 min y cierra todo antes del cierre.",
+     "Autónomos: cada 15 min investigan todo el universo (+ lo que más se mueve hoy), eligen dónde operar y cierran todo antes del cierre.",
      lambda b: f"{b['estrategia']} {b['p']}"),
 ]
 GEMELOS = {"QQQ": "EQQQ", "SPY": "SXR8", "GLD": "4GLD", "QQQM": "EQQQ", "VOO": "SXR8", "IAU": "4GLD"}
@@ -103,14 +103,14 @@ def tarjeta_bot(b, desc, hijos, nivel):
     return f"""
     <div class="bot {est}" style="margin-left:{min(nivel, 4) * 18}px">
       <div class="cab"><span class="ico">{icono}</span><b>Bot {b.get('_pref', '')}{b['id']}</b>
-        <span class="tag">{NOMBRE.get(b['activo'], b['activo'])} · {b['activo']} → {GEMELOS.get(b['activo'], '')}</span>
+        <span class="tag">{(NOMBRE.get(b['activo'], b['activo']) + ' · ' + b['activo'] + (' → ' + GEMELOS[b['activo']] if b['activo'] in GEMELOS else '')) if b.get('activo') else '🔎 buscando'}</span>
         <span class="tag suave">{html.escape(desc(b))}</span>
         <span class="tag {'dentro' if dentro else 'fuera'}">{'DENTRO' if dentro else 'FUERA'}</span></div>
       <div class="fila">
         <div class="dato"><small>Tiene ahora</small><span class="grande">{b['_eur']:.2f} €</span></div>
         <div class="dato"><small>Ganancia / pérdida</small><span class="grande {pcls}">{b['_pyg_eur']:+.2f} €</span><span class="{pcls}">{b['_pyg_pct']:+.1%}</span></div>
         <div class="dato"><small>Empezó con</small><span>{b['_ini_eur']:.2f} €</span></div>
-        <div class="dato"><small>Qué está haciendo</small><span>{('Invertido: ' + f"{b['_pos_eur']:.2f} € en " + NOMBRE.get(b['activo'], '')) if dentro else 'Esperando en efectivo'}</span></div>
+        <div class="dato"><small>Qué está haciendo</small><span>{('Invertido: ' + f"{b['_pos_eur']:.2f} € en " + NOMBRE.get(b['activo'], str(b['activo']))) if dentro else 'Esperando en efectivo'}</span></div>
       </div>
       {('<div class="saber">👶 Le faltan <b>' + f"{max(0, b['_hijo_eur']):.2f} €" + '</b> para tener un hijo · 💀 Puede perder <b>' + f"{max(0, b['_muerte_eur']):.2f} €" + '</b> antes de morir' + (' · 🟠 Herido: invierte la mitad' if est == 'herido' else '') + '</div>') if est != 'muerto' else '<div class="saber">Murió. Su dinero pasó a la reserva.</div>'}
       <div class="suave peq">{b['_valor']:,.0f} $ ficticios · nacido {b['nacido']}{' · ' + str(b.get('hijos', 0)) + ' hijos' if b.get('hijos') else ''}{' · hijo del Bot ' + b.get('_pref', '') + str(b['padre']) if b['padre'] else ' · fundador'}</div>

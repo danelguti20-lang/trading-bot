@@ -2,8 +2,10 @@
 
 50.000 $ = 100 € reales (escala x500). Mismas reglas de vida que la colonia de tendencia:
   HERIDO -10 % (invierte la mitad) | MUERTO -20 % (dinero a la reserva) | HIJO +20 % (le da el 25 %).
-Usa fondos distintos a la colonia de tendencia (mismos índices) para no mezclar posiciones:
-  QQQM = Nasdaq 100, VOO = S&P 500, IAU = oro.
+AUTÓNOMOS: ningún bot tiene un activo fijo. Cada 15 min, el bot que está en efectivo investiga todo el
+universo (universo.py: ~140 ETF y acciones + lo más negociado y lo que más se mueve hoy), mira en cuáles
+salta SU señal, repasa cómo le fue a su regla en cada uno las últimas 20 sesiones (Time Machine propia) y
+pasa los mejores por el método skill. Compra el primero que lo supere.
 
 Estrategias (todas cierran antes del final del día):
   ruptura : compra si el precio supera el máximo de los primeros P minutos; sale si cae bajo el mínimo.
@@ -39,10 +41,10 @@ from alpaca.trading.requests import MarketOrderRequest
 import os
 
 ESTADO = B.DIR / "colonia_diaria.json"
-ACTIVOS = ["QQQM", "VOO", "IAU"]
-GEMELOS = {"QQQM": "EQQQ (Nasdaq-100 UCITS)", "VOO": "SXR8 (S&P 500 UCITS)", "IAU": "4GLD (Xetra-Gold)"}
 PARAMS = {"ruptura": [30, 60], "mañana": [0.2, 0.3, 0.5], "rebote": [5, 10, 20]}
-FUNDADORES = [("QQQM", "ruptura", 30), ("VOO", "mañana", 0.3), ("IAU", "rebote", 10)]
+FUNDADORES = [("ruptura", 30), ("mañana", 0.3), ("rebote", 10)]
+MAX_MEMORIA = 12        # valores con señal que estudia a fondo cada bot en cada vuelta (los de más volumen)
+MAX_PLANES = 2          # cuántos pasa por la Máquina del Tiempo de la skill (es lenta)
 CIERRE_MIN = 15         # minutos antes del cierre en que se vende todo y se revisan vidas
 
 
@@ -50,9 +52,9 @@ def log(msg):
     B.log(f"[DIARIO] {msg}")
 
 
-def nuevo_bot(estado, padre, activo, estrategia, p, dinero):
+def nuevo_bot(estado, padre, estrategia, p, dinero):
     estado["siguiente_id"] += 1
-    bot = {"id": estado["siguiente_id"], "padre": padre, "activo": activo, "estrategia": estrategia, "p": p,
+    bot = {"id": estado["siguiente_id"], "padre": padre, "activo": None, "estrategia": estrategia, "p": p,
            "efectivo": dinero, "acciones": 0.0, "referencia": dinero, "inicial": dinero, "estado": "vivo",
            "nacido": f"{datetime.now():%Y-%m-%d}", "hijos": 0, "hoy": None, "operado_hoy": False}
     estado["bots"].append(bot)
@@ -60,23 +62,21 @@ def nuevo_bot(estado, padre, activo, estrategia, p, dinero):
 
 
 def mutar(b):
-    activo, estr, p = b["activo"], b["estrategia"], b["p"]
+    estr, p = b["estrategia"], b["p"]
     if random.random() < 0.4:
-        activo = random.choice([a for a in ACTIVOS if a != activo])
-    if random.random() < 0.3:
         estr = random.choice([e for e in PARAMS if e != estr])
         p = random.choice(PARAMS[estr])
     elif random.random() < 0.6 and len(PARAMS[estr]) > 1:
         p = random.choice([x for x in PARAMS[estr] if x != p])
-    return activo, estr, p
+    return estr, p
 
 
 def cargar_estado():
     if ESTADO.exists():
         return json.loads(ESTADO.read_text(encoding="utf-8"))
     estado = {"siguiente_id": 0, "reserva": 0.0, "bots": []}
-    for activo, estr, p in FUNDADORES:
-        nuevo_bot(estado, None, activo, estr, p, round(B.CAPITAL / len(FUNDADORES), 2))
+    for estr, p in FUNDADORES:
+        nuevo_bot(estado, None, estr, p, round(B.CAPITAL / len(FUNDADORES), 2))
     return estado
 
 
@@ -89,7 +89,7 @@ def familia(estado, precios):
     def pinta(b, nivel):
         icono = {"vivo": "🟢", "herido": "🟠", "muerto": "💀"}[b["estado"]]
         v = b["efectivo"] + b["acciones"] * precios.get(b["activo"], 0)
-        print(f"{'   ' * nivel}{icono} Bot D{b['id']} | {b['activo']} -> {GEMELOS[b['activo']]} | {b['estrategia']} {b['p']} | "
+        print(f"{'   ' * nivel}{icono} Bot D{b['id']} | {b['activo'] or 'buscando'} | {b['estrategia']} {b['p']} | "
               f"{v:,.0f} $ = {B.en_eur(v, estado):,.0f} € | con 100 €: {B.con_100(v, estado):.2f} € | nacido {b['nacido']}")
         for h in hijos.get(b["id"], []):
             pinta(h, nivel + 1)
@@ -164,19 +164,6 @@ def memoria(estrategia, p, velas, dias=20):
             "ganadores": sum(x > 0 for x in resultados) / len(resultados), "n": len(resultados)}
 
 
-def memoria_dice_no(estado, bot, velas, hoy):
-    """Calcula la memoria una vez al día por regla; True si la regla viene perdiendo."""
-    clave = f"{bot['activo']}-{bot['estrategia']}-{bot['p']}"
-    mem = estado.setdefault("memoria", {})
-    if mem.get(clave, {}).get("fecha") != hoy:
-        m = memoria(bot["estrategia"], bot["p"], velas)
-        mem[clave] = {"fecha": hoy, **{k: round(v, 5) for k, v in m.items()}}
-        log(f"🧠 Memoria {clave}: {m['n']} días operados, media {m['media']:+.2%}/día, "
-            f"{m['ganadores']:.0%} ganadores -> {'NO entra hoy' if m['n'] >= 5 and m['media'] < 0 else 'puede entrar'}")
-    m = mem[clave]
-    return m["n"] >= 5 and m["media"] < 0
-
-
 def plan_skill(bot, a, px, velas, ahora, cache):
     """Método de la skill para la compra de un bot. Devuelve el plan o None (y el motivo en el log)."""
     hora_txt = ahora.strftime("%Y-%m-%d %H:%M")
@@ -215,26 +202,63 @@ def plan_skill(bot, a, px, velas, ahora, cache):
     return {"stop": stop, "meta": meta, "riesgo": riesgo} if vale else None
 
 
+def memoria_cache(estado, bot, s, velas, hoy):
+    """Time Machine propia: cómo le fue a la regla del bot en este valor las últimas 20 sesiones (1 vez al día)."""
+    clave = f"{s}-{bot['estrategia']}-{bot['p']}"
+    mem = estado.setdefault("memoria", {})
+    if mem.get(clave, {}).get("fecha") != hoy:
+        m = memoria(bot["estrategia"], bot["p"], velas)
+        mem[clave] = {"fecha": hoy, **{k: round(v, 5) for k, v in m.items()}}
+    return mem[clave]
+
+
+def investigar(estado, bot, velas, precios, ahora, cache, ocupados, prohibidos):
+    """El bot busca en todo el universo dónde salta su señal y elige. Devuelve (símbolo, plan) o (None, None)."""
+    hoy = str(ahora.date())
+    con_senal = []
+    for s, v in velas.items():
+        if s in prohibidos or precios[s] < 5:
+            continue
+        dia = v[v.index.date == ahora.date()]
+        if len(dia) < 2:
+            continue
+        try:
+            if senal(bot, v, ahora):
+                con_senal.append((float((dia["close"] * dia["volume"]).sum()), s))
+        except Exception:
+            continue
+    con_senal.sort(reverse=True)  # primero lo que más dinero mueve hoy
+    estudiados = []
+    for _, s in con_senal[:MAX_MEMORIA]:
+        m = memoria_cache(estado, bot, s, velas[s], hoy)
+        if m["n"] >= 3 and m["media"] > 0:
+            estudiados.append((s in ocupados, -m["media"], s, m))
+    estudiados.sort(key=lambda x: (x[0], x[1]))
+    if con_senal:
+        log(f"🔎 Bot D{bot['id']} ({bot['estrategia']} {bot['p']}) investiga {len(velas)} valores: señal en {len(con_senal)}, "
+            f"{len(estudiados)} con su regla ganando las últimas sesiones"
+            + (" (" + ", ".join(f"{x[2]} {x[3]['media']:+.2%}/día" for x in estudiados[:4]) + ")" if estudiados else ""))
+    for _, _, s, m in estudiados[:MAX_PLANES]:
+        try:
+            plan = plan_skill(bot, s, precios[s], velas[s], ahora, cache)
+        except Exception as ex:
+            log(f"  Bot D{bot['id']} {s}: la skill falló ({ex}).")
+            plan = None
+        if plan:
+            return s, plan
+    return None, None
+
+
 def main(prueba=False):
+    import universo as U
     B.cargar_env()
     key, secret = os.environ["ALPACA_KEY"], os.environ["ALPACA_SECRET"]
     trading = TradingClient(key, secret, paper=True)  # SIEMPRE paper
     datos = StockHistoricalDataClient(key, secret)
     estado = cargar_estado()
 
-    barras = datos.get_stock_bars(StockBarsRequest(
-        symbol_or_symbols=ACTIVOS, timeframe=TimeFrame(15, TimeFrameUnit.Minute),
-        start=datetime.now() - timedelta(days=35), feed="iex")).df
-    velas = {}
-    for a in ACTIVOS:
-        v = barras.loc[a].copy()
-        v.index = v.index.tz_convert("America/New_York")
-        velas[a] = v.between_time("09:30", "15:59")
-    precios = {a: float(velas[a]["close"].iloc[-1]) for a in ACTIVOS}
-    estado["precios"] = precios
-
     if "--familia" in sys.argv:
-        familia(estado, precios)
+        familia(estado, estado.get("precios", {}))
         return
 
     reloj = trading.get_clock()
@@ -242,51 +266,78 @@ def main(prueba=False):
         print("Bolsa cerrada: la colonia diaria no hace nada.")
         return
     ahora = pd.Timestamp(reloj.timestamp).tz_convert("America/New_York")
+    if "--forzar-hora" in sys.argv:
+        ahora = pd.Timestamp(sys.argv[sys.argv.index("--forzar-hora") + 1], tz="America/New_York")
     final = (pd.Timestamp(reloj.next_close).tz_convert("America/New_York") - ahora) <= timedelta(minutes=CIERRE_MIN)
+
+    simbolos = list(dict.fromkeys(U.universo(key, secret, extra=True, log=log)
+                                  + [b["activo"] for b in estado["bots"] if b.get("activo") and b["acciones"] > 0]))
+    barras = datos.get_stock_bars(StockBarsRequest(
+        symbol_or_symbols=simbolos, timeframe=TimeFrame(15, TimeFrameUnit.Minute),
+        start=ahora.to_pydatetime() - timedelta(days=32), end=ahora.to_pydatetime(), feed="iex")).df
+    presentes = set(barras.index.get_level_values(0))
+    velas = {}
+    for a in simbolos:
+        if a not in presentes:
+            continue
+        v = barras.loc[a].copy()
+        v.index = v.index.tz_convert("America/New_York")
+        v = v.between_time("09:30", "15:59")
+        if len(v) > 40:
+            velas[a] = v
+    precios = {a: float(v["close"].iloc[-1]) for a, v in velas.items()}
     B.eurusd(estado)
+    hoy = str(ahora.date())
+    estado["memoria"] = {k: m for k, m in estado.get("memoria", {}).items() if m.get("fecha") == hoy}
 
     for bot in estado["bots"]:
-        if bot["hoy"] != str(ahora.date()):
-            bot["hoy"], bot["operado_hoy"] = str(ahora.date()), False
+        if bot["hoy"] != hoy:
+            bot["hoy"], bot["operado_hoy"] = hoy, False
             bot["descansa"] = bot.get("perdidas", 0) >= C.PERDIDAS_DESCANSO
             if bot["descansa"]:
                 bot["perdidas"] = 0
                 log(f"🧠 Bot D{bot['id']} lleva {C.PERDIDAS_DESCANSO} pérdidas seguidas: hoy DESCANSA.")
+        if not bot["acciones"]:
+            bot["activo"] = None
 
     # 1) cada bot decide (al final del día todos venden)
     noticias_cache = {}
+    prohibidos = U.de_skill()
     for bot in estado["bots"]:
         if bot["estado"] == "muerto":
             continue
-        a, px = bot["activo"], precios[bot["activo"]]
-        quiere = False if final else senal(bot, velas[a], ahora)
-        # --- salidas del plan de la skill: stop u objetivo ---
-        if bot["acciones"] > 0 and bot.get("entrada"):
-            stop = bot.get("stop") or bot["entrada"] * (1 - C.STOP)
-            if px <= stop or (bot.get("meta") and px >= bot["meta"]):
-                if quiere:
-                    log(f"{'🛑' if px <= stop else '🎯'} Bot D{bot['id']} {'STOP' if px <= stop else 'OBJETIVO'}: "
-                        f"{a} a {px:.2f} (entró a {bot['entrada']:.2f}).")
-                quiere = False
-                bot["operado_hoy"] = True
-        razones = []
-        if quiere and bot["acciones"] == 0:
+        plan, razones = None, []
+        if bot["acciones"] > 0:
+            a = bot["activo"]
+            if a not in precios:
+                log(f"  Bot D{bot['id']}: sin precio de {a} ahora; espera.")
+                continue
+            px = precios[a]
+            quiere = False if final else senal(bot, velas[a], ahora)
+            # --- salidas del plan de la skill: stop u objetivo ---
+            if bot.get("entrada"):
+                stop = bot.get("stop") or bot["entrada"] * (1 - C.STOP)
+                if px <= stop or (bot.get("meta") and px >= bot["meta"]):
+                    if quiere:
+                        log(f"{'🛑' if px <= stop else '🎯'} Bot D{bot['id']} {'STOP' if px <= stop else 'OBJETIVO'}: "
+                            f"{a} a {px:.2f} (entró a {bot['entrada']:.2f}).")
+                    quiere = False
+                    bot["operado_hoy"] = True
+        else:
+            if final or bot["operado_hoy"] and bot["estrategia"] != "rebote":
+                continue
+            ocupados = {b["activo"] for b in estado["bots"] if b is not bot and b.get("activo") and b["acciones"] > 0}
+            a, plan = investigar(estado, bot, velas, precios, ahora, noticias_cache, ocupados, prohibidos)
+            if not a:
+                continue
+            px, quiere = precios[a], True
             if bot.get("descansa"):
                 razones.append("descanso")
-            if memoria_dice_no(estado, bot, velas[a], str(ahora.date())):
-                razones.append("memoria")
             if C.panico(estado, a, log):
                 razones.append("noticias")
             if razones and C.OBEDECER:
-                quiere = False
-        plan = None
-        if quiere and bot["acciones"] == 0:
-            try:
-                plan = plan_skill(bot, a, px, velas[a], ahora, noticias_cache)
-            except Exception as ex:
-                log(f"  Bot D{bot['id']}: la skill falló ({ex}); no compra.")
-            if not plan:
-                quiere = False
+                continue
+            bot["activo"] = a
         v = B.valor(bot, precios)
         peso = B.PESO * (0.5 if bot["estado"] == "herido" else 1.0)
         objetivo = round(v * peso / px / (1 + B.COMISION), B.DECIMALES) if quiere else 0.0
@@ -312,6 +363,8 @@ def main(prueba=False):
                 bot["entrada"] = bot["stop"] = bot["meta"] = None
             log(f"Bot D{bot['id']} ({bot['estrategia']} {bot['p']}) {'COMPRA' if cambio > 0 else 'VENDE'} "
                 f"{abs(cambio):.4f} {a} a {px:.2f} | vida {B.valor(bot, precios):,.0f}$")
+        if not bot["acciones"]:
+            bot["activo"] = None
 
     # 2) al final del día: vida, muerte e hijos (todos están ya en efectivo)
     if final:
@@ -321,7 +374,7 @@ def main(prueba=False):
             v = B.valor(bot, precios)
             r = v / bot["referencia"]
             if r <= B.MUERTO:
-                bot.update(estado="muerto", efectivo=0, acciones=0)
+                bot.update(estado="muerto", efectivo=0, acciones=0, activo=None)
                 estado["reserva"] += v
                 log(f"💀 Bot D{bot['id']} ha MUERTO ({r - 1:+.1%}). {v:,.0f}$ a la reserva.")
                 continue
@@ -332,31 +385,19 @@ def main(prueba=False):
                 bot["efectivo"] -= dote
                 bot["hijos"] += 1
                 bot["referencia"] = B.valor(bot, precios)
-                a, e, p = mutar(bot)
-                h = nuevo_bot(estado, bot["id"], a, e, p, dote)
-                log(f"👶 Bot D{bot['id']} ({r - 1:+.1%}) tiene un HIJO: D{h['id']} ({a} {e} {p}) con {dote:,.0f}$")
+                e, p = mutar(bot)
+                h = nuevo_bot(estado, bot["id"], e, p, dote)
+                log(f"👶 Bot D{bot['id']} ({r - 1:+.1%}) tiene un HIJO: D{h['id']} ({e} {p}) con {dote:,.0f}$")
         vivos = [b for b in estado["bots"] if b["estado"] != "muerto"]
         tot = sum(B.valor(b, precios) for b in vivos) + estado["reserva"]
         log(f"Fin del día: {len(vivos)} vivos | total {tot:,.0f}$ = {B.en_eur(tot, estado):,.0f}€ "
             f"| con 100 € reales: {B.con_100(tot, estado):.2f}€")
         log(f"🧠 Marcador del cerebro: {C.marcador(estado)}")
 
-    # 3) enviar a Alpaca solo la diferencia neta por fondo
-    for a in ACTIVOS:
-        quiero = round(sum(b["acciones"] for b in estado["bots"] if b["activo"] == a and b["estado"] != "muerto"), B.DECIMALES)
-        try:
-            tengo = float(trading.get_open_position(a).qty)
-        except Exception:
-            tengo = 0.0
-        dif = round(quiero - tengo, B.DECIMALES)
-        if abs(dif * precios[a]) < 1 and not (quiero == 0 and tengo > 0):
-            continue
-        lado = OrderSide.BUY if dif > 0 else OrderSide.SELL
-        if prueba:
-            log(f"[PRUEBA] {lado.value} {abs(dif):.4f} {a}")
-            continue
-        o = trading.submit_order(MarketOrderRequest(symbol=a, qty=abs(dif), side=lado, time_in_force=TimeInForce.DAY))
-        log(f"Orden enviada: {lado.value} {abs(dif):.4f} {a} (id {o.id})")
+    estado["precios"] = {b["activo"]: precios[b["activo"]] for b in estado["bots"] if b.get("activo") in precios}
+
+    # 3) enviar a Alpaca solo la diferencia neta (sumando también los bots de tendencia)
+    U.sincronizar(trading, precios, log, prueba=prueba, minimo=1.0, sobrescribir={"colonia_diaria.json": estado})
 
     if not prueba:
         ESTADO.write_text(json.dumps(estado, indent=2, ensure_ascii=False), encoding="utf-8")

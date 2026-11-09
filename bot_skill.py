@@ -2,7 +2,9 @@
 (github.com/Jakeschincariol/day-trader-skill, MIT; herramientas copiadas en skill/).
 
 Cada 15 minutos con la bolsa abierta:
-  1. ESCÁNER   (10:00-11:30 Nueva York): busca roturas del rango de apertura de 15 min en ~100 acciones grandes.
+  1. ESCÁNER   (10:00-11:30 Nueva York): busca roturas del rango de apertura de 15 min en todo el universo
+               (universo.py: ~140 ETF y acciones + lo más negociado y lo que más se mueve hoy). Autónoma:
+               puede ir a cualquiera menos a lo que ya tienen los bots de las otras colonias.
   2. NOTICIAS  : descarta la acción si hay titulares de suspensión, demandas, reguladores o riesgo.
   3. PLAN      : entrada = vela que rompió, stop = mitad del rango de apertura, objetivo = 2R.
   4. MÁQUINA DEL TIEMPO: 10.000 repeticiones + la historia real. Solo compra si, RESTANDO COMISIONES,
@@ -196,9 +198,12 @@ def main():
             log(f"🛑 Hoy ya pierde {e['resultado_hoy']:,.0f} $: no entra más (límite {LIMITE_DIA:.1%}).")
         else:
             ahora_txt = ahora.strftime("%Y-%m-%d %H:%M")
-            sc = herramienta("trader-scanner/scan.py", "orb", "--symbols", UNIVERSO, "--now", ahora_txt,
+            import universo as U
+            uni = U.universo(os.environ["ALPACA_KEY"], os.environ["ALPACA_SECRET"], extra=True, log=log)
+            ocupados = set(U.libro())
+            sc = herramienta("trader-scanner/scan.py", "orb", "--symbols", ",".join(uni), "--now", ahora_txt,
                              "--json", "--no-write", "--quiet", timeout=240)
-            hits = [h for h in (sc or {}).get("hits", []) if h["symbol"] not in EXCLUIDOS
+            hits = [h for h in (sc or {}).get("hits", []) if h["symbol"] not in ocupados
                     and h["symbol"] not in {t["simbolo"] for t in e["abiertos"]}
                     and h["symbol"] not in e.get("vistos_hoy", {}).get(dia, [])]
             # solo roturas recientes (de los últimos 20 min): una entrada tardía es otro trade
