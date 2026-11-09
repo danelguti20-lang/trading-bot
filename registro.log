@@ -78,3 +78,6 @@
 2026-11-09 18:00 | [DIARIO] 🕰️ Bot D2 VOO: stop 683.55 objetivo 704.28 | con comisión: simulación -0.29R, historia -0.27R (39 casos) -> ❌ no
 2026-11-09 18:00 | [DIARIO] 🧠 Memoria IAU-rebote-10: 19 días operados, media -0.30%/día, 21% ganadores -> NO entra hoy
 2026-11-09 18:00 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: the entry is not in the data: no complete 11:55 bar (closing 12:00 PM) on 2026-11-09 for IAU (the data stops at the 11:50 bar)
+2026-11-09 18:15 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: the entry is not in the data: no complete 12:10 bar (closing 12:15 PM) on 2026-11-09 for QQQM (the data stops at the 12:05 bar)
+2026-11-09 18:15 | [DIARIO] 🕰️ Bot D2 VOO: stop 684.40 objetivo 705.16 | con comisión: simulación -0.28R, historia -0.27R (39 casos) -> ❌ no
+2026-11-09 18:15 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: the entry is not in the data: no complete 12:10 bar (closing 12:15 PM) on 2026-11-09 for IAU (the data stops at the 12:05 bar)
