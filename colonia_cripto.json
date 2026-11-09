@@ -1,0 +1,253 @@
+{
+  "siguiente_id": 3,
+  "reserva": 0.0,
+  "bots": [
+    {
+      "id": 1,
+      "padre": null,
+      "activo": null,
+      "estrategia": "tendencia",
+      "p": 48,
+      "efectivo": 16666.67,
+      "acciones": 0.0,
+      "referencia": 16666.67,
+      "inicial": 16666.67,
+      "estado": "vivo",
+      "nacido": "2026-11-09",
+      "hijos": 0,
+      "entrada": null
+    },
+    {
+      "id": 2,
+      "padre": null,
+      "activo": null,
+      "estrategia": "ruptura",
+      "p": 24,
+      "efectivo": 16666.67,
+      "acciones": 0.0,
+      "referencia": 16666.67,
+      "inicial": 16666.67,
+      "estado": "vivo",
+      "nacido": "2026-11-09",
+      "hijos": 0,
+      "entrada": null
+    },
+    {
+      "id": 3,
+      "padre": null,
+      "activo": null,
+      "estrategia": "rebote",
+      "p": 10,
+      "efectivo": 16666.67,
+      "acciones": 0.0,
+      "referencia": 16666.67,
+      "inicial": 16666.67,
+      "estado": "vivo",
+      "nacido": "2026-11-09",
+      "hijos": 0,
+      "entrada": null
+    }
+  ],
+  "dia": "2026-11-09",
+  "memoria": {
+    "LTC/USD-tendencia-48": {
+      "hora": "2026-11-09 21:00:00+00:00",
+      "n": 26,
+      "media": -0.01022,
+      "total": -0.23599,
+      "ganadores": 0.11538
+    },
+    "ONDO/USD-tendencia-48": {
+      "hora": "2026-11-09 21:00:00+00:00",
+      "n": 26,
+      "media": -0.0096,
+      "total": -0.22375,
+      "ganadores": 0.15385
+    },
+    "PAXG/USD-tendencia-48": {
+      "hora": "2026-11-09 21:00:00+00:00",
+      "n": 28,
+      "media": -0.0054,
+      "total": -0.14123,
+      "ganadores": 0.07143
+    },
+    "SUSHI/USD-tendencia-48": {
+      "hora": "2026-11-09 21:00:00+00:00",
+      "n": 29,
+      "media": -0.0117,
+      "total": -0.28991,
+      "ganadores": 0.06897
+    },
+    "UNI/USD-tendencia-48": {
+      "hora": "2026-11-09 21:00:00+00:00",
+      "n": 26,
+      "media": -0.01034,
+      "total": -0.2412,
+      "ganadores": 0.15385
+    },
+    "AVAX/USD-tendencia-48": {
+      "hora": "2026-11-09 21:00:00+00:00",
+      "n": 27,
+      "media": -0.01148,
+      "total": -0.26888,
+      "ganadores": 0.07407
+    },
+    "BAT/USD-tendencia-48": {
+      "hora": "2026-11-09 21:00:00+00:00",
+      "n": 22,
+      "media": -0.00507,
+      "total": -0.11992,
+      "ganadores": 0.27273
+    },
+    "FIL/USD-tendencia-48": {
+      "hora": "2026-11-09 21:00:00+00:00",
+      "n": 23,
+      "media": -0.0141,
+      "total": -0.28018,
+      "ganadores": 0.08696
+    },
+    "ARB/USD-tendencia-48": {
+      "hora": "2026-11-09 21:00:00+00:00",
+      "n": 24,
+      "media": -0.01095,
+      "total": -0.2341,
+      "ganadores": 0.16667
+    },
+    "RENDER/USD-tendencia-48": {
+      "hora": "2026-11-09 21:00:00+00:00",
+      "n": 40,
+      "media": -0.01057,
+      "total": -0.34901,
+      "ganadores": 0.075
+    },
+    "SHIB/USD-tendencia-48": {
+      "hora": "2026-11-09 21:00:00+00:00",
+      "n": 21,
+      "media": -0.0117,
+      "total": -0.22041,
+      "ganadores": 0.09524
+    },
+    "LDO/USD-tendencia-48": {
+      "hora": "2026-11-09 21:00:00+00:00",
+      "n": 29,
+      "media": -0.01189,
+      "total": -0.29491,
+      "ganadores": 0.10345
+    },
+    "LINK/USD-tendencia-48": {
+      "hora": "2026-11-09 21:00:00+00:00",
+      "n": 26,
+      "media": -0.01077,
+      "total": -0.247,
+      "ganadores": 0.07692
+    },
+    "POL/USD-tendencia-48": {
+      "hora": "2026-11-09 21:00:00+00:00",
+      "n": 22,
+      "media": -0.00891,
+      "total": -0.18038,
+      "ganadores": 0.13636
+    },
+    "AAVE/USD-tendencia-48": {
+      "hora": "2026-11-09 21:00:00+00:00",
+      "n": 31,
+      "media": -0.0124,
+      "total": -0.32357,
+      "ganadores": 0.06452
+    },
+    "PEPE/USD-tendencia-48": {
+      "hora": "2026-11-09 21:00:00+00:00",
+      "n": 29,
+      "media": -0.00607,
+      "total": -0.17686,
+      "ganadores": 0.13793
+    },
+    "BONK/USD-tendencia-48": {
+      "hora": "2026-11-09 21:00:00+00:00",
+      "n": 29,
+      "media": -0.01241,
+      "total": -0.30863,
+      "ganadores": 0.10345
+    },
+    "CRV/USD-rebote-10": {
+      "hora": "2026-11-09 21:00:00+00:00",
+      "n": 51,
+      "media": -0.00246,
+      "total": -0.12607,
+      "ganadores": 0.4902
+    },
+    "WIF/USD-rebote-10": {
+      "hora": "2026-11-09 21:00:00+00:00",
+      "n": 40,
+      "media": -0.00771,
+      "total": -0.27302,
+      "ganadores": 0.45
+    },
+    "SUSHI/USD-rebote-10": {
+      "hora": "2026-11-09 21:00:00+00:00",
+      "n": 48,
+      "media": -0.00773,
+      "total": -0.3179,
+      "ganadores": 0.41667
+    },
+    "YFI/USD-rebote-10": {
+      "hora": "2026-11-09 21:00:00+00:00",
+      "n": 38,
+      "media": -0.00936,
+      "total": -0.30582,
+      "ganadores": 0.28947
+    },
+    "ADA/USD-rebote-10": {
+      "hora": "2026-11-09 21:00:00+00:00",
+      "n": 47,
+      "media": -0.00514,
+      "total": -0.22034,
+      "ganadores": 0.31915
+    },
+    "FIL/USD-rebote-10": {
+      "hora": "2026-11-09 21:00:00+00:00",
+      "n": 51,
+      "media": -0.00917,
+      "total": -0.38428,
+      "ganadores": 0.37255
+    },
+    "ARB/USD-rebote-10": {
+      "hora": "2026-11-09 21:00:00+00:00",
+      "n": 44,
+      "media": -0.0036,
+      "total": -0.15395,
+      "ganadores": 0.40909
+    },
+    "DOT/USD-rebote-10": {
+      "hora": "2026-11-09 21:00:00+00:00",
+      "n": 45,
+      "media": -0.00688,
+      "total": -0.27377,
+      "ganadores": 0.53333
+    },
+    "LDO/USD-rebote-10": {
+      "hora": "2026-11-09 21:00:00+00:00",
+      "n": 50,
+      "media": -0.00786,
+      "total": -0.33686,
+      "ganadores": 0.48
+    },
+    "GRT/USD-rebote-10": {
+      "hora": "2026-11-09 21:00:00+00:00",
+      "n": 47,
+      "media": -0.00701,
+      "total": -0.28814,
+      "ganadores": 0.42553
+    },
+    "AAVE/USD-rebote-10": {
+      "hora": "2026-11-09 21:00:00+00:00",
+      "n": 44,
+      "media": -0.00744,
+      "total": -0.28637,
+      "ganadores": 0.40909
+    }
+  },
+  "precios": {},
+  "eurusd": 1.1193,
+  "eurusd_inicio": 1.1193
+}
