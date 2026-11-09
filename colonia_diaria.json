@@ -1,0 +1,64 @@
+{
+  "siguiente_id": 3,
+  "reserva": 0.0,
+  "bots": [
+    {
+      "id": 1,
+      "padre": null,
+      "activo": "QQQM",
+      "estrategia": "ruptura",
+      "p": 30,
+      "efectivo": 16666.67,
+      "acciones": 0.0,
+      "referencia": 16666.67,
+      "inicial": 16666.67,
+      "estado": "vivo",
+      "nacido": "2026-11-09",
+      "hijos": 0,
+      "hoy": "2026-11-09",
+      "operado_hoy": false,
+      "descansa": false
+    },
+    {
+      "id": 2,
+      "padre": null,
+      "activo": "VOO",
+      "estrategia": "mañana",
+      "p": 0.3,
+      "efectivo": 16666.67,
+      "acciones": 0.0,
+      "referencia": 16666.67,
+      "inicial": 16666.67,
+      "estado": "vivo",
+      "nacido": "2026-11-09",
+      "hijos": 0,
+      "hoy": "2026-11-09",
+      "operado_hoy": false,
+      "descansa": false
+    },
+    {
+      "id": 3,
+      "padre": null,
+      "activo": "IAU",
+      "estrategia": "rebote",
+      "p": 10,
+      "efectivo": 16666.67,
+      "acciones": 0.0,
+      "referencia": 16666.67,
+      "inicial": 16666.67,
+      "estado": "vivo",
+      "nacido": "2026-11-09",
+      "hijos": 0,
+      "hoy": "2026-11-09",
+      "operado_hoy": false,
+      "descansa": false
+    }
+  ],
+  "precios": {
+    "QQQM": 276.895,
+    "VOO": 688.335,
+    "IAU": 77.32
+  },
+  "eurusd": 1.1193,
+  "eurusd_inicio": 1.1193
+}
