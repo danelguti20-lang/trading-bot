@@ -72,3 +72,4 @@
 2026-11-09 17:30 | [SKILL] 🔎 Escáner 11:30: 63 roturas, 2 recientes para estudiar.
 2026-11-09 17:30 | [SKILL] 🕰️ CVX: entrada 211.99 stop 210.83 objetivo 214.31 | objetivo antes 9%, stop antes 45% | con comisión: simulación -0.46R, historia -0.51R (33 casos) -> ❌ no
 2026-11-09 17:30 | [SKILL] 🕰️ GE: entrada 333.34 stop 331.69 objetivo 336.64 | objetivo antes 25%, stop antes 56% | con comisión: simulación -0.38R, historia -0.36R (32 casos) -> ❌ no
+2026-11-09 17:45 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: the entry is not in the data: no complete 11:40 bar (closing 11:45 AM) on 2026-11-09 for QQQM (the data stops at the 11:35 bar)
