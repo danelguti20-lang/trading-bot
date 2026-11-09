@@ -55,10 +55,27 @@
     }
   ],
   "precios": {
-    "QQQM": 276.895,
-    "VOO": 688.335,
-    "IAU": 77.32
+    "QQQM": 278.3,
+    "VOO": 689.61,
+    "IAU": 77.38
   },
   "eurusd": 1.1193,
-  "eurusd_inicio": 1.1193
+  "eurusd_inicio": 1.1193,
+  "memoria": {
+    "QQQM-ruptura-30": {
+      "fecha": "2026-11-09",
+      "media": -0.00284,
+      "ganadores": 0.23077,
+      "n": 13
+    }
+  },
+  "noticias": {
+    "QQQ": {
+      "hora": "2026-11-09T15:50:42.138469+00:00",
+      "malos": 1,
+      "titulares": [
+        "Stock Market Correction Or Crash? 3 Charts For The Week Ahead After The AI Sell-Off"
+      ]
+    }
+  }
 }
