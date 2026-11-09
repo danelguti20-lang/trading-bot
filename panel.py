@@ -19,6 +19,9 @@ COLONIAS = [
     ("diaria", "⚡ Colonia diaria", "colonia_diaria.json",
      "Autónomos: cada 15 min investigan todo el universo (+ lo que más se mueve hoy), eligen dónde operar y cierran todo antes del cierre.",
      lambda b: f"{b['estrategia']} {b['p']}"),
+    ("cripto", "🪙 Colonia cripto 24/7", "colonia_cripto.json",
+     "Autónomos las 24 horas, todos los días: investigan las ~33 criptomonedas de Alpaca cada 15 min y eligen dónde estar (stop 3 %).",
+     lambda b: f"{b['estrategia']} {b['p']} h"),
 ]
 GEMELOS = {"QQQ": "EQQQ", "SPY": "SXR8", "GLD": "4GLD", "QQQM": "EQQQ", "VOO": "SXR8", "IAU": "4GLD"}
 NOMBRE = {"QQQ": "Nasdaq 100", "QQQM": "Nasdaq 100", "SPY": "S&P 500", "VOO": "S&P 500", "GLD": "Oro", "IAU": "Oro"}
@@ -121,12 +124,12 @@ def tarjeta_bot(b, desc, hijos, nivel):
 def generar():
     bloques, resumen = [], {}
     for clave, titulo, fichero, explica, desc in COLONIAS:
-        estado = cargar(fichero, "bot_alpaca" if clave == "tendencia" else "bot_diario")
+        estado = cargar(fichero, {"tendencia": "bot_alpaca", "diaria": "bot_diario", "cripto": "bot_cripto"}[clave])
         if not estado:
             continue
         vivos, total, eur, reserva = calc(estado)
         for b in estado["bots"]:
-            b["_pref"] = "D" if clave == "diaria" else ""
+            b["_pref"] = {"diaria": "D", "cripto": "C"}.get(clave, "")
         resumen[clave] = eur
         muertos = len(estado["bots"]) - len(vivos)
         hijos = {}
@@ -158,8 +161,8 @@ def generar():
     pagina = f"""<!doctype html><html lang="es"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="refresh" content="300">
 <title>Mis bots</title><style>
-:root{{--bg:#f6f5f2;--card:#fff;--tx:#1d1d1b;--mut:#6b6a66;--ln:#e4e2dc;--pos:#1a7f4b;--neg:#c0392b;--amb:#c77700;--t:#2f6fdf;--d:#8e44ad}}
-@media (prefers-color-scheme:dark){{:root{{--bg:#151514;--card:#1f1f1d;--tx:#eceae4;--mut:#9a988f;--ln:#33322f;--pos:#4cc38a;--neg:#ff6b5b;--amb:#f0a63a;--t:#6c9cff;--d:#c58af0}}}}
+:root{{--bg:#f6f5f2;--card:#fff;--tx:#1d1d1b;--mut:#6b6a66;--ln:#e4e2dc;--pos:#1a7f4b;--neg:#c0392b;--amb:#c77700;--t:#2f6fdf;--d:#8e44ad;--c:#b7791f}}
+@media (prefers-color-scheme:dark){{:root{{--bg:#151514;--card:#1f1f1d;--tx:#eceae4;--mut:#9a988f;--ln:#33322f;--pos:#4cc38a;--neg:#ff6b5b;--amb:#f0a63a;--t:#6c9cff;--d:#c58af0;--c:#e5b84b}}}}
 *{{box-sizing:border-box}}body{{margin:0;background:var(--bg);color:var(--tx);font:15px/1.45 system-ui,-apple-system,Segoe UI,sans-serif}}
 main{{max-width:900px;margin:auto;padding:20px 16px 60px}}h1{{margin:0 0 4px;font-size:26px}}h2{{margin:0;font-size:20px}}
 .nota,.suave{{color:var(--mut)}}.nota{{margin:4px 0 14px;font-size:14px}}
@@ -177,16 +180,16 @@ main{{max-width:900px;margin:auto;padding:20px 16px 60px}}h1{{margin:0 0 4px;fon
 .barra{{height:5px;background:var(--ln);border-radius:4px;margin-top:8px;position:relative}}.barra i{{display:block;height:100%;border-radius:4px;background:linear-gradient(90deg,var(--neg),var(--amb) 25%,var(--pos) 50%,var(--pos))}}
 .barra:after{{content:"";position:absolute;left:50%;top:-3px;height:11px;border-left:1px dashed var(--mut)}}
 .leyenda{{font-size:12px;color:var(--mut);display:flex;justify-content:space-between;margin-top:2px}}
-.graf{{width:100%;height:auto}}.graf .linea{{fill:none;stroke-width:2.5}}.graf .tendencia{{stroke:var(--t);fill:var(--t)}}.graf .diaria{{stroke:var(--d);fill:var(--d)}}
-.graf polyline.tendencia,.graf polyline.diaria{{fill:none}}.graf .base{{stroke:var(--mut);stroke-dasharray:4 4}}.graf .eje,.graf .et{{font-size:12px;fill:var(--mut)}}
-.graf text.tendencia{{fill:var(--t)}}.graf text.diaria{{fill:var(--d)}}
+.graf{{width:100%;height:auto}}.graf .linea{{fill:none;stroke-width:2.5}}.graf .tendencia{{stroke:var(--t);fill:var(--t)}}.graf .diaria{{stroke:var(--d);fill:var(--d)}}.graf .cripto{{stroke:var(--c);fill:var(--c)}}
+.graf polyline.tendencia,.graf polyline.diaria,.graf polyline.cripto{{fill:none}}.graf .base{{stroke:var(--mut);stroke-dasharray:4 4}}.graf .eje,.graf .et{{font-size:12px;fill:var(--mut)}}
+.graf text.tendencia{{fill:var(--t)}}.graf text.diaria{{fill:var(--d)}}.graf text.cripto{{fill:var(--c)}}
 pre.ops{{color:var(--tx);font-size:13px}}pre{{white-space:pre-wrap;font-size:12px;color:var(--mut);max-height:320px;overflow:auto;margin:0}}
 @media (max-width:600px){{.kpis{{grid-template-columns:repeat(2,1fr)}}}}
 </style></head><body><main>
 <h1>🤖 Mis colonias de bots</h1>
 <p class="nota">Dinero falso (Alpaca Paper) · cada colonia representa 100 € reales · actualizado {datetime.now():%d/%m/%Y %H:%M} · la página se recarga sola cada 5 min</p>
 <div class="caja"><h2>Evolución (con 100 € reales)</h2>
-<p class="nota"><span style="color:var(--t)">━ Tendencia</span> &nbsp; <span style="color:var(--d)">━ Diaria</span> &nbsp; - - 100 € de partida</p>{grafica(filas)}</div>
+<p class="nota"><span style="color:var(--t)">━ Tendencia</span> &nbsp; <span style="color:var(--d)">━ Diaria</span> &nbsp; <span style="color:var(--c)">━ Cripto</span> &nbsp; - - 100 € de partida</p>{grafica(filas)}</div>
 {''.join(bloques)}
 <p class="nota" style="margin-top:10px">Barra de vida: izquierda = muerte (-20 %), centro = punto de partida, derecha = hijo (+20 %). 🟢 vivo · 🟠 herido · 💀 muerto</p>
 <div class="caja"><h2>💸 Operaciones de verdad</h2><p class="nota">Compras, ventas, stops, objetivos, nacimientos y muertes: lo único que mueve el dinero.</p><pre class="ops">{operaciones}</pre></div>

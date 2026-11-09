@@ -2,19 +2,16 @@ name: Bots de trading (Paper)
 
 on:
   schedule:
-    # Un arranque antes de abrir la bolsa (13:30 UTC en verano, 14:30 en invierno) hace todo el día
-    # (ver ciclo.sh). Los otros son de reserva por si GitHub se salta o retrasa alguno:
-    # si ya hay uno trabajando, esperan en cola y al entrar ven que no queda nada por hacer.
-    - cron: "40 12 * * 1-5"
-    - cron: "10 14 * * 1-5"
-    - cron: "0 17 * * 1-5"
-    - cron: "45 21 * * 1-5"
+    # El ciclo (ciclo.sh) trabaja 24/7 y se relanza solo antes del límite de 6 h.
+    # Este horario es de RESERVA: si la cadena se rompe, en menos de 1 h vuelve a arrancar.
+    # Si ya hay uno trabajando, el nuevo espera en cola (concurrency) y no se pisan.
+    - cron: "7 * * * *"
   workflow_dispatch:
     inputs:
       colonia:
         description: "Qué ejecutar"
         type: choice
-        options: [ciclo, diaria, tendencia, skill]
+        options: [ciclo, diaria, tendencia, skill, cripto]
         default: ciclo
 
 concurrency:
@@ -42,7 +39,7 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
 
-      - name: Ciclo del día (diaria + skill cada 15 min, tendencia al cierre)
+      - name: Ciclo 24/7 (cripto siempre, diaria + skill con bolsa abierta, tendencia al cierre)
         if: github.event_name == 'schedule' || inputs.colonia == 'ciclo'
         run: bash ciclo.sh
 
@@ -58,13 +55,17 @@ jobs:
         if: inputs.colonia == 'skill'
         run: python bot_skill.py
 
+      - name: Colonia cripto (manual)
+        if: inputs.colonia == 'cripto'
+        run: python bot_cripto.py
+
       - name: Guardar estado (ejecuciones manuales)
         if: always() && github.event_name == 'workflow_dispatch' && inputs.colonia != 'ciclo'
         run: |
           python panel.py || true
           git config user.name "bot-trading"
           git config user.email "bot-trading@users.noreply.github.com"
-          for f in colonia.json colonia_diaria.json colonia_skill.json historial.csv registro.log panel.html; do
+          for f in colonia.json colonia_diaria.json colonia_skill.json colonia_cripto.json historial.csv registro.log panel.html; do
             [ -f "$f" ] && git add "$f"
           done
           git diff --cached --quiet || (git commit -m "Estado de los bots $(date '+%Y-%m-%d %H:%M')" && git pull --rebase && git push)
