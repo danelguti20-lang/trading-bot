@@ -1,6 +1,7 @@
 """Genera panel.html con el estado de las dos colonias. Lo llaman los bots al terminar; también: python panel.py"""
 import csv
 import html
+import re
 import json
 from datetime import datetime
 from pathlib import Path
@@ -145,10 +146,15 @@ def generar():
     {arbol}
   </section>""")
     filas = guardar_historial(resumen)
-    log = ""
+    log = operaciones = ""
     if (DIR / "registro.log").exists():
-        lineas = (DIR / "registro.log").read_text(encoding="utf-8").splitlines()[-25:]
-        log = "\n".join(html.escape(l) for l in reversed(lineas))
+        todas = (DIR / "registro.log").read_text(encoding="utf-8").splitlines()
+        real = re.compile(r"Orden enviada|🛒 COMPRA| COMPRA | VENDE |STOP:|OBJETIVO:|cerrado por|MUERTO|HIJO|no se llenó")
+        # antes del 9-nov solo hubo pruebas (órdenes canceladas): no cuentan
+        ops = [l for l in todas if real.search(l) and "[PRUEBA]" not in l and l[:10] >= "2026-11-09"][-25:]
+        resto = [l for l in todas if l not in ops][-25:]
+        operaciones = "\n".join(html.escape(l) for l in reversed(ops)) or "Todavía ningún bot ha comprado ni vendido nada."
+        log = "\n".join(html.escape(l) for l in reversed(resto))
     pagina = f"""<!doctype html><html lang="es"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="refresh" content="300">
 <title>Mis bots</title><style>
@@ -174,7 +180,7 @@ main{{max-width:900px;margin:auto;padding:20px 16px 60px}}h1{{margin:0 0 4px;fon
 .graf{{width:100%;height:auto}}.graf .linea{{fill:none;stroke-width:2.5}}.graf .tendencia{{stroke:var(--t);fill:var(--t)}}.graf .diaria{{stroke:var(--d);fill:var(--d)}}
 .graf polyline.tendencia,.graf polyline.diaria{{fill:none}}.graf .base{{stroke:var(--mut);stroke-dasharray:4 4}}.graf .eje,.graf .et{{font-size:12px;fill:var(--mut)}}
 .graf text.tendencia{{fill:var(--t)}}.graf text.diaria{{fill:var(--d)}}
-pre{{white-space:pre-wrap;font-size:12px;color:var(--mut);max-height:320px;overflow:auto;margin:0}}
+pre.ops{{color:var(--tx);font-size:13px}}pre{{white-space:pre-wrap;font-size:12px;color:var(--mut);max-height:320px;overflow:auto;margin:0}}
 @media (max-width:600px){{.kpis{{grid-template-columns:repeat(2,1fr)}}}}
 </style></head><body><main>
 <h1>🤖 Mis colonias de bots</h1>
@@ -183,7 +189,8 @@ pre{{white-space:pre-wrap;font-size:12px;color:var(--mut);max-height:320px;overf
 <p class="nota"><span style="color:var(--t)">━ Tendencia</span> &nbsp; <span style="color:var(--d)">━ Diaria</span> &nbsp; - - 100 € de partida</p>{grafica(filas)}</div>
 {''.join(bloques)}
 <p class="nota" style="margin-top:10px">Barra de vida: izquierda = muerte (-20 %), centro = punto de partida, derecha = hijo (+20 %). 🟢 vivo · 🟠 herido · 💀 muerto</p>
-<div class="caja"><h2>Últimos movimientos</h2><pre>{log}</pre></div>
+<div class="caja"><h2>💸 Operaciones de verdad</h2><p class="nota">Compras, ventas, stops, objetivos, nacimientos y muertes: lo único que mueve el dinero.</p><pre class="ops">{operaciones}</pre></div>
+<div class="caja"><h2>🔍 Lo que han estudiado (sin operar)</h2><p class="nota">Ideas que los bots miraron y descartaron (❌ no) y avisos. Esto NO mueve el dinero.</p><pre>{log}</pre></div>
 </main></body></html>"""
     SALIDA.write_text(pagina, encoding="utf-8")
     return SALIDA

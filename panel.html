@@ -23,11 +23,11 @@ main{max-width:900px;margin:auto;padding:20px 16px 60px}h1{margin:0 0 4px;font-s
 .graf{width:100%;height:auto}.graf .linea{fill:none;stroke-width:2.5}.graf .tendencia{stroke:var(--t);fill:var(--t)}.graf .diaria{stroke:var(--d);fill:var(--d)}
 .graf polyline.tendencia,.graf polyline.diaria{fill:none}.graf .base{stroke:var(--mut);stroke-dasharray:4 4}.graf .eje,.graf .et{font-size:12px;fill:var(--mut)}
 .graf text.tendencia{fill:var(--t)}.graf text.diaria{fill:var(--d)}
-pre{white-space:pre-wrap;font-size:12px;color:var(--mut);max-height:320px;overflow:auto;margin:0}
+pre.ops{color:var(--tx);font-size:13px}pre{white-space:pre-wrap;font-size:12px;color:var(--mut);max-height:320px;overflow:auto;margin:0}
 @media (max-width:600px){.kpis{grid-template-columns:repeat(2,1fr)}}
 </style></head><body><main>
 <h1>🤖 Mis colonias de bots</h1>
-<p class="nota">Dinero falso (Alpaca Paper) · cada colonia representa 100 € reales · actualizado 09/11/2026 16:12 · la página se recarga sola cada 5 min</p>
+<p class="nota">Dinero falso (Alpaca Paper) · cada colonia representa 100 € reales · actualizado 09/11/2026 16:35 · la página se recarga sola cada 5 min</p>
 <div class="caja"><h2>Evolución (con 100 € reales)</h2>
 <p class="nota"><span style="color:var(--t)">━ Tendencia</span> &nbsp; <span style="color:var(--d)">━ Diaria</span> &nbsp; - - 100 € de partida</p><svg viewBox="0 0 680 220" class="graf" role="img" aria-label="Evolución de las colonias"><line x1="36" x2="604" y1="110.0" y2="110.0" class="base"/><text x="32" y="114.0" class="eje" text-anchor="end">100 €</text><polyline points="36.0,110.0 604.0,110.0" class="linea tendencia"/><text x="610.0" y="114.0" class="et tendencia">100.00 €</text><polyline points="36.0,110.0 604.0,110.0" class="linea diaria"/><text x="610.0" y="114.0" class="et diaria">100.00 €</text><text x="36" y="212" class="eje">2026-11-08</text><text x="604" y="212" class="eje" text-anchor="end">2026-11-09</text></svg></div>
 
@@ -142,7 +142,8 @@ pre{white-space:pre-wrap;font-size:12px;color:var(--mut);max-height:320px;overfl
     </div>
   </section>
 <p class="nota" style="margin-top:10px">Barra de vida: izquierda = muerte (-20 %), centro = punto de partida, derecha = hijo (+20 %). 🟢 vivo · 🟠 herido · 💀 muerto</p>
-<div class="caja"><h2>Últimos movimientos</h2><pre>2026-11-09 16:12 | [SKILL] 🕰️ HON: entrada 225.44 stop 223.97 objetivo 228.38 | objetivo antes 27%, stop antes 51% | con comisión: simulación -0.16R, historia -0.28R (31 casos) -&gt; ❌ no
+<div class="caja"><h2>💸 Operaciones de verdad</h2><p class="nota">Compras, ventas, stops, objetivos, nacimientos y muertes: lo único que mueve el dinero.</p><pre class="ops">Todavía ningún bot ha comprado ni vendido nada.</pre></div>
+<div class="caja"><h2>🔍 Lo que han estudiado (sin operar)</h2><p class="nota">Ideas que los bots miraron y descartaron (❌ no) y avisos. Esto NO mueve el dinero.</p><pre>2026-11-09 16:12 | [SKILL] 🕰️ HON: entrada 225.44 stop 223.97 objetivo 228.38 | objetivo antes 27%, stop antes 51% | con comisión: simulación -0.16R, historia -0.28R (31 casos) -&gt; ❌ no
 2026-11-09 16:12 | [SKILL] 🕰️ FDX: entrada 318.03 stop 315.02 objetivo 324.05 | objetivo antes 7%, stop antes 45% | con comisión: simulación -0.33R, historia -0.30R (31 casos) -&gt; ❌ no
 2026-11-09 16:12 | [SKILL] 🕰️ AXP: entrada 325.29 stop 320.60 objetivo 334.67 | objetivo antes 0%, stop antes 13% | con comisión: simulación -0.21R, historia -0.07R (29 casos) -&gt; ❌ no
 2026-11-09 16:12 | [SKILL] 🕰️ WFC: entrada 85.38 stop 84.80 objetivo 86.54 | objetivo antes 14%, stop antes 58% | con comisión: simulación -0.45R, historia -0.17R (25 casos) -&gt; ❌ no

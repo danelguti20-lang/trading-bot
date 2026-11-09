@@ -2,15 +2,20 @@ name: Bots de trading (Paper)
 
 on:
   schedule:
-    - cron: "*/15 13-21 * * 1-5"   # colonia diaria: cada 15 min en horario de bolsa de EE. UU. (UTC)
-    - cron: "30 21 * * 1-5"        # colonia de tendencia: tras el cierre (22:30 España en invierno)
+    # Un arranque antes de abrir la bolsa (13:30 UTC en verano, 14:30 en invierno) hace todo el día
+    # (ver ciclo.sh). Los otros son de reserva por si GitHub se salta o retrasa alguno:
+    # si ya hay uno trabajando, esperan en cola y al entrar ven que no queda nada por hacer.
+    - cron: "40 12 * * 1-5"
+    - cron: "10 14 * * 1-5"
+    - cron: "0 17 * * 1-5"
+    - cron: "45 21 * * 1-5"
   workflow_dispatch:
     inputs:
       colonia:
-        description: "Qué colonia ejecutar"
+        description: "Qué ejecutar"
         type: choice
-        options: [diaria, tendencia, skill]
-        default: diaria
+        options: [ciclo, diaria, tendencia, skill]
+        default: ciclo
 
 concurrency:
   group: bots          # nunca dos ejecuciones a la vez (comparten el estado)
@@ -18,14 +23,16 @@ concurrency:
 
 permissions:
   contents: write      # para guardar el estado de los bots en el repositorio
+  actions: write       # para relanzarse antes del límite de 6 h
 
 jobs:
   bots:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 355
     env:
       ALPACA_KEY: ${{ secrets.ALPACA_KEY }}
       ALPACA_SECRET: ${{ secrets.ALPACA_SECRET }}
+      GH_TOKEN: ${{ github.token }}
       TZ: Europe/Madrid
     steps:
       - uses: actions/checkout@v4
@@ -35,25 +42,26 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
 
-      - name: Colonia de tendencia
-        if: github.event.schedule == '30 21 * * 1-5' || inputs.colonia == 'tendencia'
+      - name: Ciclo del día (diaria + skill cada 15 min, tendencia al cierre)
+        if: github.event_name == 'schedule' || inputs.colonia == 'ciclo'
+        run: bash ciclo.sh
+
+      - name: Colonia de tendencia (manual)
+        if: inputs.colonia == 'tendencia'
         run: python bot_alpaca.py
 
-      - name: Colonia diaria
-        if: github.event.schedule == '*/15 13-21 * * 1-5' || inputs.colonia == 'diaria'
+      - name: Colonia diaria (manual)
+        if: inputs.colonia == 'diaria'
         run: python bot_diario.py
 
-      - name: Colonia skill
-        if: github.event.schedule == '*/15 13-21 * * 1-5' || inputs.colonia == 'skill'
+      - name: Colonia skill (manual)
+        if: inputs.colonia == 'skill'
         run: python bot_skill.py
 
-      - name: Actualizar panel
-        if: always()
-        run: python panel.py || true
-
-      - name: Guardar estado
-        if: always()
+      - name: Guardar estado (ejecuciones manuales)
+        if: always() && github.event_name == 'workflow_dispatch' && inputs.colonia != 'ciclo'
         run: |
+          python panel.py || true
           git config user.name "bot-trading"
           git config user.email "bot-trading@users.noreply.github.com"
           for f in colonia.json colonia_diaria.json colonia_skill.json historial.csv registro.log panel.html; do
