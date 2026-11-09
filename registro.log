@@ -73,3 +73,8 @@
 2026-11-09 17:30 | [SKILL] 🕰️ CVX: entrada 211.99 stop 210.83 objetivo 214.31 | objetivo antes 9%, stop antes 45% | con comisión: simulación -0.46R, historia -0.51R (33 casos) -> ❌ no
 2026-11-09 17:30 | [SKILL] 🕰️ GE: entrada 333.34 stop 331.69 objetivo 336.64 | objetivo antes 25%, stop antes 56% | con comisión: simulación -0.38R, historia -0.36R (32 casos) -> ❌ no
 2026-11-09 17:45 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: the entry is not in the data: no complete 11:40 bar (closing 11:45 AM) on 2026-11-09 for QQQM (the data stops at the 11:35 bar)
+2026-11-09 18:00 | [DIARIO] 🕰️ Bot D1 QQQM: stop 275.88 objetivo 284.27 | con comisión: simulación -0.32R, historia -0.33R (43 casos) -> ❌ no
+2026-11-09 18:00 | [DIARIO] 🧠 Memoria VOO-mañana-0.3: 9 días operados, media -0.34%/día, 11% ganadores -> NO entra hoy
+2026-11-09 18:00 | [DIARIO] 🕰️ Bot D2 VOO: stop 683.55 objetivo 704.28 | con comisión: simulación -0.29R, historia -0.27R (39 casos) -> ❌ no
+2026-11-09 18:00 | [DIARIO] 🧠 Memoria IAU-rebote-10: 19 días operados, media -0.30%/día, 21% ganadores -> NO entra hoy
+2026-11-09 18:00 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: the entry is not in the data: no complete 11:55 bar (closing 12:00 PM) on 2026-11-09 for IAU (the data stops at the 11:50 bar)

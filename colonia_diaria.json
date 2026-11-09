@@ -55,9 +55,9 @@
     }
   ],
   "precios": {
-    "QQQM": 278.22,
-    "VOO": 689.71,
-    "IAU": 77.33
+    "QQQM": 278.675,
+    "VOO": 690.46,
+    "IAU": 77.21
   },
   "eurusd": 1.1193,
   "eurusd_inicio": 1.1193,
@@ -67,15 +67,39 @@
       "media": -0.00284,
       "ganadores": 0.23077,
       "n": 13
+    },
+    "VOO-mañana-0.3": {
+      "fecha": "2026-11-09",
+      "media": -0.00339,
+      "ganadores": 0.11111,
+      "n": 9
+    },
+    "IAU-rebote-10": {
+      "fecha": "2026-11-09",
+      "media": -0.00297,
+      "ganadores": 0.21053,
+      "n": 19
     }
   },
   "noticias": {
     "QQQ": {
-      "hora": "2026-11-09T15:50:42.138469+00:00",
+      "hora": "2026-11-09T17:00:03.403487+00:00",
       "malos": 1,
       "titulares": [
         "Stock Market Correction Or Crash? 3 Charts For The Week Ahead After The AI Sell-Off"
       ]
+    },
+    "SPY": {
+      "hora": "2026-11-09T17:00:04.992192+00:00",
+      "malos": 1,
+      "titulares": [
+        "Citigroup’s Jane Fraser Says Hedge Funds Drove the Sell-Off. Here’s Why She Doesn’t Expect It to Get Worse"
+      ]
+    },
+    "GLD": {
+      "hora": "2026-11-09T17:00:06.715196+00:00",
+      "malos": 0,
+      "titulares": []
     }
   }
 }
