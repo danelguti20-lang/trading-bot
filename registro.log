@@ -100,3 +100,5 @@
 2026-11-09 20:00 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: the entry is not in the data: no complete 13:55 bar (closing 2:00 PM) on 2026-11-09 for VOO (the data stops at the 13:50 bar)
 2026-11-09 20:15 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: the entry is not in the data: no complete 14:10 bar (closing 2:15 PM) on 2026-11-09 for QQQM (the data stops at the 14:05 bar)
 2026-11-09 20:15 | [DIARIO] 🕰️ Bot D2 VOO: stop 685.07 objetivo 705.83 | con comisión: simulación -0.23R, historia -0.27R (39 casos) -> ❌ no
+2026-11-09 20:30 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: the entry is not in the data: no complete 14:25 bar (closing 2:30 PM) on 2026-11-09 for QQQM (the data stops at the 14:20 bar)
+2026-11-09 20:30 | [DIARIO] 🕰️ Bot D2 VOO: stop 684.36 objetivo 705.12 | con comisión: simulación -0.22R, historia -0.27R (39 casos) -> ❌ no
