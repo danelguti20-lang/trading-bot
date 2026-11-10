@@ -447,6 +447,84 @@
       "media": -0.01249,
       "ganadores": 0.25,
       "n": 16
+    },
+    "RWM-ruptura-30": {
+      "fecha": "2026-11-10",
+      "media": 0.0021,
+      "ganadores": 0.5,
+      "n": 10
+    },
+    "SMX-ruptura-30": {
+      "fecha": "2026-11-10",
+      "media": 0.0,
+      "ganadores": 0.0,
+      "n": 0
+    },
+    "ZIP-ruptura-30": {
+      "fecha": "2026-11-10",
+      "media": -0.00641,
+      "ganadores": 0.27273,
+      "n": 11
+    },
+    "KRE-rebote-10": {
+      "fecha": "2026-11-10",
+      "media": -0.00371,
+      "ganadores": 0.23529,
+      "n": 17
+    },
+    "COP-rebote-10": {
+      "fecha": "2026-11-10",
+      "media": -0.00488,
+      "ganadores": 0.23529,
+      "n": 17
+    },
+    "MSTR-rebote-10": {
+      "fecha": "2026-11-10",
+      "media": -0.00757,
+      "ganadores": 0.26316,
+      "n": 19
+    },
+    "NKE-rebote-10": {
+      "fecha": "2026-11-10",
+      "media": -0.00163,
+      "ganadores": 0.27778,
+      "n": 18
+    },
+    "UBER-rebote-10": {
+      "fecha": "2026-11-10",
+      "media": -0.0037,
+      "ganadores": 0.25,
+      "n": 16
+    },
+    "CVX-rebote-10": {
+      "fecha": "2026-11-10",
+      "media": -0.00493,
+      "ganadores": 0.16667,
+      "n": 18
+    },
+    "SHOP-rebote-10": {
+      "fecha": "2026-11-10",
+      "media": -0.00596,
+      "ganadores": 0.29412,
+      "n": 17
+    },
+    "SOFI-rebote-10": {
+      "fecha": "2026-11-10",
+      "media": -0.00703,
+      "ganadores": 0.52941,
+      "n": 17
+    },
+    "MDY-rebote-10": {
+      "fecha": "2026-11-10",
+      "media": -0.00539,
+      "ganadores": 0.14286,
+      "n": 14
+    },
+    "F-rebote-10": {
+      "fecha": "2026-11-10",
+      "media": -0.00315,
+      "ganadores": 0.29412,
+      "n": 17
     }
   },
   "noticias": {

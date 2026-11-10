@@ -3,7 +3,7 @@
   "abiertos": [
     {
       "simbolo": "NVD",
-      "entrada": 6.19,
+      "entrada": 6.26,
       "stop": 6.0,
       "objetivo": 6.57,
       "riesgo": 0.1900000000000004,
@@ -12,7 +12,8 @@
       "acciones": 1235,
       "orden": "791d6e1b-7a2e-4211-9d43-6d6fab46fc4d",
       "dia": "2026-11-10",
-      "hora": "10:51"
+      "hora": "10:51",
+      "lleno": true
     }
   ],
   "cerrados": [],
@@ -32,7 +33,8 @@
       "C",
       "EFA",
       "LLY",
-      "NVD"
+      "NVD",
+      "ZIP"
     ]
   }
 }

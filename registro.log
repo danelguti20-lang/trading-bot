@@ -298,3 +298,11 @@
 2026-11-10 16:52 | [SKILL] 🕰️ NVD: entrada 6.19 stop 6.00 objetivo 6.57 | objetivo antes 3%, stop antes 14% | con comisión: simulación +0.15R, historia +0.34R (34 casos) -> ✅ COMPRA
 2026-11-10 16:52 | [SKILL] 📏 NVD: 1235 acciones (7,645 $), pérdida máx. 250 $
 2026-11-10 16:52 | [SKILL] 🛒 COMPRA 1235 NVD | stop 6.0 | objetivo 6.57 (orden 791d6e1b-7a2e-4211-9d43-6d6fab46fc4d)
+2026-11-10 17:02 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 2, 0 con su regla ganando en 30 días
+2026-11-10 17:02 | [CRIPTO] 🔎 Bot C3 (rebote 10) investiga 33 monedas: señal en 7, 0 con su regla ganando en 30 días
+2026-11-10 17:04 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 165 valores: señal en 4, 2 con su regla ganando las últimas sesiones (LMT +0.34%/día, RWM +0.21%/día)
+2026-11-10 17:04 | [DIARIO] 🕰️ Bot D1 LMT: stop 591.18 objetivo 608.16 | con comisión: simulación -0.25R, historia -0.01R (30 casos) -> ❌ no
+2026-11-10 17:04 | [DIARIO] 🕰️ Bot D1 RWM: stop 14.32 objetivo 14.56 | con comisión: simulación -0.31R, historia -0.32R (30 casos) -> ❌ no
+2026-11-10 17:04 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 165 valores: señal en 15, 0 con su regla ganando las últimas sesiones
+2026-11-10 17:05 | [SKILL] 🔎 Escáner 11:04: 65 roturas, 1 recientes para estudiar.
+2026-11-10 17:05 | [SKILL] 🕰️ ZIP: entrada 5.70 stop 5.12 objetivo 6.86 | objetivo antes 0%, stop antes 0% | con comisión: simulación -0.09R, historia -0.20R (18 casos) -> ❌ no
