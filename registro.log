@@ -267,3 +267,15 @@
 2026-11-10 16:05 | [SKILL] 🕰️ DKNG: entrada 18.83 stop 18.45 objetivo 19.59 | objetivo antes 13%, stop antes 41% | con comisión: simulación -0.03R, historia -0.01R (33 casos) -> ❌ no
 2026-11-10 16:05 | [SKILL] 🕰️ EWJ: entrada 90.85 stop 90.55 objetivo 91.45 | objetivo antes 20%, stop antes 61% | con comisión: simulación -0.73R, historia -0.58R (38 casos) -> ❌ no
 2026-11-10 16:05 | [SKILL] 🕰️ GOOGL: entrada 291.06 stop 288.94 objetivo 295.30 | objetivo antes 13%, stop antes 56% | con comisión: simulación -0.46R, historia -0.40R (33 casos) -> ❌ no
+2026-11-10 16:19 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 15, 0 con su regla ganando en 30 días
+2026-11-10 16:19 | [CRIPTO] 🔎 Bot C2 (ruptura 24) investiga 33 monedas: señal en 1, 0 con su regla ganando en 30 días
+2026-11-10 16:19 | [CRIPTO] 🔎 Bot C3 (rebote 10) investiga 33 monedas: señal en 3, 0 con su regla ganando en 30 días
+2026-11-10 16:20 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 164 valores: señal en 11, 1 con su regla ganando las últimas sesiones (LMT +0.34%/día)
+2026-11-10 16:20 | [DIARIO] 🕰️ Bot D1 LMT: stop 591.18 objetivo 607.50 | con comisión: simulación -0.31R, historia -0.01R (30 casos) -> ❌ no
+2026-11-10 16:20 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 164 valores: señal en 8, 0 con su regla ganando las últimas sesiones
+2026-11-10 16:21 | [SKILL] 🔎 Escáner 10:20: 61 roturas, 11 recientes para estudiar.
+2026-11-10 16:21 | [SKILL] 📰 ORCL descartada por noticias: Credo Technology Group Holding (CRDO) Helped Set New AI Network Standards, Is The 44% Unde (regulatory)
+2026-11-10 16:21 | [SKILL] 🕰️ SECZ: entrada 9.80 stop 8.99 objetivo 11.42 | objetivo antes 0%, stop antes 7% | con comisión: simulación +0.01R, historia +0.21R (31 casos) -> ❌ no
+2026-11-10 16:21 | [SKILL] 📰 AMZN descartada por noticias: Amazon Secures UK Aviation Approval to Expand Drone Deliveries to 8,000 Customers in Darli (regulatory)
+2026-11-10 16:21 | [SKILL] 🕰️ C: entrada 123.19 stop 122.60 objetivo 124.37 | objetivo antes 29%, stop antes 66% | con comisión: simulación -0.47R, historia -0.67R (33 casos) -> ❌ no
+2026-11-10 16:21 | [SKILL]   EFA: stop demasiado pegado (0.15 $), no vale.
