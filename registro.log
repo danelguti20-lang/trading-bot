@@ -381,3 +381,10 @@
 2026-11-10 19:35 | [DIARIO] 🕰️ Bot D1 TXN: stop 295.19 objetivo 304.16 | con comisión: simulación -0.16R, historia -0.15R (35 casos) -> ❌ no
 2026-11-10 19:35 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 164 valores: señal en 54, 0 con su regla ganando las últimas sesiones
 2026-11-10 19:35 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 164 valores: señal en 3, 0 con su regla ganando las últimas sesiones
+2026-11-10 19:49 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 2, 0 con su regla ganando en 30 días
+2026-11-10 19:49 | [CRIPTO] 🔎 Bot C3 (rebote 10) investiga 33 monedas: señal en 5, 0 con su regla ganando en 30 días
+2026-11-10 19:50 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 164 valores: señal en 30, 2 con su regla ganando las últimas sesiones (SPDN +0.21%/día, TXN +0.08%/día)
+2026-11-10 19:50 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 10 full session(s) of SPDN before 2026-11-10 in the data; the time machine needs at least 20
+2026-11-10 19:50 | [DIARIO] 🕰️ Bot D1 TXN: stop 295.66 objetivo 304.63 | con comisión: simulación -0.17R, historia -0.21R (35 casos) -> ❌ no
+2026-11-10 19:50 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 164 valores: señal en 49, 0 con su regla ganando las últimas sesiones
+2026-11-10 19:50 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 164 valores: señal en 8, 0 con su regla ganando las últimas sesiones

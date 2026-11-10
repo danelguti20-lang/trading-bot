@@ -963,6 +963,24 @@
       "media": -0.00584,
       "ganadores": 0.57895,
       "n": 19
+    },
+    "DKNG-rebote-10": {
+      "fecha": "2026-11-10",
+      "media": -0.00304,
+      "ganadores": 0.38889,
+      "n": 18
+    },
+    "ABNB-rebote-10": {
+      "fecha": "2026-11-10",
+      "media": -0.00448,
+      "ganadores": 0.33333,
+      "n": 15
+    },
+    "USO-rebote-10": {
+      "fecha": "2026-11-10",
+      "media": -0.00126,
+      "ganadores": 0.35294,
+      "n": 17
     }
   },
   "noticias": {
