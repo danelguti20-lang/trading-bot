@@ -915,6 +915,42 @@
       "media": -0.00403,
       "ganadores": 0.36842,
       "n": 19
+    },
+    "BA-ruptura-30": {
+      "fecha": "2026-11-10",
+      "media": -0.00148,
+      "ganadores": 0.44444,
+      "n": 9
+    },
+    "AMAT-mañana-0.3": {
+      "fecha": "2026-11-10",
+      "media": -0.00767,
+      "ganadores": 0.16667,
+      "n": 6
+    },
+    "XLE-rebote-10": {
+      "fecha": "2026-11-10",
+      "media": -0.00547,
+      "ganadores": 0.29412,
+      "n": 17
+    },
+    "XOM-rebote-10": {
+      "fecha": "2026-11-10",
+      "media": -0.00483,
+      "ganadores": 0.25,
+      "n": 16
+    },
+    "LMT-rebote-10": {
+      "fecha": "2026-11-10",
+      "media": -0.00468,
+      "ganadores": 0.35714,
+      "n": 14
+    },
+    "HIMZ-rebote-10": {
+      "fecha": "2026-11-10",
+      "media": 0.0,
+      "ganadores": 0.0,
+      "n": 0
     }
   },
   "noticias": {
