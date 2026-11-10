@@ -405,6 +405,48 @@
       "media": -0.00324,
       "ganadores": 0.14286,
       "n": 14
+    },
+    "NVD-ruptura-30": {
+      "fecha": "2026-11-10",
+      "media": 0.01496,
+      "ganadores": 0.81818,
+      "n": 11
+    },
+    "GDX-rebote-10": {
+      "fecha": "2026-11-10",
+      "media": -0.00234,
+      "ganadores": 0.35714,
+      "n": 14
+    },
+    "EFA-rebote-10": {
+      "fecha": "2026-11-10",
+      "media": -0.00376,
+      "ganadores": 0.0625,
+      "n": 16
+    },
+    "INTC-rebote-10": {
+      "fecha": "2026-11-10",
+      "media": -0.00369,
+      "ganadores": 0.44444,
+      "n": 18
+    },
+    "EEM-rebote-10": {
+      "fecha": "2026-11-10",
+      "media": -0.00328,
+      "ganadores": 0.23529,
+      "n": 17
+    },
+    "DELL-rebote-10": {
+      "fecha": "2026-11-10",
+      "media": -0.01149,
+      "ganadores": 0.38889,
+      "n": 18
+    },
+    "TQQQ-rebote-10": {
+      "fecha": "2026-11-10",
+      "media": -0.01249,
+      "ganadores": 0.25,
+      "n": 16
     }
   },
   "noticias": {

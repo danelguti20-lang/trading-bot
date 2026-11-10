@@ -1,9 +1,23 @@
 {
-  "efectivo": 50000.0,
-  "abiertos": [],
+  "efectivo": 42347.705350000004,
+  "abiertos": [
+    {
+      "simbolo": "NVD",
+      "entrada": 6.19,
+      "stop": 6.0,
+      "objetivo": 6.57,
+      "riesgo": 0.1900000000000004,
+      "sim_R": 0.147,
+      "hist_R": 0.336,
+      "acciones": 1235,
+      "orden": "791d6e1b-7a2e-4211-9d43-6d6fab46fc4d",
+      "dia": "2026-11-10",
+      "hora": "10:51"
+    }
+  ],
   "cerrados": [],
   "hoy": "2026-11-10",
-  "trades_hoy": 0,
+  "trades_hoy": 1,
   "resultado_hoy": 0.0,
   "vistos_hoy": {
     "2026-11-10": [
@@ -17,7 +31,8 @@
       "AMZN",
       "C",
       "EFA",
-      "LLY"
+      "LLY",
+      "NVD"
     ]
   }
 }
