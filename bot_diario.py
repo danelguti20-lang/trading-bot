@@ -413,3 +413,10 @@ def main(prueba=False):
 
 if __name__ == "__main__":
     main(prueba="--prueba" in sys.argv)
+    # el ciclo viejo de la nube (anterior a la colonia activa) no la lanza: la lanzo yo
+    if os.environ.get("ACTIVA_EN_CICLO") != "1" and "--familia" not in sys.argv:
+        try:
+            import bot_activo
+            bot_activo.main(prueba="--prueba" in sys.argv)
+        except Exception as e:
+            print("fallo en la colonia activa:", e)

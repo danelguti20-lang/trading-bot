@@ -64,7 +64,7 @@ def libro(sobrescribir=None):
     """Acciones que quieren tener, por símbolo, los bots de tendencia + diarios.
     sobrescribir = {"colonia.json": estado_en_memoria} para usar el estado que aún no se ha guardado."""
     total = {}
-    for f in ("colonia.json", "colonia_diaria.json"):
+    for f in ("colonia.json", "colonia_diaria.json", "colonia_activa.json"):
         e = (sobrescribir or {}).get(f) or _leer(f) or {}
         for b in e.get("bots", []):
             if b["estado"] != "muerto" and b.get("activo") and b["acciones"] > 0:

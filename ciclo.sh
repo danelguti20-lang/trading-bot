@@ -5,6 +5,7 @@
 # GitHub corta a las 6 h: antes de eso se relanza solo en una ejecución nueva.
 # El horario (cron) de bots.yml es solo de reserva por si la cadena se rompe.
 set -u
+export ACTIVA_EN_CICLO=1  # este ciclo ya lanza bot_activo.py
 MAX_SEG=$((340 * 60))
 INICIO=$(date +%s)
 TENDENCIA=$((21 * 60 + 35))
@@ -14,7 +15,7 @@ min_utc() { echo $((10#$(date -u +%H) * 60 + 10#$(date -u +%M))); }
 guardar() {
   git config user.name "bot-trading"
   git config user.email "bot-trading@users.noreply.github.com"
-  for f in colonia.json colonia_diaria.json colonia_skill.json colonia_cripto.json historial.csv registro.log panel.html tendencia_hecha.txt; do
+  for f in colonia.json colonia_diaria.json colonia_skill.json colonia_cripto.json colonia_activa.json historial.csv registro.log panel.html tendencia_hecha.txt; do
     [ -f "$f" ] && git add "$f"
   done
   git diff --cached --quiet && return
@@ -32,6 +33,7 @@ while true; do
   python bot_cripto.py || echo "fallo en la colonia cripto"
   if [ "$(date -u +%u)" -le 5 ]; then
     python bot_diario.py || echo "fallo en la colonia diaria"
+    python bot_activo.py || echo "fallo en la colonia activa"
     python bot_skill.py || echo "fallo en la colonia skill"
     hoy=$(date -u +%F)
     if [ "$(min_utc)" -ge "$TENDENCIA" ] && [ "$(cat tendencia_hecha.txt 2>/dev/null)" != "$hoy" ]; then
