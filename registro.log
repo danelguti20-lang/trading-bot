@@ -360,3 +360,10 @@
 2026-11-10 18:49 | [DIARIO] 🕰️ Bot D2 SOXS: stop 57.81 objetivo 59.58 | con comisión: simulación +0.02R, historia -0.30R (37 casos) -> ❌ no
 2026-11-10 18:49 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 163 valores: señal en 19, 1 con su regla ganando las últimas sesiones (ORCL +0.21%/día)
 2026-11-10 18:49 | [DIARIO] 🕰️ Bot D3 ORCL: stop 114.74 objetivo 118.22 | con comisión: simulación -0.31R, historia -0.28R (28 casos) -> ❌ no
+2026-11-10 19:03 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 2, 0 con su regla ganando en 30 días
+2026-11-10 19:03 | [CRIPTO] 🔎 Bot C3 (rebote 10) investiga 33 monedas: señal en 5, 0 con su regla ganando en 30 días
+2026-11-10 19:05 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 164 valores: señal en 30, 4 con su regla ganando las últimas sesiones (SPDN +0.21%/día, RWM +0.21%/día, TXN +0.08%/día, XLU +0.03%/día)
+2026-11-10 19:05 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 10 full session(s) of SPDN before 2026-11-10 in the data; the time machine needs at least 20
+2026-11-10 19:05 | [DIARIO] 🕰️ Bot D1 RWM: stop 14.32 objetivo 14.44 | con comisión: simulación -0.72R, historia -0.44R (30 casos) -> ❌ no
+2026-11-10 19:05 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 164 valores: señal en 47, 0 con su regla ganando las últimas sesiones
+2026-11-10 19:05 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 164 valores: señal en 10, 0 con su regla ganando las últimas sesiones

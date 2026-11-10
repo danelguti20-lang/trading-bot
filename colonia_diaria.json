@@ -903,6 +903,18 @@
       "media": -0.00217,
       "ganadores": 0.36842,
       "n": 19
+    },
+    "INTU-rebote-10": {
+      "fecha": "2026-11-10",
+      "media": -0.0038,
+      "ganadores": 0.4,
+      "n": 15
+    },
+    "RIVN-rebote-10": {
+      "fecha": "2026-11-10",
+      "media": -0.00403,
+      "ganadores": 0.36842,
+      "n": 19
     }
   },
   "noticias": {
