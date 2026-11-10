@@ -1,8 +1,8 @@
 <!doctype html><html lang="es"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="refresh" content="300">
+<meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="refresh" content="60">
 <title>Mis bots</title><style>
-:root{--bg:#f6f5f2;--card:#fff;--tx:#1d1d1b;--mut:#6b6a66;--ln:#e4e2dc;--pos:#1a7f4b;--neg:#c0392b;--amb:#c77700;--t:#2f6fdf;--d:#8e44ad;--c:#b7791f}
-@media (prefers-color-scheme:dark){:root{--bg:#151514;--card:#1f1f1d;--tx:#eceae4;--mut:#9a988f;--ln:#33322f;--pos:#4cc38a;--neg:#ff6b5b;--amb:#f0a63a;--t:#6c9cff;--d:#c58af0;--c:#e5b84b}}
+:root{--bg:#f6f5f2;--card:#fff;--tx:#1d1d1b;--mut:#6b6a66;--ln:#e4e2dc;--pos:#1a7f4b;--neg:#c0392b;--amb:#c77700;--t:#2f6fdf;--d:#8e44ad;--a:#d35400;--c:#b7791f}
+@media (prefers-color-scheme:dark){:root{--bg:#151514;--card:#1f1f1d;--tx:#eceae4;--mut:#9a988f;--ln:#33322f;--pos:#4cc38a;--neg:#ff6b5b;--amb:#f0a63a;--t:#6c9cff;--d:#c58af0;--a:#ff8a50;--c:#e5b84b}}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.45 system-ui,-apple-system,Segoe UI,sans-serif}
 main{max-width:900px;margin:auto;padding:20px 16px 60px}h1{margin:0 0 4px;font-size:26px}h2{margin:0;font-size:20px}
 .nota,.suave{color:var(--mut)}.nota{margin:4px 0 14px;font-size:14px}
@@ -20,16 +20,16 @@ main{max-width:900px;margin:auto;padding:20px 16px 60px}h1{margin:0 0 4px;font-s
 .barra{height:5px;background:var(--ln);border-radius:4px;margin-top:8px;position:relative}.barra i{display:block;height:100%;border-radius:4px;background:linear-gradient(90deg,var(--neg),var(--amb) 25%,var(--pos) 50%,var(--pos))}
 .barra:after{content:"";position:absolute;left:50%;top:-3px;height:11px;border-left:1px dashed var(--mut)}
 .leyenda{font-size:12px;color:var(--mut);display:flex;justify-content:space-between;margin-top:2px}
-.graf{width:100%;height:auto}.graf .linea{fill:none;stroke-width:2.5}.graf .tendencia{stroke:var(--t);fill:var(--t)}.graf .diaria{stroke:var(--d);fill:var(--d)}.graf .cripto{stroke:var(--c);fill:var(--c)}
-.graf polyline.tendencia,.graf polyline.diaria,.graf polyline.cripto{fill:none}.graf .base{stroke:var(--mut);stroke-dasharray:4 4}.graf .eje,.graf .et{font-size:12px;fill:var(--mut)}
-.graf text.tendencia{fill:var(--t)}.graf text.diaria{fill:var(--d)}.graf text.cripto{fill:var(--c)}
+.graf{width:100%;height:auto}.graf .linea{fill:none;stroke-width:2.5}.graf .tendencia{stroke:var(--t);fill:var(--t)}.graf .diaria{stroke:var(--d);fill:var(--d)}.graf .cripto{stroke:var(--c);fill:var(--c)}.graf .activa{stroke:var(--a);fill:var(--a)}
+.graf polyline.tendencia,.graf polyline.diaria,.graf polyline.cripto,.graf polyline.activa{fill:none}.graf .base{stroke:var(--mut);stroke-dasharray:4 4}.graf .eje,.graf .et{font-size:12px;fill:var(--mut)}
+.graf text.tendencia{fill:var(--t)}.graf text.diaria{fill:var(--d)}.graf text.cripto{fill:var(--c)}.graf text.activa{fill:var(--a)}
 pre.ops{color:var(--tx);font-size:13px}pre{white-space:pre-wrap;font-size:12px;color:var(--mut);max-height:320px;overflow:auto;margin:0}
 @media (max-width:600px){.kpis{grid-template-columns:repeat(2,1fr)}}
 </style></head><body><main>
 <h1>🤖 Mis colonias de bots</h1>
-<p class="nota">Dinero falso (Alpaca Paper) · cada colonia representa 100 € reales · actualizado 10/11/2026 20:04 · la página se recarga sola cada 5 min</p>
+<p class="nota">Dinero falso (Alpaca Paper) · cada colonia representa 100 € reales · actualizado 10/11/2026 20:20 · la página se recarga sola cada 5 min</p>
 <div class="caja"><h2>Evolución (con 100 € reales)</h2>
-<p class="nota"><span style="color:var(--t)">━ Tendencia</span> &nbsp; <span style="color:var(--d)">━ Diaria</span> &nbsp; <span style="color:var(--c)">━ Cripto</span> &nbsp; - - 100 € de partida</p><svg viewBox="0 0 680 220" class="graf" role="img" aria-label="Evolución de las colonias"><line x1="36" x2="604" y1="103.0" y2="103.0" class="base"/><text x="32" y="107.0" class="eje" text-anchor="end">100 €</text><polyline points="36.0,103.0 320.0,109.0 604.0,109.0" class="linea tendencia"/><text x="610.0" y="113.0" class="et tendencia">99.91 €</text><polyline points="36.0,103.0 320.0,103.0 604.0,117.0" class="linea diaria"/><text x="610.0" y="121.0" class="et diaria">99.79 €</text><polyline points="320.0,103.0 604.0,115.7" class="linea cripto"/><text x="610.0" y="119.7" class="et cripto">99.81 €</text><text x="36" y="212" class="eje">2026-11-08</text><text x="604" y="212" class="eje" text-anchor="end">2026-11-10</text></svg></div>
+<p class="nota"><span style="color:var(--t)">━ Tendencia</span> &nbsp; <span style="color:var(--d)">━ Diaria</span> &nbsp; <span style="color:var(--a)">━ Activa</span> &nbsp; <span style="color:var(--c)">━ Cripto</span> &nbsp; - - 100 € de partida</p><svg viewBox="0 0 680 220" class="graf" role="img" aria-label="Evolución de las colonias"><line x1="36" x2="604" y1="102.1" y2="102.1" class="base"/><text x="32" y="106.1" class="eje" text-anchor="end">100 €</text><polyline points="36.0,102.1 320.0,108.0 604.0,108.0" class="linea tendencia"/><text x="610.0" y="112.0" class="et tendencia">99.91 €</text><polyline points="36.0,102.1 320.0,102.1 604.0,117.9" class="linea diaria"/><text x="610.0" y="121.9" class="et diaria">99.76 €</text><polyline points="320.0,102.1 604.0,114.6" class="linea cripto"/><text x="610.0" y="118.6" class="et cripto">99.81 €</text><polyline points="604.0,104.7" class="linea activa"/><text x="610.0" y="108.7" class="et activa">99.96 €</text><text x="36" y="212" class="eje">2026-11-08</text><text x="604" y="212" class="eje" text-anchor="end">2026-11-10</text></svg></div>
 
   <section class="colonia">
     <h2>🐢 Colonia de tendencia</h2><p class="nota">Autónomos: cada bot investiga ~140 ETF y acciones y elige dónde estar mientras el precio siga sobre su media. Decide cada día tras el cierre.</p>
@@ -89,7 +89,7 @@ pre.ops{color:var(--tx);font-size:13px}pre{white-space:pre-wrap;font-size:12px;c
   <section class="colonia">
     <h2>⚡ Colonia diaria</h2><p class="nota">Autónomos: cada 15 min investigan todo el universo (+ lo que más se mueve hoy), eligen dónde operar y cierran todo antes del cierre.</p>
     <div class="kpis">
-      <div><small>Con 100 € reales</small><span class="grande neg">99.79 €</span><span class="neg">-0.21 € (-0.2%)</span></div>
+      <div><small>Con 100 € reales</small><span class="grande neg">99.76 €</span><span class="neg">-0.24 € (-0.2%)</span></div>
       <div><small>Vivos</small><span class="grande">3</span></div>
       <div><small>Muertos</small><span class="grande">0</span></div>
       <div><small>Reserva</small><span class="grande">0.00 €</span></div>
@@ -104,10 +104,10 @@ pre.ops{color:var(--tx);font-size:13px}pre{white-space:pre-wrap;font-size:12px;c
         <div class="dato"><small>Tiene ahora</small><span class="grande">33.26 €</span></div>
         <div class="dato"><small>Ganancia / pérdida</small><span class="grande neg">-0.01 €</span><span class="neg">-0.0%</span></div>
         <div class="dato"><small>Empezó con</small><span>33.27 €</span></div>
-        <div class="dato"><small>Qué está haciendo</small><span>Invertido: 13.83 € en TXN</span></div>
+        <div class="dato"><small>Qué está haciendo</small><span>Invertido: 13.84 € en TXN</span></div>
       </div>
-      <div class="saber">👶 Le faltan <b>6.67 €</b> para tener un hijo · 💀 Puede perder <b>6.64 €</b> antes de morir</div>
-      <div class="suave peq">16,660 $ ficticios · nacido 2026-11-09 · fundador</div>
+      <div class="saber">👶 Le faltan <b>6.66 €</b> para tener un hijo · 💀 Puede perder <b>6.65 €</b> antes de morir</div>
+      <div class="suave peq">16,664 $ ficticios · nacido 2026-11-09 · fundador</div>
       <div class="barra"><i style="width:50%"></i></div>
     </div>
     <div class="bot vivo" style="margin-left:0px">
@@ -116,13 +116,13 @@ pre.ops{color:var(--tx);font-size:13px}pre{white-space:pre-wrap;font-size:12px;c
         <span class="tag suave">mañana 0.3</span>
         <span class="tag dentro">DENTRO</span></div>
       <div class="fila">
-        <div class="dato"><small>Tiene ahora</small><span class="grande">33.26 €</span></div>
-        <div class="dato"><small>Ganancia / pérdida</small><span class="grande neg">-0.01 €</span><span class="neg">-0.0%</span></div>
+        <div class="dato"><small>Tiene ahora</small><span class="grande">33.22 €</span></div>
+        <div class="dato"><small>Ganancia / pérdida</small><span class="grande neg">-0.05 €</span><span class="neg">-0.1%</span></div>
         <div class="dato"><small>Empezó con</small><span>33.27 €</span></div>
-        <div class="dato"><small>Qué está haciendo</small><span>Invertido: 13.86 € en AMD</span></div>
+        <div class="dato"><small>Qué está haciendo</small><span>Invertido: 13.83 € en AMD</span></div>
       </div>
-      <div class="saber">👶 Le faltan <b>6.67 €</b> para tener un hijo · 💀 Puede perder <b>6.64 €</b> antes de morir</div>
-      <div class="suave peq">16,660 $ ficticios · nacido 2026-11-09 · fundador</div>
+      <div class="saber">👶 Le faltan <b>6.70 €</b> para tener un hijo · 💀 Puede perder <b>6.61 €</b> antes de morir</div>
+      <div class="suave peq">16,643 $ ficticios · nacido 2026-11-09 · fundador</div>
       <div class="barra"><i style="width:50%"></i></div>
     </div>
     <div class="bot vivo" style="margin-left:0px">
@@ -138,6 +138,61 @@ pre.ops{color:var(--tx);font-size:13px}pre{white-space:pre-wrap;font-size:12px;c
       </div>
       <div class="saber">👶 Le faltan <b>6.65 €</b> para tener un hijo · 💀 Puede perder <b>6.65 €</b> antes de morir</div>
       <div class="suave peq">16,667 $ ficticios · nacido 2026-11-09 · fundador</div>
+      <div class="barra"><i style="width:50%"></i></div>
+    </div>
+  </section>
+  <section class="colonia">
+    <h2>🔥 Colonia activa</h2><p class="nota">Como la diaria pero sin filtros de historial: si salta su señal y no hay malas noticias, compra. Varias veces al día. Experimento para operar mucho.</p>
+    <div class="kpis">
+      <div><small>Con 100 € reales</small><span class="grande neg">99.96 €</span><span class="neg">-0.04 € (-0.0%)</span></div>
+      <div><small>Vivos</small><span class="grande">3</span></div>
+      <div><small>Muertos</small><span class="grande">0</span></div>
+      <div><small>Reserva</small><span class="grande">0.00 €</span></div>
+    </div>
+    
+    <div class="bot vivo" style="margin-left:0px">
+      <div class="cab"><span class="ico">🟢</span><b>Bot A1</b>
+        <span class="tag">XLE · XLE</span>
+        <span class="tag suave">ruptura 30</span>
+        <span class="tag dentro">DENTRO</span></div>
+      <div class="fila">
+        <div class="dato"><small>Tiene ahora</small><span class="grande">33.32 €</span></div>
+        <div class="dato"><small>Ganancia / pérdida</small><span class="grande neg">-0.01 €</span><span class="neg">-0.0%</span></div>
+        <div class="dato"><small>Empezó con</small><span>33.33 €</span></div>
+        <div class="dato"><small>Qué está haciendo</small><span>Invertido: 13.84 € en XLE</span></div>
+      </div>
+      <div class="saber">👶 Le faltan <b>6.68 €</b> para tener un hijo · 💀 Puede perder <b>6.65 €</b> antes de morir</div>
+      <div class="suave peq">16,660 $ ficticios · nacido 2026-11-10 · fundador</div>
+      <div class="barra"><i style="width:50%"></i></div>
+    </div>
+    <div class="bot vivo" style="margin-left:0px">
+      <div class="cab"><span class="ico">🟢</span><b>Bot A2</b>
+        <span class="tag">AMD · AMD</span>
+        <span class="tag suave">mañana 0.2</span>
+        <span class="tag dentro">DENTRO</span></div>
+      <div class="fila">
+        <div class="dato"><small>Tiene ahora</small><span class="grande">33.32 €</span></div>
+        <div class="dato"><small>Ganancia / pérdida</small><span class="grande neg">-0.01 €</span><span class="neg">-0.0%</span></div>
+        <div class="dato"><small>Empezó con</small><span>33.33 €</span></div>
+        <div class="dato"><small>Qué está haciendo</small><span>Invertido: 13.87 € en AMD</span></div>
+      </div>
+      <div class="saber">👶 Le faltan <b>6.68 €</b> para tener un hijo · 💀 Puede perder <b>6.65 €</b> antes de morir</div>
+      <div class="suave peq">16,660 $ ficticios · nacido 2026-11-10 · fundador</div>
+      <div class="barra"><i style="width:50%"></i></div>
+    </div>
+    <div class="bot vivo" style="margin-left:0px">
+      <div class="cab"><span class="ico">🟢</span><b>Bot A3</b>
+        <span class="tag">SOXS · SOXS</span>
+        <span class="tag suave">rebote 20</span>
+        <span class="tag dentro">DENTRO</span></div>
+      <div class="fila">
+        <div class="dato"><small>Tiene ahora</small><span class="grande">33.32 €</span></div>
+        <div class="dato"><small>Ganancia / pérdida</small><span class="grande neg">-0.01 €</span><span class="neg">-0.0%</span></div>
+        <div class="dato"><small>Empezó con</small><span>33.33 €</span></div>
+        <div class="dato"><small>Qué está haciendo</small><span>Invertido: 13.80 € en SOXS</span></div>
+      </div>
+      <div class="saber">👶 Le faltan <b>6.68 €</b> para tener un hijo · 💀 Puede perder <b>6.65 €</b> antes de morir</div>
+      <div class="suave peq">16,660 $ ficticios · nacido 2026-11-10 · fundador</div>
       <div class="barra"><i style="width:50%"></i></div>
     </div>
   </section>
@@ -197,12 +252,28 @@ pre.ops{color:var(--tx);font-size:13px}pre{white-space:pre-wrap;font-size:12px;c
     </div>
   </section>
 <p class="nota" style="margin-top:10px">Barra de vida: izquierda = muerte (-20 %), centro = punto de partida, derecha = hijo (+20 %). 🟢 vivo · 🟠 herido · 💀 muerto</p>
-<div class="caja"><h2>💸 Operaciones de verdad</h2><p class="nota">Compras, ventas, stops, objetivos, nacimientos y muertes: lo único que mueve el dinero.</p><pre class="ops">2026-11-10 20:04 | [DIARIO] Orden enviada: buy 23.1591 TXN (id 807962e9-b1b2-4c1e-8cf2-af56337723ea)
+<div class="caja"><h2>💸 Operaciones de verdad</h2><p class="nota">Compras, ventas, stops, objetivos, nacimientos y muertes: lo único que mueve el dinero.</p><pre class="ops">2026-11-10 20:20 | [ACTIVA] Orden enviada: buy 111.1897 XLE (id be224db0-932e-4c23-96c0-ab7e5e3f1e64)
+2026-11-10 20:20 | [ACTIVA] Orden enviada: buy 121.9858 SOXS (id 1c4c95fa-57aa-44e0-943b-12637093c41a)
+2026-11-10 20:20 | [ACTIVA] Orden enviada: buy 13.5399 AMD (id 721b4834-5c0b-4ebe-a96a-72b0a7a5f2b4)
+2026-11-10 20:20 | [ACTIVA] Bot A3 (rebote 20) COMPRA 121.9858 SOXS a 56.57 | vida 16,660$
+2026-11-10 20:19 | [ACTIVA] Bot A2 (mañana 0.2) COMPRA 13.5399 AMD a 512.33 | vida 16,660$
+2026-11-10 20:19 | [ACTIVA] Bot A1 (ruptura 30) COMPRA 111.1897 XLE a 62.23 | vida 16,660$
+2026-11-10 20:04 | [DIARIO] Orden enviada: buy 23.1591 TXN (id 807962e9-b1b2-4c1e-8cf2-af56337723ea)
 2026-11-10 20:04 | [DIARIO] Orden enviada: buy 13.5377 AMD (id 5f4b1a69-9cbb-416e-bde6-797f488727c1)
 2026-11-10 20:04 | [DIARIO] Bot D2 (mañana 0.3) COMPRA 13.5377 AMD a 512.82 | vida 16,660$
 2026-11-10 20:04 | [DIARIO] Bot D1 (ruptura 30) COMPRA 23.1591 TXN a 299.15 | vida 16,660$
 2026-11-10 16:52 | [SKILL] 🛒 COMPRA 1235 NVD | stop 6.0 | objetivo 6.57 (orden 791d6e1b-7a2e-4211-9d43-6d6fab46fc4d)</pre></div>
-<div class="caja"><h2>🔍 Lo que han estudiado (sin operar)</h2><p class="nota">Ideas que los bots miraron y descartaron (❌ no) y avisos. Esto NO mueve el dinero.</p><pre>2026-11-10 20:04 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 164 valores: señal en 6, 0 con su regla ganando las últimas sesiones
+<div class="caja"><h2>🔍 Lo que han estudiado (sin operar)</h2><p class="nota">Ideas que los bots miraron y descartaron (❌ no) y avisos. Esto NO mueve el dinero.</p><pre>2026-11-10 20:19 | [ACTIVA] 📋 Bot A3 SOXS: entra a 56.57, stop 56.00, objetivo 57.71 -&gt; ✅ COMPRA
+2026-11-10 20:19 | [ACTIVA] 🔎 Bot A3 (rebote 20) investiga 164 valores: señal en 9, mira primero: SOXS, KO, PG, XLU
+2026-11-10 20:19 | [ACTIVA] 📋 Bot A2 AMD: entra a 512.33, stop 507.20, objetivo 522.59 -&gt; ✅ COMPRA
+2026-11-10 20:19 | [ACTIVA] 🔎 Bot A2 (mañana 0.2) investiga 164 valores: señal en 62, mira primero: AMD, AMZN, SPCX, AVGO
+2026-11-10 20:19 | [ACTIVA] 📋 Bot A1 XLE: entra a 62.23, stop 61.61, objetivo 63.48 -&gt; ✅ COMPRA
+2026-11-10 20:19 | [ACTIVA] 🔎 Bot A1 (ruptura 30) investiga 164 valores: señal en 29, mira primero: XLE, XLP, V, LLY
+2026-11-10 20:18 | [DIARIO] 🕰️ Bot D3 LOW: stop 229.03 objetivo 235.99 | con comisión: simulación -0.26R, historia -0.30R (29 casos) -&gt; ❌ no
+2026-11-10 20:18 | [DIARIO] 🕰️ Bot D3 SOXS: stop 55.96 objetivo 57.67 | con comisión: simulación -0.22R, historia -0.30R (37 casos) -&gt; ❌ no
+2026-11-10 20:18 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 164 valores: señal en 9, 3 con su regla ganando las últimas sesiones (SOXS +0.08%/día, LOW -0.05%/día, HON -0.16%/día)
+2026-11-10 20:17 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 2, 0 con su regla ganando en 30 días
+2026-11-10 20:04 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 164 valores: señal en 6, 0 con su regla ganando las últimas sesiones
 2026-11-10 20:04 | [DIARIO] 🕰️ Bot D2 AMD: stop 507.69 objetivo 523.08 | con comisión: simulación -0.17R, historia -0.16R (37 casos) -&gt; ✅ COMPRA
 2026-11-10 20:04 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 164 valores: señal en 53, 3 con su regla ganando las últimas sesiones (AMD -0.04%/día, V -0.13%/día, SMH -0.16%/día)
 2026-11-10 20:04 | [DIARIO] 🕰️ Bot D1 TXN: stop 296.15 objetivo 305.15 | con comisión: simulación -0.16R, historia -0.15R (35 casos) -&gt; ✅ COMPRA
@@ -216,15 +287,5 @@ pre.ops{color:var(--tx);font-size:13px}pre{white-space:pre-wrap;font-size:12px;c
 2026-11-10 19:49 | [CRIPTO] 🔎 Bot C3 (rebote 10) investiga 33 monedas: señal en 5, 0 con su regla ganando en 30 días
 2026-11-10 19:49 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 2, 0 con su regla ganando en 30 días
 2026-11-10 19:35 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 164 valores: señal en 3, 0 con su regla ganando las últimas sesiones
-2026-11-10 19:35 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 164 valores: señal en 54, 0 con su regla ganando las últimas sesiones
-2026-11-10 19:35 | [DIARIO] 🕰️ Bot D1 TXN: stop 295.19 objetivo 304.16 | con comisión: simulación -0.16R, historia -0.15R (35 casos) -&gt; ❌ no
-2026-11-10 19:35 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 10 full session(s) of SPDN before 2026-11-10 in the data; the time machine needs at least 20
-2026-11-10 19:35 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 164 valores: señal en 31, 2 con su regla ganando las últimas sesiones (SPDN +0.21%/día, TXN +0.08%/día)
-2026-11-10 19:33 | [CRIPTO] 🔎 Bot C3 (rebote 10) investiga 33 monedas: señal en 5, 0 con su regla ganando en 30 días
-2026-11-10 19:33 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 2, 0 con su regla ganando en 30 días
-2026-11-10 19:22 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 165 valores: señal en 10, 0 con su regla ganando las últimas sesiones
-2026-11-10 19:22 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 165 valores: señal en 47, 0 con su regla ganando las últimas sesiones
-2026-11-10 19:22 | [DIARIO] 🕰️ Bot D1 TXN: stop 294.81 objetivo 303.75 | con comisión: simulación -0.16R, historia -0.21R (35 casos) -&gt; ❌ no
-2026-11-10 19:22 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 10 full session(s) of SPDN before 2026-11-10 in the data; the time machine needs at least 20
-2026-11-10 19:22 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 165 valores: señal en 29, 2 con su regla ganando las últimas sesiones (SPDN +0.21%/día, TXN +0.08%/día)</pre></div>
+2026-11-10 19:35 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 164 valores: señal en 54, 0 con su regla ganando las últimas sesiones</pre></div>
 </main></body></html>

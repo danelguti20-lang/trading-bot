@@ -398,3 +398,19 @@
 2026-11-10 20:04 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 164 valores: señal en 6, 0 con su regla ganando las últimas sesiones
 2026-11-10 20:04 | [DIARIO] Orden enviada: buy 13.5377 AMD (id 5f4b1a69-9cbb-416e-bde6-797f488727c1)
 2026-11-10 20:04 | [DIARIO] Orden enviada: buy 23.1591 TXN (id 807962e9-b1b2-4c1e-8cf2-af56337723ea)
+2026-11-10 20:17 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 2, 0 con su regla ganando en 30 días
+2026-11-10 20:18 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 164 valores: señal en 9, 3 con su regla ganando las últimas sesiones (SOXS +0.08%/día, LOW -0.05%/día, HON -0.16%/día)
+2026-11-10 20:18 | [DIARIO] 🕰️ Bot D3 SOXS: stop 55.96 objetivo 57.67 | con comisión: simulación -0.22R, historia -0.30R (37 casos) -> ❌ no
+2026-11-10 20:18 | [DIARIO] 🕰️ Bot D3 LOW: stop 229.03 objetivo 235.99 | con comisión: simulación -0.26R, historia -0.30R (29 casos) -> ❌ no
+2026-11-10 20:19 | [ACTIVA] 🔎 Bot A1 (ruptura 30) investiga 164 valores: señal en 29, mira primero: XLE, XLP, V, LLY
+2026-11-10 20:19 | [ACTIVA] 📋 Bot A1 XLE: entra a 62.23, stop 61.61, objetivo 63.48 -> ✅ COMPRA
+2026-11-10 20:19 | [ACTIVA] Bot A1 (ruptura 30) COMPRA 111.1897 XLE a 62.23 | vida 16,660$
+2026-11-10 20:19 | [ACTIVA] 🔎 Bot A2 (mañana 0.2) investiga 164 valores: señal en 62, mira primero: AMD, AMZN, SPCX, AVGO
+2026-11-10 20:19 | [ACTIVA] 📋 Bot A2 AMD: entra a 512.33, stop 507.20, objetivo 522.59 -> ✅ COMPRA
+2026-11-10 20:19 | [ACTIVA] Bot A2 (mañana 0.2) COMPRA 13.5399 AMD a 512.33 | vida 16,660$
+2026-11-10 20:19 | [ACTIVA] 🔎 Bot A3 (rebote 20) investiga 164 valores: señal en 9, mira primero: SOXS, KO, PG, XLU
+2026-11-10 20:19 | [ACTIVA] 📋 Bot A3 SOXS: entra a 56.57, stop 56.00, objetivo 57.71 -> ✅ COMPRA
+2026-11-10 20:20 | [ACTIVA] Bot A3 (rebote 20) COMPRA 121.9858 SOXS a 56.57 | vida 16,660$
+2026-11-10 20:20 | [ACTIVA] Orden enviada: buy 13.5399 AMD (id 721b4834-5c0b-4ebe-a96a-72b0a7a5f2b4)
+2026-11-10 20:20 | [ACTIVA] Orden enviada: buy 121.9858 SOXS (id 1c4c95fa-57aa-44e0-943b-12637093c41a)
+2026-11-10 20:20 | [ACTIVA] Orden enviada: buy 111.1897 XLE (id be224db0-932e-4c23-96c0-ab7e5e3f1e64)
