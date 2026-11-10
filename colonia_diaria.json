@@ -68,8 +68,8 @@
     }
   ],
   "precios": {
-    "TXN": 299.79,
-    "AMD": 516.125
+    "TXN": 299.87,
+    "AMD": 516.46
   },
   "eurusd": 1.1214,
   "eurusd_inicio": 1.1193,
@@ -1069,6 +1069,48 @@
       "media": -0.00621,
       "ganadores": 0.38889,
       "n": 18
+    },
+    "XLF-rebote-10": {
+      "fecha": "2026-11-10",
+      "media": -0.00344,
+      "ganadores": 0.05882,
+      "n": 17
+    },
+    "COST-rebote-10": {
+      "fecha": "2026-11-10",
+      "media": -0.0027,
+      "ganadores": 0.35714,
+      "n": 14
+    },
+    "BAC-rebote-10": {
+      "fecha": "2026-11-10",
+      "media": -0.00552,
+      "ganadores": 0.10526,
+      "n": 19
+    },
+    "SLB-rebote-10": {
+      "fecha": "2026-11-10",
+      "media": -0.00324,
+      "ganadores": 0.35294,
+      "n": 17
+    },
+    "GM-rebote-10": {
+      "fecha": "2026-11-10",
+      "media": -0.00444,
+      "ganadores": 0.29412,
+      "n": 17
+    },
+    "UPS-rebote-10": {
+      "fecha": "2026-11-10",
+      "media": -0.00341,
+      "ganadores": 0.33333,
+      "n": 15
+    },
+    "SCHW-rebote-10": {
+      "fecha": "2026-11-10",
+      "media": -0.00324,
+      "ganadores": 0.31579,
+      "n": 19
     }
   },
   "noticias": {
