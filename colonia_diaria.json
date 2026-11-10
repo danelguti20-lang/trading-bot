@@ -879,6 +879,30 @@
       "media": -0.00038,
       "ganadores": 0.4,
       "n": 10
+    },
+    "COST-ruptura-30": {
+      "fecha": "2026-11-10",
+      "media": -0.00059,
+      "ganadores": 0.28571,
+      "n": 14
+    },
+    "XLU-ruptura-30": {
+      "fecha": "2026-11-10",
+      "media": 0.00033,
+      "ganadores": 0.44444,
+      "n": 9
+    },
+    "LRCX-mañana-0.3": {
+      "fecha": "2026-11-10",
+      "media": -0.00959,
+      "ganadores": 0.0,
+      "n": 8
+    },
+    "IREN-rebote-10": {
+      "fecha": "2026-11-10",
+      "media": -0.00217,
+      "ganadores": 0.36842,
+      "n": 19
     }
   },
   "noticias": {
