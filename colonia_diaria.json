@@ -5,7 +5,7 @@
     {
       "id": 1,
       "padre": null,
-      "activo": "QQQM",
+      "activo": null,
       "estrategia": "ruptura",
       "p": 30,
       "efectivo": 16666.67,
@@ -15,14 +15,14 @@
       "estado": "vivo",
       "nacido": "2026-11-09",
       "hijos": 0,
-      "hoy": "2026-11-09",
+      "hoy": "2026-11-10",
       "operado_hoy": false,
       "descansa": false
     },
     {
       "id": 2,
       "padre": null,
-      "activo": "VOO",
+      "activo": null,
       "estrategia": "mañana",
       "p": 0.3,
       "efectivo": 16666.67,
@@ -32,14 +32,14 @@
       "estado": "vivo",
       "nacido": "2026-11-09",
       "hijos": 0,
-      "hoy": "2026-11-09",
+      "hoy": "2026-11-10",
       "operado_hoy": false,
       "descansa": false
     },
     {
       "id": 3,
       "padre": null,
-      "activo": "IAU",
+      "activo": null,
       "estrategia": "rebote",
       "p": 10,
       "efectivo": 16666.67,
@@ -49,38 +49,15 @@
       "estado": "vivo",
       "nacido": "2026-11-09",
       "hijos": 0,
-      "hoy": "2026-11-09",
+      "hoy": "2026-11-10",
       "operado_hoy": false,
       "descansa": false
     }
   ],
-  "precios": {
-    "QQQM": 280.15,
-    "VOO": 693.0,
-    "IAU": 77.78
-  },
+  "precios": {},
   "eurusd": 1.1193,
   "eurusd_inicio": 1.1193,
-  "memoria": {
-    "QQQM-ruptura-30": {
-      "fecha": "2026-11-09",
-      "media": -0.00284,
-      "ganadores": 0.23077,
-      "n": 13
-    },
-    "VOO-mañana-0.3": {
-      "fecha": "2026-11-09",
-      "media": -0.00339,
-      "ganadores": 0.11111,
-      "n": 9
-    },
-    "IAU-rebote-10": {
-      "fecha": "2026-11-09",
-      "media": -0.00297,
-      "ganadores": 0.21053,
-      "n": 19
-    }
-  },
+  "memoria": {},
   "noticias": {
     "QQQ": {
       "hora": "2026-11-09T19:30:02.655777+00:00",
