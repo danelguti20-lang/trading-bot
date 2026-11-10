@@ -5,11 +5,11 @@
     {
       "id": 1,
       "padre": null,
-      "activo": "TXN",
+      "activo": null,
       "estrategia": "ruptura",
       "p": 30,
-      "efectivo": 9731.70048417565,
-      "acciones": 23.159089,
+      "efectivo": 16676.296885910968,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -18,19 +18,20 @@
       "hoy": "2026-11-10",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 299.15,
-      "stop": 296.15,
-      "meta": 305.15,
-      "contra_cerebro": false
+      "entrada": null,
+      "stop": null,
+      "meta": null,
+      "contra_cerebro": false,
+      "perdidas": 0
     },
     {
       "id": 2,
       "padre": null,
-      "activo": "AMD",
+      "activo": null,
       "estrategia": "mañana",
       "p": 0.3,
-      "efectivo": 9717.312476031138,
-      "acciones": 13.537723,
+      "efectivo": 16665.90362950097,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -39,10 +40,11 @@
       "hoy": "2026-11-10",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 512.82,
-      "stop": 507.69,
-      "meta": 523.08,
-      "contra_cerebro": false
+      "entrada": null,
+      "stop": null,
+      "meta": null,
+      "contra_cerebro": false,
+      "perdidas": 1
     },
     {
       "id": 3,
@@ -67,10 +69,7 @@
       "perdidas": 0
     }
   ],
-  "precios": {
-    "TXN": 299.87,
-    "AMD": 516.46
-  },
+  "precios": {},
   "eurusd": 1.1214,
   "eurusd_inicio": 1.1193,
   "memoria": {
@@ -1153,9 +1152,9 @@
   },
   "cerebro": {
     "a_favor": {
-      "n": 1,
-      "ganadas": 1,
-      "suma": 0.000365
+      "n": 3,
+      "ganadas": 2,
+      "suma": 0.001639
     }
   }
 }
