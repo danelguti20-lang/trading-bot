@@ -951,6 +951,18 @@
       "media": 0.0,
       "ganadores": 0.0,
       "n": 0
+    },
+    "SPDN-rebote-10": {
+      "fecha": "2026-11-10",
+      "media": -0.00315,
+      "ganadores": 0.11111,
+      "n": 9
+    },
+    "PEPG-rebote-10": {
+      "fecha": "2026-11-10",
+      "media": -0.00584,
+      "ganadores": 0.57895,
+      "n": 19
     }
   },
   "noticias": {
