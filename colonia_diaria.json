@@ -855,6 +855,30 @@
       "media": -0.04956,
       "ganadores": 0.0,
       "n": 1
+    },
+    "V-ruptura-30": {
+      "fecha": "2026-11-10",
+      "media": -0.00079,
+      "ganadores": 0.33333,
+      "n": 9
+    },
+    "LLY-ruptura-30": {
+      "fecha": "2026-11-10",
+      "media": -0.00654,
+      "ganadores": 0.1,
+      "n": 10
+    },
+    "XLF-ruptura-30": {
+      "fecha": "2026-11-10",
+      "media": -0.00068,
+      "ganadores": 0.4,
+      "n": 10
+    },
+    "XLP-mañana-0.3": {
+      "fecha": "2026-11-10",
+      "media": -0.00038,
+      "ganadores": 0.4,
+      "n": 10
     }
   },
   "noticias": {
