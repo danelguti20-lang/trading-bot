@@ -44,6 +44,9 @@ ESTADO = B.DIR / "colonia_diaria.json"
 PARAMS = {"ruptura": [30, 60], "mañana": [0.2, 0.3, 0.5], "rebote": [5, 10, 20]}
 FUNDADORES = [("ruptura", 30), ("mañana", 0.3), ("rebote", 10)]
 MAX_MEMORIA = 12        # valores con señal que estudia a fondo cada bot en cada vuelta (los de más volumen)
+# Listón rebajado 2026-11-10 (el usuario quiere más operaciones): acepta reglas algo negativas.
+MIN_MEMORIA = -0.002          # media diaria de su regla en 20 sesiones > -0,2 %
+MIN_SIM_R, MIN_HIST_R, MIN_CASOS = -0.25, -0.25, 10  # antes +0,05R / 0R / 15
 MAX_PLANES = 2          # cuántos pasa por la Máquina del Tiempo de la skill (es lenta)
 CIERRE_MIN = 15         # minutos antes del cierre en que se vende todo y se revisan vidas
 
@@ -196,7 +199,7 @@ def plan_skill(bot, a, px, velas, ahora, cache):
         return None
     coste = 2 * B.COMISION * px / riesgo
     sim, hist, casos = tm["mc"]["avg_R"] - coste, tm["history"]["avg_R"] - coste, tm["history"]["triggered"]
-    vale = sim > S.MIN_SIM_R and hist > S.MIN_HIST_R and casos >= S.MIN_CASOS
+    vale = sim > MIN_SIM_R and hist > MIN_HIST_R and casos >= MIN_CASOS
     log(f"🕰️ Bot D{bot['id']} {a}: stop {stop:.2f} objetivo {meta:.2f} | con comisión: simulación {sim:+.2f}R, "
         f"historia {hist:+.2f}R ({casos} casos) -> {'✅ COMPRA' if vale else '❌ no'}")
     return {"stop": stop, "meta": meta, "riesgo": riesgo} if vale else None
@@ -231,7 +234,7 @@ def investigar(estado, bot, velas, precios, ahora, cache, ocupados, prohibidos):
     estudiados = []
     for _, s in con_senal[:MAX_MEMORIA]:
         m = memoria_cache(estado, bot, s, velas[s], hoy)
-        if m["n"] >= 3 and m["media"] > 0:
+        if m["n"] >= 3 and m["media"] > MIN_MEMORIA:
             estudiados.append((s in ocupados, -m["media"], s, m))
     estudiados.sort(key=lambda x: (x[0], x[1]))
     if con_senal:

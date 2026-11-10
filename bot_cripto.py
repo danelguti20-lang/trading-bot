@@ -33,6 +33,7 @@ PARAMS = {"tendencia": [24, 48, 96], "ruptura": [12, 24, 48], "rebote": [5, 10, 
 FUNDADORES = [("tendencia", 48), ("ruptura", 24), ("rebote", 10)]
 ESTABLES = {"USDC/USD", "USDT/USD", "USDG/USD", "DAI/USD"}
 DIAS_MEMORIA = 30
+MIN_TOTAL = -0.03  # listón rebajado 2026-11-10: acepta reglas con hasta -3 % en 30 días (antes > 0)
 TOLERANCIA = 0.01  # Alpaca cobra la comisión en la moneda: diferencias < 1 % no se reajustan
 
 
@@ -146,7 +147,7 @@ def investigar(estado, bot, velas, precios, ocupados):
             if mem.get(clave, {}).get("hora") != str(v.index[-1]):
                 mem[clave] = {"hora": str(v.index[-1]), **{k: round(x, 5) for k, x in memoria(v, e, p).items()}}
             m = mem[clave]
-            if m["n"] >= 3 and m["total"] > 0:
+            if m["n"] >= 3 and m["total"] > MIN_TOTAL:
                 buenos.append((s in ocupados, -m["total"], s, m))
     buenos.sort(key=lambda x: (x[0], x[1]))
     if con_senal:
