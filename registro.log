@@ -388,3 +388,13 @@
 2026-11-10 19:50 | [DIARIO] 🕰️ Bot D1 TXN: stop 295.66 objetivo 304.63 | con comisión: simulación -0.17R, historia -0.21R (35 casos) -> ❌ no
 2026-11-10 19:50 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 164 valores: señal en 49, 0 con su regla ganando las últimas sesiones
 2026-11-10 19:50 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 164 valores: señal en 8, 0 con su regla ganando las últimas sesiones
+2026-11-10 20:02 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 2, 0 con su regla ganando en 30 días
+2026-11-10 20:04 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 164 valores: señal en 30, 9 con su regla ganando las últimas sesiones (TXN +0.08%/día, XLP -0.00%/día, XOM -0.02%/día, XLF -0.07%/día)
+2026-11-10 20:04 | [DIARIO] 🕰️ Bot D1 TXN: stop 296.15 objetivo 305.15 | con comisión: simulación -0.16R, historia -0.15R (35 casos) -> ✅ COMPRA
+2026-11-10 20:04 | [DIARIO] Bot D1 (ruptura 30) COMPRA 23.1591 TXN a 299.15 | vida 16,660$
+2026-11-10 20:04 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 164 valores: señal en 53, 3 con su regla ganando las últimas sesiones (AMD -0.04%/día, V -0.13%/día, SMH -0.16%/día)
+2026-11-10 20:04 | [DIARIO] 🕰️ Bot D2 AMD: stop 507.69 objetivo 523.08 | con comisión: simulación -0.17R, historia -0.16R (37 casos) -> ✅ COMPRA
+2026-11-10 20:04 | [DIARIO] Bot D2 (mañana 0.3) COMPRA 13.5377 AMD a 512.82 | vida 16,660$
+2026-11-10 20:04 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 164 valores: señal en 6, 0 con su regla ganando las últimas sesiones
+2026-11-10 20:04 | [DIARIO] Orden enviada: buy 13.5377 AMD (id 5f4b1a69-9cbb-416e-bde6-797f488727c1)
+2026-11-10 20:04 | [DIARIO] Orden enviada: buy 23.1591 TXN (id 807962e9-b1b2-4c1e-8cf2-af56337723ea)
