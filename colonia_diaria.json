@@ -627,6 +627,30 @@
       "media": -0.00359,
       "ganadores": 0.13333,
       "n": 15
+    },
+    "XOM-ruptura-30": {
+      "fecha": "2026-11-10",
+      "media": -0.00017,
+      "ganadores": 0.375,
+      "n": 8
+    },
+    "SPDN-ruptura-30": {
+      "fecha": "2026-11-10",
+      "media": 0.00212,
+      "ganadores": 0.5,
+      "n": 10
+    },
+    "UNH-ruptura-30": {
+      "fecha": "2026-11-10",
+      "media": -0.00351,
+      "ganadores": 0.5,
+      "n": 8
+    },
+    "AMD-rebote-10": {
+      "fecha": "2026-11-10",
+      "media": -0.0105,
+      "ganadores": 0.33333,
+      "n": 15
     }
   },
   "noticias": {
