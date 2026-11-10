@@ -159,7 +159,7 @@ def generar():
         operaciones = "\n".join(html.escape(l) for l in reversed(ops)) or "Todavía ningún bot ha comprado ni vendido nada."
         log = "\n".join(html.escape(l) for l in reversed(resto))
     pagina = f"""<!doctype html><html lang="es"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="refresh" content="300">
+<meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="refresh" content="60">
 <title>Mis bots</title><style>
 :root{{--bg:#f6f5f2;--card:#fff;--tx:#1d1d1b;--mut:#6b6a66;--ln:#e4e2dc;--pos:#1a7f4b;--neg:#c0392b;--amb:#c77700;--t:#2f6fdf;--d:#8e44ad;--c:#b7791f}}
 @media (prefers-color-scheme:dark){{:root{{--bg:#151514;--card:#1f1f1d;--tx:#eceae4;--mut:#9a988f;--ln:#33322f;--pos:#4cc38a;--neg:#ff6b5b;--amb:#f0a63a;--t:#6c9cff;--d:#c58af0;--c:#e5b84b}}}}
