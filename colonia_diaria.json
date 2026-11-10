@@ -47,11 +47,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": "XBI",
+      "activo": null,
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 9751.194978665117,
-      "acciones": 44.849172,
+      "efectivo": 16669.206444922456,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -60,16 +60,16 @@
       "hoy": "2026-11-10",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 154.04,
-      "stop": 152.49,
-      "meta": 157.14,
-      "contra_cerebro": false
+      "entrada": null,
+      "stop": null,
+      "meta": null,
+      "contra_cerebro": false,
+      "perdidas": 0
     }
   ],
   "precios": {
-    "TXN": 299.23,
-    "AMD": 514.22,
-    "XBI": 154.04
+    "TXN": 299.79,
+    "AMD": 516.125
   },
   "eurusd": 1.1214,
   "eurusd_inicio": 1.1193,
@@ -1107,6 +1107,13 @@
       "hora": "2026-11-10T20:07:54.875600+00:00",
       "malos": 0,
       "titulares": []
+    }
+  },
+  "cerebro": {
+    "a_favor": {
+      "n": 1,
+      "ganadas": 1,
+      "suma": 0.000365
     }
   }
 }
