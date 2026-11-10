@@ -47,24 +47,29 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "XBI",
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 16666.67,
-      "acciones": 0.0,
+      "efectivo": 9751.194978665117,
+      "acciones": 44.849172,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-09",
       "hijos": 0,
       "hoy": "2026-11-10",
-      "operado_hoy": false,
-      "descansa": false
+      "operado_hoy": true,
+      "descansa": false,
+      "entrada": 154.04,
+      "stop": 152.49,
+      "meta": 157.14,
+      "contra_cerebro": false
     }
   ],
   "precios": {
-    "TXN": 299.7,
-    "AMD": 515.7
+    "TXN": 299.23,
+    "AMD": 514.22,
+    "XBI": 154.04
   },
   "eurusd": 1.1214,
   "eurusd_inicio": 1.1193,
@@ -1046,6 +1051,24 @@
       "media": -0.0016,
       "ganadores": 0.55556,
       "n": 18
+    },
+    "FXI-rebote-10": {
+      "fecha": "2026-11-10",
+      "media": -0.00224,
+      "ganadores": 0.10526,
+      "n": 19
+    },
+    "IBM-rebote-10": {
+      "fecha": "2026-11-10",
+      "media": -0.00121,
+      "ganadores": 0.58333,
+      "n": 12
+    },
+    "NVDL-rebote-10": {
+      "fecha": "2026-11-10",
+      "media": -0.00621,
+      "ganadores": 0.38889,
+      "n": 18
     }
   },
   "noticias": {
@@ -1079,6 +1102,11 @@
       "titulares": [
         "AMD and Coherent: What the Biggest Gainers Since the Midterms Selloff Say About the AI Trade"
       ]
+    },
+    "XBI": {
+      "hora": "2026-11-10T20:07:54.875600+00:00",
+      "malos": 0,
+      "titulares": []
     }
   }
 }
