@@ -5,11 +5,11 @@
     {
       "id": 1,
       "padre": null,
-      "activo": "DELL",
+      "activo": "PLTR",
       "media": 200,
       "gusto": "historia",
-      "efectivo": 833.3333572263491,
-      "acciones": 45.703485,
+      "efectivo": 804.8706892450336,
+      "acciones": 90.446194,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -46,11 +46,11 @@
     }
   ],
   "precios": {
-    "DELL": 346.09,
-    "SHOP": 152.05,
-    "XOM": 164.77
+    "PLTR": 168.91,
+    "SHOP": 146.59,
+    "XOM": 164.42
   },
-  "eurusd": 1.1193,
+  "eurusd": 1.1214,
   "eurusd_inicio": 1.1193,
   "noticias": {
     "DELL": {
@@ -67,6 +67,11 @@
     },
     "XOM": {
       "hora": "2026-11-09T22:25:20.149436+00:00",
+      "malos": 0,
+      "titulares": []
+    },
+    "PLTR": {
+      "hora": "2026-11-10T21:47:50.599644+00:00",
       "malos": 0,
       "titulares": []
     }
