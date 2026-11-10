@@ -6,20 +6,12 @@
   "trades_hoy": 0,
   "resultado_hoy": 0.0,
   "vistos_hoy": {
-    "2026-11-09": [
-      "BAC",
-      "WFC",
-      "AXP",
-      "FDX",
-      "HON",
-      "COP",
-      "GILD",
-      "JPM",
-      "MCD",
-      "PG",
-      "UBER",
-      "CVX",
-      "GE"
+    "2026-11-10": [
+      "CAT",
+      "COIN",
+      "DKNG",
+      "EWJ",
+      "GOOGL"
     ]
   }
 }
