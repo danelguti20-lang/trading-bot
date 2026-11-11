@@ -70,7 +70,7 @@
     }
   ],
   "precios": {
-    "INTC": 62.785
+    "INTC": 62.9
   },
   "eurusd": 1.1127,
   "eurusd_inicio": 1.1193,
@@ -559,6 +559,42 @@
       "fecha": "2026-11-11",
       "media": -0.00605,
       "ganadores": 0.31579,
+      "n": 19
+    },
+    "AMD-rebote-10": {
+      "fecha": "2026-11-11",
+      "media": -0.01076,
+      "ganadores": 0.3125,
+      "n": 16
+    },
+    "ANET-rebote-10": {
+      "fecha": "2026-11-11",
+      "media": -0.00436,
+      "ganadores": 0.47368,
+      "n": 19
+    },
+    "GS-rebote-10": {
+      "fecha": "2026-11-11",
+      "media": -0.00355,
+      "ganadores": 0.31579,
+      "n": 19
+    },
+    "CRWD-rebote-10": {
+      "fecha": "2026-11-11",
+      "media": 0.00178,
+      "ganadores": 0.6,
+      "n": 15
+    },
+    "RBLX-rebote-10": {
+      "fecha": "2026-11-11",
+      "media": -0.00303,
+      "ganadores": 0.61111,
+      "n": 18
+    },
+    "RIVN-rebote-10": {
+      "fecha": "2026-11-11",
+      "media": -0.00395,
+      "ganadores": 0.36842,
       "n": 19
     }
   },
