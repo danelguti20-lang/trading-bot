@@ -593,3 +593,20 @@
 2026-11-11 16:38 | [SKILL] 🕰️ AMD: entrada 543.72 stop 533.13 objetivo 564.90 | objetivo antes 4%, stop antes 30% | con comisión: simulación -0.12R, historia -0.20R (38 casos) -> ❌ no
 2026-11-11 16:38 | [SKILL] 🕰️ DDOG: entrada 187.50 stop 184.87 objetivo 192.76 | objetivo antes 15%, stop antes 47% | con comisión: simulación -0.16R, historia -0.21R (32 casos) -> ❌ no
 2026-11-11 16:38 | [SKILL] 🕰️ EWJ: entrada 91.63 stop 91.38 objetivo 92.13 | objetivo antes 22%, stop antes 66% | con comisión: simulación -0.89R, historia -0.70R (39 casos) -> ❌ no
+2026-11-11 16:46 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 9, 0 con su regla ganando en 30 días
+2026-11-11 16:46 | [CRIPTO] 🔎 Bot C3 (rebote 10) investiga 33 monedas: señal en 3, 0 con su regla ganando en 30 días
+2026-11-11 16:48 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 168 valores: señal en 35, 7 con su regla ganando las últimas sesiones (CRWV +1.33%/día, INTC +0.21%/día, AMD +0.02%/día, MRVL -0.12%/día)
+2026-11-11 16:48 | [DIARIO] 🕰️ Bot D1 CRWV: stop 58.60 objetivo 60.40 | con comisión: simulación -0.25R, historia -0.45R (31 casos) -> ❌ no
+2026-11-11 16:48 | [DIARIO] 🕰️ Bot D1 INTC: stop 61.98 objetivo 63.87 | con comisión: simulación -0.17R, historia -0.16R (33 casos) -> ✅ COMPRA
+2026-11-11 16:48 | [DIARIO] Bot D1 (ruptura 30) COMPRA 110.4069 INTC a 62.61 | vida 16,669$
+2026-11-11 16:48 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 168 valores: señal en 11, 4 con su regla ganando las últimas sesiones (BEZ +0.23%/día, SOXS +0.09%/día, SBUX +0.01%/día, MCD -0.15%/día)
+2026-11-11 16:48 | [DIARIO] 🕰️ Bot D3 BEZ: stop 5.15 objetivo 5.33 | con comisión: simulación +0.01R, historia -0.03R (27 casos) -> ✅ COMPRA
+2026-11-11 16:48 | [DIARIO] Bot D3 (rebote 10) COMPRA 1184.1074 BEZ a 5.21 | vida 16,671$
+2026-11-11 16:48 | [DIARIO] Orden enviada: buy 1184.1074 BEZ (id d34c7c3c-cb2f-4b00-a14c-e9bee908f4a6)
+2026-11-11 16:48 | [DIARIO] Orden enviada: buy 110.4069 INTC (id 59881d39-b7d2-41e9-961f-d42025c0a847)
+2026-11-11 16:50 | [SKILL] 🔎 Escáner 10:49: 58 roturas, 8 recientes para estudiar.
+2026-11-11 16:50 | [SKILL] 🕰️ CSCO: entrada 101.50 stop 100.65 objetivo 103.20 | objetivo antes 8%, stop antes 38% | con comisión: simulación -0.26R, historia -0.41R (33 casos) -> ❌ no
+2026-11-11 16:50 | [SKILL] 🕰️ QQQ: entrada 689.12 stop 686.96 objetivo 693.44 | objetivo antes 27%, stop antes 60% | con comisión: simulación -0.64R, historia -0.62R (42 casos) -> ❌ no
+2026-11-11 16:50 | [SKILL] 🕰️ SMH: entrada 505.61 stop 501.94 objetivo 512.95 | objetivo antes 19%, stop antes 55% | con comisión: simulación -0.31R, historia -0.49R (38 casos) -> ❌ no
+2026-11-11 16:50 | [SKILL] 🕰️ TQQQ: entrada 60.15 stop 59.61 objetivo 61.23 | objetivo antes 29%, stop antes 61% | con comisión: simulación -0.20R, historia -0.17R (43 casos) -> ❌ no
+2026-11-11 16:50 | [SKILL] 🕰️ XLK: entrada 174.41 stop 173.60 objetivo 176.03 | objetivo antes 21%, stop antes 57% | con comisión: simulación -0.47R, historia -0.48R (43 casos) -> ❌ no

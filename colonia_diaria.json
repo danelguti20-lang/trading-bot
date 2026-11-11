@@ -5,22 +5,22 @@
     {
       "id": 1,
       "padre": null,
-      "activo": null,
+      "activo": "INTC",
       "estrategia": "ruptura",
       "p": 30,
-      "efectivo": 16676.296885910968,
-      "acciones": 0.0,
+      "efectivo": 9756.809491681557,
+      "acciones": 110.406881,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-09",
       "hijos": 0,
       "hoy": "2026-11-11",
-      "operado_hoy": false,
+      "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 62.61,
+      "stop": 61.98,
+      "meta": 63.87,
       "contra_cerebro": false,
       "perdidas": 0
     },
@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "BEZ",
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 16676.968412145736,
-      "acciones": 0.0,
+      "efectivo": 10501.599736819884,
+      "acciones": 1184.107385,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,14 +62,17 @@
       "hoy": "2026-11-11",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 5.21,
+      "stop": 5.15,
+      "meta": 5.33,
       "contra_cerebro": false,
       "perdidas": 0
     }
   ],
-  "precios": {},
+  "precios": {
+    "INTC": 62.61,
+    "BEZ": 5.21
+  },
   "eurusd": 1.1127,
   "eurusd_inicio": 1.1193,
   "memoria": {
@@ -240,6 +243,84 @@
       "media": -0.00029,
       "ganadores": 0.33333,
       "n": 6
+    },
+    "AMD-ruptura-30": {
+      "fecha": "2026-11-11",
+      "media": 0.00022,
+      "ganadores": 0.45455,
+      "n": 11
+    },
+    "SMH-ruptura-30": {
+      "fecha": "2026-11-11",
+      "media": -0.00278,
+      "ganadores": 0.36364,
+      "n": 11
+    },
+    "INTC-ruptura-30": {
+      "fecha": "2026-11-11",
+      "media": 0.00215,
+      "ganadores": 0.42857,
+      "n": 7
+    },
+    "XLK-ruptura-30": {
+      "fecha": "2026-11-11",
+      "media": -0.00175,
+      "ganadores": 0.45455,
+      "n": 11
+    },
+    "IBIT-ruptura-30": {
+      "fecha": "2026-11-11",
+      "media": -0.00334,
+      "ganadores": 0.46154,
+      "n": 13
+    },
+    "GLD-rebote-10": {
+      "fecha": "2026-11-11",
+      "media": -0.00317,
+      "ganadores": 0.16667,
+      "n": 18
+    },
+    "MCD-rebote-10": {
+      "fecha": "2026-11-11",
+      "media": -0.00146,
+      "ganadores": 0.0625,
+      "n": 16
+    },
+    "AXP-rebote-10": {
+      "fecha": "2026-11-11",
+      "media": -0.00326,
+      "ganadores": 0.1875,
+      "n": 16
+    },
+    "SBUX-rebote-10": {
+      "fecha": "2026-11-11",
+      "media": 0.00013,
+      "ganadores": 0.66667,
+      "n": 15
+    },
+    "F-rebote-10": {
+      "fecha": "2026-11-11",
+      "media": -0.00334,
+      "ganadores": 0.27778,
+      "n": 18
+    },
+    "GM-rebote-10": {
+      "fecha": "2026-11-11",
+      "media": -0.00458,
+      "ganadores": 0.27778,
+      "n": 18
+    },
+    "BEZ-rebote-10": {
+      "fecha": "2026-11-11",
+      "media": 0.0023,
+      "ganadores": 0.4375,
+      "n": 16
+    },
+    "SMX-rebote-10": {
+      "fecha": "2026-11-11",
+      "media": 0.03312,
+      "ganadores": 1.0,
+      "n": 2
     }
   },
   "noticias": {
@@ -281,6 +362,16 @@
     },
     "IBM": {
       "hora": "2026-11-11T15:19:34.482069+00:00",
+      "malos": 0,
+      "titulares": []
+    },
+    "INTC": {
+      "hora": "2026-11-11T15:48:34.042117+00:00",
+      "malos": 0,
+      "titulares": []
+    },
+    "BEZ": {
+      "hora": "2026-11-11T15:48:38.647123+00:00",
       "malos": 0,
       "titulares": []
     }
