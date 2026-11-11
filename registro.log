@@ -682,3 +682,12 @@
 2026-11-11 18:22 | [ACTIVA] 📋 Bot A3 SOXS: entra a 42.49, stop 42.06, objetivo 43.35 -> ✅ COMPRA
 2026-11-11 18:22 | [ACTIVA] Bot A3 (rebote 20) COMPRA 161.4494 SOXS a 42.49 | vida 16,622$
 2026-11-11 18:22 | [ACTIVA] Orden enviada: buy 161.4494 SOXS (id b5a6774e-f175-4e52-a576-4491a7518836)
+2026-11-11 18:32 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 18, 0 con su regla ganando en 30 días
+2026-11-11 18:32 | [CRIPTO] 🔎 Bot C2 (ruptura 24) investiga 33 monedas: señal en 2, 0 con su regla ganando en 30 días
+2026-11-11 18:32 | [CRIPTO] 🔎 Bot C3 (rebote 10) investiga 33 monedas: señal en 2, 0 con su regla ganando en 30 días
+2026-11-11 18:34 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 169 valores: señal en 79, 2 con su regla ganando las últimas sesiones (AVGO -0.19%/día, SMH -0.20%/día)
+2026-11-11 18:34 | [DIARIO] 🕰️ Bot D2 AVGO: stop 352.53 objetivo 363.24 | con comisión: simulación -0.34R, historia -0.09R (29 casos) -> ❌ no
+2026-11-11 18:34 | [DIARIO] 🕰️ Bot D2 SMH: stop 510.76 objetivo 526.24 | con comisión: simulación -0.32R, historia -0.31R (38 casos) -> ❌ no
+2026-11-11 18:36 | [ACTIVA] 🛑 Bot A3 STOP: SOXS a 42.04 (entró a 42.49).
+2026-11-11 18:36 | [ACTIVA] Bot A3 (rebote 20) VENDE 161.4494 SOXS a 42.04 | vida 16,542$
+2026-11-11 18:36 | [ACTIVA] Orden enviada: sell 161.4494 SOXS (id e4bd64d9-03d6-4797-b156-503c35ee537a)
