@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "USO",
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 15223.278184059089,
-      "acciones": 0.0,
+      "efectivo": 8879.45373014214,
+      "acciones": 44.364627,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,15 +62,16 @@
       "hoy": "2026-11-11",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 142.85,
+      "stop": 141.42,
+      "meta": 145.71,
       "contra_cerebro": false,
       "perdidas": 3
     }
   ],
   "precios": {
-    "INTC": 63.75
+    "INTC": 63.5,
+    "USO": 142.85
   },
   "eurusd": 1.1127,
   "eurusd_inicio": 1.1193,
@@ -434,6 +435,18 @@
       "media": -0.0045,
       "ganadores": 0.23077,
       "n": 13
+    },
+    "DKNG-rebote-10": {
+      "fecha": "2026-11-11",
+      "media": -0.0023,
+      "ganadores": 0.44444,
+      "n": 18
+    },
+    "USO-rebote-10": {
+      "fecha": "2026-11-11",
+      "media": -0.00158,
+      "ganadores": 0.35294,
+      "n": 17
     }
   },
   "noticias": {
@@ -490,6 +503,11 @@
     },
     "AAOZ": {
       "hora": "2026-11-11T16:18:42.257302+00:00",
+      "malos": 0,
+      "titulares": []
+    },
+    "USO": {
+      "hora": "2026-11-11T17:20:18.317785+00:00",
       "malos": 0,
       "titulares": []
     }

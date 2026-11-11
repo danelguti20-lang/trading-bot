@@ -668,3 +668,17 @@
 2026-11-11 18:07 | [ACTIVA] Bot A3 (rebote 20) VENDE 13.2805 MSFT a 520.61 | vida 16,629$
 2026-11-11 18:07 | [ACTIVA] Orden enviada: buy 12.4915 AMD (id 4dc79c00-976c-4317-97dc-8e4b6a16b067)
 2026-11-11 18:07 | [ACTIVA] Orden enviada: sell 13.2805 MSFT (id e6dc9802-5644-4e9f-9a17-313567b0a46c)
+2026-11-11 18:18 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 18, 0 con su regla ganando en 30 días
+2026-11-11 18:18 | [CRIPTO] 🔎 Bot C2 (ruptura 24) investiga 33 monedas: señal en 2, 0 con su regla ganando en 30 días
+2026-11-11 18:18 | [CRIPTO] 🔎 Bot C3 (rebote 10) investiga 33 monedas: señal en 2, 0 con su regla ganando en 30 días
+2026-11-11 18:20 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 169 valores: señal en 76, 2 con su regla ganando las últimas sesiones (AVGO -0.19%/día, SMH -0.20%/día)
+2026-11-11 18:20 | [DIARIO] 🕰️ Bot D2 AVGO: stop 351.53 objetivo 362.21 | con comisión: simulación -0.34R, historia -0.09R (29 casos) -> ❌ no
+2026-11-11 18:20 | [DIARIO] 🕰️ Bot D2 SMH: stop 509.20 objetivo 524.65 | con comisión: simulación -0.31R, historia -0.31R (38 casos) -> ❌ no
+2026-11-11 18:20 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 169 valores: señal en 5, 1 con su regla ganando las últimas sesiones (USO -0.16%/día)
+2026-11-11 18:20 | [DIARIO] 🕰️ Bot D3 USO: stop 141.42 objetivo 145.71 | con comisión: simulación -0.17R, historia -0.15R (50 casos) -> ✅ COMPRA
+2026-11-11 18:20 | [DIARIO] Bot D3 (rebote 10) COMPRA 44.3646 USO a 142.85 | vida 15,217$
+2026-11-11 18:20 | [DIARIO] Orden enviada: buy 44.3646 USO (id 262d3b80-d0e0-45c2-93d2-b29c3c2b44e8)
+2026-11-11 18:22 | [ACTIVA] 🔎 Bot A3 (rebote 20) investiga 169 valores: señal en 9, mira primero: SOXS, IREN, MRNA, SPDN
+2026-11-11 18:22 | [ACTIVA] 📋 Bot A3 SOXS: entra a 42.49, stop 42.06, objetivo 43.35 -> ✅ COMPRA
+2026-11-11 18:22 | [ACTIVA] Bot A3 (rebote 20) COMPRA 161.4494 SOXS a 42.49 | vida 16,622$
+2026-11-11 18:22 | [ACTIVA] Orden enviada: buy 161.4494 SOXS (id b5a6774e-f175-4e52-a576-4491a7518836)
