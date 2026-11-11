@@ -718,3 +718,13 @@
 2026-11-11 19:20 | [DIARIO] 🕰️ Bot D2 SMH: stop 509.71 objetivo 525.16 | con comisión: simulación -0.21R, historia -0.31R (38 casos) -> ❌ no
 2026-11-11 19:20 | [DIARIO] Bot D3 (rebote 10) VENDE 44.3646 USO a 142.92 | vida 15,214$
 2026-11-11 19:20 | [DIARIO] Orden enviada: sell 44.3646 USO (id 1666531f-c317-4159-9890-d19395cc41f1)
+2026-11-11 19:33 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 19, 0 con su regla ganando en 30 días
+2026-11-11 19:33 | [CRIPTO] 🔎 Bot C3 (rebote 10) investiga 33 monedas: señal en 2, 0 con su regla ganando en 30 días
+2026-11-11 19:35 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 170 valores: señal en 91, 2 con su regla ganando las últimas sesiones (AVGO -0.19%/día, SMH -0.20%/día)
+2026-11-11 19:35 | [DIARIO] 🕰️ Bot D2 AVGO: stop 349.37 objetivo 359.96 | con comisión: simulación -0.21R, historia -0.09R (29 casos) -> ✅ COMPRA
+2026-11-11 19:35 | [DIARIO] Bot D2 (mañana 0.3) COMPRA 19.6727 AVGO a 352.90 | vida 16,659$
+2026-11-11 19:35 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 170 valores: señal en 4, 2 con su regla ganando las últimas sesiones (NBIZ +5.56%/día, NVD +0.41%/día)
+2026-11-11 19:35 | [DIARIO] 🕰️ Bot D3 NBIZ: stop 25.89 objetivo 26.70 | con comisión: simulación -0.15R, historia +0.22R (34 casos) -> ✅ COMPRA
+2026-11-11 19:35 | [DIARIO] Bot D3 (rebote 10) COMPRA 236.0031 NBIZ a 26.16 | vida 15,208$
+2026-11-11 19:35 | [DIARIO] Orden enviada: buy 19.6727 AVGO (id a3e02c6a-dd8d-4104-a237-e90ff9b80a1f)
+2026-11-11 19:35 | [DIARIO] Orden enviada: buy 236.0031 NBIZ (id 44165944-7d81-47fb-8858-902202661c6c)
