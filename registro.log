@@ -652,3 +652,19 @@
 2026-11-11 17:48 | [DIARIO] 🕰️ Bot D3 AAOZ: stop 21.47 objetivo 22.13 | con comisión: simulación +0.00R, historia -0.03R (18 casos) -> ✅ COMPRA
 2026-11-11 17:48 | [DIARIO] Bot D3 (rebote 10) COMPRA 291.6166 AAOZ a 21.69 | vida 15,355$
 2026-11-11 17:48 | [DIARIO] Orden enviada: buy 291.6166 AAOZ (id f9f868bc-4bb7-4cd1-a9a5-dcf095e364fc)
+2026-11-11 18:02 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 18, 0 con su regla ganando en 30 días
+2026-11-11 18:02 | [CRIPTO] 🔎 Bot C2 (ruptura 24) investiga 33 monedas: señal en 2, 0 con su regla ganando en 30 días
+2026-11-11 18:02 | [CRIPTO] 🔎 Bot C3 (rebote 10) investiga 33 monedas: señal en 2, 0 con su regla ganando en 30 días
+2026-11-11 18:05 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 170 valores: señal en 79, 2 con su regla ganando las últimas sesiones (AVGO -0.19%/día, SMH -0.20%/día)
+2026-11-11 18:05 | [DIARIO] 🕰️ Bot D2 AVGO: stop 351.25 objetivo 361.90 | con comisión: simulación -0.39R, historia -0.09R (29 casos) -> ❌ no
+2026-11-11 18:05 | [DIARIO] 🕰️ Bot D2 SMH: stop 509.38 objetivo 524.83 | con comisión: simulación -0.33R, historia -0.31R (38 casos) -> ❌ no
+2026-11-11 18:05 | [DIARIO] 🛑 Bot D3 STOP: AAOZ a 21.26 (entró a 21.69).
+2026-11-11 18:05 | [DIARIO] Bot D3 (rebote 10) VENDE 291.6166 AAOZ a 21.26 | vida 15,223$
+2026-11-11 18:05 | [DIARIO] Orden enviada: sell 291.6166 AAOZ (id c4641154-8b91-46d1-945a-06c005cc4c90)
+2026-11-11 18:07 | [ACTIVA] 🔎 Bot A2 (mañana 0.2) investiga 171 valores: señal en 88, mira primero: NVDA, AMD, SPY, SMH
+2026-11-11 18:07 | [ACTIVA] 📰 Bot A2 no compra NVDA: “Stay Away From CoreWeave”: Huang’s Scandal Puts Nvidia’s $6.3 Billion Backstop  (legal, people)
+2026-11-11 18:07 | [ACTIVA] 📋 Bot A2 AMD: entra a 555.60, stop 550.04, objetivo 566.72 -> ✅ COMPRA
+2026-11-11 18:07 | [ACTIVA] Bot A2 (mañana 0.2) COMPRA 12.4915 AMD a 555.60 | vida 16,660$
+2026-11-11 18:07 | [ACTIVA] Bot A3 (rebote 20) VENDE 13.2805 MSFT a 520.61 | vida 16,629$
+2026-11-11 18:07 | [ACTIVA] Orden enviada: buy 12.4915 AMD (id 4dc79c00-976c-4317-97dc-8e4b6a16b067)
+2026-11-11 18:07 | [ACTIVA] Orden enviada: sell 13.2805 MSFT (id e6dc9802-5644-4e9f-9a17-313567b0a46c)
