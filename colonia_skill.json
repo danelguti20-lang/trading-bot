@@ -21,26 +21,16 @@
       "cerrado": "2026-11-10 21:51"
     }
   ],
-  "hoy": "2026-11-10",
-  "trades_hoy": 1,
-  "resultado_hoy": -40.13749999999948,
+  "hoy": "2026-11-11",
+  "trades_hoy": 0,
+  "resultado_hoy": 0.0,
   "vistos_hoy": {
-    "2026-11-10": [
-      "CAT",
-      "COIN",
-      "DKNG",
-      "EWJ",
-      "GOOGL",
-      "ORCL",
-      "SECZ",
-      "AMZN",
-      "C",
+    "2026-11-11": [
+      "DELL",
+      "SMCI",
+      "VGK",
       "EFA",
-      "LLY",
-      "NVD",
-      "ZIP",
-      "TSLA",
-      "TTD"
+      "TSLA"
     ]
   }
 }

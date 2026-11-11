@@ -554,3 +554,29 @@
 2026-11-11 10:15 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 2, 0 con su regla ganando en 30 días
 2026-11-11 10:15 | [CRIPTO] 🔎 Bot C2 (ruptura 24) investiga 33 monedas: señal en 1, 0 con su regla ganando en 30 días
 2026-11-11 10:15 | [CRIPTO] 🔎 Bot C3 (rebote 10) investiga 33 monedas: señal en 2, 0 con su regla ganando en 30 días
+2026-11-11 16:17 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 9, 0 con su regla ganando en 30 días
+2026-11-11 16:17 | [CRIPTO] 🔎 Bot C3 (rebote 10) investiga 33 monedas: señal en 3, 0 con su regla ganando en 30 días
+2026-11-11 16:19 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 165 valores: señal en 18, 7 con su regla ganando las últimas sesiones (CRWV +1.33%/día, ARM +0.28%/día, EWZ +0.04%/día, XOM +0.02%/día)
+2026-11-11 16:19 | [DIARIO] 🕰️ Bot D1 CRWV: stop 57.65 objetivo 59.42 | con comisión: simulación -0.10R, historia -0.45R (31 casos) -> ❌ no
+2026-11-11 16:19 | [DIARIO] 🕰️ Bot D1 ARM: stop 191.65 objetivo 197.47 | con comisión: simulación -0.27R, historia -0.50R (31 casos) -> ❌ no
+2026-11-11 16:19 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 165 valores: señal en 20, 2 con su regla ganando las últimas sesiones (SOXS +0.09%/día, IBM -0.14%/día)
+2026-11-11 16:19 | [DIARIO] 🕰️ Bot D3 SOXS: stop 47.61 objetivo 49.08 | con comisión: simulación -0.28R, historia -0.36R (36 casos) -> ❌ no
+2026-11-11 16:19 | [DIARIO] 🕰️ Bot D3 IBM: stop 240.90 objetivo 248.22 | con comisión: simulación -0.09R, historia -0.24R (36 casos) -> ✅ COMPRA
+2026-11-11 16:19 | [DIARIO] Bot D3 (rebote 10) COMPRA 28.4780 IBM a 243.34 | vida 16,662$
+2026-11-11 16:19 | [DIARIO] Orden enviada: buy 28.4780 IBM (id 34dfc55b-e7a6-43ae-b263-da0ae833434a)
+2026-11-11 16:19 | [DIARIO] Orden enviada: sell 8.7255 MU (id 43f1a9be-d51b-4d7e-b63f-696f4d2526a0)
+2026-11-11 16:19 | [DIARIO] Orden enviada: sell 49.6475 SPCX (id e23243d2-0c4c-48b9-98e8-345c1cc30d6a)
+2026-11-11 16:21 | [ACTIVA] 🔎 Bot A1 (ruptura 30) investiga 166 valores: señal en 22, mira primero: MU, TSLA, XLE, DELL
+2026-11-11 16:21 | [ACTIVA] 📋 Bot A1 MU: entra a 797.43, stop 789.45, objetivo 813.39 -> ✅ COMPRA
+2026-11-11 16:21 | [ACTIVA] Bot A1 (ruptura 30) COMPRA 8.7033 MU a 797.43 | vida 16,660$
+2026-11-11 16:21 | [ACTIVA] 🔎 Bot A3 (rebote 20) investiga 166 valores: señal en 36, mira primero: MSFT, META, KRE, XLP
+2026-11-11 16:21 | [ACTIVA] 📋 Bot A3 MSFT: entra a 522.43, stop 517.20, objetivo 532.89 -> ✅ COMPRA
+2026-11-11 16:21 | [ACTIVA] Bot A3 (rebote 20) COMPRA 13.2805 MSFT a 522.43 | vida 16,660$
+2026-11-11 16:21 | [ACTIVA] Orden enviada: buy 13.2805 MSFT (id 5fda1b1b-ae4f-4154-bbc7-22bf31bf3e43)
+2026-11-11 16:21 | [ACTIVA] Orden enviada: buy 8.7033 MU (id 2573bf3d-ac26-4900-ae02-fc8e451363c7)
+2026-11-11 16:22 | [SKILL] 🔎 Escáner 10:21: 44 roturas, 15 recientes para estudiar.
+2026-11-11 16:22 | [SKILL] 📰 DELL descartada por noticias: Super Micro Falls 4% as NVIDIA’s Slide Drags AI Server Stocks; Dell Drops 6%, Hewlett Pack (earnings, legal, people)
+2026-11-11 16:22 | [SKILL] 📰 SMCI descartada por noticias: 2 scandals, 1 destination—Why Nvidia can’t shake China smuggling allegations (legal)
+2026-11-11 16:22 | [SKILL]   VGK: stop demasiado pegado (0.16 $), no vale.
+2026-11-11 16:22 | [SKILL]   EFA: stop demasiado pegado (0.17 $), no vale.
+2026-11-11 16:22 | [SKILL] 📰 TSLA descartada por noticias: Tesla wins major European approval with a surprising catch (regulatory)

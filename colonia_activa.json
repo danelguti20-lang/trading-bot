@@ -1,0 +1,88 @@
+{
+  "siguiente_id": 3,
+  "reserva": 0.0,
+  "bots": [
+    {
+      "id": 1,
+      "padre": null,
+      "activo": "MU",
+      "estrategia": "ruptura",
+      "p": 30,
+      "efectivo": 9719.418095336929,
+      "acciones": 8.703349,
+      "referencia": 16666.67,
+      "inicial": 16666.67,
+      "estado": "vivo",
+      "nacido": "2026-11-11",
+      "hijos": 0,
+      "hoy": "2026-11-11",
+      "operado_hoy": true,
+      "descansa": false,
+      "entrada": 797.43,
+      "stop": 789.45,
+      "meta": 813.39,
+      "contra_cerebro": false
+    },
+    {
+      "id": 2,
+      "padre": null,
+      "activo": null,
+      "estrategia": "mañana",
+      "p": 0.2,
+      "efectivo": 16666.67,
+      "acciones": 0.0,
+      "referencia": 16666.67,
+      "inicial": 16666.67,
+      "estado": "vivo",
+      "nacido": "2026-11-11",
+      "hijos": 0,
+      "hoy": "2026-11-11",
+      "operado_hoy": false,
+      "descansa": false
+    },
+    {
+      "id": 3,
+      "padre": null,
+      "activo": "MSFT",
+      "estrategia": "rebote",
+      "p": 20,
+      "efectivo": 9721.594500908268,
+      "acciones": 13.280511,
+      "referencia": 16666.67,
+      "inicial": 16666.67,
+      "estado": "vivo",
+      "nacido": "2026-11-11",
+      "hijos": 0,
+      "hoy": "2026-11-11",
+      "operado_hoy": true,
+      "descansa": false,
+      "entrada": 522.43,
+      "stop": 517.2,
+      "meta": 532.89,
+      "contra_cerebro": false
+    }
+  ],
+  "eurusd": 1.1127,
+  "eurusd_inicio": 1.1127,
+  "memoria": {},
+  "noticias": {
+    "MU": {
+      "hora": "2026-11-11T15:21:19.304727+00:00",
+      "malos": 1,
+      "titulares": [
+        "Micron draws $554 million in ETF buying after steep selloff"
+      ]
+    },
+    "MSFT": {
+      "hora": "2026-11-11T15:21:20.012898+00:00",
+      "malos": 1,
+      "titulares": [
+        "Microsoft stock sinks as new AI rival targets $27 billion business"
+      ]
+    }
+  },
+  "precios": {
+    "MU": 797.43,
+    "MSFT": 522.43
+  }
+}
