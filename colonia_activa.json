@@ -5,11 +5,11 @@
     {
       "id": 1,
       "padre": null,
-      "activo": "MU",
+      "activo": null,
       "estrategia": "ruptura",
       "p": 30,
-      "efectivo": 9719.418095336929,
-      "acciones": 8.703349,
+      "efectivo": 16795.338092262005,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -18,10 +18,11 @@
       "hoy": "2026-11-11",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 797.43,
-      "stop": 789.45,
-      "meta": 813.39,
-      "contra_cerebro": false
+      "entrada": null,
+      "stop": null,
+      "meta": null,
+      "contra_cerebro": false,
+      "perdidas": 0
     },
     {
       "id": 2,
@@ -82,7 +83,13 @@
     }
   },
   "precios": {
-    "MU": 811.71,
-    "MSFT": 522.685
+    "MSFT": 520.6
+  },
+  "cerebro": {
+    "a_favor": {
+      "n": 1,
+      "ganadas": 1,
+      "suma": 0.018519
+    }
   }
 }

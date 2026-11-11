@@ -610,3 +610,18 @@
 2026-11-11 16:50 | [SKILL] 🕰️ SMH: entrada 505.61 stop 501.94 objetivo 512.95 | objetivo antes 19%, stop antes 55% | con comisión: simulación -0.31R, historia -0.49R (38 casos) -> ❌ no
 2026-11-11 16:50 | [SKILL] 🕰️ TQQQ: entrada 60.15 stop 59.61 objetivo 61.23 | objetivo antes 29%, stop antes 61% | con comisión: simulación -0.20R, historia -0.17R (43 casos) -> ❌ no
 2026-11-11 16:50 | [SKILL] 🕰️ XLK: entrada 174.41 stop 173.60 objetivo 176.03 | objetivo antes 21%, stop antes 57% | con comisión: simulación -0.47R, historia -0.48R (43 casos) -> ❌ no
+2026-11-11 17:03 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 16, 0 con su regla ganando en 30 días
+2026-11-11 17:03 | [CRIPTO] 🔎 Bot C2 (ruptura 24) investiga 33 monedas: señal en 1, 0 con su regla ganando en 30 días
+2026-11-11 17:03 | [CRIPTO] 🔎 Bot C3 (rebote 10) investiga 33 monedas: señal en 1, 0 con su regla ganando en 30 días
+2026-11-11 17:05 | [DIARIO] 🛑 Bot D3 STOP: BEZ a 5.04 (entró a 5.21).
+2026-11-11 17:05 | [DIARIO] Bot D3 (rebote 10) VENDE 1184.1074 BEZ a 5.04 | vida 16,469$
+2026-11-11 17:05 | [DIARIO] Orden enviada: sell 1184.1074 BEZ (id 72c89b2a-7a0b-4f5f-82e2-da0cc48f0c7f)
+2026-11-11 17:07 | [ACTIVA] 🎯 Bot A1 OBJETIVO: MU a 813.83 (entró a 797.43).
+2026-11-11 17:07 | [ACTIVA] Bot A1 (ruptura 30) VENDE 8.7033 MU a 813.83 | vida 16,795$
+2026-11-11 17:07 | [ACTIVA] Orden enviada: sell 8.7033 MU (id e4cb7c71-612b-4131-9096-72455bacbc58)
+2026-11-11 17:08 | [SKILL] 🔎 Escáner 11:07: 70 roturas, 11 recientes para estudiar.
+2026-11-11 17:08 | [SKILL] 🕰️ EWG: entrada 42.81 stop 42.66 objetivo 43.11 | objetivo antes 8%, stop antes 45% | con comisión: simulación -0.70R, historia -1.13R (30 casos) -> ❌ no
+2026-11-11 17:08 | [SKILL] 📰 GOOGL descartada por noticias: Eric Schmidt, Former Google CEO, Should Run Nvidia (legal, people)
+2026-11-11 17:08 | [SKILL] 🕰️ INDA: entrada 51.55 stop 51.44 objetivo 51.77 | objetivo antes 12%, stop antes 45% | con comisión: simulación -0.96R, historia -0.94R (39 casos) -> ❌ no
+2026-11-11 17:08 | [SKILL] 🕰️ GS: entrada 929.46 stop 920.48 objetivo 947.42 | objetivo antes 5%, stop antes 36% | con comisión: simulación -0.23R, historia -0.36R (29 casos) -> ❌ no
+2026-11-11 17:08 | [SKILL] 🕰️ XLI: entrada 170.48 stop 169.80 objetivo 171.84 | objetivo antes 16%, stop antes 47% | con comisión: simulación -0.47R, historia -0.62R (35 casos) -> ❌ no
