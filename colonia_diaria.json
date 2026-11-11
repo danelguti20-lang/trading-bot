@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": "AAOZ",
+      "activo": null,
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 9647.21449592886,
-      "acciones": 249.877828,
+      "efectivo": 15361.19827536594,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,16 +62,15 @@
       "hoy": "2026-11-11",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 27.275,
-      "stop": 27.0,
-      "meta": 27.82,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
-      "perdidas": 1
+      "perdidas": 2
     }
   ],
   "precios": {
-    "INTC": 62.715,
-    "AAOZ": 27.275
+    "INTC": 63.425
   },
   "eurusd": 1.1127,
   "eurusd_inicio": 1.1193,
@@ -413,9 +412,9 @@
   },
   "cerebro": {
     "a_favor": {
-      "n": 5,
+      "n": 6,
       "ganadas": 3,
-      "suma": -0.030851
+      "suma": -0.193299
     }
   }
 }
