@@ -27,11 +27,11 @@
     {
       "id": 2,
       "padre": null,
-      "activo": "AVGO",
+      "activo": null,
       "estrategia": "mañana",
       "p": 0.3,
-      "efectivo": 9716.474134993468,
-      "acciones": 19.672675,
+      "efectivo": 16573.79970623247,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -40,11 +40,11 @@
       "hoy": "2026-11-11",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 352.9,
-      "stop": 349.37,
-      "meta": 359.96,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
-      "perdidas": 1
+      "perdidas": 2
     },
     {
       "id": 3,
@@ -70,8 +70,7 @@
     }
   ],
   "precios": {
-    "INTC": 62.595,
-    "AVGO": 349.47
+    "INTC": 62.785
   },
   "eurusd": 1.1127,
   "eurusd_inicio": 1.1193,
@@ -531,6 +530,36 @@
       "media": -0.00641,
       "ganadores": 0.14286,
       "n": 14
+    },
+    "MRVL-rebote-10": {
+      "fecha": "2026-11-11",
+      "media": -0.01278,
+      "ganadores": 0.41176,
+      "n": 17
+    },
+    "DELL-rebote-10": {
+      "fecha": "2026-11-11",
+      "media": -0.01331,
+      "ganadores": 0.33333,
+      "n": 18
+    },
+    "CAT-rebote-10": {
+      "fecha": "2026-11-11",
+      "media": -0.00566,
+      "ganadores": 0.44444,
+      "n": 18
+    },
+    "XLK-rebote-10": {
+      "fecha": "2026-11-11",
+      "media": -0.00699,
+      "ganadores": 0.3125,
+      "n": 16
+    },
+    "CSCO-rebote-10": {
+      "fecha": "2026-11-11",
+      "media": -0.00605,
+      "ganadores": 0.31579,
+      "n": 19
     }
   },
   "noticias": {
@@ -608,9 +637,9 @@
   },
   "cerebro": {
     "a_favor": {
-      "n": 9,
+      "n": 10,
       "ganadas": 4,
-      "suma": -0.19952
+      "suma": -0.212775
     }
   }
 }

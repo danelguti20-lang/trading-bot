@@ -48,11 +48,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "SMH",
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 16528.498567961673,
-      "acciones": 0.0,
+      "efectivo": 9642.320093261147,
+      "acciones": 13.467037,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -61,9 +61,9 @@
       "hoy": "2026-11-11",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 510.825,
+      "stop": 505.71,
+      "meta": 521.06,
       "contra_cerebro": false,
       "perdidas": 3
     }
@@ -100,11 +100,17 @@
       "hora": "2026-11-11T17:52:30.138852+00:00",
       "malos": 0,
       "titulares": []
+    },
+    "SMH": {
+      "hora": "2026-11-11T19:37:48.473900+00:00",
+      "malos": 0,
+      "titulares": []
     }
   },
   "precios": {
-    "MU": 817.26,
-    "AMD": 560.56
+    "MU": 818.44,
+    "AMD": 561.14,
+    "SMH": 510.825
   },
   "cerebro": {
     "a_favor": {
