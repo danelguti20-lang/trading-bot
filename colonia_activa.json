@@ -48,11 +48,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "COST",
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 16542.347792347115,
-      "acciones": 0.0,
+      "efectivo": 9642.810235435114,
+      "acciones": 6.399856,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -61,9 +61,9 @@
       "hoy": "2026-11-11",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 1077.0,
+      "stop": 1066.23,
+      "meta": 1098.54,
       "contra_cerebro": false,
       "perdidas": 2
     }
@@ -95,11 +95,17 @@
       "hora": "2026-11-11T17:22:21.569102+00:00",
       "malos": 0,
       "titulares": []
+    },
+    "COST": {
+      "hora": "2026-11-11T17:52:30.138852+00:00",
+      "malos": 0,
+      "titulares": []
     }
   },
   "precios": {
-    "MU": 826.24,
-    "AMD": 557.39
+    "MU": 822.94,
+    "AMD": 560.53,
+    "COST": 1077.0
   },
   "cerebro": {
     "a_favor": {

@@ -691,3 +691,14 @@
 2026-11-11 18:36 | [ACTIVA] 🛑 Bot A3 STOP: SOXS a 42.04 (entró a 42.49).
 2026-11-11 18:36 | [ACTIVA] Bot A3 (rebote 20) VENDE 161.4494 SOXS a 42.04 | vida 16,542$
 2026-11-11 18:36 | [ACTIVA] Orden enviada: sell 161.4494 SOXS (id e4bd64d9-03d6-4797-b156-503c35ee537a)
+2026-11-11 18:47 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 18, 0 con su regla ganando en 30 días
+2026-11-11 18:47 | [CRIPTO] 🔎 Bot C2 (ruptura 24) investiga 33 monedas: señal en 2, 0 con su regla ganando en 30 días
+2026-11-11 18:47 | [CRIPTO] 🔎 Bot C3 (rebote 10) investiga 33 monedas: señal en 2, 0 con su regla ganando en 30 días
+2026-11-11 18:49 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 168 valores: señal en 82, 2 con su regla ganando las últimas sesiones (AVGO -0.19%/día, SMH -0.20%/día)
+2026-11-11 18:49 | [DIARIO] 🕰️ Bot D2 AVGO: stop 352.02 objetivo 362.70 | con comisión: simulación -0.29R, historia -0.09R (29 casos) -> ❌ no
+2026-11-11 18:49 | [DIARIO] 🕰️ Bot D2 SMH: stop 510.18 objetivo 525.66 | con comisión: simulación -0.26R, historia -0.31R (38 casos) -> ❌ no
+2026-11-11 18:52 | [ACTIVA] 🔎 Bot A3 (rebote 20) investiga 170 valores: señal en 14, mira primero: AMZN, COST, SNOW, KWEB
+2026-11-11 18:52 | [ACTIVA] 📰 Bot A3 no compra AMZN: The Children's Place files for bankruptcy. Will Tennessee stores close? (risk)
+2026-11-11 18:52 | [ACTIVA] 📋 Bot A3 COST: entra a 1077.00, stop 1066.23, objetivo 1098.54 -> ✅ COMPRA
+2026-11-11 18:52 | [ACTIVA] Bot A3 (rebote 20) COMPRA 6.3999 COST a 1077.00 | vida 16,535$
+2026-11-11 18:52 | [ACTIVA] Orden enviada: buy 6.3999 COST (id e9242c96-35fa-49b7-86fd-e2b30326e0b4)
