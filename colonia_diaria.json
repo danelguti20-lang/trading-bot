@@ -70,7 +70,7 @@
     }
   ],
   "precios": {
-    "INTC": 62.59
+    "INTC": 62.69
   },
   "eurusd": 1.1127,
   "eurusd_inicio": 1.1193,
@@ -614,6 +614,12 @@
       "media": -0.00991,
       "ganadores": 0.22222,
       "n": 18
+    },
+    "GDX-rebote-10": {
+      "fecha": "2026-11-11",
+      "media": -0.00231,
+      "ganadores": 0.35714,
+      "n": 14
     }
   },
   "noticias": {
