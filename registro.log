@@ -625,3 +625,17 @@
 2026-11-11 17:08 | [SKILL] 🕰️ INDA: entrada 51.55 stop 51.44 objetivo 51.77 | objetivo antes 12%, stop antes 45% | con comisión: simulación -0.96R, historia -0.94R (39 casos) -> ❌ no
 2026-11-11 17:08 | [SKILL] 🕰️ GS: entrada 929.46 stop 920.48 objetivo 947.42 | objetivo antes 5%, stop antes 36% | con comisión: simulación -0.23R, historia -0.36R (29 casos) -> ❌ no
 2026-11-11 17:08 | [SKILL] 🕰️ XLI: entrada 170.48 stop 169.80 objetivo 171.84 | objetivo antes 16%, stop antes 47% | con comisión: simulación -0.47R, historia -0.62R (35 casos) -> ❌ no
+2026-11-11 17:16 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 16, 0 con su regla ganando en 30 días
+2026-11-11 17:16 | [CRIPTO] 🔎 Bot C2 (ruptura 24) investiga 33 monedas: señal en 1, 0 con su regla ganando en 30 días
+2026-11-11 17:16 | [CRIPTO] 🔎 Bot C3 (rebote 10) investiga 33 monedas: señal en 1, 0 con su regla ganando en 30 días
+2026-11-11 17:18 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 172 valores: señal en 5, 1 con su regla ganando las últimas sesiones (AAOZ +1.08%/día)
+2026-11-11 17:18 | [DIARIO] 🕰️ Bot D3 AAOZ: stop 27.00 objetivo 27.82 | con comisión: simulación -0.13R, historia -0.02R (18 casos) -> ✅ COMPRA
+2026-11-11 17:18 | [DIARIO] Bot D3 (rebote 10) COMPRA 249.8778 AAOZ a 27.27 | vida 16,463$
+2026-11-11 17:18 | [DIARIO] Orden enviada: buy 249.8778 AAOZ (id 53c18cb2-a39b-4941-abe5-34fa4d7df443)
+2026-11-11 17:19 | [ACTIVA] 🔎 Bot A1 (ruptura 30) investiga 170 valores: señal en 52, mira primero: MU, AMD, SPY, SMH
+2026-11-11 17:19 | [ACTIVA] 📋 Bot A1 MU: entra a 815.25, stop 807.10, objetivo 831.56 -> ✅ COMPRA
+2026-11-11 17:19 | [ACTIVA] Bot A1 (ruptura 30) COMPRA 8.5817 MU a 815.25 | vida 16,788$
+2026-11-11 17:19 | [ACTIVA] Orden enviada: buy 8.5817 MU (id 3b146dba-7c30-4a1f-aa19-53530654d56e)
+2026-11-11 17:20 | [SKILL] 🔎 Escáner 11:19: 71 roturas, 2 recientes para estudiar.
+2026-11-11 17:20 | [SKILL] 🕰️ RSP: entrada 221.85 stop 221.32 objetivo 222.91 | objetivo antes 19%, stop antes 48% | con comisión: simulación -0.79R, historia -0.92R (36 casos) -> ❌ no
+2026-11-11 17:20 | [SKILL] 🕰️ XBI: entrada 156.17 stop 155.54 objetivo 157.43 | objetivo antes 33%, stop antes 61% | con comisión: simulación -0.42R, historia -0.45R (35 casos) -> ❌ no
