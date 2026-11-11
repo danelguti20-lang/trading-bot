@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "AAOZ",
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 15361.19827536594,
-      "acciones": 0.0,
+      "efectivo": 9029.708123709268,
+      "acciones": 291.616643,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,15 +62,16 @@
       "hoy": "2026-11-11",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 21.69,
+      "stop": 21.47,
+      "meta": 22.13,
       "contra_cerebro": false,
       "perdidas": 2
     }
   ],
   "precios": {
-    "INTC": 63.425
+    "INTC": 63.815,
+    "AAOZ": 21.69
   },
   "eurusd": 1.1127,
   "eurusd_inicio": 1.1193,
@@ -350,6 +351,18 @@
       "media": 0.01077,
       "ganadores": 0.6,
       "n": 5
+    },
+    "MRNA-rebote-10": {
+      "fecha": "2026-11-11",
+      "media": -0.00606,
+      "ganadores": 0.5,
+      "n": 16
+    },
+    "AXTQ-rebote-10": {
+      "fecha": "2026-11-11",
+      "media": 0.0,
+      "ganadores": 0.0,
+      "n": 0
     }
   },
   "noticias": {
