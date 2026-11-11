@@ -70,7 +70,7 @@
     }
   ],
   "precios": {
-    "INTC": 62.69
+    "INTC": 62.47
   },
   "eurusd": 1.1127,
   "eurusd_inicio": 1.1193,
@@ -620,6 +620,30 @@
       "media": -0.00231,
       "ganadores": 0.35714,
       "n": 14
+    },
+    "AMAT-rebote-10": {
+      "fecha": "2026-11-11",
+      "media": -0.00534,
+      "ganadores": 0.44444,
+      "n": 18
+    },
+    "LRCX-rebote-10": {
+      "fecha": "2026-11-11",
+      "media": -0.00694,
+      "ganadores": 0.31579,
+      "n": 19
+    },
+    "QCOM-rebote-10": {
+      "fecha": "2026-11-11",
+      "media": -0.00347,
+      "ganadores": 0.52941,
+      "n": 17
+    },
+    "TQQQ-rebote-10": {
+      "fecha": "2026-11-11",
+      "media": -0.01158,
+      "ganadores": 0.3125,
+      "n": 16
     }
   },
   "noticias": {
