@@ -702,3 +702,12 @@
 2026-11-11 18:52 | [ACTIVA] 📋 Bot A3 COST: entra a 1077.00, stop 1066.23, objetivo 1098.54 -> ✅ COMPRA
 2026-11-11 18:52 | [ACTIVA] Bot A3 (rebote 20) COMPRA 6.3999 COST a 1077.00 | vida 16,535$
 2026-11-11 18:52 | [ACTIVA] Orden enviada: buy 6.3999 COST (id e9242c96-35fa-49b7-86fd-e2b30326e0b4)
+2026-11-11 19:03 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 19, 0 con su regla ganando en 30 días
+2026-11-11 19:03 | [CRIPTO] 🔎 Bot C2 (ruptura 24) investiga 33 monedas: señal en 3, 1 con su regla ganando en 30 días (ETH/USD -2.5%)
+2026-11-11 19:03 | [CRIPTO] 🕰️ Bot C2 elige ETH/USD: en 30 días su regla hizo 5 operaciones, 40% ganadoras, total -2.5% (con comisión) -> ✅ entra
+2026-11-11 19:03 | [CRIPTO] Bot C2 (ruptura 24) COMPRA 7.567643 ETH/USD a 2087.0240 | vida 16,627$
+2026-11-11 19:03 | [CRIPTO] 🔎 Bot C3 (rebote 10) investiga 33 monedas: señal en 2, 0 con su regla ganando en 30 días
+2026-11-11 19:03 | [CRIPTO] Orden enviada: buy 7.567643 ETH/USD (id ab3f9a7c-d5bf-463a-a25a-e0bd69748496)
+2026-11-11 19:06 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 168 valores: señal en 79, 2 con su regla ganando las últimas sesiones (AVGO -0.19%/día, SMH -0.20%/día)
+2026-11-11 19:06 | [DIARIO] 🕰️ Bot D2 AVGO: stop 350.59 objetivo 361.23 | con comisión: simulación -0.29R, historia -0.09R (29 casos) -> ❌ no
+2026-11-11 19:06 | [DIARIO] 🕰️ Bot D2 SMH: stop 509.28 objetivo 524.73 | con comisión: simulación -0.23R, historia -0.31R (38 casos) -> ❌ no
