@@ -5,11 +5,11 @@
     {
       "id": 1,
       "padre": null,
-      "activo": "INTC",
+      "activo": null,
       "estrategia": "ruptura",
       "p": 30,
-      "efectivo": 9756.809491681557,
-      "acciones": 110.406881,
+      "efectivo": 16666.332112866312,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -18,11 +18,11 @@
       "hoy": "2026-11-11",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 62.61,
-      "stop": 61.98,
-      "meta": 63.87,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
-      "perdidas": 0
+      "perdidas": 1
     },
     {
       "id": 2,
@@ -69,9 +69,7 @@
       "perdidas": 0
     }
   ],
-  "precios": {
-    "INTC": 62.47
-  },
+  "precios": {},
   "eurusd": 1.1127,
   "eurusd_inicio": 1.1193,
   "memoria": {
@@ -721,9 +719,9 @@
   },
   "cerebro": {
     "a_favor": {
-      "n": 10,
+      "n": 11,
       "ganadas": 4,
-      "suma": -0.212775
+      "suma": -0.214217
     }
   }
 }

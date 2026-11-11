@@ -5,11 +5,11 @@
     {
       "id": 1,
       "padre": null,
-      "activo": "MU",
+      "activo": null,
       "estrategia": "ruptura",
       "p": 30,
-      "efectivo": 9792.036158188559,
-      "acciones": 8.581739,
+      "efectivo": 16747.738704541996,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -18,20 +18,20 @@
       "hoy": "2026-11-11",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 815.255,
-      "stop": 807.1,
-      "meta": 831.56,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
-      "perdidas": 0
+      "perdidas": 1
     },
     {
       "id": 2,
       "padre": null,
-      "activo": "AMD",
+      "activo": null,
       "estrategia": "mañana",
       "p": 0.2,
-      "efectivo": 9719.447873355199,
-      "acciones": 12.491508,
+      "efectivo": 16646.175557569637,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -40,19 +40,20 @@
       "hoy": "2026-11-11",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 555.6,
-      "stop": 550.04,
-      "meta": 566.72,
-      "contra_cerebro": false
+      "entrada": null,
+      "stop": null,
+      "meta": null,
+      "contra_cerebro": false,
+      "perdidas": 1
     },
     {
       "id": 3,
       "padre": null,
-      "activo": "SMH",
+      "activo": null,
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 9642.320093261147,
-      "acciones": 13.467037,
+      "efectivo": 16469.468706685126,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -61,11 +62,11 @@
       "hoy": "2026-11-11",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 510.825,
-      "stop": 505.71,
-      "meta": 521.06,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
-      "perdidas": 3
+      "perdidas": 4
     }
   ],
   "eurusd": 1.1127,
@@ -107,16 +108,12 @@
       "titulares": []
     }
   },
-  "precios": {
-    "MU": 813.36,
-    "AMD": 556.57,
-    "SMH": 508.785
-  },
+  "precios": {},
   "cerebro": {
     "a_favor": {
-      "n": 4,
+      "n": 7,
       "ganadas": 1,
-      "suma": -0.001537
+      "suma": -0.019862
     }
   }
 }
