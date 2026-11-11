@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": "NBIZ",
+      "activo": null,
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 9033.689958182818,
-      "acciones": 236.003128,
+      "efectivo": 15319.241507270339,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,17 +62,16 @@
       "hoy": "2026-11-11",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 26.16,
-      "stop": 25.89,
-      "meta": 26.7,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
-      "perdidas": 4
+      "perdidas": 0
     }
   ],
   "precios": {
-    "INTC": 63.19,
-    "AVGO": 353.2,
-    "NBIZ": 26.16
+    "INTC": 63.105,
+    "AVGO": 352.51
   },
   "eurusd": 1.1127,
   "eurusd_inicio": 1.1193,
@@ -543,9 +542,9 @@
   },
   "cerebro": {
     "a_favor": {
-      "n": 8,
-      "ganadas": 3,
-      "suma": -0.216595
+      "n": 9,
+      "ganadas": 4,
+      "suma": -0.19952
     }
   }
 }
