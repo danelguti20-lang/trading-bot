@@ -49,28 +49,29 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "LOW",
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 15319.241507270339,
-      "acciones": 0.0,
+      "efectivo": 8930.53864513875,
+      "acciones": 27.874047,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-09",
       "hijos": 0,
       "hoy": "2026-11-12",
-      "operado_hoy": false,
+      "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 228.97,
+      "stop": 226.68,
+      "meta": 233.55,
       "contra_cerebro": false,
       "perdidas": 0
     }
   ],
   "precios": {
-    "ABNB": 183.01
+    "ABNB": 182.53,
+    "LOW": 228.97
   },
   "eurusd": 1.1081,
   "eurusd_inicio": 1.1193,
@@ -512,6 +513,24 @@
       "media": -0.00357,
       "ganadores": 0.35294,
       "n": 17
+    },
+    "META-mañana-0.3": {
+      "fecha": "2026-11-12",
+      "media": -0.0083,
+      "ganadores": 0.1,
+      "n": 10
+    },
+    "LLY-rebote-10": {
+      "fecha": "2026-11-12",
+      "media": -0.00439,
+      "ganadores": 0.29412,
+      "n": 17
+    },
+    "LOW-rebote-10": {
+      "fecha": "2026-11-12",
+      "media": -5e-05,
+      "ganadores": 0.47059,
+      "n": 17
     }
   },
   "noticias": {
@@ -588,6 +607,11 @@
     },
     "ABNB": {
       "hora": "2026-11-12T15:35:28.912778+00:00",
+      "malos": 0,
+      "titulares": []
+    },
+    "LOW": {
+      "hora": "2026-11-12T17:51:53.011332+00:00",
       "malos": 0,
       "titulares": []
     }
