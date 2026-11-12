@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "MSFT",
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 16639.81345920327,
-      "acciones": 0.0,
+      "efectivo": 9707.52800298715,
+      "acciones": 13.159079,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,9 +62,9 @@
       "hoy": "2026-11-12",
       "operado_hoy": true,
       "descansa": true,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 526.28,
+      "stop": 521.01,
+      "meta": 536.82,
       "contra_cerebro": true,
       "perdidas": 1
     }
@@ -81,11 +81,9 @@
       ]
     },
     "MSFT": {
-      "hora": "2026-11-11T15:21:20.012898+00:00",
-      "malos": 1,
-      "titulares": [
-        "Microsoft stock sinks as new AI rival targets $27 billion business"
-      ]
+      "hora": "2026-11-12T18:41:10.089454+00:00",
+      "malos": 0,
+      "titulares": []
     },
     "AMD": {
       "hora": "2026-11-12T17:22:33.899200+00:00",
@@ -131,8 +129,9 @@
     }
   },
   "precios": {
-    "AMD": 581.715,
-    "NVDA": 165.66
+    "AMD": 581.59,
+    "NVDA": 165.995,
+    "MSFT": 526.28
   },
   "cerebro": {
     "a_favor": {
