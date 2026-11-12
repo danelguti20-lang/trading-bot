@@ -70,7 +70,7 @@
     }
   ],
   "precios": {
-    "ABNB": 182.78
+    "ABNB": 182.74
   },
   "eurusd": 1.1081,
   "eurusd_inicio": 1.1193,
@@ -470,6 +470,36 @@
       "media": -0.00178,
       "ganadores": 0.5,
       "n": 14
+    },
+    "SHOP-rebote-10": {
+      "fecha": "2026-11-12",
+      "media": -0.00706,
+      "ganadores": 0.35294,
+      "n": 17
+    },
+    "EWZ-rebote-10": {
+      "fecha": "2026-11-12",
+      "media": -0.00249,
+      "ganadores": 0.375,
+      "n": 16
+    },
+    "QCOM-rebote-10": {
+      "fecha": "2026-11-12",
+      "media": -0.00447,
+      "ganadores": 0.52941,
+      "n": 17
+    },
+    "SCHW-rebote-10": {
+      "fecha": "2026-11-12",
+      "media": -0.00322,
+      "ganadores": 0.31579,
+      "n": 19
+    },
+    "GM-rebote-10": {
+      "fecha": "2026-11-12",
+      "media": -0.00422,
+      "ganadores": 0.33333,
+      "n": 18
     }
   },
   "noticias": {

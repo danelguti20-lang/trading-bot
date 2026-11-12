@@ -5,11 +5,11 @@
     {
       "id": 1,
       "padre": null,
-      "activo": null,
+      "activo": "AMD",
       "estrategia": "ruptura",
       "p": 30,
-      "efectivo": 16876.060411724495,
-      "acciones": 0.0,
+      "efectivo": 9845.011275653535,
+      "acciones": 12.105379,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -18,9 +18,9 @@
       "hoy": "2026-11-12",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 580.24,
+      "stop": 574.43,
+      "meta": 591.86,
       "contra_cerebro": false,
       "perdidas": 0
     },
@@ -88,7 +88,7 @@
       ]
     },
     "AMD": {
-      "hora": "2026-11-11T17:07:15.759662+00:00",
+      "hora": "2026-11-12T17:22:33.899200+00:00",
       "malos": 0,
       "titulares": []
     },
@@ -131,8 +131,9 @@
     }
   },
   "precios": {
-    "NVDA": 164.45,
-    "TLT": 79.915
+    "AMD": 580.24,
+    "NVDA": 164.54,
+    "TLT": 79.85
   },
   "cerebro": {
     "a_favor": {
