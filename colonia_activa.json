@@ -49,23 +49,23 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "NVDA",
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 16469.468706685126,
-      "acciones": 0.0,
+      "efectivo": 9609.218778653627,
+      "acciones": 42.633882,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-11",
       "hijos": 0,
       "hoy": "2026-11-12",
-      "operado_hoy": false,
+      "operado_hoy": true,
       "descansa": true,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
-      "contra_cerebro": false,
+      "entrada": 160.75,
+      "stop": 159.14,
+      "meta": 163.97,
+      "contra_cerebro": true,
       "perdidas": 0
     }
   ],
@@ -106,9 +106,18 @@
       "hora": "2026-11-11T19:37:48.473900+00:00",
       "malos": 0,
       "titulares": []
+    },
+    "NVDA": {
+      "hora": "2026-11-12T14:54:05.685653+00:00",
+      "malos": 1,
+      "titulares": [
+        "Stock Market Today: Dow Wavers On Trump Remarks; Nvidia Plunges As Jensen Huang Resigns (Live Coverage)"
+      ]
     }
   },
-  "precios": {},
+  "precios": {
+    "NVDA": 160.75
+  },
   "cerebro": {
     "a_favor": {
       "n": 7,
