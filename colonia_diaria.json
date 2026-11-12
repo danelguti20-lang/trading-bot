@@ -70,7 +70,7 @@
     }
   ],
   "precios": {
-    "ABNB": 182.965
+    "ABNB": 184.19
   },
   "eurusd": 1.1081,
   "eurusd_inicio": 1.1193,
@@ -302,6 +302,12 @@
       "media": -0.00493,
       "ganadores": 0.625,
       "n": 16
+    },
+    "CDNL-rebote-10": {
+      "fecha": "2026-11-12",
+      "media": -0.00796,
+      "ganadores": 0.5,
+      "n": 18
     }
   },
   "noticias": {
