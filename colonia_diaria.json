@@ -70,7 +70,7 @@
     }
   ],
   "precios": {
-    "ABNB": 182.55
+    "ABNB": 182.965
   },
   "eurusd": 1.1081,
   "eurusd_inicio": 1.1193,
@@ -296,6 +296,12 @@
       "media": -0.00535,
       "ganadores": 0.27778,
       "n": 18
+    },
+    "SOXS-rebote-10": {
+      "fecha": "2026-11-12",
+      "media": -0.00493,
+      "ganadores": 0.625,
+      "n": 16
     }
   },
   "noticias": {

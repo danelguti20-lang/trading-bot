@@ -36,7 +36,12 @@
       "LRCX",
       "MSTR",
       "SMH",
-      "TXN"
+      "TXN",
+      "C",
+      "DIA",
+      "GDX",
+      "GS",
+      "MDY"
     ]
   }
 }

@@ -980,3 +980,16 @@
 2026-11-12 16:55 | [SKILL] 📰 MSTR descartada por noticias: Morning Minute: Tokenized Stock Venues Are Launching Without Big Tech’s Approval (regulatory)
 2026-11-12 16:55 | [SKILL] 🕰️ SMH: entrada 500.85 stop 492.53 objetivo 517.49 | objetivo antes 1%, stop antes 18% | con comisión: simulación -0.16R, historia -0.28R (39 casos) -> ❌ no
 2026-11-12 16:55 | [SKILL] 🕰️ TXN: entrada 313.14 stop 308.79 objetivo 321.84 | objetivo antes 7%, stop antes 25% | con comisión: simulación +0.02R, historia -0.23R (37 casos) -> ❌ no
+2026-11-12 17:04 | [CRIPTO] 🔎 Bot C3 (rebote 10) investiga 33 monedas: señal en 4, 0 con su regla ganando en 30 días
+2026-11-12 17:09 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 165 valores: señal en 2, 0 con su regla ganando las últimas sesiones
+2026-11-12 17:12 | [ACTIVA] 🔎 Bot A3 (rebote 20) investiga 164 valores: señal en 12, mira primero: TLT, SOXS, MA, WMT
+2026-11-12 17:12 | [ACTIVA] 📋 Bot A3 TLT: entra a 80.25, stop 79.44, objetivo 81.87 -> ✅ COMPRA
+2026-11-12 17:12 | [ACTIVA] 🧠 Bot A3 compra aunque el cerebro diría NO (descanso).
+2026-11-12 17:12 | [ACTIVA] Bot A3 (rebote 20) COMPRA 85.9739 TLT a 80.25 | vida 16,681$
+2026-11-12 17:12 | [ACTIVA] Orden enviada: buy 85.9739 TLT (id 6f414374-aebc-4cdb-bcba-4328d16aa4fa)
+2026-11-12 17:13 | [SKILL] 🔎 Escáner 11:12: 48 roturas, 21 recientes para estudiar.
+2026-11-12 17:13 | [SKILL] 🕰️ C: entrada 124.92 stop 124.03 objetivo 126.70 | objetivo antes 13%, stop antes 40% | con comisión: simulación -0.21R, historia -0.51R (34 casos) -> ❌ no
+2026-11-12 17:13 | [SKILL] 🕰️ DIA: entrada 526.56 stop 524.83 objetivo 530.02 | objetivo antes 9%, stop antes 36% | con comisión: simulación -0.55R, historia -0.74R (33 casos) -> ❌ no
+2026-11-12 17:13 | [SKILL] 🕰️ GDX: entrada 83.54 stop 82.78 objetivo 85.06 | objetivo antes 13%, stop antes 41% | con comisión: simulación -0.14R, historia -0.22R (32 casos) -> ❌ no
+2026-11-12 17:13 | [SKILL] 📰 GS descartada por noticias: Coinbase Is Still Down 23% in the Past Month: Did Today Mark the Bottom for COIN Stock? (analyst, risk)
+2026-11-12 17:13 | [SKILL] 🕰️ MDY: entrada 680.15 stop 678.70 objetivo 683.05 | objetivo antes 32%, stop antes 58% | con comisión: simulación -0.83R, historia -0.96R (32 casos) -> ❌ no
