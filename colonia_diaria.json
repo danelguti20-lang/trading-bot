@@ -5,11 +5,11 @@
     {
       "id": 1,
       "padre": null,
-      "activo": "ABNB",
+      "activo": null,
       "estrategia": "ruptura",
       "p": 30,
-      "efectivo": 9144.295485741291,
-      "acciones": 41.146154,
+      "efectivo": 16581.424555318074,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -18,11 +18,11 @@
       "hoy": "2026-11-12",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 182.63,
-      "stop": 180.97,
-      "meta": 185.95,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
-      "perdidas": 1
+      "perdidas": 2
     },
     {
       "id": 2,
@@ -70,8 +70,7 @@
     }
   ],
   "precios": {
-    "ABNB": 181.67,
-    "LOW": 227.95
+    "LOW": 227.75
   },
   "eurusd": 1.1081,
   "eurusd_inicio": 1.1193,
@@ -531,6 +530,12 @@
       "media": -5e-05,
       "ganadores": 0.47059,
       "n": 17
+    },
+    "CRWV-mañana-0.3": {
+      "fecha": "2026-11-12",
+      "media": 0.00635,
+      "ganadores": 0.4,
+      "n": 10
     }
   },
   "noticias": {
@@ -618,9 +623,9 @@
   },
   "cerebro": {
     "a_favor": {
-      "n": 11,
+      "n": 12,
       "ganadas": 4,
-      "suma": -0.214217
+      "suma": -0.225507
     }
   }
 }
