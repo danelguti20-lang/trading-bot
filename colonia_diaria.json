@@ -70,7 +70,7 @@
     }
   ],
   "precios": {
-    "LOW": 227.75
+    "LOW": 227.795
   },
   "eurusd": 1.1081,
   "eurusd_inicio": 1.1193,
@@ -536,6 +536,18 @@
       "media": 0.00635,
       "ganadores": 0.4,
       "n": 10
+    },
+    "XLE-mañana-0.3": {
+      "fecha": "2026-11-12",
+      "media": -0.00351,
+      "ganadores": 0.36364,
+      "n": 11
+    },
+    "TSLA-mañana-0.3": {
+      "fecha": "2026-11-12",
+      "media": -0.00466,
+      "ganadores": 0.21429,
+      "n": 14
     }
   },
   "noticias": {
