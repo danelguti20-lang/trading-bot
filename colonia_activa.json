@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": "NVDA",
+      "activo": null,
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 9609.218778653627,
-      "acciones": 42.633882,
+      "efectivo": 16606.321975719256,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,9 +62,9 @@
       "hoy": "2026-11-12",
       "operado_hoy": true,
       "descansa": true,
-      "entrada": 160.75,
-      "stop": 159.14,
-      "meta": 163.97,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": true,
       "perdidas": 0
     }
@@ -121,14 +121,18 @@
     }
   },
   "precios": {
-    "OXY": 57.95,
-    "NVDA": 159.915
+    "OXY": 58.04
   },
   "cerebro": {
     "a_favor": {
       "n": 7,
       "ganadas": 1,
       "suma": -0.019862
+    },
+    "en_contra": {
+      "n": 1,
+      "ganadas": 1,
+      "suma": 0.019947
     }
   }
 }

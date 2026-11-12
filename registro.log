@@ -948,3 +948,13 @@
 2026-11-12 16:12 | [SKILL] 🕰️ MRVL: entrada 164.13 stop 160.03 objetivo 172.33 | objetivo antes 7%, stop antes 39% | con comisión: simulación -0.13R, historia -0.14R (34 casos) -> ❌ no
 2026-11-12 16:12 | [SKILL] 📰 MSFT descartada por noticias: Artificial Intelligence (AI) Clinical Trial Optimization Global Market Report 2026 | Capit (capital, regulatory)
 2026-11-12 16:12 | [SKILL] 🕰️ NVDL: entrada 17.78 stop 16.11 objetivo 21.12 | objetivo antes 0%, stop antes 0% | con comisión: simulación -0.12R, historia -0.23R (32 casos) -> ❌ no
+2026-11-12 16:17 | [CRIPTO] 🔎 Bot C3 (rebote 10) investiga 33 monedas: señal en 18, 0 con su regla ganando en 30 días
+2026-11-12 16:20 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 169 valores: señal en 7, 2 con su regla ganando las últimas sesiones (XOM -0.05%/día, XLE -0.13%/día)
+2026-11-12 16:20 | [DIARIO] 🕰️ Bot D1 XOM: stop 167.77 objetivo 169.30 | con comisión: simulación -0.85R, historia -0.92R (38 casos) -> ❌ no
+2026-11-12 16:20 | [DIARIO] 🕰️ Bot D1 XLE: stop 63.65 objetivo 64.52 | con comisión: simulación -0.57R, historia -0.46R (35 casos) -> ❌ no
+2026-11-12 16:20 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 169 valores: señal en 30, 0 con su regla ganando las últimas sesiones
+2026-11-12 16:24 | [ACTIVA] 🎯 Bot A3 OBJETIVO: NVDA a 164.28 (entró a 160.75).
+2026-11-12 16:24 | [ACTIVA] Bot A3 (rebote 20) VENDE 42.6339 NVDA a 164.28 | vida 16,606$
+2026-11-12 16:24 | [ACTIVA] Orden enviada: sell 42.6339 NVDA (id b8e74a7d-8ae3-4fa3-b92d-5173825869f5)
+2026-11-12 16:25 | [SKILL] 🔎 Escáner 10:24: 21 roturas, 1 recientes para estudiar.
+2026-11-12 16:25 | [SKILL] 🕰️ XLE: entrada 63.92 stop 63.65 objetivo 64.46 | objetivo antes 24%, stop antes 66% | con comisión: simulación -0.60R, historia -0.50R (35 casos) -> ❌ no
