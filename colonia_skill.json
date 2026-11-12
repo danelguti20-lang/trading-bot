@@ -25,29 +25,12 @@
   "trades_hoy": 0,
   "resultado_hoy": 0.0,
   "vistos_hoy": {
-    "2026-11-11": [
-      "DELL",
-      "SMCI",
-      "VGK",
-      "EFA",
-      "TSLA",
-      "IBIT",
-      "AMAT",
-      "AMD",
+    "2026-11-12": [
+      "ANET",
       "DDOG",
-      "EWJ",
-      "CSCO",
-      "QQQ",
-      "SMH",
-      "TQQQ",
-      "XLK",
-      "EWG",
-      "GOOGL",
-      "INDA",
-      "GS",
-      "XLI",
-      "RSP",
-      "XBI"
+      "MRVL",
+      "MSFT",
+      "NVDL"
     ]
   }
 }

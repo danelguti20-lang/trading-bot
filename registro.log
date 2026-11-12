@@ -935,3 +935,16 @@
 2026-11-12 15:54 | [ACTIVA] 🧠 Bot A3 compra aunque el cerebro diría NO (descanso).
 2026-11-12 15:54 | [ACTIVA] Bot A3 (rebote 20) COMPRA 42.6339 NVDA a 160.75 | vida 16,463$
 2026-11-12 15:54 | [ACTIVA] Orden enviada: buy 42.6339 NVDA (id 7da0e6bb-e24a-4d1c-a60e-ef6555b237eb)
+2026-11-12 16:03 | [CRIPTO] 🔎 Bot C3 (rebote 10) investiga 33 monedas: señal en 18, 0 con su regla ganando en 30 días
+2026-11-12 16:07 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 169 valores: señal en 1, 0 con su regla ganando las últimas sesiones
+2026-11-12 16:07 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 169 valores: señal en 48, 0 con su regla ganando las últimas sesiones
+2026-11-12 16:11 | [ACTIVA] 🔎 Bot A1 (ruptura 30) investiga 169 valores: señal en 3, mira primero: OXY, USO, RETO
+2026-11-12 16:11 | [ACTIVA] 📋 Bot A1 OXY: entra a 57.95, stop 57.62, objetivo 58.61 -> ✅ COMPRA
+2026-11-12 16:11 | [ACTIVA] Bot A1 (ruptura 30) COMPRA 187.7970 OXY a 57.95 | vida 16,737$
+2026-11-12 16:11 | [ACTIVA] Orden enviada: buy 187.7970 OXY (id 7aa3f3f4-3dec-4efc-8394-532f6b921d6f)
+2026-11-12 16:12 | [SKILL] 🔎 Escáner 10:11: 20 roturas, 12 recientes para estudiar.
+2026-11-12 16:12 | [SKILL] 🕰️ ANET: entrada 200.48 stop 195.64 objetivo 210.16 | objetivo antes 1%, stop antes 23% | con comisión: simulación -0.17R, historia -0.30R (29 casos) -> ❌ no
+2026-11-12 16:12 | [SKILL] 📰 DDOG descartada por noticias: What Datadog Holders Saw Early (earnings, legal)
+2026-11-12 16:12 | [SKILL] 🕰️ MRVL: entrada 164.13 stop 160.03 objetivo 172.33 | objetivo antes 7%, stop antes 39% | con comisión: simulación -0.13R, historia -0.14R (34 casos) -> ❌ no
+2026-11-12 16:12 | [SKILL] 📰 MSFT descartada por noticias: Artificial Intelligence (AI) Clinical Trial Optimization Global Market Report 2026 | Capit (capital, regulatory)
+2026-11-12 16:12 | [SKILL] 🕰️ NVDL: entrada 17.78 stop 16.11 objetivo 21.12 | objetivo antes 0%, stop antes 0% | con comisión: simulación -0.12R, historia -0.23R (32 casos) -> ❌ no

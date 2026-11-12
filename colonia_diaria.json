@@ -144,6 +144,18 @@
       "media": -0.00328,
       "ganadores": 0.0,
       "n": 15
+    },
+    "USO-ruptura-30": {
+      "fecha": "2026-11-12",
+      "media": -0.00342,
+      "ganadores": 0.375,
+      "n": 16
+    },
+    "CRWV-rebote-10": {
+      "fecha": "2026-11-12",
+      "media": -0.00269,
+      "ganadores": 0.42105,
+      "n": 19
     }
   },
   "noticias": {

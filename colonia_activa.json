@@ -5,22 +5,22 @@
     {
       "id": 1,
       "padre": null,
-      "activo": null,
+      "activo": "OXY",
       "estrategia": "ruptura",
       "p": 30,
-      "efectivo": 16747.738704541996,
-      "acciones": 0.0,
+      "efectivo": 5854.018268193246,
+      "acciones": 187.797025,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-11",
       "hijos": 0,
       "hoy": "2026-11-12",
-      "operado_hoy": false,
+      "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 57.95,
+      "stop": 57.62,
+      "meta": 58.61,
       "contra_cerebro": false,
       "perdidas": 1
     },
@@ -113,10 +113,16 @@
       "titulares": [
         "Stock Market Today: Dow Wavers On Trump Remarks; Nvidia Plunges As Jensen Huang Resigns (Live Coverage)"
       ]
+    },
+    "OXY": {
+      "hora": "2026-11-12T15:11:48.788173+00:00",
+      "malos": 0,
+      "titulares": []
     }
   },
   "precios": {
-    "NVDA": 160.75
+    "OXY": 57.95,
+    "NVDA": 159.915
   },
   "cerebro": {
     "a_favor": {
