@@ -5,11 +5,11 @@
     {
       "id": 1,
       "padre": null,
-      "activo": "OXY",
+      "activo": null,
       "estrategia": "ruptura",
       "p": 30,
-      "efectivo": 5854.018268193246,
-      "acciones": 187.797025,
+      "efectivo": 16876.060411724495,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -18,31 +18,31 @@
       "hoy": "2026-11-12",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 57.95,
-      "stop": 57.62,
-      "meta": 58.61,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
-      "perdidas": 1
+      "perdidas": 0
     },
     {
       "id": 2,
       "padre": null,
-      "activo": null,
+      "activo": "NVDA",
       "estrategia": "mañana",
       "p": 0.2,
-      "efectivo": 16646.175557569637,
-      "acciones": 0.0,
+      "efectivo": 9722.629572864287,
+      "acciones": 42.059163,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-11",
       "hijos": 0,
       "hoy": "2026-11-12",
-      "operado_hoy": false,
+      "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 164.45,
+      "stop": 162.8,
+      "meta": 167.75,
       "contra_cerebro": false,
       "perdidas": 1
     },
@@ -108,10 +108,10 @@
       "titulares": []
     },
     "NVDA": {
-      "hora": "2026-11-12T14:54:05.685653+00:00",
+      "hora": "2026-11-12T17:09:40.965360+00:00",
       "malos": 1,
       "titulares": [
-        "Stock Market Today: Dow Wavers On Trump Remarks; Nvidia Plunges As Jensen Huang Resigns (Live Coverage)"
+        "Lucid Sinks 8% as Cash-Burn Worries Linger After Earnings; Rivian Falls 3%, Tesla Holds Steady After Musk’s Jensen Huang Remark"
       ]
     },
     "OXY": {
@@ -131,14 +131,14 @@
     }
   },
   "precios": {
-    "OXY": 58.535,
-    "TLT": 79.965
+    "NVDA": 164.45,
+    "TLT": 79.915
   },
   "cerebro": {
     "a_favor": {
-      "n": 7,
-      "ganadas": 1,
-      "suma": -0.019862
+      "n": 8,
+      "ganadas": 2,
+      "suma": -0.008085
     },
     "en_contra": {
       "n": 2,
