@@ -5,11 +5,11 @@
     {
       "id": 1,
       "padre": null,
-      "activo": "AMD",
+      "activo": null,
       "estrategia": "ruptura",
       "p": 30,
-      "efectivo": 9845.011275653535,
-      "acciones": 12.105379,
+      "efectivo": 16880.515070142705,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -18,20 +18,20 @@
       "hoy": "2026-11-12",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 580.24,
-      "stop": 574.43,
-      "meta": 591.86,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
       "perdidas": 0
     },
     {
       "id": 2,
       "padre": null,
-      "activo": "NVDA",
+      "activo": null,
       "estrategia": "mañana",
       "p": 0.2,
-      "efectivo": 9722.629572864287,
-      "acciones": 42.059163,
+      "efectivo": 16695.788125652805,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -40,20 +40,20 @@
       "hoy": "2026-11-12",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 164.45,
-      "stop": 162.8,
-      "meta": 167.75,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
-      "perdidas": 1
+      "perdidas": 0
     },
     {
       "id": 3,
       "padre": null,
-      "activo": "MSFT",
+      "activo": null,
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 9707.52800298715,
-      "acciones": 13.159079,
+      "efectivo": 16563.65107858549,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,11 +62,11 @@
       "hoy": "2026-11-12",
       "operado_hoy": true,
       "descansa": true,
-      "entrada": 526.28,
-      "stop": 521.01,
-      "meta": 536.82,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": true,
-      "perdidas": 1
+      "perdidas": 2
     }
   ],
   "eurusd": 1.1081,
@@ -128,21 +128,17 @@
       "titulares": []
     }
   },
-  "precios": {
-    "AMD": 580.51,
-    "NVDA": 164.105,
-    "MSFT": 521.84
-  },
+  "precios": {},
   "cerebro": {
     "a_favor": {
-      "n": 8,
-      "ganadas": 2,
-      "suma": -0.008085
+      "n": 10,
+      "ganadas": 4,
+      "suma": -0.000289
     },
     "en_contra": {
-      "n": 3,
+      "n": 4,
       "ganadas": 2,
-      "suma": 0.024806
+      "suma": 0.013817
     }
   }
 }
