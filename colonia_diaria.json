@@ -70,7 +70,7 @@
     }
   ],
   "precios": {
-    "ABNB": 182.74
+    "ABNB": 183.01
   },
   "eurusd": 1.1081,
   "eurusd_inicio": 1.1193,
@@ -500,6 +500,18 @@
       "media": -0.00422,
       "ganadores": 0.33333,
       "n": 18
+    },
+    "AAPL-rebote-10": {
+      "fecha": "2026-11-12",
+      "media": -0.00166,
+      "ganadores": 0.33333,
+      "n": 18
+    },
+    "DE-rebote-10": {
+      "fecha": "2026-11-12",
+      "media": -0.00357,
+      "ganadores": 0.35294,
+      "n": 17
     }
   },
   "noticias": {
