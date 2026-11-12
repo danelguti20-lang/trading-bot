@@ -70,7 +70,7 @@
     }
   ],
   "precios": {
-    "ABNB": 182.63
+    "ABNB": 182.55
   },
   "eurusd": 1.1081,
   "eurusd_inicio": 1.1193,
@@ -277,6 +277,24 @@
       "fecha": "2026-11-12",
       "media": -0.00241,
       "ganadores": 0.61111,
+      "n": 18
+    },
+    "FXI-rebote-10": {
+      "fecha": "2026-11-12",
+      "media": -0.00242,
+      "ganadores": 0.10526,
+      "n": 19
+    },
+    "XLY-rebote-10": {
+      "fecha": "2026-11-12",
+      "media": -0.00423,
+      "ganadores": 0.125,
+      "n": 16
+    },
+    "PDD-rebote-10": {
+      "fecha": "2026-11-12",
+      "media": -0.00535,
+      "ganadores": 0.27778,
       "n": 18
     }
   },
