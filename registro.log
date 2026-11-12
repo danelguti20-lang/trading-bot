@@ -958,3 +958,15 @@
 2026-11-12 16:24 | [ACTIVA] Orden enviada: sell 42.6339 NVDA (id b8e74a7d-8ae3-4fa3-b92d-5173825869f5)
 2026-11-12 16:25 | [SKILL] 🔎 Escáner 10:24: 21 roturas, 1 recientes para estudiar.
 2026-11-12 16:25 | [SKILL] 🕰️ XLE: entrada 63.92 stop 63.65 objetivo 64.46 | objetivo antes 24%, stop antes 66% | con comisión: simulación -0.60R, historia -0.50R (35 casos) -> ❌ no
+2026-11-12 16:32 | [CRIPTO] 🔎 Bot C3 (rebote 10) investiga 33 monedas: señal en 18, 0 con su regla ganando en 30 días
+2026-11-12 16:35 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 169 valores: señal en 4, 1 con su regla ganando las últimas sesiones (ABNB -0.18%/día)
+2026-11-12 16:35 | [DIARIO] 🕰️ Bot D1 ABNB: stop 180.97 objetivo 185.95 | con comisión: simulación -0.25R, historia -0.13R (28 casos) -> ✅ COMPRA
+2026-11-12 16:35 | [DIARIO] Bot D1 (ruptura 30) COMPRA 41.1462 ABNB a 182.63 | vida 16,659$
+2026-11-12 16:35 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 169 valores: señal en 6, 0 con su regla ganando las últimas sesiones
+2026-11-12 16:35 | [DIARIO] Orden enviada: buy 41.1462 ABNB (id 147842ab-0c2a-4bbe-b152-03f0e1302100)
+2026-11-12 16:37 | [ACTIVA] 🔎 Bot A3 (rebote 20) investiga 169 valores: señal en 20, mira primero: SPCX, META, NBIS, IBIT
+2026-11-12 16:37 | [ACTIVA] 📋 Bot A3 SPCX: entra a 141.32, stop 139.90, objetivo 144.16 -> ✅ COMPRA
+2026-11-12 16:37 | [ACTIVA] 🧠 Bot A3 compra aunque el cerebro diría NO (descanso).
+2026-11-12 16:37 | [ACTIVA] Bot A3 (rebote 20) COMPRA 48.7664 SPCX a 141.32 | vida 16,599$
+2026-11-12 16:37 | [ACTIVA] Orden enviada: buy 48.7664 SPCX (id 929c6738-548b-414c-93f4-17de13d107fa)
+2026-11-12 16:38 | [SKILL] 🔎 Escáner 10:37: 21 roturas, 0 recientes para estudiar.

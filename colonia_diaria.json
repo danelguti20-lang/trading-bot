@@ -5,22 +5,22 @@
     {
       "id": 1,
       "padre": null,
-      "activo": null,
+      "activo": "ABNB",
       "estrategia": "ruptura",
       "p": 30,
-      "efectivo": 16666.332112866312,
-      "acciones": 0.0,
+      "efectivo": 9144.295485741291,
+      "acciones": 41.146154,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-09",
       "hijos": 0,
       "hoy": "2026-11-12",
-      "operado_hoy": false,
+      "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 182.63,
+      "stop": 180.97,
+      "meta": 185.95,
       "contra_cerebro": false,
       "perdidas": 1
     },
@@ -69,8 +69,10 @@
       "perdidas": 0
     }
   ],
-  "precios": {},
-  "eurusd": 1.1127,
+  "precios": {
+    "ABNB": 182.63
+  },
+  "eurusd": 1.1081,
   "eurusd_inicio": 1.1193,
   "memoria": {
     "NVDA-rebote-10": {
@@ -234,6 +236,48 @@
       "media": -0.00275,
       "ganadores": 0.27778,
       "n": 18
+    },
+    "ABNB-ruptura-30": {
+      "fecha": "2026-11-12",
+      "media": -0.00175,
+      "ganadores": 0.28571,
+      "n": 7
+    },
+    "NVDL-ruptura-30": {
+      "fecha": "2026-11-12",
+      "media": -0.0123,
+      "ganadores": 0.1,
+      "n": 10
+    },
+    "PLTR-rebote-10": {
+      "fecha": "2026-11-12",
+      "media": -0.00259,
+      "ganadores": 0.47059,
+      "n": 17
+    },
+    "MS-rebote-10": {
+      "fecha": "2026-11-12",
+      "media": -0.00402,
+      "ganadores": 0.41176,
+      "n": 17
+    },
+    "ARM-rebote-10": {
+      "fecha": "2026-11-12",
+      "media": -0.00752,
+      "ganadores": 0.35294,
+      "n": 17
+    },
+    "SNOW-rebote-10": {
+      "fecha": "2026-11-12",
+      "media": -0.00794,
+      "ganadores": 0.22222,
+      "n": 18
+    },
+    "RBLX-rebote-10": {
+      "fecha": "2026-11-12",
+      "media": -0.00241,
+      "ganadores": 0.61111,
+      "n": 18
     }
   },
   "noticias": {
@@ -305,6 +349,11 @@
     },
     "NBIZ": {
       "hora": "2026-11-11T18:35:07.350965+00:00",
+      "malos": 0,
+      "titulares": []
+    },
+    "ABNB": {
+      "hora": "2026-11-12T15:35:28.912778+00:00",
       "malos": 0,
       "titulares": []
     }

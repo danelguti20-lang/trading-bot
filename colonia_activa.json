@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "SPCX",
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 16606.321975719256,
-      "acciones": 0.0,
+      "efectivo": 9707.763791761816,
+      "acciones": 48.766392,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,14 +62,14 @@
       "hoy": "2026-11-12",
       "operado_hoy": true,
       "descansa": true,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 141.32,
+      "stop": 139.9,
+      "meta": 144.16,
       "contra_cerebro": true,
       "perdidas": 0
     }
   ],
-  "eurusd": 1.1127,
+  "eurusd": 1.1081,
   "eurusd_inicio": 1.1127,
   "memoria": {},
   "noticias": {
@@ -118,10 +118,16 @@
       "hora": "2026-11-12T15:11:48.788173+00:00",
       "malos": 0,
       "titulares": []
+    },
+    "SPCX": {
+      "hora": "2026-11-12T15:37:54.605855+00:00",
+      "malos": 0,
+      "titulares": []
     }
   },
   "precios": {
-    "OXY": 58.04
+    "OXY": 57.87,
+    "SPCX": 141.32
   },
   "cerebro": {
     "a_favor": {
