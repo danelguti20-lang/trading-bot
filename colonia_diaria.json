@@ -546,6 +546,42 @@
       "media": -0.00466,
       "ganadores": 0.21429,
       "n": 14
+    },
+    "AMD-rebote-10": {
+      "fecha": "2026-11-12",
+      "media": -0.01069,
+      "ganadores": 0.3125,
+      "n": 16
+    },
+    "AVGO-rebote-10": {
+      "fecha": "2026-11-12",
+      "media": -0.00791,
+      "ganadores": 0.41176,
+      "n": 17
+    },
+    "SPY-rebote-10": {
+      "fecha": "2026-11-12",
+      "media": -0.00489,
+      "ganadores": 0.1875,
+      "n": 16
+    },
+    "QQQ-rebote-10": {
+      "fecha": "2026-11-12",
+      "media": -0.00513,
+      "ganadores": 0.3125,
+      "n": 16
+    },
+    "DELL-rebote-10": {
+      "fecha": "2026-11-12",
+      "media": -0.01243,
+      "ganadores": 0.33333,
+      "n": 18
+    },
+    "XLE-rebote-10": {
+      "fecha": "2026-11-12",
+      "media": -0.00476,
+      "ganadores": 0.29412,
+      "n": 17
     }
   },
   "noticias": {
