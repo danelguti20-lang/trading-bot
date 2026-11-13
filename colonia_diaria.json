@@ -342,6 +342,36 @@
       "media": -0.00502,
       "ganadores": 0.38889,
       "n": 18
+    },
+    "GOOGL-rebote-10": {
+      "fecha": "2026-11-13",
+      "media": -0.00698,
+      "ganadores": 0.05882,
+      "n": 17
+    },
+    "AMZN-rebote-10": {
+      "fecha": "2026-11-13",
+      "media": -0.00389,
+      "ganadores": 0.27778,
+      "n": 18
+    },
+    "XOM-rebote-10": {
+      "fecha": "2026-11-13",
+      "media": -0.00435,
+      "ganadores": 0.25,
+      "n": 16
+    },
+    "C-rebote-10": {
+      "fecha": "2026-11-13",
+      "media": -0.00486,
+      "ganadores": 0.17647,
+      "n": 17
+    },
+    "DIA-rebote-10": {
+      "fecha": "2026-11-13",
+      "media": -0.00413,
+      "ganadores": 0.125,
+      "n": 16
     }
   },
   "noticias": {
