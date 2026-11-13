@@ -546,6 +546,24 @@
       "media": -0.00239,
       "ganadores": 0.57895,
       "n": 19
+    },
+    "COST-rebote-10": {
+      "fecha": "2026-11-13",
+      "media": -0.00212,
+      "ganadores": 0.35714,
+      "n": 14
+    },
+    "ABNB-rebote-10": {
+      "fecha": "2026-11-13",
+      "media": -0.00566,
+      "ganadores": 0.23529,
+      "n": 17
+    },
+    "UBER-rebote-10": {
+      "fecha": "2026-11-13",
+      "media": -0.00233,
+      "ganadores": 0.27778,
+      "n": 18
     }
   },
   "noticias": {

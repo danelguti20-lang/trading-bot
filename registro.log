@@ -1373,3 +1373,16 @@
 2026-11-13 19:03 | [DIARIO] 🕰️ Bot D3 CMCSA: stop 24.91 objetivo 25.67 | con comisión: simulación -0.27R, historia -0.35R (31 casos) -> ❌ no
 2026-11-13 19:04 | [ACTIVA] Bot A3 (rebote 20) VENDE 457.1518 RWM a 14.52 | vida 16,362$
 2026-11-13 19:04 | [ACTIVA] Orden enviada: sell 457.1518 RWM (id a48d5f1b-7671-4687-86d7-a8b2b44e9cdc)
+2026-11-13 19:16 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 4, 0 con su regla ganando en 30 días
+2026-11-13 19:16 | [CRIPTO] 🔎 Bot C2 (ruptura 24) investiga 33 monedas: señal en 1, 0 con su regla ganando en 30 días
+2026-11-13 19:16 | [CRIPTO] 🔎 Bot C3 (rebote 10) investiga 33 monedas: señal en 6, 0 con su regla ganando en 30 días
+2026-11-13 19:17 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 161 valores: señal en 35, 6 con su regla ganando las últimas sesiones (SOXS +0.85%/día, SPDN +0.27%/día, RWM -0.05%/día, V -0.09%/día)
+2026-11-13 19:17 | [DIARIO] 🕰️ Bot D2 SOXS: stop 52.03 objetivo 53.62 | con comisión: simulación -0.14R, historia -0.40R (34 casos) -> ❌ no
+2026-11-13 19:17 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: the entry is not in the data: no complete 13:10 bar (closing 1:15 PM) on 2026-11-13 for SPDN (the data stops at the 13:05 bar)
+2026-11-13 19:17 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 161 valores: señal en 6, 1 con su regla ganando las últimas sesiones (TSLA -0.17%/día)
+2026-11-13 19:17 | [DIARIO] 📰 Bot D3 no compra TSLA: Tesla Stocks Edge Lower After Finland Clears Its Assisted Driving System (regulatory)
+2026-11-13 19:18 | [ACTIVA] 🔎 Bot A3 (rebote 20) investiga 161 valores: señal en 33, mira primero: AMD, SPY, MU, TSLA
+2026-11-13 19:18 | [ACTIVA] 📰 Bot A3 no compra AMD: Nvidia, AMD, Microsoft, Cerebras, Cisco, Modine, and More Stocks That Explain To (risk)
+2026-11-13 19:18 | [ACTIVA] 📋 Bot A3 SPY: entra a 751.10, stop 743.58, objetivo 766.12 -> ✅ COMPRA
+2026-11-13 19:18 | [ACTIVA] Bot A3 (rebote 20) COMPRA 9.0726 SPY a 751.10 | vida 16,355$
+2026-11-13 19:18 | [ACTIVA] Orden enviada: buy 9.0726 SPY (id a1d0b65a-ab80-48ec-a25a-523b7d5d6f0b)
