@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "NFLX",
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 16457.951595770137,
-      "acciones": 0.0,
+      "efectivo": 9604.513542548375,
+      "acciones": 108.883452,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,9 +62,9 @@
       "hoy": "2026-11-13",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 62.88,
+      "stop": 62.25,
+      "meta": 64.14,
       "contra_cerebro": false,
       "perdidas": 3
     }
@@ -131,10 +131,16 @@
       "hora": "2026-11-13T14:48:24.261853+00:00",
       "malos": 0,
       "titulares": []
+    },
+    "NFLX": {
+      "hora": "2026-11-13T15:34:55.176567+00:00",
+      "malos": 0,
+      "titulares": []
     }
   },
   "precios": {
-    "SOXS": 52.66
+    "SOXS": 52.7,
+    "NFLX": 62.88
   },
   "cerebro": {
     "a_favor": {

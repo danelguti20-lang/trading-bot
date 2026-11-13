@@ -1265,3 +1265,14 @@
 2026-11-13 16:18 | [SKILL] 🔎 Escáner 10:18: 26 roturas, 2 recientes para estudiar.
 2026-11-13 16:18 | [SKILL] 🕰️ NU: entrada 12.73 stop 12.39 objetivo 13.41 | objetivo antes 0%, stop antes 10% | con comisión: simulación -0.03R, historia +0.07R (37 casos) -> ❌ no
 2026-11-13 16:18 | [SKILL] 📰 V descartada por noticias: UQPAY Secures Visa Associate Membership in Australia (regulatory)
+2026-11-13 16:32 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 14, 0 con su regla ganando en 30 días
+2026-11-13 16:32 | [CRIPTO] 🔎 Bot C3 (rebote 10) investiga 33 monedas: señal en 1, 0 con su regla ganando en 30 días
+2026-11-13 16:34 | [ACTIVA] 🔎 Bot A3 (rebote 20) investiga 161 valores: señal en 32, mira primero: GOOGL, AMZN, NFLX, CSCO
+2026-11-13 16:34 | [ACTIVA] 📰 Bot A3 no compra GOOGL: Berkshire Hathaway’s Greg Abel Bought Back a Record $9.6 Billion of Stock Last Q (earnings, halt)
+2026-11-13 16:34 | [ACTIVA] 📰 Bot A3 no compra AMZN: Store Recalls Report Finds Walmart Named in 81 Official U.S. Recalls in 2026, Mo (risk)
+2026-11-13 16:34 | [ACTIVA] 📋 Bot A3 NFLX: entra a 62.88, stop 62.25, objetivo 64.14 -> ✅ COMPRA
+2026-11-13 16:34 | [ACTIVA] Bot A3 (rebote 20) COMPRA 108.8835 NFLX a 62.88 | vida 16,451$
+2026-11-13 16:34 | [ACTIVA] Orden enviada: buy 108.8835 NFLX (id 805f5ddd-8409-4779-99e4-1d04fea70858)
+2026-11-13 16:35 | [SKILL] 🔎 Escáner 10:34: 28 roturas, 2 recientes para estudiar.
+2026-11-13 16:35 | [SKILL] 🕰️ COP: entrada 142.03 stop 141.29 objetivo 143.51 | objetivo antes 27%, stop antes 60% | con comisión: simulación -0.38R, historia -0.46R (37 casos) -> ❌ no
+2026-11-13 16:35 | [SKILL] 🕰️ UPS: entrada 111.92 stop 111.45 objetivo 112.86 | objetivo antes 29%, stop antes 62% | con comisión: simulación -0.47R, historia -0.35R (34 casos) -> ❌ no
