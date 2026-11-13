@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": "SBUX",
+      "activo": null,
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 9014.630010875848,
-      "acciones": 59.717556,
+      "efectivo": 15389.666627001689,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,16 +62,14 @@
       "hoy": "2026-11-13",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 106.565,
-      "stop": 105.49,
-      "meta": 108.72,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
       "perdidas": 0
     }
   ],
-  "precios": {
-    "SBUX": 106.715
-  },
+  "precios": {},
   "eurusd": 1.1052,
   "eurusd_inicio": 1.1193,
   "memoria": {
@@ -608,9 +606,9 @@
   },
   "cerebro": {
     "a_favor": {
-      "n": 16,
-      "ganadas": 7,
-      "suma": -0.195245
+      "n": 17,
+      "ganadas": 8,
+      "suma": -0.194482
     }
   }
 }

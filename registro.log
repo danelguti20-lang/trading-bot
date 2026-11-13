@@ -1344,3 +1344,12 @@
 2026-11-13 18:18 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 161 valores: señal en 34, 6 con su regla ganando las últimas sesiones (SOXS +0.85%/día, SPDN +0.27%/día, RWM -0.05%/día, V -0.09%/día)
 2026-11-13 18:18 | [DIARIO] 🕰️ Bot D2 SOXS: stop 52.11 objetivo 53.70 | con comisión: simulación +0.04R, historia -0.40R (34 casos) -> ❌ no
 2026-11-13 18:18 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 11 full session(s) of SPDN before 2026-11-13 in the data; the time machine needs at least 20
+2026-11-13 18:33 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 4, 0 con su regla ganando en 30 días
+2026-11-13 18:33 | [CRIPTO] 🔎 Bot C3 (rebote 10) investiga 33 monedas: señal en 9, 0 con su regla ganando en 30 días
+2026-11-13 18:34 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 161 valores: señal en 35, 6 con su regla ganando las últimas sesiones (SOXS +0.85%/día, SPDN +0.27%/día, RWM -0.05%/día, V -0.09%/día)
+2026-11-13 18:34 | [DIARIO] 🕰️ Bot D2 SOXS: stop 51.63 objetivo 53.22 | con comisión: simulación +0.05R, historia -0.40R (34 casos) -> ❌ no
+2026-11-13 18:34 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 11 full session(s) of SPDN before 2026-11-13 in the data; the time machine needs at least 20
+2026-11-13 18:34 | [DIARIO] Bot D3 (rebote 10) VENDE 59.7176 SBUX a 106.86 | vida 15,390$
+2026-11-13 18:34 | [DIARIO] Orden enviada: sell 59.7176 SBUX (id 98a09a62-de6a-4361-9831-f244e1eb2f99)
+2026-11-13 18:35 | [ACTIVA] Bot A3 (rebote 20) VENDE 85.8280 TLT a 79.51 | vida 16,366$
+2026-11-13 18:35 | [ACTIVA] Orden enviada: sell 85.8280 TLT (id 2a3041b4-ea17-477d-b94b-07f321876cdd)
