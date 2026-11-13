@@ -49,28 +49,30 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "ORCL",
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 15273.06145864356,
-      "acciones": 0.0,
+      "efectivo": 8919.33060763602,
+      "acciones": 51.764667,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-09",
       "hijos": 0,
       "hoy": "2026-11-13",
-      "operado_hoy": false,
+      "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 122.62,
+      "stop": 121.39,
+      "meta": 125.08,
       "contra_cerebro": false,
       "perdidas": 1
     }
   ],
-  "precios": {},
-  "eurusd": 1.1081,
+  "precios": {
+    "ORCL": 122.62
+  },
+  "eurusd": 1.1052,
   "eurusd_inicio": 1.1193,
   "memoria": {
     "AVGO-rebote-10": {
@@ -144,6 +146,84 @@
       "media": -0.00859,
       "ganadores": 0.44444,
       "n": 18
+    },
+    "SOXS-ruptura-30": {
+      "fecha": "2026-11-13",
+      "media": 0.02614,
+      "ganadores": 0.55556,
+      "n": 9
+    },
+    "MA-ruptura-30": {
+      "fecha": "2026-11-13",
+      "media": -0.00125,
+      "ganadores": 0.4,
+      "n": 10
+    },
+    "V-ruptura-30": {
+      "fecha": "2026-11-13",
+      "media": -0.00037,
+      "ganadores": 0.4,
+      "n": 10
+    },
+    "ADBE-ruptura-30": {
+      "fecha": "2026-11-13",
+      "media": -0.00605,
+      "ganadores": 0.125,
+      "n": 8
+    },
+    "TSLA-rebote-10": {
+      "fecha": "2026-11-13",
+      "media": -0.0017,
+      "ganadores": 0.47059,
+      "n": 17
+    },
+    "AMD-rebote-10": {
+      "fecha": "2026-11-13",
+      "media": -0.00953,
+      "ganadores": 0.33333,
+      "n": 15
+    },
+    "SPY-rebote-10": {
+      "fecha": "2026-11-13",
+      "media": -0.00523,
+      "ganadores": 0.125,
+      "n": 16
+    },
+    "MU-rebote-10": {
+      "fecha": "2026-11-13",
+      "media": -0.00867,
+      "ganadores": 0.33333,
+      "n": 18
+    },
+    "SPCX-rebote-10": {
+      "fecha": "2026-11-13",
+      "media": -0.00715,
+      "ganadores": 0.29412,
+      "n": 17
+    },
+    "SMH-rebote-10": {
+      "fecha": "2026-11-13",
+      "media": -0.00402,
+      "ganadores": 0.44444,
+      "n": 18
+    },
+    "QQQ-rebote-10": {
+      "fecha": "2026-11-13",
+      "media": -0.00541,
+      "ganadores": 0.25,
+      "n": 16
+    },
+    "AMAT-rebote-10": {
+      "fecha": "2026-11-13",
+      "media": -0.00866,
+      "ganadores": 0.33333,
+      "n": 18
+    },
+    "ORCL-rebote-10": {
+      "fecha": "2026-11-13",
+      "media": 0.00208,
+      "ganadores": 0.52941,
+      "n": 17
     }
   },
   "noticias": {
@@ -225,6 +305,11 @@
     },
     "LOW": {
       "hora": "2026-11-12T17:51:53.011332+00:00",
+      "malos": 0,
+      "titulares": []
+    },
+    "ORCL": {
+      "hora": "2026-11-13T15:03:51.823892+00:00",
       "malos": 0,
       "titulares": []
     }

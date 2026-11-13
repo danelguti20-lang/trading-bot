@@ -25,28 +25,12 @@
   "trades_hoy": 0,
   "resultado_hoy": 0.0,
   "vistos_hoy": {
-    "2026-11-12": [
-      "ANET",
-      "DDOG",
-      "MRVL",
-      "MSFT",
-      "NVDL",
-      "XLE",
-      "CRWV",
-      "LRCX",
-      "MSTR",
-      "SMH",
-      "TXN",
-      "C",
-      "DIA",
-      "GDX",
-      "GS",
-      "MDY",
-      "AVGO",
-      "MRNA",
-      "COP",
-      "CRWD",
-      "MS"
+    "2026-11-13": [
+      "PDD",
+      "PEP",
+      "TLT",
+      "MA",
+      "PG"
     ]
   }
 }
