@@ -516,6 +516,36 @@
       "media": -0.00344,
       "ganadores": 0.1,
       "n": 10
+    },
+    "BAC-rebote-10": {
+      "fecha": "2026-11-13",
+      "media": -0.0058,
+      "ganadores": 0.05556,
+      "n": 18
+    },
+    "DE-rebote-10": {
+      "fecha": "2026-11-13",
+      "media": -0.00402,
+      "ganadores": 0.35294,
+      "n": 17
+    },
+    "IEF-rebote-10": {
+      "fecha": "2026-11-13",
+      "media": -0.00352,
+      "ganadores": 0.0,
+      "n": 17
+    },
+    "CMCSA-rebote-10": {
+      "fecha": "2026-11-13",
+      "media": -0.00018,
+      "ganadores": 0.5,
+      "n": 18
+    },
+    "RBLX-rebote-10": {
+      "fecha": "2026-11-13",
+      "media": -0.00239,
+      "ganadores": 0.57895,
+      "n": 19
     }
   },
   "noticias": {
