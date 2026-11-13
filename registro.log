@@ -1252,3 +1252,16 @@
 2026-11-13 16:05 | [SKILL]   TLT: stop demasiado pegado (0.14 $), no vale.
 2026-11-13 16:05 | [SKILL] 🕰️ MA: entrada 660.57 stop 657.74 objetivo 666.23 | objetivo antes 26%, stop antes 58% | con comisión: simulación -0.44R, historia -0.52R (31 casos) -> ❌ no
 2026-11-13 16:05 | [SKILL] 🕰️ PG: entrada 169.62 stop 168.95 objetivo 170.96 | objetivo antes 29%, stop antes 52% | con comisión: simulación -0.36R, historia -0.58R (41 casos) -> ❌ no
+2026-11-13 16:16 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 14, 0 con su regla ganando en 30 días
+2026-11-13 16:16 | [CRIPTO] 🔎 Bot C3 (rebote 10) investiga 33 monedas: señal en 1, 0 con su regla ganando en 30 días
+2026-11-13 16:17 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 161 valores: señal en 6, 3 con su regla ganando las últimas sesiones (SOXS +2.61%/día, NVD +1.43%/día, SPDN +0.13%/día)
+2026-11-13 16:17 | [DIARIO] 🕰️ Bot D1 SOXS: stop 52.17 objetivo 53.76 | con comisión: simulación -0.29R, historia -0.40R (34 casos) -> ❌ no
+2026-11-13 16:17 | [DIARIO] 🕰️ Bot D1 NVD: stop 6.75 objetivo 6.96 | con comisión: simulación -0.07R, historia +0.17R (32 casos) -> ✅ COMPRA
+2026-11-13 16:17 | [DIARIO] Bot D1 (ruptura 30) COMPRA 991.2377 NVD a 6.82 | vida 16,575$
+2026-11-13 16:17 | [DIARIO] Orden enviada: buy 991.2377 NVD (id 19067c53-79b6-44ae-a715-458401fee7bf)
+2026-11-13 16:18 | [ACTIVA] 🛑 Bot A3 STOP: AVGO a 343.75 (entró a 348.39).
+2026-11-13 16:18 | [ACTIVA] Bot A3 (rebote 20) VENDE 19.8045 AVGO a 343.75 | vida 16,458$
+2026-11-13 16:18 | [ACTIVA] Orden enviada: sell 19.8045 AVGO (id 7905f6f6-eb48-4430-b53c-cf10c12a3a17)
+2026-11-13 16:18 | [SKILL] 🔎 Escáner 10:18: 26 roturas, 2 recientes para estudiar.
+2026-11-13 16:18 | [SKILL] 🕰️ NU: entrada 12.73 stop 12.39 objetivo 13.41 | objetivo antes 0%, stop antes 10% | con comisión: simulación -0.03R, historia +0.07R (37 casos) -> ❌ no
+2026-11-13 16:18 | [SKILL] 📰 V descartada por noticias: UQPAY Secures Visa Associate Membership in Australia (regulatory)

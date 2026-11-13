@@ -5,22 +5,22 @@
     {
       "id": 1,
       "padre": null,
-      "activo": null,
+      "activo": "NVD",
       "estrategia": "ruptura",
       "p": 30,
-      "efectivo": 16581.424555318074,
-      "acciones": 0.0,
+      "efectivo": 9814.423070494493,
+      "acciones": 991.237719,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-09",
       "hijos": 0,
       "hoy": "2026-11-13",
-      "operado_hoy": false,
+      "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 6.82,
+      "stop": 6.75,
+      "meta": 6.96,
       "contra_cerebro": false,
       "perdidas": 2
     },
@@ -70,7 +70,8 @@
     }
   ],
   "precios": {
-    "ORCL": 122.62
+    "NVD": 6.82,
+    "ORCL": 122.48
   },
   "eurusd": 1.1052,
   "eurusd_inicio": 1.1193,
@@ -224,6 +225,36 @@
       "media": 0.00208,
       "ganadores": 0.52941,
       "n": 17
+    },
+    "TLT-ruptura-30": {
+      "fecha": "2026-11-13",
+      "media": -0.00261,
+      "ganadores": 0.22222,
+      "n": 9
+    },
+    "SCHW-ruptura-30": {
+      "fecha": "2026-11-13",
+      "media": -0.00286,
+      "ganadores": 0.25,
+      "n": 8
+    },
+    "SPDN-ruptura-30": {
+      "fecha": "2026-11-13",
+      "media": 0.00131,
+      "ganadores": 0.4,
+      "n": 10
+    },
+    "IEF-ruptura-30": {
+      "fecha": "2026-11-13",
+      "media": -0.00208,
+      "ganadores": 0.1,
+      "n": 10
+    },
+    "NVD-ruptura-30": {
+      "fecha": "2026-11-13",
+      "media": 0.0143,
+      "ganadores": 0.81818,
+      "n": 11
     }
   },
   "noticias": {
@@ -310,6 +341,11 @@
     },
     "ORCL": {
       "hora": "2026-11-13T15:03:51.823892+00:00",
+      "malos": 0,
+      "titulares": []
+    },
+    "NVD": {
+      "hora": "2026-11-13T15:17:29.751405+00:00",
       "malos": 0,
       "titulares": []
     }
