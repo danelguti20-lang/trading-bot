@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": "ORCL",
+      "activo": null,
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 8919.33060763602,
-      "acciones": 51.764667,
+      "efectivo": 15331.989061439686,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,16 +62,15 @@
       "hoy": "2026-11-13",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 122.62,
-      "stop": 121.39,
-      "meta": 125.08,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
-      "perdidas": 1
+      "perdidas": 0
     }
   ],
   "precios": {
-    "NVD": 6.86,
-    "ORCL": 122.99
+    "NVD": 6.87
   },
   "eurusd": 1.1052,
   "eurusd_inicio": 1.1193,
@@ -352,9 +351,9 @@
   },
   "cerebro": {
     "a_favor": {
-      "n": 13,
-      "ganadas": 4,
-      "suma": -0.232737
+      "n": 14,
+      "ganadas": 5,
+      "suma": -0.223465
     }
   }
 }

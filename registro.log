@@ -1276,3 +1276,16 @@
 2026-11-13 16:35 | [SKILL] 🔎 Escáner 10:34: 28 roturas, 2 recientes para estudiar.
 2026-11-13 16:35 | [SKILL] 🕰️ COP: entrada 142.03 stop 141.29 objetivo 143.51 | objetivo antes 27%, stop antes 60% | con comisión: simulación -0.38R, historia -0.46R (37 casos) -> ❌ no
 2026-11-13 16:35 | [SKILL] 🕰️ UPS: entrada 111.92 stop 111.45 objetivo 112.86 | objetivo antes 29%, stop antes 62% | con comisión: simulación -0.47R, historia -0.35R (34 casos) -> ❌ no
+2026-11-13 16:47 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 14, 0 con su regla ganando en 30 días
+2026-11-13 16:47 | [CRIPTO] 🔎 Bot C3 (rebote 10) investiga 33 monedas: señal en 1, 0 con su regla ganando en 30 días
+2026-11-13 16:48 | [DIARIO] Bot D3 (rebote 10) VENDE 51.7647 ORCL a 124.00 | vida 15,332$
+2026-11-13 16:48 | [DIARIO] Orden enviada: sell 51.7647 ORCL (id 987eaa81-bb88-4cad-8633-d40baf5b4994)
+2026-11-13 16:49 | [ACTIVA] 🎯 Bot A1 OBJETIVO: SOXS a 53.84 (entró a 52.16).
+2026-11-13 16:49 | [ACTIVA] Bot A1 (ruptura 30) VENDE 133.0599 SOXS a 53.84 | vida 17,090$
+2026-11-13 16:49 | [ACTIVA] Orden enviada: sell 133.0599 SOXS (id b417721d-2353-4d43-8e52-26ecc29520b5)
+2026-11-13 16:49 | [SKILL] 🔎 Escáner 10:49: 34 roturas, 7 recientes para estudiar.
+2026-11-13 16:49 | [SKILL] 📰 GILD descartada por noticias: Assembly Biosciences Reports Third Quarter 2026 Financial Results and Recent Updates (earnings, regulatory)
+2026-11-13 16:49 | [SKILL] 🕰️ HD: entrada 347.47 stop 344.80 objetivo 352.81 | objetivo antes 7%, stop antes 31% | con comisión: simulación -0.17R, historia -0.10R (29 casos) -> ❌ no
+2026-11-13 16:49 | [SKILL] 📰 LLY descartada por noticias: 4 Key Stocks to Watch Across Diabetes and Obesity This Awareness Day (regulatory)
+2026-11-13 16:49 | [SKILL] 🕰️ XLU: entrada 44.04 stop 43.92 objetivo 44.28 | objetivo antes 35%, stop antes 57% | con comisión: simulación -0.56R, historia -0.55R (34 casos) -> ❌ no
+2026-11-13 16:49 | [SKILL] 🕰️ CVX: entrada 218.88 stop 217.60 objetivo 221.44 | objetivo antes 14%, stop antes 49% | con comisión: simulación -0.39R, historia -0.42R (35 casos) -> ❌ no
