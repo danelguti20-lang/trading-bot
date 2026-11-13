@@ -1399,3 +1399,16 @@
 2026-11-13 19:32 | [DIARIO] Orden enviada: buy 463.2093 NU (id 630001ba-26aa-4df9-b8c0-8fef33ca0e29)
 2026-11-13 19:33 | [ACTIVA] Bot A3 (rebote 20) VENDE 9.0726 SPY a 752.17 | vida 16,358$
 2026-11-13 19:33 | [ACTIVA] Orden enviada: sell 9.0726 SPY (id 18119852-d12a-4c74-b273-d2b44d9b8b44)
+2026-11-13 19:47 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 4, 0 con su regla ganando en 30 días
+2026-11-13 19:47 | [CRIPTO] 🔎 Bot C2 (ruptura 24) investiga 33 monedas: señal en 1, 0 con su regla ganando en 30 días
+2026-11-13 19:47 | [CRIPTO] 🔎 Bot C3 (rebote 10) investiga 33 monedas: señal en 6, 0 con su regla ganando en 30 días
+2026-11-13 19:48 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 161 valores: señal en 40, 6 con su regla ganando las últimas sesiones (SOXS +0.85%/día, RWM -0.05%/día, V -0.09%/día, XLP -0.11%/día)
+2026-11-13 19:48 | [DIARIO] 🕰️ Bot D2 SOXS: stop 51.33 objetivo 52.89 | con comisión: simulación -0.04R, historia -0.37R (34 casos) -> ❌ no
+2026-11-13 19:48 | [DIARIO] 🕰️ Bot D2 RWM: stop 14.34 objetivo 14.79 | con comisión: simulación -0.17R, historia -0.16R (32 casos) -> ✅ COMPRA
+2026-11-13 19:48 | [DIARIO] Bot D2 (mañana 0.3) COMPRA 463.0070 RWM a 14.49 | vida 16,567$
+2026-11-13 19:48 | [DIARIO] Orden enviada: buy 463.0070 RWM (id 8b2383f4-d681-4a55-a1e1-f5928dc8e21f)
+2026-11-13 19:48 | [ACTIVA] 🔎 Bot A3 (rebote 20) investiga 161 valores: señal en 14, mira primero: MSFT, GLD, NU, WMT
+2026-11-13 19:48 | [ACTIVA] 📰 Bot A3 no compra MSFT: Microsoft outage is ‘one of the most economically damaging in history’, expert w (risk)
+2026-11-13 19:48 | [ACTIVA] 📋 Bot A3 GLD: entra a 355.49, stop 351.93, objetivo 362.61 -> ✅ COMPRA
+2026-11-13 19:48 | [ACTIVA] Bot A3 (rebote 20) COMPRA 19.1502 GLD a 355.49 | vida 16,351$
+2026-11-13 19:48 | [ACTIVA] Orden enviada: buy 19.1502 GLD (id c753bcd6-64f0-43e3-b3e9-4521045fcc93)

@@ -27,22 +27,22 @@
     {
       "id": 2,
       "padre": null,
-      "activo": null,
+      "activo": "RWM",
       "estrategia": "mañana",
       "p": 0.3,
-      "efectivo": 16573.79970623247,
-      "acciones": 0.0,
+      "efectivo": 9858.118840658788,
+      "acciones": 463.007032,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-09",
       "hijos": 0,
       "hoy": "2026-11-13",
-      "operado_hoy": false,
+      "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 14.49,
+      "stop": 14.34,
+      "meta": 14.79,
       "contra_cerebro": false,
       "perdidas": 2
     },
@@ -70,7 +70,8 @@
     }
   ],
   "precios": {
-    "NU": 13.06
+    "RWM": 14.49,
+    "NU": 12.99
   },
   "eurusd": 1.1052,
   "eurusd_inicio": 1.1193,
@@ -685,6 +686,11 @@
     },
     "NU": {
       "hora": "2026-11-13T18:32:50.432395+00:00",
+      "malos": 0,
+      "titulares": []
+    },
+    "RWM": {
+      "hora": "2026-11-13T18:48:18.859676+00:00",
       "malos": 0,
       "titulares": []
     }

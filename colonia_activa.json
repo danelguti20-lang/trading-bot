@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "GLD",
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 16358.025848342182,
-      "acciones": 0.0,
+      "efectivo": 9543.512834053203,
+      "acciones": 19.150202,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,9 +62,9 @@
       "hoy": "2026-11-13",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 355.49,
+      "stop": 351.93,
+      "meta": 362.61,
       "contra_cerebro": false,
       "perdidas": 7
     }
@@ -156,11 +156,17 @@
       "hora": "2026-11-13T18:18:08.443964+00:00",
       "malos": 0,
       "titulares": []
+    },
+    "GLD": {
+      "hora": "2026-11-13T18:48:53.237200+00:00",
+      "malos": 0,
+      "titulares": []
     }
   },
   "precios": {
     "XLP": 92.215,
-    "META": 636.92
+    "META": 640.145,
+    "GLD": 355.49
   },
   "cerebro": {
     "a_favor": {
