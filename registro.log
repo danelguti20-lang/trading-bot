@@ -1300,3 +1300,14 @@
 2026-11-13 17:04 | [ACTIVA] Orden enviada: buy 121.2914 XLP (id b036bf9c-1d06-4553-8291-65b9f6a51393)
 2026-11-13 17:04 | [SKILL] 🔎 Escáner 11:04: 35 roturas, 1 recientes para estudiar.
 2026-11-13 17:04 | [SKILL] 🕰️ LOW: entrada 226.99 stop 225.13 objetivo 230.71 | objetivo antes 9%, stop antes 30% | con comisión: simulación -0.12R, historia -0.35R (28 casos) -> ❌ no
+2026-11-13 17:18 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 4, 0 con su regla ganando en 30 días
+2026-11-13 17:18 | [CRIPTO] 🔎 Bot C3 (rebote 10) investiga 33 monedas: señal en 1, 0 con su regla ganando en 30 días
+2026-11-13 17:19 | [DIARIO] 🎯 Bot D1 OBJETIVO: NVD a 6.97 (entró a 6.82).
+2026-11-13 17:19 | [DIARIO] Bot D1 (ruptura 30) VENDE 991.2377 NVD a 6.97 | vida 16,716$
+2026-11-13 17:19 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 160 valores: señal en 9, 2 con su regla ganando las últimas sesiones (TXN -0.06%/día, CRM -0.10%/día)
+2026-11-13 17:19 | [DIARIO] 🕰️ Bot D3 TXN: stop 293.42 objetivo 302.33 | con comisión: simulación -0.06R, historia -0.23R (38 casos) -> ✅ COMPRA
+2026-11-13 17:19 | [DIARIO] Bot D3 (rebote 10) COMPRA 21.5169 TXN a 296.39 | vida 15,326$
+2026-11-13 17:19 | [DIARIO] Orden enviada: sell 991.2377 NVD (id 41cbb45f-7d79-4fdf-aebd-19285c7be04d)
+2026-11-13 17:19 | [DIARIO] Orden enviada: buy 21.5169 TXN (id 7b23091d-a149-4123-90a8-742e62770457)
+2026-11-13 17:20 | [SKILL] 🔎 Escáner 11:19: 34 roturas, 1 recientes para estudiar.
+2026-11-13 17:20 | [SKILL] 🕰️ INDA: entrada 51.34 stop 51.23 objetivo 51.56 | objetivo antes 12%, stop antes 42% | con comisión: simulación -0.92R, historia -0.88R (38 casos) -> ❌ no

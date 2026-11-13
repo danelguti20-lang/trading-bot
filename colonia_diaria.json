@@ -5,11 +5,11 @@
     {
       "id": 1,
       "padre": null,
-      "activo": "NVD",
+      "activo": null,
       "estrategia": "ruptura",
       "p": 30,
-      "efectivo": 9814.423070494493,
-      "acciones": 991.237719,
+      "efectivo": 16716.441045023064,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -18,11 +18,11 @@
       "hoy": "2026-11-13",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 6.82,
-      "stop": 6.75,
-      "meta": 6.96,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
-      "perdidas": 2
+      "perdidas": 0
     },
     {
       "id": 2,
@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "TXN",
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 15331.989061439686,
-      "acciones": 0.0,
+      "efectivo": 8948.220643312587,
+      "acciones": 21.51689,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,15 +62,15 @@
       "hoy": "2026-11-13",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 296.39,
+      "stop": 293.42,
+      "meta": 302.33,
       "contra_cerebro": false,
       "perdidas": 0
     }
   ],
   "precios": {
-    "NVD": 6.89
+    "TXN": 296.39
   },
   "eurusd": 1.1052,
   "eurusd_inicio": 1.1193,
@@ -314,6 +314,36 @@
       "media": -0.00313,
       "ganadores": 0.2,
       "n": 15
+    },
+    "NFLX-rebote-10": {
+      "fecha": "2026-11-13",
+      "media": -0.00575,
+      "ganadores": 0.22222,
+      "n": 18
+    },
+    "LRCX-rebote-10": {
+      "fecha": "2026-11-13",
+      "media": -0.00652,
+      "ganadores": 0.36842,
+      "n": 19
+    },
+    "TXN-rebote-10": {
+      "fecha": "2026-11-13",
+      "media": -0.0006,
+      "ganadores": 0.52941,
+      "n": 17
+    },
+    "SMCI-rebote-10": {
+      "fecha": "2026-11-13",
+      "media": -0.00636,
+      "ganadores": 0.36842,
+      "n": 19
+    },
+    "NVDL-rebote-10": {
+      "fecha": "2026-11-13",
+      "media": -0.00502,
+      "ganadores": 0.38889,
+      "n": 18
     }
   },
   "noticias": {
@@ -337,7 +367,7 @@
       "titulares": []
     },
     "TXN": {
-      "hora": "2026-11-10T19:04:12.719640+00:00",
+      "hora": "2026-11-13T16:19:24.112253+00:00",
       "malos": 0,
       "titulares": []
     },
@@ -411,9 +441,9 @@
   },
   "cerebro": {
     "a_favor": {
-      "n": 14,
-      "ganadas": 5,
-      "suma": -0.223465
+      "n": 15,
+      "ganadas": 6,
+      "suma": -0.203515
     }
   }
 }
