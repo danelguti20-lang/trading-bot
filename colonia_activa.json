@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "RWM",
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 16366.034844138236,
-      "acciones": 0.0,
+      "efectivo": 9730.704883378734,
+      "acciones": 457.151811,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,9 +62,9 @@
       "hoy": "2026-11-13",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 14.5,
+      "stop": 14.35,
+      "meta": 14.8,
       "contra_cerebro": false,
       "perdidas": 5
     }
@@ -146,11 +146,17 @@
       "hora": "2026-11-13T17:04:47.626248+00:00",
       "malos": 0,
       "titulares": []
+    },
+    "RWM": {
+      "hora": "2026-11-13T17:48:45.123370+00:00",
+      "malos": 0,
+      "titulares": []
     }
   },
   "precios": {
-    "XLP": 92.22,
-    "META": 634.06
+    "XLP": 92.275,
+    "META": 637.48,
+    "RWM": 14.5
   },
   "cerebro": {
     "a_favor": {

@@ -504,6 +504,18 @@
       "media": -0.00167,
       "ganadores": 0.28571,
       "n": 14
+    },
+    "DIS-mañana-0.3": {
+      "fecha": "2026-11-13",
+      "media": -0.00125,
+      "ganadores": 0.33333,
+      "n": 12
+    },
+    "SPDN-rebote-10": {
+      "fecha": "2026-11-13",
+      "media": -0.00344,
+      "ganadores": 0.1,
+      "n": 10
     }
   },
   "noticias": {

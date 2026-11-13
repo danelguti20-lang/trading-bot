@@ -1353,3 +1353,13 @@
 2026-11-13 18:34 | [DIARIO] Orden enviada: sell 59.7176 SBUX (id 98a09a62-de6a-4361-9831-f244e1eb2f99)
 2026-11-13 18:35 | [ACTIVA] Bot A3 (rebote 20) VENDE 85.8280 TLT a 79.51 | vida 16,366$
 2026-11-13 18:35 | [ACTIVA] Orden enviada: sell 85.8280 TLT (id 2a3041b4-ea17-477d-b94b-07f321876cdd)
+2026-11-13 18:47 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 4, 0 con su regla ganando en 30 días
+2026-11-13 18:47 | [CRIPTO] 🔎 Bot C3 (rebote 10) investiga 33 monedas: señal en 9, 0 con su regla ganando en 30 días
+2026-11-13 18:48 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 161 valores: señal en 34, 6 con su regla ganando las últimas sesiones (SOXS +0.85%/día, SPDN +0.27%/día, RWM -0.05%/día, V -0.09%/día)
+2026-11-13 18:48 | [DIARIO] 🕰️ Bot D2 SOXS: stop 51.71 objetivo 53.30 | con comisión: simulación +0.01R, historia -0.40R (34 casos) -> ❌ no
+2026-11-13 18:48 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 11 full session(s) of SPDN before 2026-11-13 in the data; the time machine needs at least 20
+2026-11-13 18:48 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 161 valores: señal en 3, 0 con su regla ganando las últimas sesiones
+2026-11-13 18:48 | [ACTIVA] 🔎 Bot A3 (rebote 20) investiga 161 valores: señal en 7, mira primero: RWM, SOXS, NU, SPDN
+2026-11-13 18:48 | [ACTIVA] 📋 Bot A3 RWM: entra a 14.50, stop 14.35, objetivo 14.80 -> ✅ COMPRA
+2026-11-13 18:48 | [ACTIVA] Bot A3 (rebote 20) COMPRA 457.1518 RWM a 14.50 | vida 16,359$
+2026-11-13 18:48 | [ACTIVA] Orden enviada: buy 457.1518 RWM (id 72eaf3e3-c305-4442-bc05-33407d9757e6)
