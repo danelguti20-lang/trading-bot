@@ -1321,3 +1321,21 @@
 2026-11-13 17:48 | [ACTIVA] 🛑 Bot A3 STOP: NFLX a 62.23 (entró a 62.88).
 2026-11-13 17:48 | [ACTIVA] Bot A3 (rebote 20) VENDE 108.8835 NFLX a 62.23 | vida 16,374$
 2026-11-13 17:49 | [ACTIVA] Orden enviada: sell 108.8835 NFLX (id 12270b21-4f97-402d-a787-e71e0cf369ea)
+2026-11-13 18:03 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 4, 0 con su regla ganando en 30 días
+2026-11-13 18:03 | [CRIPTO] 🔎 Bot C3 (rebote 10) investiga 33 monedas: señal en 9, 0 con su regla ganando en 30 días
+2026-11-13 18:03 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 161 valores: señal en 34, 6 con su regla ganando las últimas sesiones (SOXS +0.85%/día, SPDN +0.27%/día, KDP -0.02%/día, RWM -0.05%/día)
+2026-11-13 18:03 | [DIARIO] 🕰️ Bot D2 SOXS: stop 52.33 objetivo 53.92 | con comisión: simulación +0.03R, historia -0.37R (34 casos) -> ❌ no
+2026-11-13 18:03 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 11 full session(s) of SPDN before 2026-11-13 in the data; the time machine needs at least 20
+2026-11-13 18:04 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 161 valores: señal en 14, 3 con su regla ganando las últimas sesiones (SBUX -0.07%/día, WFC -0.11%/día, VZ -0.12%/día)
+2026-11-13 18:04 | [DIARIO] 🕰️ Bot D3 SBUX: stop 105.49 objetivo 108.72 | con comisión: simulación -0.12R, historia -0.17R (33 casos) -> ✅ COMPRA
+2026-11-13 18:04 | [DIARIO] Bot D3 (rebote 10) COMPRA 59.7176 SBUX a 106.56 | vida 15,378$
+2026-11-13 18:04 | [DIARIO] Orden enviada: buy 59.7176 SBUX (id 5f15e508-482d-438a-bc04-f59b18f654de)
+2026-11-13 18:04 | [ACTIVA] 🔎 Bot A2 (mañana 0.2) investiga 161 valores: señal en 36, mira primero: META, MSFT, KDP, RWM
+2026-11-13 18:04 | [ACTIVA] 📋 Bot A2 META: entra a 631.16, stop 624.84, objetivo 643.80 -> ✅ COMPRA
+2026-11-13 18:04 | [ACTIVA] Bot A2 (mañana 0.2) COMPRA 11.0097 META a 631.16 | vida 16,689$
+2026-11-13 18:04 | [ACTIVA] 🔎 Bot A3 (rebote 20) investiga 161 valores: señal en 33, mira primero: MSFT, TLT, NFLX, CSCO
+2026-11-13 18:04 | [ACTIVA] 📰 Bot A3 no compra MSFT: Microsoft outage is ‘one of the most economically damaging in history’, expert w (risk)
+2026-11-13 18:04 | [ACTIVA] 📋 Bot A3 TLT: entra a 79.44, stop 78.65, objetivo 81.03 -> ✅ COMPRA
+2026-11-13 18:04 | [ACTIVA] Bot A3 (rebote 20) COMPRA 85.8280 TLT a 79.44 | vida 16,367$
+2026-11-13 18:04 | [ACTIVA] Orden enviada: buy 11.0097 META (id 4b3817b3-8eeb-47cb-8f8d-296204943bc9)
+2026-11-13 18:04 | [ACTIVA] Orden enviada: buy 85.8280 TLT (id 42881e04-875d-41ec-9b7e-70ca7e24a977)
