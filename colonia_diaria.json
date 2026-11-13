@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": "TXN",
+      "activo": null,
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 8948.220643312587,
-      "acciones": 21.51689,
+      "efectivo": 15384.795167370987,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,16 +62,14 @@
       "hoy": "2026-11-13",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 296.39,
-      "stop": 293.42,
-      "meta": 302.33,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
       "perdidas": 0
     }
   ],
-  "precios": {
-    "TXN": 296.39
-  },
+  "precios": {},
   "eurusd": 1.1052,
   "eurusd_inicio": 1.1193,
   "memoria": {
@@ -441,9 +439,9 @@
   },
   "cerebro": {
     "a_favor": {
-      "n": 15,
-      "ganadas": 6,
-      "suma": -0.203515
+      "n": 16,
+      "ganadas": 7,
+      "suma": -0.195245
     }
   }
 }
