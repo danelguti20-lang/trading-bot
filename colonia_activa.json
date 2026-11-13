@@ -49,23 +49,23 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "AVGO",
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 16563.65107858549,
-      "acciones": 0.0,
+      "efectivo": 9656.962861051386,
+      "acciones": 19.804499,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-11",
       "hijos": 0,
       "hoy": "2026-11-13",
-      "operado_hoy": false,
+      "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
-      "contra_cerebro": true,
+      "entrada": 348.395,
+      "stop": 344.91,
+      "meta": 355.36,
+      "contra_cerebro": false,
       "perdidas": 2
     }
   ],
@@ -126,9 +126,16 @@
       "hora": "2026-11-12T16:12:56.990529+00:00",
       "malos": 0,
       "titulares": []
+    },
+    "AVGO": {
+      "hora": "2026-11-13T14:48:24.261853+00:00",
+      "malos": 0,
+      "titulares": []
     }
   },
-  "precios": {},
+  "precios": {
+    "AVGO": 348.395
+  },
   "cerebro": {
     "a_favor": {
       "n": 10,
