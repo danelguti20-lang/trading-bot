@@ -1386,3 +1386,16 @@
 2026-11-13 19:18 | [ACTIVA] 📋 Bot A3 SPY: entra a 751.10, stop 743.58, objetivo 766.12 -> ✅ COMPRA
 2026-11-13 19:18 | [ACTIVA] Bot A3 (rebote 20) COMPRA 9.0726 SPY a 751.10 | vida 16,355$
 2026-11-13 19:18 | [ACTIVA] Orden enviada: buy 9.0726 SPY (id a1d0b65a-ab80-48ec-a25a-523b7d5d6f0b)
+2026-11-13 19:31 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 4, 0 con su regla ganando en 30 días
+2026-11-13 19:31 | [CRIPTO] 🔎 Bot C2 (ruptura 24) investiga 33 monedas: señal en 1, 0 con su regla ganando en 30 días
+2026-11-13 19:31 | [CRIPTO] 🔎 Bot C3 (rebote 10) investiga 33 monedas: señal en 6, 0 con su regla ganando en 30 días
+2026-11-13 19:32 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 161 valores: señal en 36, 6 con su regla ganando las últimas sesiones (SOXS +0.85%/día, SPDN +0.27%/día, RWM -0.05%/día, V -0.09%/día)
+2026-11-13 19:32 | [DIARIO] 🕰️ Bot D2 SOXS: stop 51.29 objetivo 52.85 | con comisión: simulación -0.15R, historia -0.37R (34 casos) -> ❌ no
+2026-11-13 19:32 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: the entry is not in the data: no complete 13:25 bar (closing 1:30 PM) on 2026-11-13 for SPDN (the data stops at the 13:20 bar)
+2026-11-13 19:32 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 161 valores: señal en 7, 3 con su regla ganando las últimas sesiones (CMCSA -0.02%/día, NU -0.13%/día, WMT -0.18%/día)
+2026-11-13 19:32 | [DIARIO] 🕰️ Bot D3 CMCSA: stop 24.84 objetivo 25.60 | con comisión: simulación -0.22R, historia -0.35R (31 casos) -> ❌ no
+2026-11-13 19:32 | [DIARIO] 🕰️ Bot D3 NU: stop 12.92 objetivo 13.34 | con comisión: simulación -0.17R, historia -0.12R (37 casos) -> ✅ COMPRA
+2026-11-13 19:32 | [DIARIO] Bot D3 (rebote 10) COMPRA 463.2093 NU a 13.06 | vida 15,384$
+2026-11-13 19:32 | [DIARIO] Orden enviada: buy 463.2093 NU (id 630001ba-26aa-4df9-b8c0-8fef33ca0e29)
+2026-11-13 19:33 | [ACTIVA] Bot A3 (rebote 20) VENDE 9.0726 SPY a 752.17 | vida 16,358$
+2026-11-13 19:33 | [ACTIVA] Orden enviada: sell 9.0726 SPY (id 18119852-d12a-4c74-b273-d2b44d9b8b44)

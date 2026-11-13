@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "NU",
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 15389.666627001689,
-      "acciones": 0.0,
+      "efectivo": 9334.103328717189,
+      "acciones": 463.209325,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,14 +62,16 @@
       "hoy": "2026-11-13",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 13.06,
+      "stop": 12.92,
+      "meta": 13.34,
       "contra_cerebro": false,
       "perdidas": 0
     }
   ],
-  "precios": {},
+  "precios": {
+    "NU": 13.06
+  },
   "eurusd": 1.1052,
   "eurusd_inicio": 1.1193,
   "memoria": {
@@ -564,6 +566,24 @@
       "media": -0.00233,
       "ganadores": 0.27778,
       "n": 18
+    },
+    "NU-rebote-10": {
+      "fecha": "2026-11-13",
+      "media": -0.00133,
+      "ganadores": 0.44444,
+      "n": 18
+    },
+    "WMT-rebote-10": {
+      "fecha": "2026-11-13",
+      "media": -0.00185,
+      "ganadores": 0.35294,
+      "n": 17
+    },
+    "XLU-rebote-10": {
+      "fecha": "2026-11-13",
+      "media": -0.00293,
+      "ganadores": 0.2,
+      "n": 15
     }
   },
   "noticias": {
@@ -660,6 +680,11 @@
     },
     "SBUX": {
       "hora": "2026-11-13T17:04:03.583939+00:00",
+      "malos": 0,
+      "titulares": []
+    },
+    "NU": {
+      "hora": "2026-11-13T18:32:50.432395+00:00",
       "malos": 0,
       "titulares": []
     }
