@@ -35,22 +35,95 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "TRUMP/USD",
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 15495.384689133367,
-      "acciones": 0.0,
+      "efectivo": 774.7692344566021,
+      "acciones": 15474.660860418,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-09",
       "hijos": 0,
-      "entrada": null
+      "entrada": 0.9489
     }
   ],
   "dia": "2026-11-14",
-  "memoria": {},
-  "precios": {},
+  "memoria": {
+    "AVAX/USD-rebote-10": {
+      "hora": "2026-11-14 19:00:00+00:00",
+      "n": 47,
+      "media": -0.0052,
+      "total": -0.22179,
+      "ganadores": 0.48936
+    },
+    "TRUMP/USD-rebote-10": {
+      "hora": "2026-11-14 19:00:00+00:00",
+      "n": 41,
+      "media": 0.00884,
+      "total": 0.25495,
+      "ganadores": 0.56098
+    },
+    "CRV/USD-rebote-10": {
+      "hora": "2026-11-14 19:00:00+00:00",
+      "n": 51,
+      "media": -0.00409,
+      "total": -0.1965,
+      "ganadores": 0.5098
+    },
+    "AAVE/USD-rebote-10": {
+      "hora": "2026-11-14 19:00:00+00:00",
+      "n": 44,
+      "media": -0.0098,
+      "total": -0.35764,
+      "ganadores": 0.43182
+    },
+    "SHIB/USD-rebote-10": {
+      "hora": "2026-11-14 19:00:00+00:00",
+      "n": 39,
+      "media": -0.00672,
+      "total": -0.2333,
+      "ganadores": 0.30769
+    },
+    "ONDO/USD-rebote-10": {
+      "hora": "2026-11-14 19:00:00+00:00",
+      "n": 44,
+      "media": -0.00858,
+      "total": -0.3249,
+      "ganadores": 0.52273
+    },
+    "WIF/USD-rebote-10": {
+      "hora": "2026-11-14 19:00:00+00:00",
+      "n": 39,
+      "media": -0.00691,
+      "total": -0.24226,
+      "ganadores": 0.46154
+    },
+    "SUSHI/USD-rebote-10": {
+      "hora": "2026-11-14 19:00:00+00:00",
+      "n": 48,
+      "media": -0.00865,
+      "total": -0.34606,
+      "ganadores": 0.35417
+    },
+    "HYPE/USD-rebote-10": {
+      "hora": "2026-11-14 19:00:00+00:00",
+      "n": 49,
+      "media": -0.00593,
+      "total": -0.25751,
+      "ganadores": 0.38776
+    },
+    "ARB/USD-rebote-10": {
+      "hora": "2026-11-14 19:00:00+00:00",
+      "n": 46,
+      "media": -0.00701,
+      "total": -0.2822,
+      "ganadores": 0.36957
+    }
+  },
+  "precios": {
+    "TRUMP/USD": 0.9489
+  },
   "eurusd": 1.1052,
   "eurusd_inicio": 1.1193
 }
