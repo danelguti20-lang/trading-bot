@@ -35,58 +35,102 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "TRUMP/USD",
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 16666.67,
-      "acciones": 0.0,
+      "efectivo": 833.3335000003462,
+      "acciones": 15340.61344606,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-09",
       "hijos": 0,
-      "entrada": null
+      "entrada": 1.029545
     }
   ],
   "dia": "2026-11-14",
   "memoria": {
     "BAT/USD-rebote-10": {
-      "hora": "2026-11-14 12:00:00+00:00",
+      "hora": "2026-11-14 13:00:00+00:00",
       "n": 51,
       "media": -0.00708,
       "total": -0.31702,
       "ganadores": 0.4902
     },
     "AAVE/USD-rebote-10": {
-      "hora": "2026-11-14 12:00:00+00:00",
+      "hora": "2026-11-14 13:00:00+00:00",
       "n": 43,
       "media": -0.0092,
       "total": -0.33388,
       "ganadores": 0.44186
     },
     "HYPE/USD-rebote-10": {
-      "hora": "2026-11-14 12:00:00+00:00",
-      "n": 49,
-      "media": -0.00448,
-      "total": -0.20252,
-      "ganadores": 0.40816
+      "hora": "2026-11-14 13:00:00+00:00",
+      "n": 48,
+      "media": -0.00524,
+      "total": -0.22722,
+      "ganadores": 0.39583
     },
     "XTZ/USD-rebote-10": {
-      "hora": "2026-11-14 12:00:00+00:00",
+      "hora": "2026-11-14 13:00:00+00:00",
       "n": 45,
       "media": -0.00611,
       "total": -0.24548,
       "ganadores": 0.44444
     },
     "UNI/USD-rebote-10": {
-      "hora": "2026-11-14 12:00:00+00:00",
+      "hora": "2026-11-14 13:00:00+00:00",
       "n": 44,
       "media": -0.00641,
       "total": -0.25111,
       "ganadores": 0.31818
+    },
+    "TRUMP/USD-rebote-10": {
+      "hora": "2026-11-14 13:00:00+00:00",
+      "n": 40,
+      "media": 0.00995,
+      "total": 0.3012,
+      "ganadores": 0.575
+    },
+    "LTC/USD-rebote-10": {
+      "hora": "2026-11-14 13:00:00+00:00",
+      "n": 44,
+      "media": -0.00532,
+      "total": -0.2132,
+      "ganadores": 0.40909
+    },
+    "BTC/USD-rebote-10": {
+      "hora": "2026-11-14 13:00:00+00:00",
+      "n": 37,
+      "media": -0.00733,
+      "total": -0.2402,
+      "ganadores": 0.16216
+    },
+    "SUSHI/USD-rebote-10": {
+      "hora": "2026-11-14 13:00:00+00:00",
+      "n": 46,
+      "media": -0.00725,
+      "total": -0.2891,
+      "ganadores": 0.36957
+    },
+    "ONDO/USD-rebote-10": {
+      "hora": "2026-11-14 13:00:00+00:00",
+      "n": 43,
+      "media": -0.00745,
+      "total": -0.28402,
+      "ganadores": 0.53488
+    },
+    "ADA/USD-rebote-10": {
+      "hora": "2026-11-14 13:00:00+00:00",
+      "n": 43,
+      "media": -0.00625,
+      "total": -0.24069,
+      "ganadores": 0.30233
     }
   },
-  "precios": {},
+  "precios": {
+    "TRUMP/USD": 1.029545
+  },
   "eurusd": 1.1052,
   "eurusd_inicio": 1.1193
 }
