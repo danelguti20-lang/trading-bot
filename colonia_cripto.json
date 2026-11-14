@@ -50,19 +50,19 @@
   ],
   "dia": "2026-11-14",
   "memoria": {
-    "GRT/USD-tendencia-48": {
-      "hora": "2026-11-14 09:00:00+00:00",
-      "n": 30,
-      "media": -0.01391,
-      "total": -0.344,
-      "ganadores": 0.03333
-    },
     "CRV/USD-rebote-10": {
       "hora": "2026-11-14 10:00:00+00:00",
       "n": 50,
       "media": -0.00342,
       "total": -0.1649,
       "ganadores": 0.52
+    },
+    "BAT/USD-rebote-10": {
+      "hora": "2026-11-14 11:00:00+00:00",
+      "n": 51,
+      "media": -0.00708,
+      "total": -0.31702,
+      "ganadores": 0.4902
     }
   },
   "precios": {},
