@@ -49,7 +49,22 @@
     }
   ],
   "dia": "2026-11-15",
-  "memoria": {},
+  "memoria": {
+    "AAVE/USD-tendencia-48": {
+      "hora": "2026-11-15 10:00:00+00:00",
+      "n": 27,
+      "media": -0.01413,
+      "total": -0.32209,
+      "ganadores": 0.07407
+    },
+    "CRV/USD-rebote-10": {
+      "hora": "2026-11-15 10:00:00+00:00",
+      "n": 51,
+      "media": -0.00484,
+      "total": -0.22737,
+      "ganadores": 0.5098
+    }
+  },
   "precios": {},
   "eurusd": 1.1052,
   "eurusd_inicio": 1.1193
