@@ -70,6 +70,13 @@
       "media": -0.02568,
       "total": -0.14656,
       "ganadores": 0.16667
+    },
+    "HYPE/USD-tendencia-48": {
+      "hora": "2026-11-15 12:00:00+00:00",
+      "n": 20,
+      "media": -0.0079,
+      "total": -0.14893,
+      "ganadores": 0.1
     }
   },
   "precios": {},
