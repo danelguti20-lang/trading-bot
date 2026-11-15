@@ -57,19 +57,33 @@
       "total": -0.31263,
       "ganadores": 0.07407
     },
-    "AAVE/USD-ruptura-24": {
-      "hora": "2026-11-15 12:00:00+00:00",
-      "n": 6,
-      "media": -0.02568,
-      "total": -0.14656,
-      "ganadores": 0.16667
+    "LTC/USD-rebote-10": {
+      "hora": "2026-11-15 14:00:00+00:00",
+      "n": 46,
+      "media": -0.00664,
+      "total": -0.26836,
+      "ganadores": 0.3913
     },
-    "HYPE/USD-tendencia-48": {
-      "hora": "2026-11-15 12:00:00+00:00",
-      "n": 20,
-      "media": -0.0079,
-      "total": -0.14893,
-      "ganadores": 0.1
+    "POL/USD-rebote-10": {
+      "hora": "2026-11-15 14:00:00+00:00",
+      "n": 44,
+      "media": -0.00666,
+      "total": -0.25992,
+      "ganadores": 0.40909
+    },
+    "BTC/USD-rebote-10": {
+      "hora": "2026-11-15 14:00:00+00:00",
+      "n": 39,
+      "media": -0.00745,
+      "total": -0.25507,
+      "ganadores": 0.17949
+    },
+    "FIL/USD-rebote-10": {
+      "hora": "2026-11-15 14:00:00+00:00",
+      "n": 52,
+      "media": -0.00939,
+      "total": -0.39502,
+      "ganadores": 0.32692
     }
   },
   "precios": {},
