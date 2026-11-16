@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": "TSLA",
+      "activo": null,
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 8891.280554427503,
-      "acciones": 16.902031,
+      "efectivo": 15263.390524748724,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,17 +62,16 @@
       "hoy": "2026-11-16",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 375.96,
-      "stop": 372.2,
-      "meta": 383.48,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
-      "perdidas": 3
+      "perdidas": 0
     }
   ],
   "precios": {
-    "UPS": 111.165,
-    "RWM": 14.72,
-    "TSLA": 375.96
+    "UPS": 111.45,
+    "RWM": 14.69
   },
   "eurusd": 1.1014,
   "eurusd_inicio": 1.1193,
@@ -451,9 +450,9 @@
   },
   "cerebro": {
     "a_favor": {
-      "n": 20,
-      "ganadas": 8,
-      "suma": -0.217054
+      "n": 21,
+      "ganadas": 9,
+      "suma": -0.215285
     }
   }
 }
