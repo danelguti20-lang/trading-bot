@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "TSLA",
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 15252.122616762263,
-      "acciones": 0.0,
+      "efectivo": 8891.280554427503,
+      "acciones": 16.902031,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,16 +62,17 @@
       "hoy": "2026-11-16",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 375.96,
+      "stop": 372.2,
+      "meta": 383.48,
       "contra_cerebro": false,
       "perdidas": 3
     }
   ],
   "precios": {
-    "UPS": 111.23,
-    "RWM": 14.71
+    "UPS": 111.165,
+    "RWM": 14.72,
+    "TSLA": 375.96
   },
   "eurusd": 1.1014,
   "eurusd_inicio": 1.1193,
@@ -255,6 +256,72 @@
       "media": -0.0015,
       "ganadores": 0.4375,
       "n": 16
+    },
+    "SPY-rebote-10": {
+      "fecha": "2026-11-16",
+      "media": -0.00519,
+      "ganadores": 0.125,
+      "n": 16
+    },
+    "AMZN-rebote-10": {
+      "fecha": "2026-11-16",
+      "media": -0.00331,
+      "ganadores": 0.27778,
+      "n": 18
+    },
+    "MSFT-rebote-10": {
+      "fecha": "2026-11-16",
+      "media": -0.00503,
+      "ganadores": 0.3125,
+      "n": 16
+    },
+    "GOOGL-rebote-10": {
+      "fecha": "2026-11-16",
+      "media": -0.00663,
+      "ganadores": 0.11765,
+      "n": 17
+    },
+    "TSLA-rebote-10": {
+      "fecha": "2026-11-16",
+      "media": -0.00061,
+      "ganadores": 0.47059,
+      "n": 17
+    },
+    "XLV-rebote-10": {
+      "fecha": "2026-11-16",
+      "media": -0.00329,
+      "ganadores": 0.21053,
+      "n": 19
+    },
+    "LLY-rebote-10": {
+      "fecha": "2026-11-16",
+      "media": -0.00387,
+      "ganadores": 0.29412,
+      "n": 17
+    },
+    "XLF-rebote-10": {
+      "fecha": "2026-11-16",
+      "media": -0.00339,
+      "ganadores": 0.0625,
+      "n": 16
+    },
+    "XLP-rebote-10": {
+      "fecha": "2026-11-16",
+      "media": -0.00311,
+      "ganadores": 0.125,
+      "n": 16
+    },
+    "V-rebote-10": {
+      "fecha": "2026-11-16",
+      "media": -0.00341,
+      "ganadores": 0.11111,
+      "n": 18
+    },
+    "KRE-rebote-10": {
+      "fecha": "2026-11-16",
+      "media": -0.00386,
+      "ganadores": 0.23529,
+      "n": 17
     }
   },
   "noticias": {
@@ -373,6 +440,13 @@
       "hora": "2026-11-16T16:16:18.564113+00:00",
       "malos": 0,
       "titulares": []
+    },
+    "TSLA": {
+      "hora": "2026-11-16T19:46:13.045008+00:00",
+      "malos": 1,
+      "titulares": [
+        "Lucid Sinks 8% Despite $1.75 Billion Saudi Lifeline; Tesla Falls 3%, Rivian Dips"
+      ]
     }
   },
   "cerebro": {
