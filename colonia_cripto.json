@@ -35,67 +35,107 @@
     {
       "id": 3,
       "padre": null,
-      "activo": "TRUMP/USD",
+      "activo": null,
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 754.6414818045232,
-      "acciones": 15371.843543494,
+      "efectivo": 15225.520215788687,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-09",
       "hijos": 0,
-      "entrada": 0.9304305
+      "entrada": null
     }
   ],
   "dia": "2026-11-16",
   "memoria": {
     "AAVE/USD-tendencia-48": {
-      "hora": "2026-11-16 01:00:00+00:00",
+      "hora": "2026-11-16 02:00:00+00:00",
       "n": 26,
       "media": -0.01312,
       "total": -0.29349,
       "ganadores": 0.07692
     },
     "GRT/USD-tendencia-48": {
-      "hora": "2026-11-16 00:00:00+00:00",
-      "n": 29,
-      "media": -0.01395,
-      "total": -0.33562,
-      "ganadores": 0.03448
+      "hora": "2026-11-16 02:00:00+00:00",
+      "n": 30,
+      "media": -0.01413,
+      "total": -0.34855,
+      "ganadores": 0.03333
     },
     "PAXG/USD-tendencia-48": {
-      "hora": "2026-11-16 01:00:00+00:00",
+      "hora": "2026-11-16 02:00:00+00:00",
       "n": 18,
       "media": -0.00543,
       "total": -0.09379,
       "ganadores": 0.11111
     },
     "YFI/USD-tendencia-48": {
-      "hora": "2026-11-16 01:00:00+00:00",
+      "hora": "2026-11-16 02:00:00+00:00",
       "n": 28,
-      "media": -0.00977,
-      "total": -0.24162,
+      "media": -0.00999,
+      "total": -0.24621,
       "ganadores": 0.07143
     },
-    "TRUMP/USD-rebote-10": {
-      "hora": "2026-11-16 00:00:00+00:00",
-      "n": 41,
-      "media": 0.00897,
-      "total": 0.26003,
-      "ganadores": 0.56098
+    "XRP/USD-tendencia-48": {
+      "hora": "2026-11-16 02:00:00+00:00",
+      "n": 21,
+      "media": -0.00635,
+      "total": -0.12604,
+      "ganadores": 0.09524
     },
-    "PEPE/USD-rebote-10": {
-      "hora": "2026-11-16 00:00:00+00:00",
-      "n": 44,
-      "media": -0.00623,
-      "total": -0.25149,
-      "ganadores": 0.52273
+    "LDO/USD-tendencia-48": {
+      "hora": "2026-11-16 02:00:00+00:00",
+      "n": 24,
+      "media": -0.01035,
+      "total": -0.22265,
+      "ganadores": 0.125
+    },
+    "UNI/USD-tendencia-48": {
+      "hora": "2026-11-16 02:00:00+00:00",
+      "n": 23,
+      "media": -0.00966,
+      "total": -0.20444,
+      "ganadores": 0.17391
+    },
+    "LINK/USD-tendencia-48": {
+      "hora": "2026-11-16 02:00:00+00:00",
+      "n": 24,
+      "media": -0.01051,
+      "total": -0.22544,
+      "ganadores": 0.08333
+    },
+    "ARB/USD-tendencia-48": {
+      "hora": "2026-11-16 02:00:00+00:00",
+      "n": 21,
+      "media": -0.01104,
+      "total": -0.20948,
+      "ganadores": 0.14286
+    },
+    "BCH/USD-tendencia-48": {
+      "hora": "2026-11-16 02:00:00+00:00",
+      "n": 19,
+      "media": -0.01162,
+      "total": -0.20014,
+      "ganadores": 0.05263
+    },
+    "SUSHI/USD-tendencia-48": {
+      "hora": "2026-11-16 02:00:00+00:00",
+      "n": 24,
+      "media": -0.01155,
+      "total": -0.24412,
+      "ganadores": 0.08333
+    },
+    "GRT/USD-ruptura-24": {
+      "hora": "2026-11-16 02:00:00+00:00",
+      "n": 6,
+      "media": -0.03923,
+      "total": -0.21379,
+      "ganadores": 0.0
     }
   },
-  "precios": {
-    "TRUMP/USD": 0.9371885
-  },
+  "precios": {},
   "eurusd": 1.1052,
   "eurusd_inicio": 1.1193
 }
