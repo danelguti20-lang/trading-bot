@@ -1705,3 +1705,11 @@
 2026-11-16 17:02 | [SKILL] 🕰️ ADBE: entrada 250.12 stop 246.17 objetivo 258.02 | objetivo antes 1%, stop antes 17% | con comisión: simulación -0.15R, historia -0.44R (34 casos) -> ❌ no
 2026-11-16 17:02 | [SKILL] 🕰️ INTU: entrada 350.74 stop 346.26 objetivo 359.70 | objetivo antes 6%, stop antes 33% | con comisión: simulación -0.16R, historia -0.49R (26 casos) -> ❌ no
 2026-11-16 17:02 | [SKILL] 🕰️ OXY: entrada 58.10 stop 57.73 objetivo 58.84 | objetivo antes 22%, stop antes 49% | con comisión: simulación -0.25R, historia -0.54R (36 casos) -> ❌ no
+2026-11-16 17:15 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 14, 0 con su regla ganando en 30 días
+2026-11-16 17:16 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 160 valores: señal en 15, 1 con su regla ganando las últimas sesiones (NKE -0.19%/día)
+2026-11-16 17:16 | [DIARIO] 🕰️ Bot D3 NKE: stop 37.52 objetivo 38.67 | con comisión: simulación -0.12R, historia -0.17R (29 casos) -> ✅ COMPRA
+2026-11-16 17:16 | [DIARIO] Bot D3 (rebote 10) COMPRA 165.7490 NKE a 37.91 | vida 15,269$
+2026-11-16 17:16 | [DIARIO] Orden enviada: buy 165.7490 NKE (id 3cd80c21-929a-4188-a5fc-17d03ffa28d6)
+2026-11-16 17:16 | [SKILL] 🔎 Escáner 11:16: 23 roturas, 2 recientes para estudiar.
+2026-11-16 17:17 | [SKILL] 🕰️ COP: entrada 140.96 stop 139.84 objetivo 143.20 | objetivo antes 7%, stop antes 35% | con comisión: simulación -0.26R, historia -0.33R (38 casos) -> ❌ no
+2026-11-16 17:17 | [SKILL]   EWJ: stop demasiado pegado (0.17 $), no vale.

@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "NKE",
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 15275.76345398419,
-      "acciones": 0.0,
+      "efectivo": 8986.763185708463,
+      "acciones": 165.749045,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,16 +62,17 @@
       "hoy": "2026-11-16",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 37.905,
+      "stop": 37.52,
+      "meta": 38.67,
       "contra_cerebro": false,
       "perdidas": 1
     }
   ],
   "precios": {
-    "UPS": 111.51,
-    "RWM": 14.6
+    "UPS": 111.2,
+    "RWM": 14.62,
+    "NKE": 37.905
   },
   "eurusd": 1.1014,
   "eurusd_inicio": 1.1193,
@@ -135,6 +136,78 @@
       "media": -0.00538,
       "ganadores": 0.2,
       "n": 10
+    },
+    "GLD-rebote-10": {
+      "fecha": "2026-11-16",
+      "media": -0.00371,
+      "ganadores": 0.16667,
+      "n": 18
+    },
+    "TLT-rebote-10": {
+      "fecha": "2026-11-16",
+      "media": -0.00389,
+      "ganadores": 0.0,
+      "n": 16
+    },
+    "HYG-rebote-10": {
+      "fecha": "2026-11-16",
+      "media": -0.00345,
+      "ganadores": 0.0,
+      "n": 15
+    },
+    "GE-rebote-10": {
+      "fecha": "2026-11-16",
+      "media": -0.00504,
+      "ganadores": 0.28571,
+      "n": 14
+    },
+    "BA-rebote-10": {
+      "fecha": "2026-11-16",
+      "media": -0.00296,
+      "ganadores": 0.55556,
+      "n": 18
+    },
+    "JNJ-rebote-10": {
+      "fecha": "2026-11-16",
+      "media": -0.00323,
+      "ganadores": 0.35294,
+      "n": 17
+    },
+    "KWEB-rebote-10": {
+      "fecha": "2026-11-16",
+      "media": -0.00329,
+      "ganadores": 0.10526,
+      "n": 19
+    },
+    "CSCO-rebote-10": {
+      "fecha": "2026-11-16",
+      "media": -0.00658,
+      "ganadores": 0.31579,
+      "n": 19
+    },
+    "NKE-rebote-10": {
+      "fecha": "2026-11-16",
+      "media": -0.00195,
+      "ganadores": 0.38889,
+      "n": 18
+    },
+    "PFE-rebote-10": {
+      "fecha": "2026-11-16",
+      "media": -0.00639,
+      "ganadores": 0.11765,
+      "n": 17
+    },
+    "LMT-rebote-10": {
+      "fecha": "2026-11-16",
+      "media": -0.00334,
+      "ganadores": 0.375,
+      "n": 16
+    },
+    "PDD-rebote-10": {
+      "fecha": "2026-11-16",
+      "media": -0.00536,
+      "ganadores": 0.27778,
+      "n": 18
     }
   },
   "noticias": {
@@ -246,6 +319,11 @@
     },
     "UPS": {
       "hora": "2026-11-16T16:01:40.083587+00:00",
+      "malos": 0,
+      "titulares": []
+    },
+    "NKE": {
+      "hora": "2026-11-16T16:16:18.564113+00:00",
       "malos": 0,
       "titulares": []
     }
