@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "SLB",
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 15263.390524748724,
-      "acciones": 0.0,
+      "efectivo": 8901.529344394043,
+      "acciones": 127.211883,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,16 +62,17 @@
       "hoy": "2026-11-16",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 49.96,
+      "stop": 49.46,
+      "meta": 50.96,
       "contra_cerebro": false,
       "perdidas": 0
     }
   ],
   "precios": {
-    "UPS": 111.12,
-    "RWM": 14.71
+    "UPS": 111.525,
+    "RWM": 14.71,
+    "SLB": 49.96
   },
   "eurusd": 1.1014,
   "eurusd_inicio": 1.1193,
@@ -357,6 +358,24 @@
       "media": -0.00399,
       "ganadores": 0.05556,
       "n": 18
+    },
+    "SLB-rebote-10": {
+      "fecha": "2026-11-16",
+      "media": -0.0015,
+      "ganadores": 0.375,
+      "n": 16
+    },
+    "OXY-rebote-10": {
+      "fecha": "2026-11-16",
+      "media": -0.00382,
+      "ganadores": 0.35294,
+      "n": 17
+    },
+    "HON-rebote-10": {
+      "fecha": "2026-11-16",
+      "media": -0.00215,
+      "ganadores": 0.42105,
+      "n": 19
     }
   },
   "noticias": {
@@ -482,6 +501,11 @@
       "titulares": [
         "Lucid Sinks 8% Despite $1.75 Billion Saudi Lifeline; Tesla Falls 3%, Rivian Dips"
       ]
+    },
+    "SLB": {
+      "hora": "2026-11-16T20:31:00.783979+00:00",
+      "malos": 0,
+      "titulares": []
     }
   },
   "cerebro": {
