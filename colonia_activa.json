@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "XOM",
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 16320.32169185277,
-      "acciones": 0.0,
+      "efectivo": 9538.729716694772,
+      "acciones": 40.507128,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,9 +62,9 @@
       "hoy": "2026-11-16",
       "operado_hoy": true,
       "descansa": true,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 167.25,
+      "stop": 165.57,
+      "meta": 170.61,
       "contra_cerebro": true,
       "perdidas": 0
     }
@@ -169,11 +169,17 @@
       "titulares": [
         "AST SpaceMobile Sinks 8% as ULA’s Vulcan Rocket Failure Rattles Space Stocks"
       ]
+    },
+    "XOM": {
+      "hora": "2026-11-16T19:16:19.801253+00:00",
+      "malos": 0,
+      "titulares": []
     }
   },
   "precios": {
-    "RWM": 14.69,
-    "AMD": 508.34
+    "RWM": 14.7,
+    "AMD": 508.0,
+    "XOM": 167.25
   },
   "cerebro": {
     "a_favor": {
