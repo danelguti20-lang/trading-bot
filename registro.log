@@ -1685,3 +1685,23 @@
 2026-11-16 10:45 | [CRIPTO] 🔎 Bot C3 (rebote 10) investiga 33 monedas: señal en 5, 0 con su regla ganando en 30 días
 2026-11-16 11:00 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 7, 0 con su regla ganando en 30 días
 2026-11-16 11:00 | [CRIPTO] 🔎 Bot C3 (rebote 10) investiga 33 monedas: señal en 9, 0 con su regla ganando en 30 días
+2026-11-16 17:01 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 14, 0 con su regla ganando en 30 días
+2026-11-16 17:01 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 162 valores: señal en 10, 5 con su regla ganando las últimas sesiones (UPS +0.28%/día, SBUX +0.18%/día, CMCSA +0.11%/día, FDX -0.11%/día)
+2026-11-16 17:01 | [DIARIO] 🕰️ Bot D1 UPS: stop 110.81 objetivo 112.91 | con comisión: simulación -0.22R, historia -0.22R (34 casos) -> ✅ COMPRA
+2026-11-16 17:01 | [DIARIO] Bot D1 (ruptura 30) COMPRA 90.5530 UPS a 111.51 | vida 16,706$
+2026-11-16 17:01 | [DIARIO] 🛑 Bot D3 STOP: NU a 12.84 (entró a 13.06).
+2026-11-16 17:01 | [DIARIO] Bot D3 (rebote 10) VENDE 463.2093 NU a 12.84 | vida 15,276$
+2026-11-16 17:01 | [DIARIO] Orden enviada: buy 19.1502 GLD (id b78906d5-222e-47be-bb93-6727eb6bc087)
+2026-11-16 17:01 | [DIARIO] Orden enviada: buy 11.0097 META (id 5c9fc642-50dc-4b32-ad56-3e2d8bb73366)
+2026-11-16 17:01 | [DIARIO] Orden enviada: sell 42.5771 NVDA (id 37e05b39-5645-41b0-a8b9-5429ffa9bc50)
+2026-11-16 17:01 | [DIARIO] Orden enviada: buy 463.0070 RWM (id bc03c4b5-8085-4edb-89af-d948f69b799e)
+2026-11-16 17:01 | [DIARIO] Orden enviada: sell 65.8532 SBUX (id cdbabf6f-8a36-48a7-8dc3-a09dc984ce53)
+2026-11-16 17:01 | [DIARIO] Orden enviada: sell 204.8445 TLT (id b980318c-b23e-46e3-b1ae-836ab5cc6a14)
+2026-11-16 17:01 | [DIARIO] Orden enviada: sell 17.0327 TSLA (id f43d4b3e-350c-47bd-ae70-cff106750c8a)
+2026-11-16 17:01 | [DIARIO] Orden enviada: buy 90.5530 UPS (id 3b378311-3e91-444a-9d8b-ec00e36f6f9b)
+2026-11-16 17:01 | [DIARIO] Orden enviada: buy 121.2914 XLP (id 489ea47b-caee-4173-98c1-073f4b95765a)
+2026-11-16 17:01 | [ACTIVA] 🧠 Bot A3 lleva 3 pérdidas seguidas: hoy DESCANSA.
+2026-11-16 17:02 | [SKILL] 🔎 Escáner 11:02: 19 roturas, 3 recientes para estudiar.
+2026-11-16 17:02 | [SKILL] 🕰️ ADBE: entrada 250.12 stop 246.17 objetivo 258.02 | objetivo antes 1%, stop antes 17% | con comisión: simulación -0.15R, historia -0.44R (34 casos) -> ❌ no
+2026-11-16 17:02 | [SKILL] 🕰️ INTU: entrada 350.74 stop 346.26 objetivo 359.70 | objetivo antes 6%, stop antes 33% | con comisión: simulación -0.16R, historia -0.49R (26 casos) -> ❌ no
+2026-11-16 17:02 | [SKILL] 🕰️ OXY: entrada 58.10 stop 57.73 objetivo 58.84 | objetivo antes 22%, stop antes 49% | con comisión: simulación -0.25R, historia -0.54R (36 casos) -> ❌ no

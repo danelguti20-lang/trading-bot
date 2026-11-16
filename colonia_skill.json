@@ -21,27 +21,14 @@
       "cerrado": "2026-11-10 21:51"
     }
   ],
-  "hoy": "2026-11-13",
+  "hoy": "2026-11-16",
   "trades_hoy": 0,
   "resultado_hoy": 0.0,
   "vistos_hoy": {
-    "2026-11-13": [
-      "PDD",
-      "PEP",
-      "TLT",
-      "MA",
-      "PG",
-      "NU",
-      "V",
-      "COP",
-      "UPS",
-      "GILD",
-      "HD",
-      "LLY",
-      "XLU",
-      "CVX",
-      "LOW",
-      "INDA"
+    "2026-11-16": [
+      "ADBE",
+      "INTU",
+      "OXY"
     ]
   }
 }

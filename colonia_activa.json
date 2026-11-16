@@ -15,8 +15,8 @@
       "estado": "vivo",
       "nacido": "2026-11-11",
       "hijos": 0,
-      "hoy": "2026-11-13",
-      "operado_hoy": true,
+      "hoy": "2026-11-16",
+      "operado_hoy": false,
       "descansa": false,
       "entrada": 92.25,
       "stop": 91.73,
@@ -37,8 +37,8 @@
       "estado": "vivo",
       "nacido": "2026-11-11",
       "hijos": 0,
-      "hoy": "2026-11-13",
-      "operado_hoy": true,
+      "hoy": "2026-11-16",
+      "operado_hoy": false,
       "descansa": false,
       "entrada": 631.16,
       "stop": 624.84,
@@ -59,17 +59,17 @@
       "estado": "vivo",
       "nacido": "2026-11-11",
       "hijos": 0,
-      "hoy": "2026-11-13",
-      "operado_hoy": true,
-      "descansa": false,
+      "hoy": "2026-11-16",
+      "operado_hoy": false,
+      "descansa": true,
       "entrada": 355.49,
       "stop": 351.93,
       "meta": 362.61,
       "contra_cerebro": false,
-      "perdidas": 7
+      "perdidas": 0
     }
   ],
-  "eurusd": 1.1052,
+  "eurusd": 1.1014,
   "eurusd_inicio": 1.1127,
   "memoria": {},
   "noticias": {
@@ -164,9 +164,9 @@
     }
   },
   "precios": {
-    "XLP": 92.215,
-    "META": 640.145,
-    "GLD": 355.49
+    "XLP": 92.82,
+    "META": 629.69,
+    "GLD": 353.47
   },
   "cerebro": {
     "a_favor": {
