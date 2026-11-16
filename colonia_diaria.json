@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": "NKE",
+      "activo": null,
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 8986.763185708463,
-      "acciones": 165.749045,
+      "efectivo": 15255.746770564763,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,17 +62,16 @@
       "hoy": "2026-11-16",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 37.905,
-      "stop": 37.52,
-      "meta": 38.67,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
-      "perdidas": 1
+      "perdidas": 2
     }
   ],
   "precios": {
-    "UPS": 111.295,
-    "RWM": 14.7,
-    "NKE": 37.815
+    "UPS": 111.25,
+    "RWM": 14.72
   },
   "eurusd": 1.1014,
   "eurusd_inicio": 1.1193,
@@ -330,9 +329,9 @@
   },
   "cerebro": {
     "a_favor": {
-      "n": 18,
+      "n": 19,
       "ganadas": 8,
-      "suma": -0.213294
+      "suma": -0.216479
     }
   }
 }
