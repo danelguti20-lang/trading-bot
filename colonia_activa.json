@@ -5,11 +5,11 @@
     {
       "id": 1,
       "padre": null,
-      "activo": "XLP",
+      "activo": null,
       "estrategia": "ruptura",
       "p": 30,
-      "efectivo": 5889.635144656955,
-      "acciones": 121.291351,
+      "efectivo": 17107.559266961376,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -18,9 +18,9 @@
       "hoy": "2026-11-16",
       "operado_hoy": false,
       "descansa": false,
-      "entrada": 92.25,
-      "stop": 91.73,
-      "meta": 93.29,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
       "perdidas": 0
     },
@@ -164,15 +164,14 @@
     }
   },
   "precios": {
-    "XLP": 92.72,
-    "META": 627.91,
-    "GLD": 353.51
+    "META": 630.43,
+    "GLD": 353.595
   },
   "cerebro": {
     "a_favor": {
-      "n": 16,
-      "ganadas": 5,
-      "suma": -6.6e-05
+      "n": 17,
+      "ganadas": 6,
+      "suma": 0.001504
     },
     "en_contra": {
       "n": 4,
