@@ -5,11 +5,11 @@
     {
       "id": 1,
       "padre": null,
-      "activo": "RWM",
+      "activo": null,
       "estrategia": "ruptura",
       "p": 30,
-      "efectivo": 8641.539224789165,
-      "acciones": 569.146506,
+      "efectivo": 17016.683730135785,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -18,20 +18,20 @@
       "hoy": "2026-11-16",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 14.67,
-      "stop": 14.55,
-      "meta": 14.91,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
-      "perdidas": 1
+      "perdidas": 0
     },
     {
       "id": 2,
       "padre": null,
-      "activo": "AMD",
+      "activo": null,
       "estrategia": "mañana",
       "p": 0.2,
-      "efectivo": 9683.107299667688,
-      "acciones": 13.64345,
+      "efectivo": 16548.440858902686,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -40,20 +40,20 @@
       "hoy": "2026-11-16",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 506.28,
-      "stop": 501.21,
-      "meta": 516.42,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": true,
-      "perdidas": 1
+      "perdidas": 2
     },
     {
       "id": 3,
       "padre": null,
-      "activo": "XOM",
+      "activo": null,
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 9538.729716694772,
-      "acciones": 40.507128,
+      "efectivo": 16291.394741605412,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,11 +62,11 @@
       "hoy": "2026-11-16",
       "operado_hoy": true,
       "descansa": true,
-      "entrada": 167.25,
-      "stop": 165.57,
-      "meta": 170.61,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": true,
-      "perdidas": 0
+      "perdidas": 1
     }
   ],
   "eurusd": 1.1014,
@@ -176,21 +176,17 @@
       "titulares": []
     }
   },
-  "precios": {
-    "RWM": 14.71,
-    "AMD": 505.14,
-    "XOM": 166.63
-  },
+  "precios": {},
   "cerebro": {
     "a_favor": {
-      "n": 20,
-      "ganadas": 6,
-      "suma": -0.033594
+      "n": 21,
+      "ganadas": 7,
+      "suma": -0.031512
     },
     "en_contra": {
-      "n": 6,
+      "n": 8,
       "ganadas": 3,
-      "suma": 0.014052
+      "suma": 0.002698
     }
   }
 }
