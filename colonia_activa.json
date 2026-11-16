@@ -5,11 +5,11 @@
     {
       "id": 1,
       "padre": null,
-      "activo": null,
+      "activo": "RWM",
       "estrategia": "ruptura",
       "p": 30,
-      "efectivo": 16999.267847052186,
-      "acciones": 0.0,
+      "efectivo": 8641.539224789165,
+      "acciones": 569.146506,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -18,9 +18,9 @@
       "hoy": "2026-11-16",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 14.67,
+      "stop": 14.55,
+      "meta": 14.91,
       "contra_cerebro": false,
       "perdidas": 1
     },
@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": "AMZN",
+      "activo": null,
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 9534.096332820001,
-      "acciones": 26.16849,
+      "efectivo": 16294.239252090902,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,11 +62,11 @@
       "hoy": "2026-11-16",
       "operado_hoy": true,
       "descansa": true,
-      "entrada": 259.01,
-      "stop": 256.41,
-      "meta": 264.21,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": true,
-      "perdidas": 1
+      "perdidas": 2
     }
   ],
   "eurusd": 1.1014,
@@ -148,7 +148,7 @@
       "titulares": []
     },
     "RWM": {
-      "hora": "2026-11-13T17:48:45.123370+00:00",
+      "hora": "2026-11-16T18:16:30.512578+00:00",
       "malos": 0,
       "titulares": []
     },
@@ -171,8 +171,8 @@
     }
   },
   "precios": {
-    "META": 625.775,
-    "AMZN": 258.535
+    "RWM": 14.67,
+    "META": 626.44
   },
   "cerebro": {
     "a_favor": {
@@ -181,9 +181,9 @@
       "suma": -0.01945
     },
     "en_contra": {
-      "n": 4,
+      "n": 5,
       "ganadas": 2,
-      "suma": 0.013817
+      "suma": 0.010199
     }
   }
 }

@@ -1738,3 +1738,10 @@
 2026-11-16 19:01 | [ACTIVA] 🛑 Bot A1 STOP: AVGO a 332.21 (entró a 336.66).
 2026-11-16 19:01 | [ACTIVA] Bot A1 (ruptura 30) VENDE 21.1553 AVGO a 332.21 | vida 16,999$
 2026-11-16 19:01 | [ACTIVA] Orden enviada: sell 21.1553 AVGO (id af638b50-1a57-4f23-a17f-0a7188e8cd92)
+2026-11-16 19:15 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 20, 0 con su regla ganando en 30 días
+2026-11-16 19:16 | [ACTIVA] 🔎 Bot A1 (ruptura 30) investiga 161 valores: señal en 13, mira primero: RWM, SPDN, ABNB, NVD
+2026-11-16 19:16 | [ACTIVA] 📋 Bot A1 RWM: entra a 14.67, stop 14.55, objetivo 14.91 -> ✅ COMPRA
+2026-11-16 19:16 | [ACTIVA] Bot A1 (ruptura 30) COMPRA 569.1465 RWM a 14.67 | vida 16,991$
+2026-11-16 19:16 | [ACTIVA] Bot A3 (rebote 20) VENDE 26.1685 AMZN a 258.59 | vida 16,294$
+2026-11-16 19:16 | [ACTIVA] Orden enviada: sell 26.1685 AMZN (id 5c830e6b-00a2-4856-9574-ea6d98feaba2)
+2026-11-16 19:16 | [ACTIVA] Orden enviada: buy 569.1465 RWM (id 8a85043d-4549-4b3e-8c56-a7f75fd4446a)
