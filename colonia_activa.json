@@ -5,22 +5,22 @@
     {
       "id": 1,
       "padre": null,
-      "activo": null,
+      "activo": "AVGO",
       "estrategia": "ruptura",
       "p": 30,
-      "efectivo": 17107.559266961376,
-      "acciones": 0.0,
+      "efectivo": 9978.281356786956,
+      "acciones": 21.155337,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-11",
       "hijos": 0,
       "hoy": "2026-11-16",
-      "operado_hoy": false,
+      "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 336.66,
+      "stop": 333.29,
+      "meta": 343.4,
       "contra_cerebro": false,
       "perdidas": 0
     },
@@ -128,7 +128,7 @@
       "titulares": []
     },
     "AVGO": {
-      "hora": "2026-11-13T14:48:24.261853+00:00",
+      "hora": "2026-11-16T16:46:07.982019+00:00",
       "malos": 0,
       "titulares": []
     },
@@ -164,8 +164,9 @@
     }
   },
   "precios": {
-    "META": 630.43,
-    "GLD": 353.595
+    "AVGO": 336.66,
+    "META": 629.17,
+    "GLD": 353.46
   },
   "cerebro": {
     "a_favor": {
