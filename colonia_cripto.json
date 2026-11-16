@@ -35,37 +35,37 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "TRUMP/USD",
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 15092.829636084654,
-      "acciones": 0.0,
+      "efectivo": 754.6414818045232,
+      "acciones": 15371.843543494,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-09",
       "hijos": 0,
-      "entrada": null
+      "entrada": 0.9304305
     }
   ],
   "dia": "2026-11-16",
   "memoria": {
     "AAVE/USD-tendencia-48": {
-      "hora": "2026-11-15 23:00:00+00:00",
+      "hora": "2026-11-16 00:00:00+00:00",
       "n": 26,
       "media": -0.01312,
       "total": -0.29349,
       "ganadores": 0.07692
     },
     "GRT/USD-tendencia-48": {
-      "hora": "2026-11-15 23:00:00+00:00",
+      "hora": "2026-11-16 00:00:00+00:00",
       "n": 29,
       "media": -0.01395,
       "total": -0.33562,
       "ganadores": 0.03448
     },
     "PAXG/USD-tendencia-48": {
-      "hora": "2026-11-15 23:00:00+00:00",
+      "hora": "2026-11-16 00:00:00+00:00",
       "n": 19,
       "media": -0.00544,
       "total": -0.09893,
@@ -79,10 +79,10 @@
       "ganadores": 0.1
     },
     "YFI/USD-tendencia-48": {
-      "hora": "2026-11-15 23:00:00+00:00",
+      "hora": "2026-11-16 00:00:00+00:00",
       "n": 28,
-      "media": -0.01003,
-      "total": -0.24703,
+      "media": -0.00986,
+      "total": -0.24351,
       "ganadores": 0.07143
     },
     "LDO/USD-ruptura-24": {
@@ -161,9 +161,25 @@
       "media": 0.0073,
       "total": 0.01428,
       "ganadores": 0.5
+    },
+    "TRUMP/USD-rebote-10": {
+      "hora": "2026-11-16 00:00:00+00:00",
+      "n": 41,
+      "media": 0.00897,
+      "total": 0.26003,
+      "ganadores": 0.56098
+    },
+    "PEPE/USD-rebote-10": {
+      "hora": "2026-11-16 00:00:00+00:00",
+      "n": 44,
+      "media": -0.00623,
+      "total": -0.25149,
+      "ganadores": 0.52273
     }
   },
-  "precios": {},
+  "precios": {
+    "TRUMP/USD": 0.9304305
+  },
   "eurusd": 1.1052,
   "eurusd_inicio": 1.1193
 }
