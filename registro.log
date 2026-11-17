@@ -2162,3 +2162,8 @@
 2026-11-17 20:31 | [DIARIO] 🕰️ Bot D2 SQQQ: stop 47.02 objetivo 48.46 | con comisión: simulación -0.20R, historia -0.35R (36 casos) -> ❌ no
 2026-11-17 20:31 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 12 full session(s) of SPDN before 2026-11-17 in the data; the time machine needs at least 20
 2026-11-17 20:31 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 162 valores: señal en 22, 0 con su regla ganando las últimas sesiones
+2026-11-17 20:45 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 7, 0 con su regla ganando en 30 días
+2026-11-17 20:46 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 162 valores: señal en 23, 7 con su regla ganando las últimas sesiones (SQQQ +0.65%/día, SPDN +0.17%/día, HD +0.14%/día, SOXS +0.01%/día)
+2026-11-17 20:46 | [DIARIO] 🕰️ Bot D2 SQQQ: stop 47.06 objetivo 48.50 | con comisión: simulación -0.24R, historia -0.35R (36 casos) -> ❌ no
+2026-11-17 20:46 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 12 full session(s) of SPDN before 2026-11-17 in the data; the time machine needs at least 20
+2026-11-17 20:46 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 162 valores: señal en 37, 0 con su regla ganando las últimas sesiones

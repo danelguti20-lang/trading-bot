@@ -70,7 +70,7 @@
     }
   ],
   "precios": {
-    "NVD": 7.45
+    "NVD": 7.44
   },
   "eurusd": 1.0989,
   "eurusd_inicio": 1.1193,
@@ -757,6 +757,18 @@
       "fecha": "2026-11-17",
       "media": -0.00305,
       "ganadores": 0.22222,
+      "n": 18
+    },
+    "IWM-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00661,
+      "ganadores": 0.14286,
+      "n": 14
+    },
+    "EFA-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00391,
+      "ganadores": 0.11111,
       "n": 18
     }
   },
