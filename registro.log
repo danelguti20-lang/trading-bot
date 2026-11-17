@@ -2184,3 +2184,12 @@
 2026-11-17 21:16 | [DIARIO] 🕰️ Bot D3 XBI: stop 142.89 objetivo 147.24 | con comisión: simulación -0.18R, historia -0.17R (34 casos) -> ✅ COMPRA
 2026-11-17 21:16 | [DIARIO] Bot D3 (rebote 10) COMPRA 43.8447 XBI a 144.34 | vida 15,240$
 2026-11-17 21:16 | [DIARIO] Orden enviada: buy 43.8447 XBI (id dcf464a4-9108-439e-8a55-54a0840ab6a8)
+2026-11-17 21:31 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 13, 0 con su regla ganando en 30 días
+2026-11-17 21:31 | [CRIPTO] 🔎 Bot C3 (rebote 10) investiga 33 monedas: señal en 1, 0 con su regla ganando en 30 días
+2026-11-17 21:31 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 162 valores: señal en 23, 7 con su regla ganando las últimas sesiones (SQQQ +0.65%/día, SPDN +0.17%/día, HD +0.14%/día, SOXS +0.01%/día)
+2026-11-17 21:31 | [DIARIO] 🕰️ Bot D2 SQQQ: stop 47.04 objetivo 48.48 | con comisión: simulación -0.18R, historia -0.35R (36 casos) -> ❌ no
+2026-11-17 21:31 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 12 full session(s) of SPDN before 2026-11-17 in the data; the time machine needs at least 20
+2026-11-17 21:31 | [DIARIO] Bot D3 (rebote 10) VENDE 43.8447 XBI a 144.84 | vida 15,256$
+2026-11-17 21:31 | [DIARIO] Orden enviada: sell 43.8447 XBI (id 7e09592b-6cb1-456a-a2c8-7ec801b592b1)
+2026-11-17 21:31 | [ACTIVA] Bot A3 (rebote 20) VENDE 72.3428 XLP a 91.64 | vida 16,009$
+2026-11-17 21:31 | [ACTIVA] Orden enviada: sell 72.3428 XLP (id d57c1a9d-77cd-45de-9714-3094ec6bb3ae)
