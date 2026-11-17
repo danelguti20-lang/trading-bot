@@ -70,7 +70,7 @@
     }
   ],
   "precios": {
-    "NVD": 7.44
+    "NVD": 7.35
   },
   "eurusd": 1.0989,
   "eurusd_inicio": 1.1193,
@@ -740,6 +740,12 @@
       "media": -0.00244,
       "ganadores": 0.31579,
       "n": 19
+    },
+    "KRE-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00374,
+      "ganadores": 0.23529,
+      "n": 17
     }
   },
   "noticias": {

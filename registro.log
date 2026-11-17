@@ -2151,3 +2151,9 @@
 2026-11-17 20:01 | [DIARIO] 🕰️ Bot D2 SQQQ: stop 47.02 objetivo 48.46 | con comisión: simulación -0.12R, historia -0.35R (36 casos) -> ❌ no
 2026-11-17 20:01 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: the entry is not in the data: no complete 13:55 bar (closing 2:00 PM) on 2026-11-17 for SPDN (the data stops at the 13:50 bar)
 2026-11-17 20:01 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 162 valores: señal en 21, 0 con su regla ganando las últimas sesiones
+2026-11-17 20:15 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 7, 0 con su regla ganando en 30 días
+2026-11-17 20:16 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 163 valores: señal en 24, 8 con su regla ganando las últimas sesiones (SQQQ +0.65%/día, SPDN +0.17%/día, HD +0.14%/día, SOXS +0.01%/día)
+2026-11-17 20:16 | [DIARIO] 🕰️ Bot D2 SQQQ: stop 46.65 objetivo 48.09 | con comisión: simulación -0.14R, historia -0.35R (36 casos) -> ❌ no
+2026-11-17 20:16 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: the entry is not in the data: no complete 14:10 bar (closing 2:15 PM) on 2026-11-17 for SPDN (the data stops at the 14:05 bar)
+2026-11-17 20:16 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 163 valores: señal en 32, 1 con su regla ganando las últimas sesiones (WMT -0.17%/día)
+2026-11-17 20:16 | [DIARIO] 📰 Bot D3 no compra WMT: The Waltons Won a Tax Court Case in 2000 That Lets a Family Pass a Stock’s Growt (legal)
