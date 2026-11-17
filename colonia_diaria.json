@@ -70,7 +70,7 @@
     }
   ],
   "precios": {
-    "NVD": 7.44
+    "NVD": 7.56
   },
   "eurusd": 1.0989,
   "eurusd_inicio": 1.1193,
@@ -770,6 +770,48 @@
       "media": -0.00391,
       "ganadores": 0.11111,
       "n": 18
+    },
+    "RTX-mañana-0.3": {
+      "fecha": "2026-11-17",
+      "media": -0.001,
+      "ganadores": 0.4,
+      "n": 10
+    },
+    "GILD-mañana-0.3": {
+      "fecha": "2026-11-17",
+      "media": -0.0004,
+      "ganadores": 0.4,
+      "n": 15
+    },
+    "T-mañana-0.3": {
+      "fecha": "2026-11-17",
+      "media": -0.003,
+      "ganadores": 0.25,
+      "n": 12
+    },
+    "ARM-mañana-0.3": {
+      "fecha": "2026-11-17",
+      "media": -0.00467,
+      "ganadores": 0.22222,
+      "n": 9
+    },
+    "SPY-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.0054,
+      "ganadores": 0.125,
+      "n": 16
+    },
+    "QQQ-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00598,
+      "ganadores": 0.25,
+      "n": 16
+    },
+    "SOXL-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.02742,
+      "ganadores": 0.25,
+      "n": 16
     }
   },
   "noticias": {
