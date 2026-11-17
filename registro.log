@@ -1976,3 +1976,19 @@
 2026-11-17 16:03 | [SKILL] 📰 GLSI descartada por noticias: Greenwich LifeSciences Announces Acceptance of Abstracts at SABCS 2026 (regulatory)
 2026-11-17 16:03 | [SKILL] 📰 AAPL descartada por noticias: Cloud AI Today - Healthcare AI Spending Surges Transforming Drug Development (regulatory)
 2026-11-17 16:03 | [SKILL] 🕰️ AXP: entrada 319.19 stop 317.88 objetivo 321.81 | objetivo antes 28%, stop antes 65% | con comisión: simulación -0.53R, historia -0.30R (26 casos) -> ❌ no
+2026-11-17 16:15 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 27, 0 con su regla ganando en 30 días
+2026-11-17 16:15 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 166 valores: señal en 11, 5 con su regla ganando las últimas sesiones (SOXS +2.49%/día, SPDN +0.03%/día, CMCSA -0.02%/día, KO -0.12%/día)
+2026-11-17 16:15 | [DIARIO] 🕰️ Bot D1 SOXS: stop 58.95 objetivo 60.75 | con comisión: simulación -0.29R, historia -0.37R (33 casos) -> ❌ no
+2026-11-17 16:15 | [DIARIO]   Bot D1 SPDN: el stop (8.80) no queda por debajo del precio (8.82); no compra.
+2026-11-17 16:15 | [DIARIO] 🛑 Bot D3 STOP: ORCL a 116.22 (entró a 117.61).
+2026-11-17 16:15 | [DIARIO] Bot D3 (rebote 10) VENDE 53.9236 ORCL a 116.22 | vida 15,175$
+2026-11-17 16:15 | [DIARIO] Orden enviada: sell 53.9236 ORCL (id 4cc79a3e-79db-4fb8-a22a-cb89fc9ebd3e)
+2026-11-17 16:16 | [ACTIVA] 🛑 Bot A3 STOP: MU a 697.21 (entró a 708.39).
+2026-11-17 16:16 | [ACTIVA] Bot A3 (rebote 20) VENDE 9.5755 MU a 697.21 | vida 16,171$
+2026-11-17 16:16 | [ACTIVA] Orden enviada: sell 9.5755 MU (id c3c5f807-dca1-4717-a1b2-cf864ed8bd22)
+2026-11-17 16:16 | [SKILL] 🔎 Escáner 10:16: 46 roturas, 6 recientes para estudiar.
+2026-11-17 16:16 | [SKILL] 🕰️ PYPL: entrada 58.96 stop 58.62 objetivo 59.64 | objetivo antes 34%, stop antes 50% | con comisión: simulación -0.09R, historia -0.33R (34 casos) -> ❌ no
+2026-11-17 16:16 | [SKILL] 🕰️ XLC: entrada 106.90 stop 106.44 objetivo 107.82 | objetivo antes 16%, stop antes 52% | con comisión: simulación -0.53R, historia -0.67R (35 casos) -> ❌ no
+2026-11-17 16:16 | [SKILL] 🕰️ RIVN: entrada 12.19 stop 12.11 objetivo 12.35 | objetivo antes 35%, stop antes 64% | con comisión: simulación -0.23R, historia -0.50R (27 casos) -> ❌ no
+2026-11-17 16:17 | [SKILL] 🕰️ SOXS: entrada 59.74 stop 58.20 objetivo 62.82 | objetivo antes 23%, stop antes 59% | con comisión: simulación -0.12R, historia -0.27R (33 casos) -> ❌ no
+2026-11-17 16:17 | [SKILL]   SPDN: stop demasiado pegado (0.01 $), no vale.

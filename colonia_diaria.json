@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": "ORCL",
+      "activo": null,
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 8914.455535649038,
-      "acciones": 53.923604,
+      "efectivo": 15175.189791272158,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,16 +62,14 @@
       "hoy": "2026-11-17",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 117.61,
-      "stop": 116.43,
-      "meta": 119.97,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
-      "perdidas": 1
+      "perdidas": 2
     }
   ],
-  "precios": {
-    "ORCL": 117.61
-  },
+  "precios": {},
   "eurusd": 1.0989,
   "eurusd_inicio": 1.1193,
   "memoria": {
@@ -164,6 +162,60 @@
       "media": -0.00379,
       "ganadores": 0.31579,
       "n": 19
+    },
+    "AMZN-ruptura-30": {
+      "fecha": "2026-11-17",
+      "media": -0.00841,
+      "ganadores": 0.125,
+      "n": 8
+    },
+    "SOXS-ruptura-30": {
+      "fecha": "2026-11-17",
+      "media": 0.02487,
+      "ganadores": 0.5,
+      "n": 8
+    },
+    "SPDN-ruptura-30": {
+      "fecha": "2026-11-17",
+      "media": 0.00025,
+      "ganadores": 0.36364,
+      "n": 11
+    },
+    "KO-ruptura-30": {
+      "fecha": "2026-11-17",
+      "media": -0.0012,
+      "ganadores": 0.41667,
+      "n": 12
+    },
+    "MCD-ruptura-30": {
+      "fecha": "2026-11-17",
+      "media": -0.00251,
+      "ganadores": 0.375,
+      "n": 16
+    },
+    "PG-ruptura-30": {
+      "fecha": "2026-11-17",
+      "media": -0.00361,
+      "ganadores": 0.08333,
+      "n": 12
+    },
+    "PYPL-ruptura-30": {
+      "fecha": "2026-11-17",
+      "media": -0.00502,
+      "ganadores": 0.23077,
+      "n": 13
+    },
+    "CMCSA-ruptura-30": {
+      "fecha": "2026-11-17",
+      "media": -0.00017,
+      "ganadores": 0.54545,
+      "n": 11
+    },
+    "VZ-ruptura-30": {
+      "fecha": "2026-11-17",
+      "media": -0.00148,
+      "ganadores": 0.5,
+      "n": 12
     }
   },
   "noticias": {
@@ -298,9 +350,9 @@
   },
   "cerebro": {
     "a_favor": {
-      "n": 24,
+      "n": 25,
       "ganadas": 10,
-      "suma": -0.201962
+      "suma": -0.215757
     }
   }
 }
