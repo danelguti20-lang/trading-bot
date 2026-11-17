@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "TSLA",
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 15237.174622604918,
-      "acciones": 0.0,
+      "efectivo": 8894.132648556137,
+      "acciones": 16.713806,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,15 +62,16 @@
       "hoy": "2026-11-17",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 379.13,
+      "stop": 375.33,
+      "meta": 386.73,
       "contra_cerebro": false,
       "perdidas": 0
     }
   ],
   "precios": {
-    "NVD": 7.42
+    "NVD": 7.44,
+    "TSLA": 379.13
   },
   "eurusd": 1.0989,
   "eurusd_inicio": 1.1193,
@@ -632,6 +633,48 @@
       "media": -0.00429,
       "ganadores": 0.5,
       "n": 18
+    },
+    "TSLA-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00127,
+      "ganadores": 0.41176,
+      "n": 17
+    },
+    "DIS-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00233,
+      "ganadores": 0.27778,
+      "n": 18
+    },
+    "BAC-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00527,
+      "ganadores": 0.11111,
+      "n": 18
+    },
+    "GLD-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00369,
+      "ganadores": 0.16667,
+      "n": 18
+    },
+    "EWZ-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00371,
+      "ganadores": 0.23529,
+      "n": 17
+    },
+    "XLY-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00354,
+      "ganadores": 0.16667,
+      "n": 18
+    },
+    "GE-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00598,
+      "ganadores": 0.28571,
+      "n": 14
     }
   },
   "noticias": {
@@ -752,11 +795,9 @@
       "titulares": []
     },
     "TSLA": {
-      "hora": "2026-11-16T19:46:13.045008+00:00",
-      "malos": 1,
-      "titulares": [
-        "Lucid Sinks 8% Despite $1.75 Billion Saudi Lifeline; Tesla Falls 3%, Rivian Dips"
-      ]
+      "hora": "2026-11-17T18:16:14.281646+00:00",
+      "malos": 0,
+      "titulares": []
     },
     "SLB": {
       "hora": "2026-11-16T20:31:00.783979+00:00",

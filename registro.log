@@ -2116,3 +2116,16 @@
 2026-11-17 19:01 | [DIARIO] 🕰️ Bot D3 VZ: stop 45.92 objetivo 47.33 | con comisión: simulación -0.33R, historia -0.45R (35 casos) -> ❌ no
 2026-11-17 19:01 | [ACTIVA] Bot A3 (rebote 20) VENDE 446.1949 RWM a 14.86 | vida 16,035$
 2026-11-17 19:01 | [ACTIVA] Orden enviada: sell 446.1949 RWM (id 703f6dd3-25e0-4e6f-afe1-3a904e73feac)
+2026-11-17 19:15 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 8, 0 con su regla ganando en 30 días
+2026-11-17 19:16 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 163 valores: señal en 31, 8 con su regla ganando las últimas sesiones (SQQQ +0.65%/día, SPDN +0.17%/día, HD +0.14%/día, JNJ +0.13%/día)
+2026-11-17 19:16 | [DIARIO] 🕰️ Bot D2 SQQQ: stop 47.11 objetivo 48.56 | con comisión: simulación -0.10R, historia -0.34R (36 casos) -> ❌ no
+2026-11-17 19:16 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 12 full session(s) of SPDN before 2026-11-17 in the data; the time machine needs at least 20
+2026-11-17 19:16 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 163 valores: señal en 24, 2 con su regla ganando las últimas sesiones (VZ -0.05%/día, TSLA -0.13%/día)
+2026-11-17 19:16 | [DIARIO] 🕰️ Bot D3 VZ: stop 45.82 objetivo 47.23 | con comisión: simulación -0.30R, historia -0.45R (35 casos) -> ❌ no
+2026-11-17 19:16 | [DIARIO] 🕰️ Bot D3 TSLA: stop 375.33 objetivo 386.73 | con comisión: simulación -0.21R, historia -0.13R (35 casos) -> ✅ COMPRA
+2026-11-17 19:16 | [DIARIO] Bot D3 (rebote 10) COMPRA 16.7138 TSLA a 379.13 | vida 15,231$
+2026-11-17 19:16 | [DIARIO] Orden enviada: buy 16.7138 TSLA (id 91126662-86f8-4992-930e-09859fd23fb8)
+2026-11-17 19:16 | [ACTIVA] 🔎 Bot A3 (rebote 20) investiga 163 valores: señal en 61, mira primero: SPY, IWM, GOOGL, KRE
+2026-11-17 19:16 | [ACTIVA] 📋 Bot A3 SPY: entra a 730.99, stop 723.68, objetivo 745.61 -> ✅ COMPRA
+2026-11-17 19:16 | [ACTIVA] Bot A3 (rebote 20) COMPRA 9.1402 SPY a 730.99 | vida 16,029$
+2026-11-17 19:16 | [ACTIVA] Orden enviada: buy 9.1402 SPY (id e1a74999-9173-45c7-868d-eabfb41b2a67)
