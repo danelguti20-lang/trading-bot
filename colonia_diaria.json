@@ -5,11 +5,11 @@
     {
       "id": 1,
       "padre": null,
-      "activo": "NVD",
+      "activo": null,
       "estrategia": "ruptura",
       "p": 30,
-      "efectivo": 10171.333025811833,
-      "acciones": 880.894967,
+      "efectivo": 16709.837581017022,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -18,11 +18,11 @@
       "hoy": "2026-11-17",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 7.41,
-      "stop": 7.33,
-      "meta": 7.57,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
-      "perdidas": 1
+      "perdidas": 0
     },
     {
       "id": 2,
@@ -69,9 +69,7 @@
       "perdidas": 0
     }
   ],
-  "precios": {
-    "NVD": 7.45
-  },
+  "precios": {},
   "eurusd": 1.0989,
   "eurusd_inicio": 1.1193,
   "memoria": {
@@ -973,9 +971,9 @@
   },
   "cerebro": {
     "a_favor": {
-      "n": 29,
-      "ganadas": 14,
-      "suma": -0.203042
+      "n": 30,
+      "ganadas": 15,
+      "suma": -0.202348
     }
   }
 }
