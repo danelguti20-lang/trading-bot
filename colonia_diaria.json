@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": "CRWD",
+      "activo": null,
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 8864.754189521878,
-      "acciones": 29.021874,
+      "efectivo": 15226.075874487538,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,16 +62,14 @@
       "hoy": "2026-11-17",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 217.22,
-      "stop": 215.04,
-      "meta": 221.58,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
-      "perdidas": 2
+      "perdidas": 0
     }
   ],
-  "precios": {
-    "CRWD": 215.28
-  },
+  "precios": {},
   "eurusd": 1.0989,
   "eurusd_inicio": 1.1193,
   "memoria": {
@@ -314,6 +312,24 @@
       "media": -0.00234,
       "ganadores": 0.09091,
       "n": 11
+    },
+    "SQQQ-ruptura-30": {
+      "fecha": "2026-11-17",
+      "media": 0.00597,
+      "ganadores": 0.375,
+      "n": 8
+    },
+    "RWM-ruptura-30": {
+      "fecha": "2026-11-17",
+      "media": -0.00054,
+      "ganadores": 0.45455,
+      "n": 11
+    },
+    "LMT-ruptura-30": {
+      "fecha": "2026-11-17",
+      "media": 0.00356,
+      "ganadores": 0.63636,
+      "n": 11
     }
   },
   "noticias": {
@@ -453,9 +469,9 @@
   },
   "cerebro": {
     "a_favor": {
-      "n": 25,
-      "ganadas": 10,
-      "suma": -0.215757
+      "n": 26,
+      "ganadas": 11,
+      "suma": -0.207695
     }
   }
 }
