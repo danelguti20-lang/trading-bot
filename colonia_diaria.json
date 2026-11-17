@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "XBI",
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 15226.075874487538,
-      "acciones": 0.0,
+      "efectivo": 8882.885295362139,
+      "acciones": 44.067133,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,14 +62,16 @@
       "hoy": "2026-11-17",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 143.8,
+      "stop": 142.36,
+      "meta": 146.68,
       "contra_cerebro": false,
       "perdidas": 0
     }
   ],
-  "precios": {},
+  "precios": {
+    "XBI": 143.8
+  },
   "eurusd": 1.0989,
   "eurusd_inicio": 1.1193,
   "memoria": {
@@ -372,6 +374,48 @@
       "media": -0.00297,
       "ganadores": 0.38889,
       "n": 18
+    },
+    "GOOGL-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00754,
+      "ganadores": 0.11765,
+      "n": 17
+    },
+    "AMZN-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00342,
+      "ganadores": 0.27778,
+      "n": 18
+    },
+    "META-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00563,
+      "ganadores": 0.17647,
+      "n": 17
+    },
+    "XLE-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00464,
+      "ganadores": 0.33333,
+      "n": 18
+    },
+    "NKE-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00228,
+      "ganadores": 0.33333,
+      "n": 18
+    },
+    "XBI-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00082,
+      "ganadores": 0.5,
+      "n": 18
+    },
+    "KO-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00351,
+      "ganadores": 0.2,
+      "n": 15
     }
   },
   "noticias": {
@@ -407,7 +451,7 @@
       ]
     },
     "XBI": {
-      "hora": "2026-11-10T20:07:54.875600+00:00",
+      "hora": "2026-11-17T16:31:31.978583+00:00",
       "malos": 0,
       "titulares": []
     },
