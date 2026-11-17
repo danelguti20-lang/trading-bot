@@ -2146,3 +2146,8 @@
 2026-11-17 19:46 | [ACTIVA] 📋 Bot A3 XLP: entra a 91.94, stop 91.02, objetivo 93.79 -> ✅ COMPRA
 2026-11-17 19:46 | [ACTIVA] Bot A3 (rebote 20) COMPRA 72.3428 XLP a 91.94 | vida 16,037$
 2026-11-17 19:46 | [ACTIVA] Orden enviada: buy 72.3428 XLP (id 9b573ec4-4ccc-4c58-8a4d-ead7775d6715)
+2026-11-17 20:00 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 7, 0 con su regla ganando en 30 días
+2026-11-17 20:01 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 162 valores: señal en 25, 7 con su regla ganando las últimas sesiones (SQQQ +0.65%/día, SPDN +0.17%/día, HD +0.14%/día, SOXS +0.01%/día)
+2026-11-17 20:01 | [DIARIO] 🕰️ Bot D2 SQQQ: stop 47.02 objetivo 48.46 | con comisión: simulación -0.12R, historia -0.35R (36 casos) -> ❌ no
+2026-11-17 20:01 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: the entry is not in the data: no complete 13:55 bar (closing 2:00 PM) on 2026-11-17 for SPDN (the data stops at the 13:50 bar)
+2026-11-17 20:01 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 162 valores: señal en 21, 0 con su regla ganando las últimas sesiones
