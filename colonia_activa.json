@@ -27,33 +27,11 @@
     {
       "id": 2,
       "padre": null,
-      "activo": null,
+      "activo": "SPCX",
       "estrategia": "mañana",
       "p": 0.2,
-      "efectivo": 16548.440858902686,
-      "acciones": 0.0,
-      "referencia": 16666.67,
-      "inicial": 16666.67,
-      "estado": "vivo",
-      "nacido": "2026-11-11",
-      "hijos": 0,
-      "hoy": "2026-11-17",
-      "operado_hoy": false,
-      "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
-      "contra_cerebro": true,
-      "perdidas": 2
-    },
-    {
-      "id": 3,
-      "padre": null,
-      "activo": "MSFT",
-      "estrategia": "rebote",
-      "p": 20,
-      "efectivo": 9369.867364682334,
-      "acciones": 13.332713,
+      "efectivo": 9679.435508875866,
+      "acciones": 48.948878,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,11 +40,33 @@
       "hoy": "2026-11-17",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 501.21,
-      "stop": 496.19,
-      "meta": 511.25,
+      "entrada": 140.19,
+      "stop": 138.78,
+      "meta": 143.01,
       "contra_cerebro": false,
-      "perdidas": 3
+      "perdidas": 2
+    },
+    {
+      "id": 3,
+      "padre": null,
+      "activo": null,
+      "estrategia": "rebote",
+      "p": 20,
+      "efectivo": 16030.889446211035,
+      "acciones": 0.0,
+      "referencia": 16666.67,
+      "inicial": 16666.67,
+      "estado": "vivo",
+      "nacido": "2026-11-11",
+      "hijos": 0,
+      "hoy": "2026-11-17",
+      "operado_hoy": true,
+      "descansa": false,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
+      "contra_cerebro": false,
+      "perdidas": 4
     }
   ],
   "eurusd": 1.0989,
@@ -119,7 +119,7 @@
       "titulares": []
     },
     "SPCX": {
-      "hora": "2026-11-12T15:37:54.605855+00:00",
+      "hora": "2026-11-17T17:01:59.319005+00:00",
       "malos": 0,
       "titulares": []
     },
@@ -182,14 +182,14 @@
     }
   },
   "precios": {
-    "T": 22.62,
-    "MSFT": 496.72
+    "T": 22.645,
+    "SPCX": 140.19
   },
   "cerebro": {
     "a_favor": {
-      "n": 23,
+      "n": 24,
       "ganadas": 7,
-      "suma": -0.065906
+      "suma": -0.070116
     },
     "en_contra": {
       "n": 8,

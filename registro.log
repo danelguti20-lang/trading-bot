@@ -2056,3 +2056,22 @@
 2026-11-17 17:46 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 164 valores: señal en 10, 7 con su regla ganando las últimas sesiones (SOXS +2.49%/día, SQQQ +0.60%/día, LMT +0.36%/día, SPDN +0.03%/día)
 2026-11-17 17:46 | [DIARIO] 🕰️ Bot D1 SOXS: stop 61.39 objetivo 63.27 | con comisión: simulación -0.07R, historia -0.38R (33 casos) -> ❌ no
 2026-11-17 17:46 | [DIARIO] 🕰️ Bot D1 SQQQ: stop 47.68 objetivo 49.15 | con comisión: simulación +0.04R, historia -0.35R (36 casos) -> ❌ no
+2026-11-17 18:00 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 8, 0 con su regla ganando en 30 días
+2026-11-17 18:00 | [CRIPTO] 🔎 Bot C3 (rebote 10) investiga 33 monedas: señal en 24, 1 con su regla ganando en 30 días (TRUMP/USD +29.0%)
+2026-11-17 18:00 | [CRIPTO] 🕰️ Bot C3 elige TRUMP/USD: en 30 días su regla hizo 38 operaciones, 61% ganadoras, total +29.0% (con comisión) -> ✅ entra
+2026-11-17 18:00 | [CRIPTO] Bot C3 (rebote 10) COMPRA 15182.117737 TRUMP/USD a 0.9503 | vida 15,189$
+2026-11-17 18:00 | [CRIPTO] Orden enviada: buy 15182.117737 TRUMP/USD (id b15c3b02-0d12-450a-8af8-b4ab1833a1aa)
+2026-11-17 18:01 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 164 valores: señal en 12, 8 con su regla ganando las últimas sesiones (SOXS +2.49%/día, SQQQ +0.60%/día, LMT +0.36%/día, RTX +0.07%/día)
+2026-11-17 18:01 | [DIARIO] 🕰️ Bot D1 SOXS: stop 61.23 objetivo 63.09 | con comisión: simulación +0.01R, historia -0.34R (33 casos) -> ❌ no
+2026-11-17 18:01 | [DIARIO] 🕰️ Bot D1 SQQQ: stop 47.44 objetivo 48.88 | con comisión: simulación +0.04R, historia -0.35R (36 casos) -> ❌ no
+2026-11-17 18:01 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 164 valores: señal en 28, 9 con su regla ganando las últimas sesiones (SQQQ +0.65%/día, SPDN +0.17%/día, HD +0.14%/día, JNJ +0.13%/día)
+2026-11-17 18:01 | [DIARIO] 🕰️ Bot D2 SQQQ: stop 47.44 objetivo 48.88 | con comisión: simulación +0.04R, historia -0.35R (36 casos) -> ❌ no
+2026-11-17 18:01 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 12 full session(s) of SPDN before 2026-11-17 in the data; the time machine needs at least 20
+2026-11-17 18:01 | [DIARIO] Bot D3 (rebote 10) VENDE 44.0671 XBI a 144.34 | vida 15,237$
+2026-11-17 18:01 | [DIARIO] Orden enviada: sell 44.0671 XBI (id 2ddf804e-75a0-4079-bd21-6decd2f2c1be)
+2026-11-17 18:01 | [ACTIVA] 🔎 Bot A2 (mañana 0.2) investiga 164 valores: señal en 30, mira primero: SPCX, XLP, UNH, RWM
+2026-11-17 18:01 | [ACTIVA] 📋 Bot A2 SPCX: entra a 140.19, stop 138.78, objetivo 143.01 -> ✅ COMPRA
+2026-11-17 18:01 | [ACTIVA] Bot A2 (mañana 0.2) COMPRA 48.9489 SPCX a 140.19 | vida 16,542$
+2026-11-17 18:01 | [ACTIVA] Bot A3 (rebote 20) VENDE 13.3327 MSFT a 500.10 | vida 16,031$
+2026-11-17 18:01 | [ACTIVA] Orden enviada: sell 13.3327 MSFT (id b46ef85d-9beb-42cd-97ab-5a2b8b0114f7)
+2026-11-17 18:01 | [ACTIVA] Orden enviada: buy 48.9489 SPCX (id 870c49f6-9f4d-4ace-931d-7da796f8c75a)

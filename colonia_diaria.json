@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": "XBI",
+      "activo": null,
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 8882.885295362139,
-      "acciones": 44.067133,
+      "efectivo": 15237.174622604918,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,16 +62,14 @@
       "hoy": "2026-11-17",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 143.8,
-      "stop": 142.36,
-      "meta": 146.68,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
       "perdidas": 0
     }
   ],
-  "precios": {
-    "XBI": 143.7
-  },
+  "precios": {},
   "eurusd": 1.0989,
   "eurusd_inicio": 1.1193,
   "memoria": {
@@ -416,6 +414,78 @@
       "media": -0.00351,
       "ganadores": 0.2,
       "n": 15
+    },
+    "SPCX-mañana-0.3": {
+      "fecha": "2026-11-17",
+      "media": -0.00909,
+      "ganadores": 0.13333,
+      "n": 15
+    },
+    "RWM-mañana-0.3": {
+      "fecha": "2026-11-17",
+      "media": -0.00105,
+      "ganadores": 0.44444,
+      "n": 9
+    },
+    "DIS-mañana-0.3": {
+      "fecha": "2026-11-17",
+      "media": -0.00125,
+      "ganadores": 0.33333,
+      "n": 12
+    },
+    "SOXS-mañana-0.3": {
+      "fecha": "2026-11-17",
+      "media": 0.00015,
+      "ganadores": 0.25,
+      "n": 12
+    },
+    "GDX-mañana-0.3": {
+      "fecha": "2026-11-17",
+      "media": -0.0019,
+      "ganadores": 0.55556,
+      "n": 9
+    },
+    "SQQQ-mañana-0.3": {
+      "fecha": "2026-11-17",
+      "media": 0.00653,
+      "ganadores": 0.5,
+      "n": 10
+    },
+    "TLT-mañana-0.3": {
+      "fecha": "2026-11-17",
+      "media": -0.00278,
+      "ganadores": 0.2,
+      "n": 5
+    },
+    "HD-mañana-0.3": {
+      "fecha": "2026-11-17",
+      "media": 0.00135,
+      "ganadores": 0.54545,
+      "n": 11
+    },
+    "SPDN-mañana-0.3": {
+      "fecha": "2026-11-17",
+      "media": 0.00173,
+      "ganadores": 0.66667,
+      "n": 6
+    },
+    "KO-mañana-0.3": {
+      "fecha": "2026-11-17",
+      "media": -0.0021,
+      "ganadores": 0.36364,
+      "n": 11
+    },
+    "COST-mañana-0.3": {
+      "fecha": "2026-11-17",
+      "media": -0.00126,
+      "ganadores": 0.36364,
+      "n": 11
+    },
+    "JNJ-mañana-0.3": {
+      "fecha": "2026-11-17",
+      "media": 0.00127,
+      "ganadores": 0.54545,
+      "n": 11
     }
   },
   "noticias": {
@@ -555,9 +625,9 @@
   },
   "cerebro": {
     "a_favor": {
-      "n": 26,
-      "ganadas": 11,
-      "suma": -0.207695
+      "n": 27,
+      "ganadas": 12,
+      "suma": -0.205947
     }
   }
 }
