@@ -546,6 +546,30 @@
       "media": 0.0,
       "ganadores": 0.0,
       "n": 0
+    },
+    "HON-ruptura-30": {
+      "fecha": "2026-11-17",
+      "media": 6e-05,
+      "ganadores": 0.36364,
+      "n": 11
+    },
+    "XLB-mañana-0.3": {
+      "fecha": "2026-11-17",
+      "media": -0.00178,
+      "ganadores": 0.41667,
+      "n": 12
+    },
+    "SPDN-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00352,
+      "ganadores": 0.09091,
+      "n": 11
+    },
+    "USO-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00203,
+      "ganadores": 0.4375,
+      "n": 16
     }
   },
   "noticias": {
