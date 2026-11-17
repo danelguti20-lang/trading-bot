@@ -2137,3 +2137,12 @@
 2026-11-17 19:31 | [DIARIO] Orden enviada: sell 16.7138 TSLA (id a28c4b2d-e2e3-4bff-8ad2-53697311b457)
 2026-11-17 19:31 | [ACTIVA] Bot A3 (rebote 20) VENDE 9.1402 SPY a 733.39 | vida 16,044$
 2026-11-17 19:31 | [ACTIVA] Orden enviada: sell 9.1402 SPY (id 95508a40-d48a-415d-a615-2fdffce9f787)
+2026-11-17 19:45 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 8, 0 con su regla ganando en 30 días
+2026-11-17 19:46 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 163 valores: señal en 28, 7 con su regla ganando las últimas sesiones (SQQQ +0.65%/día, SPDN +0.17%/día, HD +0.14%/día, SOXS +0.01%/día)
+2026-11-17 19:46 | [DIARIO] 🕰️ Bot D2 SQQQ: stop 46.98 objetivo 48.42 | con comisión: simulación -0.10R, historia -0.35R (36 casos) -> ❌ no
+2026-11-17 19:46 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 12 full session(s) of SPDN before 2026-11-17 in the data; the time machine needs at least 20
+2026-11-17 19:46 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 163 valores: señal en 6, 0 con su regla ganando las últimas sesiones
+2026-11-17 19:46 | [ACTIVA] 🔎 Bot A3 (rebote 20) investiga 163 valores: señal en 14, mira primero: XLP, DIS, GDX, V
+2026-11-17 19:46 | [ACTIVA] 📋 Bot A3 XLP: entra a 91.94, stop 91.02, objetivo 93.79 -> ✅ COMPRA
+2026-11-17 19:46 | [ACTIVA] Bot A3 (rebote 20) COMPRA 72.3428 XLP a 91.94 | vida 16,037$
+2026-11-17 19:46 | [ACTIVA] Orden enviada: buy 72.3428 XLP (id 9b573ec4-4ccc-4c58-8a4d-ead7775d6715)

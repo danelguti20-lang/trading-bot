@@ -70,7 +70,7 @@
     }
   ],
   "precios": {
-    "NVD": 7.4
+    "NVD": 7.47
   },
   "eurusd": 1.0989,
   "eurusd_inicio": 1.1193,
@@ -680,6 +680,30 @@
       "media": -0.00173,
       "ganadores": 0.30769,
       "n": 13
+    },
+    "PG-mañana-0.3": {
+      "fecha": "2026-11-17",
+      "media": -0.00218,
+      "ganadores": 0.33333,
+      "n": 9
+    },
+    "GDX-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00424,
+      "ganadores": 0.3125,
+      "n": 16
+    },
+    "LLY-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00429,
+      "ganadores": 0.29412,
+      "n": 17
+    },
+    "XLRE-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00287,
+      "ganadores": 0.125,
+      "n": 16
     }
   },
   "noticias": {
