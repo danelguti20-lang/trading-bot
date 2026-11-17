@@ -49,30 +49,123 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "ORCL",
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 15262.752557155478,
-      "acciones": 0.0,
+      "efectivo": 8914.455535649038,
+      "acciones": 53.923604,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-09",
       "hijos": 0,
       "hoy": "2026-11-17",
-      "operado_hoy": false,
+      "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 117.61,
+      "stop": 116.43,
+      "meta": 119.97,
       "contra_cerebro": false,
       "perdidas": 1
     }
   ],
-  "precios": {},
-  "eurusd": 1.1014,
+  "precios": {
+    "ORCL": 117.61
+  },
+  "eurusd": 1.0989,
   "eurusd_inicio": 1.1193,
-  "memoria": {},
+  "memoria": {
+    "XLC-ruptura-30": {
+      "fecha": "2026-11-17",
+      "media": -0.00534,
+      "ganadores": 0.16667,
+      "n": 12
+    },
+    "T-ruptura-30": {
+      "fecha": "2026-11-17",
+      "media": -0.01004,
+      "ganadores": 0.11111,
+      "n": 9
+    },
+    "MDY-ruptura-30": {
+      "fecha": "2026-11-17",
+      "media": -0.004,
+      "ganadores": 0.2,
+      "n": 10
+    },
+    "UNH-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00473,
+      "ganadores": 0.42857,
+      "n": 14
+    },
+    "NOW-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.01157,
+      "ganadores": 0.26667,
+      "n": 15
+    },
+    "MRNA-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00445,
+      "ganadores": 0.44444,
+      "n": 18
+    },
+    "CRM-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00034,
+      "ganadores": 0.55556,
+      "n": 18
+    },
+    "MA-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00381,
+      "ganadores": 0.16667,
+      "n": 18
+    },
+    "BABA-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00533,
+      "ganadores": 0.26316,
+      "n": 19
+    },
+    "TLT-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00356,
+      "ganadores": 0.0,
+      "n": 16
+    },
+    "PANW-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00447,
+      "ganadores": 0.2,
+      "n": 15
+    },
+    "UBER-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00206,
+      "ganadores": 0.33333,
+      "n": 18
+    },
+    "ORCL-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": 0.00022,
+      "ganadores": 0.5,
+      "n": 18
+    },
+    "KWEB-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00347,
+      "ganadores": 0.10526,
+      "n": 19
+    },
+    "MSTR-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00379,
+      "ganadores": 0.31579,
+      "n": 19
+    }
+  },
   "noticias": {
     "QQQ": {
       "hora": "2026-11-09T19:30:02.655777+00:00",
@@ -156,7 +249,7 @@
       "titulares": []
     },
     "ORCL": {
-      "hora": "2026-11-13T15:03:51.823892+00:00",
+      "hora": "2026-11-17T15:01:56.366213+00:00",
       "malos": 0,
       "titulares": []
     },

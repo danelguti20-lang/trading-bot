@@ -1960,3 +1960,19 @@
 2026-11-17 15:46 | [ACTIVA] 📋 Bot A3 MU: entra a 708.39, stop 701.30, objetivo 722.57 -> ✅ COMPRA
 2026-11-17 15:46 | [ACTIVA] Bot A3 (rebote 20) COMPRA 9.5755 MU a 708.39 | vida 16,285$
 2026-11-17 15:46 | [ACTIVA] Orden enviada: buy 9.5755 MU (id bd3171f5-4067-41f0-8914-9e78e9c0868c)
+2026-11-17 16:01 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 27, 0 con su regla ganando en 30 días
+2026-11-17 16:01 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 165 valores: señal en 3, 0 con su regla ganando las últimas sesiones
+2026-11-17 16:01 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 165 valores: señal en 23, 2 con su regla ganando las últimas sesiones (ORCL +0.02%/día, CRM -0.03%/día)
+2026-11-17 16:01 | [DIARIO] 🕰️ Bot D3 ORCL: stop 116.43 objetivo 119.97 | con comisión: simulación -0.19R, historia -0.10R (29 casos) -> ✅ COMPRA
+2026-11-17 16:01 | [DIARIO] Bot D3 (rebote 10) COMPRA 53.9236 ORCL a 117.61 | vida 15,256$
+2026-11-17 16:01 | [DIARIO] Orden enviada: buy 53.9236 ORCL (id 437e9f0e-a609-4615-8558-1633874d3786)
+2026-11-17 16:02 | [ACTIVA] 🔎 Bot A1 (ruptura 30) investiga 165 valores: señal en 4, mira primero: T, CMCSA, VZ, MDY
+2026-11-17 16:02 | [ACTIVA] 📋 Bot A1 T: entra a 22.59, stop 22.38, objetivo 23.02 -> ✅ COMPRA
+2026-11-17 16:02 | [ACTIVA] Bot A1 (ruptura 30) COMPRA 327.0050 T a 22.59 | vida 17,009$
+2026-11-17 16:02 | [ACTIVA] Orden enviada: buy 327.0050 T (id 3b31ddc4-6c9b-410e-ac77-4b0fd284f5d3)
+2026-11-17 16:03 | [SKILL] 🔎 Escáner 10:02: 44 roturas, 42 recientes para estudiar.
+2026-11-17 16:03 | [SKILL] 🕰️ AMAT: entrada 355.00 stop 351.56 objetivo 361.88 | objetivo antes 25%, stop antes 64% | con comisión: simulación -0.30R, historia -0.26R (30 casos) -> ❌ no
+2026-11-17 16:03 | [SKILL] 🕰️ AMZN: entrada 259.26 stop 258.16 objetivo 261.46 | objetivo antes 30%, stop antes 68% | con comisión: simulación -0.55R, historia -0.68R (35 casos) -> ❌ no
+2026-11-17 16:03 | [SKILL] 📰 GLSI descartada por noticias: Greenwich LifeSciences Announces Acceptance of Abstracts at SABCS 2026 (regulatory)
+2026-11-17 16:03 | [SKILL] 📰 AAPL descartada por noticias: Cloud AI Today - Healthcare AI Spending Surges Transforming Drug Development (regulatory)
+2026-11-17 16:03 | [SKILL] 🕰️ AXP: entrada 319.19 stop 317.88 objetivo 321.81 | objetivo antes 28%, stop antes 65% | con comisión: simulación -0.53R, historia -0.30R (26 casos) -> ❌ no
