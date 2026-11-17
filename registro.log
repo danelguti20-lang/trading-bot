@@ -2010,3 +2010,14 @@
 2026-11-17 16:32 | [SKILL] 🕰️ XLV: entrada 187.02 stop 186.14 objetivo 188.78 | objetivo antes 11%, stop antes 38% | con comisión: simulación -0.34R, historia -0.33R (29 casos) -> ❌ no
 2026-11-17 16:32 | [SKILL] 📰 MRK descartada por noticias: Summit Crumbles After FDA Rejects Merck-Rivaling Lung Cancer Drug (regulatory)
 2026-11-17 16:32 | [SKILL] 🕰️ RTX: entrada 196.94 stop 194.96 objetivo 200.90 | objetivo antes 4%, stop antes 27% | con comisión: simulación -0.16R, historia -0.25R (29 casos) -> ❌ no
+2026-11-17 16:45 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 27, 0 con su regla ganando en 30 días
+2026-11-17 16:45 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 164 valores: señal en 13, 5 con su regla ganando las últimas sesiones (SOXS +2.49%/día, JNJ +0.16%/día, SPDN +0.03%/día, CMCSA -0.02%/día)
+2026-11-17 16:46 | [DIARIO] 🕰️ Bot D1 SOXS: stop 62.47 objetivo 64.39 | con comisión: simulación -0.26R, historia -0.37R (33 casos) -> ❌ no
+2026-11-17 16:46 | [DIARIO] 🕰️ Bot D1 JNJ: stop 279.39 objetivo 285.21 | con comisión: simulación -0.33R, historia -0.17R (31 casos) -> ❌ no
+2026-11-17 16:46 | [ACTIVA] 🛑 Bot A3 STOP: NVDA a 151.10 (entró a 153.35).
+2026-11-17 16:46 | [ACTIVA] Bot A3 (rebote 20) VENDE 43.7832 NVDA a 151.10 | vida 16,059$
+2026-11-17 16:46 | [ACTIVA] Orden enviada: sell 43.7832 NVDA (id c4d5e3c2-e87c-47c2-8c5f-ff07e167b4a4)
+2026-11-17 16:47 | [SKILL] 🔎 Escáner 10:46: 53 roturas, 3 recientes para estudiar.
+2026-11-17 16:47 | [SKILL] 🕰️ LMT: entrada 590.38 stop 586.45 objetivo 598.24 | objetivo antes 17%, stop antes 47% | con comisión: simulación -0.24R, historia -0.10R (30 casos) -> ❌ no
+2026-11-17 16:47 | [SKILL] 🕰️ ABBV: entrada 293.80 stop 292.40 objetivo 296.60 | objetivo antes 28%, stop antes 51% | con comisión: simulación -0.27R, historia -0.46R (30 casos) -> ❌ no
+2026-11-17 16:47 | [SKILL]   GLD: stop demasiado pegado (0.69 $), no vale.

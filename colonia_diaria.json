@@ -70,7 +70,7 @@
     }
   ],
   "precios": {
-    "CRWD": 217.22
+    "CRWD": 215.28
   },
   "eurusd": 1.0989,
   "eurusd_inicio": 1.1193,
@@ -302,6 +302,18 @@
       "media": -0.0029,
       "ganadores": 0.41176,
       "n": 17
+    },
+    "GLD-ruptura-30": {
+      "fecha": "2026-11-17",
+      "media": -0.00375,
+      "ganadores": 0.33333,
+      "n": 9
+    },
+    "IEF-ruptura-30": {
+      "fecha": "2026-11-17",
+      "media": -0.00234,
+      "ganadores": 0.09091,
+      "n": 11
     }
   },
   "noticias": {
