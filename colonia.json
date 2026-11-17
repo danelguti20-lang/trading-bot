@@ -8,11 +8,11 @@
       "activo": "PLTR",
       "media": 200,
       "gusto": "historia",
-      "efectivo": 804.8706892450336,
-      "acciones": 90.446194,
+      "efectivo": 7858.158425600594,
+      "acciones": 45.358078,
       "referencia": 16666.67,
       "inicial": 16666.67,
-      "estado": "vivo",
+      "estado": "herido",
       "nacido": "2026-11-09",
       "hijos": 0
     },
@@ -46,11 +46,11 @@
     }
   ],
   "precios": {
-    "PLTR": 160.49,
-    "SHOP": 147.81,
-    "XOM": 166.98
+    "PLTR": 156.59,
+    "SHOP": 141.95,
+    "XOM": 167.22
   },
-  "eurusd": 1.1014,
+  "eurusd": 1.0989,
   "eurusd_inicio": 1.1193,
   "noticias": {
     "DELL": {
