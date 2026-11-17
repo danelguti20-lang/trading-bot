@@ -2174,3 +2174,13 @@
 2026-11-17 21:01 | [DIARIO] 🕰️ Bot D2 SQQQ: stop 47.55 objetivo 49.02 | con comisión: simulación -0.23R, historia -0.35R (36 casos) -> ❌ no
 2026-11-17 21:01 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 12 full session(s) of SPDN before 2026-11-17 in the data; the time machine needs at least 20
 2026-11-17 21:01 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 162 valores: señal en 86, 0 con su regla ganando las últimas sesiones
+2026-11-17 21:15 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 13, 0 con su regla ganando en 30 días
+2026-11-17 21:15 | [CRIPTO] 🔎 Bot C3 (rebote 10) investiga 33 monedas: señal en 1, 0 con su regla ganando en 30 días
+2026-11-17 21:16 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 162 valores: señal en 15, 8 con su regla ganando las últimas sesiones (SQQQ +0.65%/día, SPDN +0.17%/día, HD +0.14%/día, SOXS +0.01%/día)
+2026-11-17 21:16 | [DIARIO] 🕰️ Bot D2 SQQQ: stop 47.36 objetivo 48.80 | con comisión: simulación -0.22R, historia -0.35R (36 casos) -> ❌ no
+2026-11-17 21:16 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 12 full session(s) of SPDN before 2026-11-17 in the data; the time machine needs at least 20
+2026-11-17 21:16 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 162 valores: señal en 33, 2 con su regla ganando las últimas sesiones (CRM -0.03%/día, XBI -0.08%/día)
+2026-11-17 21:16 | [DIARIO] 📰 Bot D3 no compra CRM: Hackers target 178 major websites with crypto-stealing code (risk)
+2026-11-17 21:16 | [DIARIO] 🕰️ Bot D3 XBI: stop 142.89 objetivo 147.24 | con comisión: simulación -0.18R, historia -0.17R (34 casos) -> ✅ COMPRA
+2026-11-17 21:16 | [DIARIO] Bot D3 (rebote 10) COMPRA 43.8447 XBI a 144.34 | vida 15,240$
+2026-11-17 21:16 | [DIARIO] Orden enviada: buy 43.8447 XBI (id dcf464a4-9108-439e-8a55-54a0840ab6a8)

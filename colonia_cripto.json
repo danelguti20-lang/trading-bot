@@ -140,10 +140,17 @@
       "media": -0.01406,
       "total": -0.35986,
       "ganadores": 0.09677
+    },
+    "PAXG/USD-rebote-10": {
+      "hora": "2026-11-17 19:00:00+00:00",
+      "n": 38,
+      "media": -0.00477,
+      "total": -0.16675,
+      "ganadores": 0.21053
     }
   },
   "precios": {
-    "SKY/USD": 0.05336145
+    "SKY/USD": 0.05314
   },
   "eurusd": 1.0989,
   "eurusd_inicio": 1.1193

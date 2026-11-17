@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "XBI",
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 15246.374402841499,
-      "acciones": 0.0,
+      "efectivo": 8911.504461561617,
+      "acciones": 43.844682,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,15 +62,16 @@
       "hoy": "2026-11-17",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 144.34,
+      "stop": 142.89,
+      "meta": 147.24,
       "contra_cerebro": false,
       "perdidas": 0
     }
   ],
   "precios": {
-    "NVD": 7.56
+    "NVD": 7.49,
+    "XBI": 144.34
   },
   "eurusd": 1.0989,
   "eurusd_inicio": 1.1193,
@@ -812,6 +813,24 @@
       "media": -0.02742,
       "ganadores": 0.25,
       "n": 16
+    },
+    "AVGO-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.008,
+      "ganadores": 0.41176,
+      "n": 17
+    },
+    "DELL-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.01447,
+      "ganadores": 0.26316,
+      "n": 19
+    },
+    "CSCO-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00659,
+      "ganadores": 0.31579,
+      "n": 19
     }
   },
   "noticias": {
@@ -847,7 +866,7 @@
       ]
     },
     "XBI": {
-      "hora": "2026-11-17T16:31:31.978583+00:00",
+      "hora": "2026-11-17T20:16:07.430381+00:00",
       "malos": 0,
       "titulares": []
     },
