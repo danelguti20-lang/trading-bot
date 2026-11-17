@@ -2129,3 +2129,11 @@
 2026-11-17 19:16 | [ACTIVA] 📋 Bot A3 SPY: entra a 730.99, stop 723.68, objetivo 745.61 -> ✅ COMPRA
 2026-11-17 19:16 | [ACTIVA] Bot A3 (rebote 20) COMPRA 9.1402 SPY a 730.99 | vida 16,029$
 2026-11-17 19:16 | [ACTIVA] Orden enviada: buy 9.1402 SPY (id e1a74999-9173-45c7-868d-eabfb41b2a67)
+2026-11-17 19:30 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 8, 0 con su regla ganando en 30 días
+2026-11-17 19:31 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 163 valores: señal en 36, 8 con su regla ganando las últimas sesiones (SQQQ +0.65%/día, SPDN +0.17%/día, HD +0.14%/día, SOXS +0.01%/día)
+2026-11-17 19:31 | [DIARIO] 🕰️ Bot D2 SQQQ: stop 46.48 objetivo 47.89 | con comisión: simulación -0.14R, historia -0.35R (36 casos) -> ❌ no
+2026-11-17 19:31 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: the entry is not in the data: no complete 13:25 bar (closing 1:30 PM) on 2026-11-17 for SPDN (the data stops at the 13:20 bar)
+2026-11-17 19:31 | [DIARIO] Bot D3 (rebote 10) VENDE 16.7138 TSLA a 380.44 | vida 15,246$
+2026-11-17 19:31 | [DIARIO] Orden enviada: sell 16.7138 TSLA (id a28c4b2d-e2e3-4bff-8ad2-53697311b457)
+2026-11-17 19:31 | [ACTIVA] Bot A3 (rebote 20) VENDE 9.1402 SPY a 733.39 | vida 16,044$
+2026-11-17 19:31 | [ACTIVA] Orden enviada: sell 9.1402 SPY (id 95508a40-d48a-415d-a615-2fdffce9f787)
