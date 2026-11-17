@@ -486,6 +486,66 @@
       "media": 0.00127,
       "ganadores": 0.54545,
       "n": 11
+    },
+    "UNH-ruptura-30": {
+      "fecha": "2026-11-17",
+      "media": -0.00199,
+      "ganadores": 0.5,
+      "n": 10
+    },
+    "XLP-mañana-0.3": {
+      "fecha": "2026-11-17",
+      "media": -0.00088,
+      "ganadores": 0.45455,
+      "n": 11
+    },
+    "AVGO-mañana-0.3": {
+      "fecha": "2026-11-17",
+      "media": -0.00461,
+      "ganadores": 0.28571,
+      "n": 14
+    },
+    "UNH-mañana-0.3": {
+      "fecha": "2026-11-17",
+      "media": -0.00301,
+      "ganadores": 0.28571,
+      "n": 7
+    },
+    "RWM-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00352,
+      "ganadores": 0.22222,
+      "n": 18
+    },
+    "XOM-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.004,
+      "ganadores": 0.29412,
+      "n": 17
+    },
+    "INTU-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00203,
+      "ganadores": 0.52941,
+      "n": 17
+    },
+    "DDOG-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00491,
+      "ganadores": 0.45,
+      "n": 20
+    },
+    "OXY-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00395,
+      "ganadores": 0.29412,
+      "n": 17
+    },
+    "CUE-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": 0.0,
+      "ganadores": 0.0,
+      "n": 0
     }
   },
   "noticias": {
