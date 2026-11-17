@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "CRWD",
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 15175.189791272158,
-      "acciones": 0.0,
+      "efectivo": 8864.754189521878,
+      "acciones": 29.021874,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,14 +62,16 @@
       "hoy": "2026-11-17",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 217.22,
+      "stop": 215.04,
+      "meta": 221.58,
       "contra_cerebro": false,
       "perdidas": 2
     }
   ],
-  "precios": {},
+  "precios": {
+    "CRWD": 217.22
+  },
   "eurusd": 1.0989,
   "eurusd_inicio": 1.1193,
   "memoria": {
@@ -216,6 +218,90 @@
       "media": -0.00148,
       "ganadores": 0.5,
       "n": 12
+    },
+    "XLV-ruptura-30": {
+      "fecha": "2026-11-17",
+      "media": -0.00131,
+      "ganadores": 0.3,
+      "n": 10
+    },
+    "XLU-ruptura-30": {
+      "fecha": "2026-11-17",
+      "media": -0.00093,
+      "ganadores": 0.36364,
+      "n": 11
+    },
+    "JNJ-ruptura-30": {
+      "fecha": "2026-11-17",
+      "media": 0.00156,
+      "ganadores": 0.6,
+      "n": 10
+    },
+    "TLT-ruptura-30": {
+      "fecha": "2026-11-17",
+      "media": -0.00285,
+      "ganadores": 0.2,
+      "n": 10
+    },
+    "RTX-ruptura-30": {
+      "fecha": "2026-11-17",
+      "media": 0.00075,
+      "ganadores": 0.55556,
+      "n": 9
+    },
+    "MRK-ruptura-30": {
+      "fecha": "2026-11-17",
+      "media": -0.00649,
+      "ganadores": 0.4,
+      "n": 10
+    },
+    "INDA-ruptura-30": {
+      "fecha": "2026-11-17",
+      "media": -0.00257,
+      "ganadores": 0.13333,
+      "n": 15
+    },
+    "NVDA-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00642,
+      "ganadores": 0.42105,
+      "n": 19
+    },
+    "MU-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00892,
+      "ganadores": 0.38889,
+      "n": 18
+    },
+    "MSFT-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00568,
+      "ganadores": 0.3125,
+      "n": 16
+    },
+    "SMH-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00465,
+      "ganadores": 0.44444,
+      "n": 18
+    },
+    "CRWD-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": 0.0023,
+      "ganadores": 0.5,
+      "n": 14
+    },
+    "XLK-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.0066,
+      "ganadores": 0.375,
+      "n": 16
+    },
+    "PLTR-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.0029,
+      "ganadores": 0.41176,
+      "n": 17
     }
   },
   "noticias": {
@@ -344,6 +430,11 @@
     },
     "SLB": {
       "hora": "2026-11-16T20:31:00.783979+00:00",
+      "malos": 0,
+      "titulares": []
+    },
+    "CRWD": {
+      "hora": "2026-11-17T15:31:27.110921+00:00",
       "malos": 0,
       "titulares": []
     }
