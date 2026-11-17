@@ -49,23 +49,23 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "MU",
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 16291.394741605412,
-      "acciones": 0.0,
+      "efectivo": 9501.398289716763,
+      "acciones": 9.575535,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-11",
       "hijos": 0,
       "hoy": "2026-11-17",
-      "operado_hoy": false,
+      "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
-      "contra_cerebro": true,
+      "entrada": 708.39,
+      "stop": 701.3,
+      "meta": 722.57,
+      "contra_cerebro": false,
       "perdidas": 1
     }
   ],
@@ -74,11 +74,9 @@
   "memoria": {},
   "noticias": {
     "MU": {
-      "hora": "2026-11-11T15:21:19.304727+00:00",
-      "malos": 1,
-      "titulares": [
-        "Micron draws $554 million in ETF buying after steep selloff"
-      ]
+      "hora": "2026-11-17T14:46:13.926032+00:00",
+      "malos": 0,
+      "titulares": []
     },
     "MSFT": {
       "hora": "2026-11-12T18:41:10.089454+00:00",
@@ -176,7 +174,9 @@
       "titulares": []
     }
   },
-  "precios": {},
+  "precios": {
+    "MU": 708.39
+  },
   "cerebro": {
     "a_favor": {
       "n": 21,
