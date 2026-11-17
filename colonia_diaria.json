@@ -70,7 +70,7 @@
     }
   ],
   "precios": {
-    "NVD": 7.41
+    "NVD": 7.42
   },
   "eurusd": 1.0989,
   "eurusd_inicio": 1.1193,
@@ -582,6 +582,54 @@
     "VZ-rebote-10": {
       "fecha": "2026-11-17",
       "media": -0.00054,
+      "ganadores": 0.5,
+      "n": 18
+    },
+    "NFLX-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00654,
+      "ganadores": 0.21053,
+      "n": 19
+    },
+    "UPS-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00368,
+      "ganadores": 0.38462,
+      "n": 13
+    },
+    "CAT-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00922,
+      "ganadores": 0.27778,
+      "n": 18
+    },
+    "PFE-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00606,
+      "ganadores": 0.17647,
+      "n": 17
+    },
+    "CMCSA-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00018,
+      "ganadores": 0.5,
+      "n": 18
+    },
+    "COP-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00346,
+      "ganadores": 0.35294,
+      "n": 17
+    },
+    "T-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00419,
+      "ganadores": 0.42105,
+      "n": 19
+    },
+    "BA-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00429,
       "ganadores": 0.5,
       "n": 18
     }

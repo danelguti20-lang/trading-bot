@@ -2107,3 +2107,12 @@
 2026-11-17 18:46 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 163 valores: señal en 4, 1 con su regla ganando las últimas sesiones (VZ -0.05%/día)
 2026-11-17 18:46 | [DIARIO] 🕰️ Bot D3 VZ: stop 45.95 objetivo 47.34 | con comisión: simulación -0.33R, historia -0.45R (35 casos) -> ❌ no
 2026-11-17 18:46 | [DIARIO] Orden enviada: buy 880.8950 NVD (id 36f2ee61-9fd4-4c9e-b7e4-69f3057a7207)
+2026-11-17 19:00 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 8, 0 con su regla ganando en 30 días
+2026-11-17 19:01 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 163 valores: señal en 33, 8 con su regla ganando las últimas sesiones (SQQQ +0.65%/día, SPDN +0.17%/día, HD +0.14%/día, SOXS +0.01%/día)
+2026-11-17 19:01 | [DIARIO] 🕰️ Bot D2 SQQQ: stop 47.09 objetivo 48.53 | con comisión: simulación -0.06R, historia -0.35R (36 casos) -> ❌ no
+2026-11-17 19:01 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 12 full session(s) of SPDN before 2026-11-17 in the data; the time machine needs at least 20
+2026-11-17 19:01 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 163 valores: señal en 12, 2 con su regla ganando las últimas sesiones (CMCSA -0.02%/día, VZ -0.05%/día)
+2026-11-17 19:01 | [DIARIO] 🕰️ Bot D3 CMCSA: stop 25.36 objetivo 26.16 | con comisión: simulación -0.26R, historia -0.32R (31 casos) -> ❌ no
+2026-11-17 19:01 | [DIARIO] 🕰️ Bot D3 VZ: stop 45.92 objetivo 47.33 | con comisión: simulación -0.33R, historia -0.45R (35 casos) -> ❌ no
+2026-11-17 19:01 | [ACTIVA] Bot A3 (rebote 20) VENDE 446.1949 RWM a 14.86 | vida 16,035$
+2026-11-17 19:01 | [ACTIVA] Orden enviada: sell 446.1949 RWM (id 703f6dd3-25e0-4e6f-afe1-3a904e73feac)
