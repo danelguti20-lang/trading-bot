@@ -2096,3 +2096,14 @@
 2026-11-17 18:31 | [DIARIO] 🕰️ Bot D2 SQQQ: stop 46.62 objetivo 48.06 | con comisión: simulación +0.01R, historia -0.35R (36 casos) -> ❌ no
 2026-11-17 18:31 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 12 full session(s) of SPDN before 2026-11-17 in the data; the time machine needs at least 20
 2026-11-17 18:31 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 163 valores: señal en 5, 0 con su regla ganando las últimas sesiones
+2026-11-17 18:45 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 8, 0 con su regla ganando en 30 días
+2026-11-17 18:46 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 163 valores: señal en 12, 7 con su regla ganando las últimas sesiones (SOXS +2.49%/día, NVD +1.18%/día, SQQQ +0.60%/día, LMT +0.36%/día)
+2026-11-17 18:46 | [DIARIO] 🕰️ Bot D1 SOXS: stop 59.87 objetivo 61.70 | con comisión: simulación +0.02R, historia -0.37R (33 casos) -> ❌ no
+2026-11-17 18:46 | [DIARIO] 🕰️ Bot D1 NVD: stop 7.33 objetivo 7.57 | con comisión: simulación +0.08R, historia +0.46R (32 casos) -> ✅ COMPRA
+2026-11-17 18:46 | [DIARIO] Bot D1 (ruptura 30) COMPRA 880.8950 NVD a 7.41 | vida 16,699$
+2026-11-17 18:46 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 163 valores: señal en 34, 9 con su regla ganando las últimas sesiones (SQQQ +0.65%/día, SPDN +0.17%/día, HD +0.14%/día, SOXS +0.01%/día)
+2026-11-17 18:46 | [DIARIO] 🕰️ Bot D2 SQQQ: stop 46.84 objetivo 48.28 | con comisión: simulación -0.05R, historia -0.35R (36 casos) -> ❌ no
+2026-11-17 18:46 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 12 full session(s) of SPDN before 2026-11-17 in the data; the time machine needs at least 20
+2026-11-17 18:46 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 163 valores: señal en 4, 1 con su regla ganando las últimas sesiones (VZ -0.05%/día)
+2026-11-17 18:46 | [DIARIO] 🕰️ Bot D3 VZ: stop 45.95 objetivo 47.34 | con comisión: simulación -0.33R, historia -0.45R (35 casos) -> ❌ no
+2026-11-17 18:46 | [DIARIO] Orden enviada: buy 880.8950 NVD (id 36f2ee61-9fd4-4c9e-b7e4-69f3057a7207)

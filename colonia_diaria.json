@@ -5,22 +5,22 @@
     {
       "id": 1,
       "padre": null,
-      "activo": null,
+      "activo": "NVD",
       "estrategia": "ruptura",
       "p": 30,
-      "efectivo": 16705.2921629873,
-      "acciones": 0.0,
+      "efectivo": 10171.333025811833,
+      "acciones": 880.894967,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-09",
       "hijos": 0,
       "hoy": "2026-11-17",
-      "operado_hoy": false,
+      "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 7.41,
+      "stop": 7.33,
+      "meta": 7.57,
       "contra_cerebro": false,
       "perdidas": 1
     },
@@ -69,7 +69,9 @@
       "perdidas": 0
     }
   ],
-  "precios": {},
+  "precios": {
+    "NVD": 7.41
+  },
   "eurusd": 1.0989,
   "eurusd_inicio": 1.1193,
   "memoria": {
@@ -570,6 +572,18 @@
       "media": -0.00203,
       "ganadores": 0.4375,
       "n": 16
+    },
+    "NVD-ruptura-30": {
+      "fecha": "2026-11-17",
+      "media": 0.0118,
+      "ganadores": 0.75,
+      "n": 12
+    },
+    "VZ-rebote-10": {
+      "fecha": "2026-11-17",
+      "media": -0.00054,
+      "ganadores": 0.5,
+      "n": 18
     }
   },
   "noticias": {
@@ -660,7 +674,7 @@
       "titulares": []
     },
     "NVD": {
-      "hora": "2026-11-13T15:17:29.751405+00:00",
+      "hora": "2026-11-17T17:46:02.461763+00:00",
       "malos": 0,
       "titulares": []
     },
