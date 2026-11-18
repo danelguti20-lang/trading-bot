@@ -2364,3 +2364,12 @@
 2026-11-18 16:02 | [SKILL] 🕰️ F: entrada 11.39 stop 11.31 objetivo 11.55 | objetivo antes 19%, stop antes 66% | con comisión: simulación -0.48R, historia -0.63R (21 casos) -> ❌ no
 2026-11-18 16:02 | [SKILL] 🕰️ HON: entrada 220.40 stop 218.33 objetivo 224.54 | objetivo antes 16%, stop antes 36% | con comisión: simulación -0.02R, historia -0.18R (32 casos) -> ❌ no
 2026-11-18 16:02 | [SKILL]   INDA: stop demasiado pegado (0.10 $), no vale.
+2026-11-18 16:15 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 6, 0 con su regla ganando en 30 días
+2026-11-18 16:16 | [DIARIO] Bot D3 (rebote 10) VENDE 50.4605 WMT a 126.67 | vida 15,286$
+2026-11-18 16:16 | [DIARIO] Orden enviada: sell 50.4605 WMT (id 22cf205e-c83d-478f-8dca-033970ba1f2a)
+2026-11-18 16:17 | [SKILL] 🔎 Escáner 10:16: 32 roturas, 13 recientes para estudiar.
+2026-11-18 16:17 | [SKILL] 🕰️ SNOW: entrada 277.76 stop 273.97 objetivo 285.34 | objetivo antes 13%, stop antes 49% | con comisión: simulación -0.22R, historia -0.20R (32 casos) -> ❌ no
+2026-11-18 16:17 | [SKILL] 📰 SPCX descartada por noticias: SpaceX's X, X.AI Reach Agreements With South African Competition Commission Over Antitrust (legal)
+2026-11-18 16:17 | [SKILL] 🕰️ MDLN: entrada 38.76 stop 37.72 objetivo 40.84 | objetivo antes 0%, stop antes 15% | con comisión: simulación -0.08R, historia -0.08R (32 casos) -> ❌ no
+2026-11-18 16:17 | [SKILL] 🕰️ WMT: entrada 127.11 stop 126.07 objetivo 129.19 | objetivo antes 6%, stop antes 27% | con comisión: simulación -0.12R, historia -0.02R (35 casos) -> ❌ no
+2026-11-18 16:17 | [SKILL] 🕰️ XBI: entrada 146.71 stop 145.56 objetivo 149.01 | objetivo antes 18%, stop antes 59% | con comisión: simulación -0.37R, historia -0.19R (33 casos) -> ❌ no

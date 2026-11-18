@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": "WMT",
+      "activo": null,
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 8900.330451832218,
-      "acciones": 50.460486,
+      "efectivo": 15285.7683836906,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,16 +62,15 @@
       "hoy": "2026-11-18",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 125.82,
-      "stop": 124.56,
-      "meta": 128.34,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
       "perdidas": 0
     }
   ],
   "precios": {
-    "CRWD": 226.43,
-    "WMT": 126.77
+    "CRWD": 230.53
   },
   "eurusd": 1.0968,
   "eurusd_inicio": 1.1193,
@@ -349,9 +348,9 @@
   },
   "cerebro": {
     "a_favor": {
-      "n": 30,
-      "ganadas": 15,
-      "suma": -0.202348
+      "n": 31,
+      "ganadas": 16,
+      "suma": -0.197606
     }
   }
 }
