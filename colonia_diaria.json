@@ -348,6 +348,24 @@
       "media": -0.00302,
       "ganadores": 0.29412,
       "n": 17
+    },
+    "BITO-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.00456,
+      "ganadores": 0.23529,
+      "n": 17
+    },
+    "DELL-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.01498,
+      "ganadores": 0.26316,
+      "n": 19
+    },
+    "MS-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.00435,
+      "ganadores": 0.375,
+      "n": 16
     }
   },
   "noticias": {
