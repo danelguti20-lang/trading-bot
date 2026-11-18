@@ -366,6 +366,18 @@
       "media": -0.00435,
       "ganadores": 0.375,
       "n": 16
+    },
+    "GOOGL-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.00769,
+      "ganadores": 0.11765,
+      "n": 17
+    },
+    "NOW-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.01336,
+      "ganadores": 0.26667,
+      "n": 15
     }
   },
   "noticias": {
