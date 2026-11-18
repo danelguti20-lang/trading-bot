@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": "QQQ",
+      "activo": null,
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 9281.068194889964,
-      "acciones": 10.062943,
+      "efectivo": 15907.021969259235,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,11 +62,11 @@
       "hoy": "2026-11-18",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 658.4,
-      "stop": 651.81,
-      "meta": 671.58,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
-      "perdidas": 3
+      "perdidas": 4
     }
   ],
   "eurusd": 1.0968,
@@ -198,14 +198,13 @@
   },
   "precios": {
     "AMZN": 267.17,
-    "XLP": 91.28,
-    "QQQ": 658.4
+    "XLP": 91.275
   },
   "cerebro": {
     "a_favor": {
-      "n": 33,
+      "n": 34,
       "ganadas": 11,
-      "suma": -0.091207
+      "suma": -0.092131
     },
     "en_contra": {
       "n": 8,
