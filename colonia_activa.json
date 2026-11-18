@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "QQQ",
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 15913.135307761164,
-      "acciones": 0.0,
+      "efectivo": 9281.068194889964,
+      "acciones": 10.062943,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,9 +62,9 @@
       "hoy": "2026-11-18",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 658.4,
+      "stop": 651.81,
+      "meta": 671.58,
       "contra_cerebro": false,
       "perdidas": 3
     }
@@ -189,11 +189,17 @@
       "titulares": [
         "Nvidia Earnings Beat Fails to Rescue Wall Street as Dow Tumbles"
       ]
+    },
+    "QQQ": {
+      "hora": "2026-11-18T20:02:15.774558+00:00",
+      "malos": 0,
+      "titulares": []
     }
   },
   "precios": {
-    "AMZN": 267.215,
-    "XLP": 91.31
+    "AMZN": 267.17,
+    "XLP": 91.28,
+    "QQQ": 658.4
   },
   "cerebro": {
     "a_favor": {

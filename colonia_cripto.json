@@ -91,6 +91,13 @@
       "media": -0.01515,
       "total": -0.34891,
       "ganadores": 0.03571
+    },
+    "RENDER/USD-rebote-10": {
+      "hora": "2026-11-18 19:00:00+00:00",
+      "n": 43,
+      "media": -0.00186,
+      "total": -0.08443,
+      "ganadores": 0.53488
     }
   },
   "precios": {},
