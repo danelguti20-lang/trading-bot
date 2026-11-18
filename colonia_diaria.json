@@ -70,7 +70,7 @@
     }
   ],
   "precios": {
-    "HD": 338.45
+    "HD": 339.03
   },
   "eurusd": 1.0968,
   "eurusd_inicio": 1.1193,
@@ -488,6 +488,24 @@
       "media": -0.00952,
       "ganadores": 0.33333,
       "n": 18
+    },
+    "SPDN-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.00311,
+      "ganadores": 0.16667,
+      "n": 12
+    },
+    "SQQQ-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.00716,
+      "ganadores": 0.4375,
+      "n": 16
+    },
+    "SOXS-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.00495,
+      "ganadores": 0.5625,
+      "n": 16
     }
   },
   "noticias": {
