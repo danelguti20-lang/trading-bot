@@ -5,22 +5,22 @@
     {
       "id": 1,
       "padre": null,
-      "activo": null,
+      "activo": "AMZN",
       "estrategia": "ruptura",
       "p": 30,
-      "efectivo": 16936.570786700315,
-      "acciones": 0.0,
+      "efectivo": 9890.166954372457,
+      "acciones": 26.643066,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-11",
       "hijos": 0,
       "hoy": "2026-11-18",
-      "operado_hoy": false,
+      "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 264.21,
+      "stop": 261.56,
+      "meta": 269.51,
       "contra_cerebro": false,
       "perdidas": 1
     },
@@ -69,7 +69,7 @@
       "perdidas": 1
     }
   ],
-  "eurusd": 1.0989,
+  "eurusd": 1.0968,
   "eurusd_inicio": 1.1127,
   "memoria": {},
   "noticias": {
@@ -164,11 +164,9 @@
       "titulares": []
     },
     "AMZN": {
-      "hora": "2026-11-16T17:16:09.492692+00:00",
-      "malos": 1,
-      "titulares": [
-        "AST SpaceMobile Sinks 8% as ULA’s Vulcan Rocket Failure Rattles Space Stocks"
-      ]
+      "hora": "2026-11-18T15:01:54.866154+00:00",
+      "malos": 0,
+      "titulares": []
     },
     "XOM": {
       "hora": "2026-11-16T19:16:19.801253+00:00",
@@ -187,7 +185,8 @@
     }
   },
   "precios": {
-    "XLE": 61.92
+    "AMZN": 264.21,
+    "XLE": 62.39
   },
   "cerebro": {
     "a_favor": {

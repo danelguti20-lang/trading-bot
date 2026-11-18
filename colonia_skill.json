@@ -25,25 +25,12 @@
   "trades_hoy": 0,
   "resultado_hoy": 0.0,
   "vistos_hoy": {
-    "2026-11-17": [
-      "AMAT",
-      "AMZN",
-      "GLSI",
-      "AAPL",
-      "AXP",
-      "PYPL",
-      "XLC",
-      "RIVN",
-      "SOXS",
-      "SPDN",
-      "IEF",
-      "XLU",
-      "XLV",
-      "MRK",
-      "RTX",
-      "LMT",
-      "ABBV",
-      "GLD"
+    "2026-11-18": [
+      "EFA",
+      "EWJ",
+      "F",
+      "HON",
+      "INDA"
     ]
   }
 }

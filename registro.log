@@ -2345,3 +2345,22 @@
 2026-11-18 15:46 | [ACTIVA] 📋 Bot A3 XLE: entra a 61.92, stop 61.30, objetivo 63.16 -> ✅ COMPRA
 2026-11-18 15:46 | [ACTIVA] Bot A3 (rebote 20) COMPRA 107.6109 XLE a 61.92 | vida 16,002$
 2026-11-18 15:46 | [ACTIVA] Orden enviada: buy 107.6109 XLE (id 9d43f0d9-b443-41f7-9287-d8644bfa3584)
+2026-11-18 16:00 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 6, 0 con su regla ganando en 30 días
+2026-11-18 16:00 | [CRIPTO] 🔎 Bot C3 (rebote 10) investiga 33 monedas: señal en 13, 1 con su regla ganando en 30 días (TRUMP/USD +28.9%)
+2026-11-18 16:00 | [CRIPTO] 🕰️ Bot C3 elige TRUMP/USD: en 30 días su regla hizo 37 operaciones, 59% ganadoras, total +28.9% (con comisión) -> ✅ entra
+2026-11-18 16:00 | [CRIPTO] Bot C3 (rebote 10) COMPRA 15361.898241 TRUMP/USD a 0.9434 | vida 15,257$
+2026-11-18 16:00 | [CRIPTO] Orden enviada: buy 15361.898241 TRUMP/USD (id b8006661-f1e3-4fac-bd13-e56b212b26a0)
+2026-11-18 16:01 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 163 valores: señal en 24, 6 con su regla ganando las últimas sesiones (CRWD +0.73%/día, XBI +0.45%/día, TGT +0.28%/día, XLB -0.11%/día)
+2026-11-18 16:01 | [DIARIO] 🕰️ Bot D1 CRWD: stop 224.16 objetivo 230.97 | con comisión: simulación -0.18R, historia -0.06R (32 casos) -> ✅ COMPRA
+2026-11-18 16:01 | [DIARIO] Bot D1 (ruptura 30) COMPRA 30.6843 CRWD a 226.43 | vida 16,703$
+2026-11-18 16:01 | [DIARIO] Orden enviada: buy 30.6843 CRWD (id eb7aa62a-54ce-487b-9ef1-9b0ba6ee071d)
+2026-11-18 16:01 | [ACTIVA] 🔎 Bot A1 (ruptura 30) investiga 164 valores: señal en 27, mira primero: AMZN, IWM, GE, TGT
+2026-11-18 16:01 | [ACTIVA] 📋 Bot A1 AMZN: entra a 264.21, stop 261.56, objetivo 269.51 -> ✅ COMPRA
+2026-11-18 16:01 | [ACTIVA] Bot A1 (ruptura 30) COMPRA 26.6431 AMZN a 264.21 | vida 16,930$
+2026-11-18 16:01 | [ACTIVA] Orden enviada: buy 26.6431 AMZN (id eac987ed-5bc0-4781-a41b-2ece6bab6834)
+2026-11-18 16:02 | [SKILL] 🔎 Escáner 10:01: 27 roturas, 25 recientes para estudiar.
+2026-11-18 16:02 | [SKILL]   EFA: stop demasiado pegado (0.15 $), no vale.
+2026-11-18 16:02 | [SKILL] 🕰️ EWJ: entrada 88.50 stop 88.22 objetivo 89.06 | objetivo antes 22%, stop antes 63% | con comisión: simulación -0.76R, historia -0.58R (40 casos) -> ❌ no
+2026-11-18 16:02 | [SKILL] 🕰️ F: entrada 11.39 stop 11.31 objetivo 11.55 | objetivo antes 19%, stop antes 66% | con comisión: simulación -0.48R, historia -0.63R (21 casos) -> ❌ no
+2026-11-18 16:02 | [SKILL] 🕰️ HON: entrada 220.40 stop 218.33 objetivo 224.54 | objetivo antes 16%, stop antes 36% | con comisión: simulación -0.02R, historia -0.18R (32 casos) -> ❌ no
+2026-11-18 16:02 | [SKILL]   INDA: stop demasiado pegado (0.10 $), no vale.

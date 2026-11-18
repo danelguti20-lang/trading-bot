@@ -5,22 +5,22 @@
     {
       "id": 1,
       "padre": null,
-      "activo": null,
+      "activo": "CRWD",
       "estrategia": "ruptura",
       "p": 30,
-      "efectivo": 16709.837581017022,
-      "acciones": 0.0,
+      "efectivo": 9755.032353146522,
+      "acciones": 30.68435,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-09",
       "hijos": 0,
       "hoy": "2026-11-18",
-      "operado_hoy": false,
+      "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 226.43,
+      "stop": 224.16,
+      "meta": 230.97,
       "contra_cerebro": false,
       "perdidas": 0
     },
@@ -70,9 +70,10 @@
     }
   ],
   "precios": {
-    "WMT": 125.82
+    "CRWD": 226.43,
+    "WMT": 126.77
   },
-  "eurusd": 1.0989,
+  "eurusd": 1.0968,
   "eurusd_inicio": 1.1193,
   "memoria": {
     "XLP-rebote-10": {
@@ -134,6 +135,78 @@
       "media": -0.00428,
       "ganadores": 0.11765,
       "n": 17
+    },
+    "IWM-ruptura-30": {
+      "fecha": "2026-11-18",
+      "media": -0.00216,
+      "ganadores": 0.22222,
+      "n": 9
+    },
+    "GE-ruptura-30": {
+      "fecha": "2026-11-18",
+      "media": -0.00212,
+      "ganadores": 0.41667,
+      "n": 12
+    },
+    "TGT-ruptura-30": {
+      "fecha": "2026-11-18",
+      "media": 0.00283,
+      "ganadores": 0.7,
+      "n": 10
+    },
+    "RSP-ruptura-30": {
+      "fecha": "2026-11-18",
+      "media": -0.00132,
+      "ganadores": 0.5,
+      "n": 12
+    },
+    "XLY-ruptura-30": {
+      "fecha": "2026-11-18",
+      "media": -0.00461,
+      "ganadores": 0.18182,
+      "n": 11
+    },
+    "KWEB-ruptura-30": {
+      "fecha": "2026-11-18",
+      "media": -0.00333,
+      "ganadores": 0.42857,
+      "n": 7
+    },
+    "EFA-ruptura-30": {
+      "fecha": "2026-11-18",
+      "media": -0.00177,
+      "ganadores": 0.33333,
+      "n": 12
+    },
+    "XLB-ruptura-30": {
+      "fecha": "2026-11-18",
+      "media": -0.00114,
+      "ganadores": 0.33333,
+      "n": 12
+    },
+    "XBI-ruptura-30": {
+      "fecha": "2026-11-18",
+      "media": 0.00449,
+      "ganadores": 0.71429,
+      "n": 7
+    },
+    "CRWD-ruptura-30": {
+      "fecha": "2026-11-18",
+      "media": 0.00728,
+      "ganadores": 0.66667,
+      "n": 6
+    },
+    "EWJ-ruptura-30": {
+      "fecha": "2026-11-18",
+      "media": -0.00299,
+      "ganadores": 0.30769,
+      "n": 13
+    },
+    "UBER-ruptura-30": {
+      "fecha": "2026-11-18",
+      "media": -0.0022,
+      "ganadores": 0.5,
+      "n": 8
     }
   },
   "noticias": {
@@ -264,7 +337,7 @@
       "titulares": []
     },
     "CRWD": {
-      "hora": "2026-11-17T15:31:27.110921+00:00",
+      "hora": "2026-11-18T15:01:28.402481+00:00",
       "malos": 0,
       "titulares": []
     },
