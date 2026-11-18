@@ -70,7 +70,7 @@
     }
   ],
   "precios": {
-    "HD": 340.55
+    "HD": 340.2
   },
   "eurusd": 1.0968,
   "eurusd_inicio": 1.1193,
@@ -542,6 +542,30 @@
       "media": -0.00419,
       "ganadores": 0.47368,
       "n": 19
+    },
+    "NFLX-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.00648,
+      "ganadores": 0.21053,
+      "n": 19
+    },
+    "JNJ-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.00272,
+      "ganadores": 0.38889,
+      "n": 18
+    },
+    "PFE-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.00583,
+      "ganadores": 0.23529,
+      "n": 17
+    },
+    "PEP-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.0038,
+      "ganadores": 0.25,
+      "n": 16
     }
   },
   "noticias": {

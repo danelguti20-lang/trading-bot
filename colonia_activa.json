@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": "UNH",
+      "activo": null,
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 9342.663784699263,
-      "acciones": 18.702341,
+      "efectivo": 15915.567864935463,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,11 +62,11 @@
       "hoy": "2026-11-18",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 356.83,
-      "stop": 353.26,
-      "meta": 363.97,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
-      "perdidas": 1
+      "perdidas": 2
     }
   ],
   "eurusd": 1.0968,
@@ -192,15 +192,14 @@
     }
   },
   "precios": {
-    "AMZN": 267.48,
-    "XLP": 91.695,
-    "UNH": 354.85
+    "AMZN": 266.99,
+    "XLP": 91.54
   },
   "cerebro": {
     "a_favor": {
-      "n": 31,
+      "n": 32,
       "ganadas": 11,
-      "suma": -0.074767
+      "suma": -0.090835
     },
     "en_contra": {
       "n": 8,
