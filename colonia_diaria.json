@@ -70,7 +70,7 @@
     }
   ],
   "precios": {
-    "HD": 339.23
+    "HD": 339.925
   },
   "eurusd": 1.0968,
   "eurusd_inicio": 1.1193,
@@ -505,6 +505,36 @@
       "fecha": "2026-11-18",
       "media": -0.00495,
       "ganadores": 0.5625,
+      "n": 16
+    },
+    "KO-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.00329,
+      "ganadores": 0.1875,
+      "n": 16
+    },
+    "AXP-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.00273,
+      "ganadores": 0.23529,
+      "n": 17
+    },
+    "AMGN-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.00347,
+      "ganadores": 0.21053,
+      "n": 19
+    },
+    "GM-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.00397,
+      "ganadores": 0.36842,
+      "n": 19
+    },
+    "FDX-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.00409,
+      "ganadores": 0.3125,
       "n": 16
     }
   },
