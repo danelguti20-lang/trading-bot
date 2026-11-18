@@ -378,6 +378,24 @@
       "media": -0.01336,
       "ganadores": 0.26667,
       "n": 15
+    },
+    "MU-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.01186,
+      "ganadores": 0.33333,
+      "n": 18
+    },
+    "AAPL-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.00233,
+      "ganadores": 0.33333,
+      "n": 18
+    },
+    "PLTR-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.00419,
+      "ganadores": 0.35294,
+      "n": 17
     }
   },
   "noticias": {

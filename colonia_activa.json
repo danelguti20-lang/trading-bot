@@ -185,8 +185,8 @@
     }
   },
   "precios": {
-    "AMZN": 263.62,
-    "SPY": 728.42
+    "AMZN": 263.4,
+    "SPY": 728.39
   },
   "cerebro": {
     "a_favor": {
