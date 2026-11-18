@@ -27,11 +27,11 @@
     {
       "id": 2,
       "padre": null,
-      "activo": "HD",
+      "activo": null,
       "estrategia": "mañana",
       "p": 0.3,
-      "efectivo": 9723.844971827568,
-      "acciones": 20.494321,
+      "efectivo": 16663.7556320748,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -40,11 +40,11 @@
       "hoy": "2026-11-18",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 338.66,
-      "stop": 335.27,
-      "meta": 345.44,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
-      "perdidas": 0
+      "perdidas": 1
     },
     {
       "id": 3,
@@ -69,9 +69,7 @@
       "perdidas": 0
     }
   ],
-  "precios": {
-    "HD": 339.28
-  },
+  "precios": {},
   "eurusd": 1.0968,
   "eurusd_inicio": 1.1193,
   "memoria": {
@@ -755,9 +753,9 @@
   },
   "cerebro": {
     "a_favor": {
-      "n": 33,
+      "n": 34,
       "ganadas": 18,
-      "suma": -0.176983
+      "suma": -0.178084
     }
   }
 }
