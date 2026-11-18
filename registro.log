@@ -2385,3 +2385,11 @@
 2026-11-18 16:32 | [SKILL] 🕰️ AVGO: entrada 352.72 stop 346.96 objetivo 364.24 | objetivo antes 2%, stop antes 28% | con comisión: simulación -0.19R, historia -0.18R (32 casos) -> ❌ no
 2026-11-18 16:32 | [SKILL] 🕰️ DE: entrada 646.68 stop 643.06 objetivo 653.92 | objetivo antes 27%, stop antes 64% | con comisión: simulación -0.40R, historia -0.47R (37 casos) -> ❌ no
 2026-11-18 16:32 | [SKILL] 📰 NKE descartada por noticias: Stock Market Today: Dow Dives, Nvidia Falls Amid This Jensen Huang Offer; Cyber Plays Mixe (legal)
+2026-11-18 16:45 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 6, 0 con su regla ganando en 30 días
+2026-11-18 16:46 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 163 valores: señal en 39, 0 con su regla ganando las últimas sesiones
+2026-11-18 16:46 | [ACTIVA] 🔎 Bot A3 (rebote 20) investiga 162 valores: señal en 80, mira primero: NVDA, SPY, XLE, MU
+2026-11-18 16:46 | [ACTIVA] 📰 Bot A3 no compra NVDA: Bill Ackman Lays Out How Nvidia Shareholders Could Bring Jensen Huang Back as CE (legal, people)
+2026-11-18 16:46 | [ACTIVA] 📋 Bot A3 SPY: entra a 728.76, stop 721.47, objetivo 743.34 -> ✅ COMPRA
+2026-11-18 16:46 | [ACTIVA] Bot A3 (rebote 20) COMPRA 9.1608 SPY a 728.76 | vida 16,020$
+2026-11-18 16:46 | [ACTIVA] Orden enviada: buy 9.1608 SPY (id 5f000d92-aea5-461d-b003-4385e263ec29)
+2026-11-18 16:47 | [SKILL] 🔎 Escáner 10:46: 36 roturas, 0 recientes para estudiar.
