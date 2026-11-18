@@ -35,53 +35,44 @@
     {
       "id": 3,
       "padre": null,
-      "activo": "TRUMP/USD",
+      "activo": null,
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 764.6655703953293,
-      "acciones": 15361.898240951,
+      "efectivo": 15214.666304281849,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-09",
       "hijos": 0,
-      "entrada": 0.9434
+      "entrada": null
     }
   ],
   "dia": "2026-11-18",
   "memoria": {
     "SOL/USD-tendencia-48": {
-      "hora": "2026-11-18 15:00:00+00:00",
-      "n": 21,
-      "media": -0.00974,
-      "total": -0.18617,
-      "ganadores": 0.04762
-    },
-    "GRT/USD-tendencia-48": {
-      "hora": "2026-11-18 15:00:00+00:00",
-      "n": 29,
-      "media": -0.01486,
-      "total": -0.35322,
-      "ganadores": 0.03448
+      "hora": "2026-11-18 17:00:00+00:00",
+      "n": 22,
+      "media": -0.00849,
+      "total": -0.17157,
+      "ganadores": 0.09091
     },
     "XRP/USD-tendencia-48": {
-      "hora": "2026-11-18 15:00:00+00:00",
-      "n": 29,
-      "media": -0.00831,
-      "total": -0.21575,
-      "ganadores": 0.06897
+      "hora": "2026-11-18 17:00:00+00:00",
+      "n": 30,
+      "media": -0.00805,
+      "total": -0.21623,
+      "ganadores": 0.1
     },
     "RENDER/USD-tendencia-48": {
-      "hora": "2026-11-18 16:00:00+00:00",
+      "hora": "2026-11-18 17:00:00+00:00",
       "n": 41,
       "media": -0.01287,
       "total": -0.41352,
       "ganadores": 0.04878
     }
   },
-  "precios": {
-    "TRUMP/USD": 0.945834
-  },
+  "precios": {},
   "eurusd": 1.0968,
   "eurusd_inicio": 1.1193
 }
