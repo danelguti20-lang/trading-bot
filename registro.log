@@ -2405,3 +2405,17 @@
 2026-11-18 17:31 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 160 valores: señal en 31, 0 con su regla ganando las últimas sesiones
 2026-11-18 17:45 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 4, 0 con su regla ganando en 30 días
 2026-11-18 17:46 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 161 valores: señal en 32, 0 con su regla ganando las últimas sesiones
+2026-11-18 18:00 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 1, 0 con su regla ganando en 30 días
+2026-11-18 18:01 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 161 valores: señal en 45, 6 con su regla ganando las últimas sesiones (SPDN +0.12%/día, HD +0.11%/día, CRWD -0.04%/día, V -0.13%/día)
+2026-11-18 18:01 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 13 full session(s) of SPDN before 2026-11-18 in the data; the time machine needs at least 20
+2026-11-18 18:01 | [DIARIO] 🕰️ Bot D2 HD: stop 335.27 objetivo 345.44 | con comisión: simulación -0.17R, historia -0.19R (30 casos) -> ✅ COMPRA
+2026-11-18 18:01 | [DIARIO] Bot D2 (mañana 0.3) COMPRA 20.4943 HD a 338.66 | vida 16,664$
+2026-11-18 18:01 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 161 valores: señal en 8, 0 con su regla ganando las últimas sesiones
+2026-11-18 18:01 | [DIARIO] Orden enviada: buy 20.4943 HD (id 9fb1f607-f373-46b9-a55e-be4a0a898a38)
+2026-11-18 18:01 | [ACTIVA] 🔎 Bot A2 (mañana 0.2) investiga 161 valores: señal en 55, mira primero: SPCX, XLP, IWM, PANW
+2026-11-18 18:01 | [ACTIVA] 📰 Bot A2 no compra SPCX: SpaceX's X, X.AI Reach Agreements With South African Competition Commission Over (legal)
+2026-11-18 18:01 | [ACTIVA] 📋 Bot A2 XLP: entra a 91.60, stop 90.68, objetivo 93.44 -> ✅ COMPRA
+2026-11-18 18:01 | [ACTIVA] Bot A2 (mañana 0.2) COMPRA 75.2323 XLP a 91.60 | vida 16,592$
+2026-11-18 18:01 | [ACTIVA] Bot A3 (rebote 20) VENDE 9.1608 SPY a 729.78 | vida 16,023$
+2026-11-18 18:01 | [ACTIVA] Orden enviada: sell 9.1608 SPY (id b81ce2fc-8972-4167-a35e-6b8e7d260ed4)
+2026-11-18 18:01 | [ACTIVA] Orden enviada: buy 75.2323 XLP (id df731b40-67fc-48e6-9af4-ad27ec0c3dc7)

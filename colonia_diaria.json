@@ -27,22 +27,22 @@
     {
       "id": 2,
       "padre": null,
-      "activo": null,
+      "activo": "HD",
       "estrategia": "mañana",
       "p": 0.3,
-      "efectivo": 16671.39232843743,
-      "acciones": 0.0,
+      "efectivo": 9723.844971827568,
+      "acciones": 20.494321,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-09",
       "hijos": 0,
       "hoy": "2026-11-18",
-      "operado_hoy": false,
+      "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 338.66,
+      "stop": 335.27,
+      "meta": 345.44,
       "contra_cerebro": false,
       "perdidas": 0
     },
@@ -69,7 +69,9 @@
       "perdidas": 0
     }
   ],
-  "precios": {},
+  "precios": {
+    "HD": 338.66
+  },
   "eurusd": 1.0968,
   "eurusd_inicio": 1.1193,
   "memoria": {
@@ -396,6 +398,84 @@
       "media": -0.00419,
       "ganadores": 0.35294,
       "n": 17
+    },
+    "AMZN-mañana-0.3": {
+      "fecha": "2026-11-18",
+      "media": -0.0051,
+      "ganadores": 0.27273,
+      "n": 11
+    },
+    "SPCX-mañana-0.3": {
+      "fecha": "2026-11-18",
+      "media": -0.00876,
+      "ganadores": 0.13333,
+      "n": 15
+    },
+    "XLP-mañana-0.3": {
+      "fecha": "2026-11-18",
+      "media": -0.00162,
+      "ganadores": 0.41667,
+      "n": 12
+    },
+    "IWM-mañana-0.3": {
+      "fecha": "2026-11-18",
+      "media": -0.00249,
+      "ganadores": 0.125,
+      "n": 8
+    },
+    "PANW-mañana-0.3": {
+      "fecha": "2026-11-18",
+      "media": -0.0046,
+      "ganadores": 0.36364,
+      "n": 11
+    },
+    "SPDN-mañana-0.3": {
+      "fecha": "2026-11-18",
+      "media": 0.00119,
+      "ganadores": 0.57143,
+      "n": 7
+    },
+    "TLT-mañana-0.3": {
+      "fecha": "2026-11-18",
+      "media": -0.00292,
+      "ganadores": 0.16667,
+      "n": 6
+    },
+    "HD-mañana-0.3": {
+      "fecha": "2026-11-18",
+      "media": 0.00114,
+      "ganadores": 0.54545,
+      "n": 11
+    },
+    "RSP-mañana-0.3": {
+      "fecha": "2026-11-18",
+      "media": -0.00133,
+      "ganadores": 0.375,
+      "n": 8
+    },
+    "V-mañana-0.3": {
+      "fecha": "2026-11-18",
+      "media": -0.00127,
+      "ganadores": 0.2,
+      "n": 10
+    },
+    "CRWD-mañana-0.3": {
+      "fecha": "2026-11-18",
+      "media": -0.00039,
+      "ganadores": 0.45455,
+      "n": 11
+    },
+    "KO-mañana-0.3": {
+      "fecha": "2026-11-18",
+      "media": -0.00247,
+      "ganadores": 0.33333,
+      "n": 12
+    },
+    "USO-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.00316,
+      "ganadores": 0.375,
+      "n": 16
     }
   },
   "noticias": {
@@ -532,6 +612,11 @@
     },
     "WMT": {
       "hora": "2026-11-18T14:46:18.582491+00:00",
+      "malos": 0,
+      "titulares": []
+    },
+    "HD": {
+      "hora": "2026-11-18T17:01:21.925607+00:00",
       "malos": 0,
       "titulares": []
     }

@@ -27,33 +27,11 @@
     {
       "id": 2,
       "padre": null,
-      "activo": null,
+      "activo": "XLP",
       "estrategia": "mañana",
       "p": 0.2,
-      "efectivo": 16599.264478930087,
-      "acciones": 0.0,
-      "referencia": 16666.67,
-      "inicial": 16666.67,
-      "estado": "vivo",
-      "nacido": "2026-11-11",
-      "hijos": 0,
-      "hoy": "2026-11-18",
-      "operado_hoy": false,
-      "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
-      "contra_cerebro": false,
-      "perdidas": 0
-    },
-    {
-      "id": 3,
-      "padre": null,
-      "activo": "SPY",
-      "estrategia": "rebote",
-      "p": 20,
-      "efectivo": 9344.187824135475,
-      "acciones": 9.160831,
+      "efectivo": 9701.090485819688,
+      "acciones": 75.232344,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,11 +40,33 @@
       "hoy": "2026-11-18",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 728.76,
-      "stop": 721.47,
-      "meta": 743.34,
+      "entrada": 91.6,
+      "stop": 90.68,
+      "meta": 93.44,
       "contra_cerebro": false,
       "perdidas": 0
+    },
+    {
+      "id": 3,
+      "padre": null,
+      "activo": null,
+      "estrategia": "rebote",
+      "p": 20,
+      "efectivo": 16022.893680068295,
+      "acciones": 0.0,
+      "referencia": 16666.67,
+      "inicial": 16666.67,
+      "estado": "vivo",
+      "nacido": "2026-11-11",
+      "hijos": 0,
+      "hoy": "2026-11-18",
+      "operado_hoy": true,
+      "descansa": false,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
+      "contra_cerebro": false,
+      "perdidas": 1
     }
   ],
   "eurusd": 1.0968,
@@ -139,7 +139,7 @@
       "titulares": []
     },
     "XLP": {
-      "hora": "2026-11-17T18:46:34.843194+00:00",
+      "hora": "2026-11-18T17:01:47.031033+00:00",
       "malos": 0,
       "titulares": []
     },
@@ -185,14 +185,14 @@
     }
   },
   "precios": {
-    "AMZN": 263.4,
-    "SPY": 728.39
+    "AMZN": 264.35,
+    "XLP": 91.6
   },
   "cerebro": {
     "a_favor": {
-      "n": 30,
+      "n": 31,
       "ganadas": 11,
-      "suma": -0.074164
+      "suma": -0.074767
     },
     "en_contra": {
       "n": 8,
