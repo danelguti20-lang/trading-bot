@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "UNH",
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 16022.893680068295,
-      "acciones": 0.0,
+      "efectivo": 9342.663784699263,
+      "acciones": 18.702341,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,9 +62,9 @@
       "hoy": "2026-11-18",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 356.83,
+      "stop": 353.26,
+      "meta": 363.97,
       "contra_cerebro": false,
       "perdidas": 1
     }
@@ -182,11 +182,19 @@
       "hora": "2026-11-18T14:46:43.479844+00:00",
       "malos": 0,
       "titulares": []
+    },
+    "UNH": {
+      "hora": "2026-11-18T17:16:32.548789+00:00",
+      "malos": 1,
+      "titulares": [
+        "Nvidia Earnings Beat Fails to Rescue Wall Street as Dow Tumbles"
+      ]
     }
   },
   "precios": {
-    "AMZN": 264.35,
-    "XLP": 91.6
+    "AMZN": 264.99,
+    "XLP": 91.54,
+    "UNH": 356.83
   },
   "cerebro": {
     "a_favor": {
