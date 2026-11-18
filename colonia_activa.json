@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "XLE",
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 15915.567864935463,
-      "acciones": 0.0,
+      "efectivo": 9340.022907253764,
+      "acciones": 107.161109,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,9 +62,9 @@
       "hoy": "2026-11-18",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 61.3,
+      "stop": 60.68,
+      "meta": 62.54,
       "contra_cerebro": false,
       "perdidas": 2
     }
@@ -179,7 +179,7 @@
       "titulares": []
     },
     "XLE": {
-      "hora": "2026-11-18T14:46:43.479844+00:00",
+      "hora": "2026-11-18T19:16:39.393658+00:00",
       "malos": 0,
       "titulares": []
     },
@@ -192,8 +192,9 @@
     }
   },
   "precios": {
-    "AMZN": 266.99,
-    "XLP": 91.54
+    "AMZN": 267.84,
+    "XLP": 91.425,
+    "XLE": 61.3
   },
   "cerebro": {
     "a_favor": {

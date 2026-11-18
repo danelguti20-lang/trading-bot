@@ -2442,3 +2442,10 @@
 2026-11-18 20:02 | [ACTIVA] 🛑 Bot A3 STOP: UNH a 351.80 (entró a 356.83).
 2026-11-18 20:02 | [ACTIVA] Bot A3 (rebote 20) VENDE 18.7023 UNH a 351.80 | vida 15,916$
 2026-11-18 20:02 | [ACTIVA] Orden enviada: sell 18.7023 UNH (id a3efec7b-916b-4e0d-ad7c-6d9c6524ddb7)
+2026-11-18 20:15 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 6, 0 con su regla ganando en 30 días
+2026-11-18 20:16 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 163 valores: señal en 26, 0 con su regla ganando las últimas sesiones
+2026-11-18 20:16 | [ACTIVA] 🔎 Bot A3 (rebote 20) investiga 163 valores: señal en 62, mira primero: NVDA, XLE, UNH, XLV
+2026-11-18 20:16 | [ACTIVA] 📰 Bot A3 no compra NVDA: Stock Market Today: Dow Drops As Nvidia Probe Deepens; Fed Minutes Loom (Live Co (legal, macro)
+2026-11-18 20:16 | [ACTIVA] 📋 Bot A3 XLE: entra a 61.30, stop 60.68, objetivo 62.54 -> ✅ COMPRA
+2026-11-18 20:16 | [ACTIVA] Bot A3 (rebote 20) COMPRA 107.1611 XLE a 61.30 | vida 15,909$
+2026-11-18 20:16 | [ACTIVA] Orden enviada: buy 107.1611 XLE (id 9d54d8ed-18b9-4f36-94b4-7f36eba25ccf)

@@ -70,7 +70,7 @@
     }
   ],
   "precios": {
-    "HD": 340.2
+    "HD": 340.0
   },
   "eurusd": 1.0968,
   "eurusd_inicio": 1.1193,
@@ -566,6 +566,30 @@
       "media": -0.0038,
       "ganadores": 0.25,
       "n": 16
+    },
+    "CAT-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.00954,
+      "ganadores": 0.27778,
+      "n": 18
+    },
+    "MSTR-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.00471,
+      "ganadores": 0.31579,
+      "n": 19
+    },
+    "COST-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.00234,
+      "ganadores": 0.33333,
+      "n": 15
+    },
+    "NKE-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.00459,
+      "ganadores": 0.31579,
+      "n": 19
     }
   },
   "noticias": {
