@@ -5,11 +5,11 @@
     {
       "id": 1,
       "padre": null,
-      "activo": "CRWD",
+      "activo": null,
       "estrategia": "ruptura",
       "p": 30,
-      "efectivo": 9755.032353146522,
-      "acciones": 30.68435,
+      "efectivo": 16851.81575610627,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -18,9 +18,9 @@
       "hoy": "2026-11-18",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 226.43,
-      "stop": 224.16,
-      "meta": 230.97,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
       "perdidas": 0
     },
@@ -69,9 +69,7 @@
       "perdidas": 0
     }
   ],
-  "precios": {
-    "CRWD": 230.53
-  },
+  "precios": {},
   "eurusd": 1.0968,
   "eurusd_inicio": 1.1193,
   "memoria": {
@@ -206,6 +204,66 @@
       "media": -0.0022,
       "ganadores": 0.5,
       "n": 8
+    },
+    "GDX-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.00482,
+      "ganadores": 0.25,
+      "n": 16
+    },
+    "BAC-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.00503,
+      "ganadores": 0.11111,
+      "n": 18
+    },
+    "GLD-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.00398,
+      "ganadores": 0.11111,
+      "n": 18
+    },
+    "JPM-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.0046,
+      "ganadores": 0.17647,
+      "n": 17
+    },
+    "FXI-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.00299,
+      "ganadores": 0.1,
+      "n": 20
+    },
+    "EWZ-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.00387,
+      "ganadores": 0.23529,
+      "n": 17
+    },
+    "ABBV-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.0025,
+      "ganadores": 0.55556,
+      "n": 18
+    },
+    "GILD-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.00259,
+      "ganadores": 0.41176,
+      "n": 17
+    },
+    "ADBE-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.00598,
+      "ganadores": 0.38889,
+      "n": 18
+    },
+    "WFC-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.00238,
+      "ganadores": 0.46667,
+      "n": 15
     }
   },
   "noticias": {
@@ -348,9 +406,9 @@
   },
   "cerebro": {
     "a_favor": {
-      "n": 31,
-      "ganadas": 16,
-      "suma": -0.197606
+      "n": 32,
+      "ganadas": 17,
+      "suma": -0.177194
     }
   }
 }

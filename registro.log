@@ -2373,3 +2373,15 @@
 2026-11-18 16:17 | [SKILL] 🕰️ MDLN: entrada 38.76 stop 37.72 objetivo 40.84 | objetivo antes 0%, stop antes 15% | con comisión: simulación -0.08R, historia -0.08R (32 casos) -> ❌ no
 2026-11-18 16:17 | [SKILL] 🕰️ WMT: entrada 127.11 stop 126.07 objetivo 129.19 | objetivo antes 6%, stop antes 27% | con comisión: simulación -0.12R, historia -0.02R (35 casos) -> ❌ no
 2026-11-18 16:17 | [SKILL] 🕰️ XBI: entrada 146.71 stop 145.56 objetivo 149.01 | objetivo antes 18%, stop antes 59% | con comisión: simulación -0.37R, historia -0.19R (33 casos) -> ❌ no
+2026-11-18 16:30 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 6, 0 con su regla ganando en 30 días
+2026-11-18 16:31 | [DIARIO] 🎯 Bot D1 OBJETIVO: CRWD a 231.51 (entró a 226.43).
+2026-11-18 16:31 | [DIARIO] Bot D1 (ruptura 30) VENDE 30.6843 CRWD a 231.51 | vida 16,852$
+2026-11-18 16:31 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 161 valores: señal en 18, 0 con su regla ganando las últimas sesiones
+2026-11-18 16:31 | [DIARIO] Orden enviada: sell 30.6843 CRWD (id b7a850f3-fc63-400f-8a18-3a321c55ba5e)
+2026-11-18 16:31 | [ACTIVA] Bot A3 (rebote 20) VENDE 107.6109 XLE a 62.21 | vida 16,027$
+2026-11-18 16:31 | [ACTIVA] Orden enviada: sell 107.6109 XLE (id 46b37f15-7a87-4228-9cda-596517e1e228)
+2026-11-18 16:32 | [SKILL] 🔎 Escáner 10:31: 36 roturas, 4 recientes para estudiar.
+2026-11-18 16:32 | [SKILL] 📰 HD descartada por noticias: Dow Dives 848 Points as NSA Outage Wrecks Tech: Stock Market Today (risk)
+2026-11-18 16:32 | [SKILL] 🕰️ AVGO: entrada 352.72 stop 346.96 objetivo 364.24 | objetivo antes 2%, stop antes 28% | con comisión: simulación -0.19R, historia -0.18R (32 casos) -> ❌ no
+2026-11-18 16:32 | [SKILL] 🕰️ DE: entrada 646.68 stop 643.06 objetivo 653.92 | objetivo antes 27%, stop antes 64% | con comisión: simulación -0.40R, historia -0.47R (37 casos) -> ❌ no
+2026-11-18 16:32 | [SKILL] 📰 NKE descartada por noticias: Stock Market Today: Dow Dives, Nvidia Falls Amid This Jensen Huang Offer; Cyber Plays Mixe (legal)

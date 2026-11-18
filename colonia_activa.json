@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": "XLE",
+      "activo": null,
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 9339.130088732654,
-      "acciones": 107.610922,
+      "efectivo": 16026.911070895036,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,11 +62,11 @@
       "hoy": "2026-11-18",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 61.92,
-      "stop": 61.3,
-      "meta": 63.16,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
-      "perdidas": 1
+      "perdidas": 0
     }
   ],
   "eurusd": 1.0968,
@@ -185,14 +185,13 @@
     }
   },
   "precios": {
-    "AMZN": 264.07,
-    "XLE": 62.41
+    "AMZN": 264.49
   },
   "cerebro": {
     "a_favor": {
-      "n": 29,
-      "ganadas": 10,
-      "suma": -0.076838
+      "n": 30,
+      "ganadas": 11,
+      "suma": -0.074164
     },
     "en_contra": {
       "n": 8,
