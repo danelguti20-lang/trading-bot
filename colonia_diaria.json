@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "HD",
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 15285.7683836906,
-      "acciones": 0.0,
+      "efectivo": 8917.6967489658,
+      "acciones": 18.79216,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,15 +62,15 @@
       "hoy": "2026-11-18",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 338.53,
+      "stop": 335.14,
+      "meta": 345.31,
       "contra_cerebro": false,
       "perdidas": 0
     }
   ],
   "precios": {
-    "HD": 340.0
+    "HD": 338.53
   },
   "eurusd": 1.0968,
   "eurusd_inicio": 1.1193,
@@ -590,6 +590,24 @@
       "media": -0.00459,
       "ganadores": 0.31579,
       "n": 19
+    },
+    "V-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.00482,
+      "ganadores": 0.11111,
+      "n": 18
+    },
+    "HD-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.00131,
+      "ganadores": 0.26667,
+      "n": 15
+    },
+    "TGT-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.00545,
+      "ganadores": 0.3125,
+      "n": 16
     }
   },
   "noticias": {
@@ -730,7 +748,7 @@
       "titulares": []
     },
     "HD": {
-      "hora": "2026-11-18T17:01:21.925607+00:00",
+      "hora": "2026-11-18T19:31:26.309924+00:00",
       "malos": 0,
       "titulares": []
     }
