@@ -49,30 +49,93 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "WMT",
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 15255.617738700737,
-      "acciones": 0.0,
+      "efectivo": 8900.330451832218,
+      "acciones": 50.460486,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-09",
       "hijos": 0,
       "hoy": "2026-11-18",
-      "operado_hoy": false,
+      "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 125.82,
+      "stop": 124.56,
+      "meta": 128.34,
       "contra_cerebro": false,
       "perdidas": 0
     }
   ],
-  "precios": {},
+  "precios": {
+    "WMT": 125.82
+  },
   "eurusd": 1.0989,
   "eurusd_inicio": 1.1193,
-  "memoria": {},
+  "memoria": {
+    "XLP-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.00334,
+      "ganadores": 0.125,
+      "n": 16
+    },
+    "WMT-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.00159,
+      "ganadores": 0.38889,
+      "n": 18
+    },
+    "UNH-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.00434,
+      "ganadores": 0.46667,
+      "n": 15
+    },
+    "XLRE-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.00368,
+      "ganadores": 0.125,
+      "n": 16
+    },
+    "XLB-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.00356,
+      "ganadores": 0.33333,
+      "n": 18
+    },
+    "SLV-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.0065,
+      "ganadores": 0.17647,
+      "n": 17
+    },
+    "PG-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.00347,
+      "ganadores": 0.125,
+      "n": 16
+    },
+    "OXY-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.00518,
+      "ganadores": 0.23529,
+      "n": 17
+    },
+    "SLB-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.00175,
+      "ganadores": 0.35294,
+      "n": 17
+    },
+    "VGK-rebote-10": {
+      "fecha": "2026-11-18",
+      "media": -0.00428,
+      "ganadores": 0.11765,
+      "n": 17
+    }
+  },
   "noticias": {
     "QQQ": {
       "hora": "2026-11-09T19:30:02.655777+00:00",
@@ -202,6 +265,11 @@
     },
     "CRWD": {
       "hora": "2026-11-17T15:31:27.110921+00:00",
+      "malos": 0,
+      "titulares": []
+    },
+    "WMT": {
+      "hora": "2026-11-18T14:46:18.582491+00:00",
       "malos": 0,
       "titulares": []
     }
