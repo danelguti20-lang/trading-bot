@@ -2856,3 +2856,17 @@
 2026-11-19 21:46 | [ACTIVA] 🧠 Marcador del cerebro: haciendo caso al cerebro: 41 op., 34% ganadas, media -0.27% | contra el cerebro: 13 op., 46% ganadas, media -0.05%
 2026-11-19 21:46 | [ACTIVA] Orden enviada: sell 19.2907 PANW (id c6062097-799c-44ae-87fa-2fe149bffc40)
 2026-11-19 21:46 | [ACTIVA] Orden enviada: sell 56.6157 WMT (id 952a0d4f-68cb-43f1-a61a-3a8ea06e1bca)
+2026-11-19 22:45 | Bot 1 VENDE 45.3581 PLTR a 153.62: ha caído bajo su media 200.
+2026-11-19 22:45 | 🔎 Bot 1 (media 200, gusto historia) investiga 139 valores: 16 le sirven; mejores: AMD, LLY, AMZN, AAPL, COST
+2026-11-19 22:45 | 🕰️ Bot 1 elige AMD: 17 entradas pasadas con su regla, media +12.6%, 18% ganadoras (con comisión), 6 meses +8.9% -> ✅ entra
+2026-11-19 22:45 | Bot 1 [herido] AMD 489.44 media200 | DENTRO | vida 14,812$ = 13,475€ (con 100 €: 30.17€) | 14.3675 acc.
+2026-11-19 22:45 | Bot 2 VENDE 104.0284 SHOP a 131.96: ha caído bajo su media 150.
+2026-11-19 22:45 | 🔎 Bot 2 (media 150, gusto fuerza) investiga 139 valores: 12 le sirven; mejores: ABBV, LLY, GILD, MSFT, AAPL
+2026-11-19 22:45 | 🕰️ Bot 2 elige ABBV: 36 entradas pasadas con su regla, media +0.1%, 25% ganadoras (con comisión), 6 meses +32.2% -> ✅ entra
+2026-11-19 22:45 | Bot 2 [herido] ABBV 283.57 media150 | DENTRO | vida 14,540$ = 13,228€ (con 100 €: 29.61€) | 24.3428 acc.
+2026-11-19 22:45 | Bot 3 [vivo] XOM 158.94 media200 | DENTRO | vida 16,091$ = 14,639€ (con 100 €: 32.77€) | 95.9976 acc.
+2026-11-19 22:45 | Orden enviada: buy 24.3428 ABBV (id 88707b72-8c11-48be-837a-69b57c6fbb1e)
+2026-11-19 22:45 | Orden enviada: buy 14.3675 AMD (id a70f860a-340a-4a53-95dc-9c8f18a11674)
+2026-11-19 22:45 | Orden enviada: sell 45.3581 PLTR (id 349d93ee-49a5-4c53-a15d-9022db06f76d)
+2026-11-19 22:45 | Orden enviada: sell 104.0284 SHOP (id ac5645cf-254e-47e4-85f2-cf8dd2e60042)
+2026-11-19 22:45 | Colonia: 3 vivos, 0 muertos, reserva 0$ | total 45,444$ = 41,342€ | con 100 € reales: 92.55€

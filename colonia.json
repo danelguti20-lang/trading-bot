@@ -5,11 +5,11 @@
     {
       "id": 1,
       "padre": null,
-      "activo": "PLTR",
+      "activo": "AMD",
       "media": 200,
       "gusto": "historia",
-      "efectivo": 7858.158425600594,
-      "acciones": 45.358078,
+      "efectivo": 7780.026452370553,
+      "acciones": 14.367522,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "herido",
@@ -19,14 +19,14 @@
     {
       "id": 2,
       "padre": null,
-      "activo": "SHOP",
+      "activo": "ABBV",
       "media": 150,
       "gusto": "fuerza",
-      "efectivo": 833.333500769746,
-      "acciones": 104.028405,
+      "efectivo": 7637.2768911401745,
+      "acciones": 24.342817,
       "referencia": 16666.67,
       "inicial": 16666.67,
-      "estado": "vivo",
+      "estado": "herido",
       "nacido": "2026-11-09",
       "hijos": 0
     },
@@ -46,11 +46,11 @@
     }
   ],
   "precios": {
-    "PLTR": 156.68,
-    "SHOP": 139.39,
-    "XOM": 160.57
+    "AMD": 489.44,
+    "ABBV": 283.575,
+    "XOM": 158.94
   },
-  "eurusd": 1.0968,
+  "eurusd": 1.0992,
   "eurusd_inicio": 1.1193,
   "noticias": {
     "DELL": {
@@ -72,6 +72,18 @@
     },
     "PLTR": {
       "hora": "2026-11-10T21:47:50.599644+00:00",
+      "malos": 0,
+      "titulares": []
+    },
+    "AMD": {
+      "hora": "2026-11-19T21:45:30.979943+00:00",
+      "malos": 1,
+      "titulares": [
+        "AMD Shares Tumble 7% After Short Seller Questions China Ties. Chipmaker Denies Allegations."
+      ]
+    },
+    "ABBV": {
+      "hora": "2026-11-19T21:45:31.363773+00:00",
       "malos": 0,
       "titulares": []
     }
