@@ -35,24 +35,22 @@
     {
       "id": 3,
       "padre": null,
-      "activo": "TRUMP/USD",
+      "activo": null,
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 767.5148368534392,
-      "acciones": 15270.705418575,
+      "efectivo": 15202.620616791257,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-09",
       "hijos": 0,
-      "entrada": 0.95257
+      "entrada": null
     }
   ],
   "dia": "2026-11-19",
   "memoria": {},
-  "precios": {
-    "TRUMP/USD": 0.949695
-  },
+  "precios": {},
   "eurusd": 1.0992,
   "eurusd_inicio": 1.1193
 }
