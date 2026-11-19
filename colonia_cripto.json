@@ -50,37 +50,16 @@
   ],
   "dia": "2026-11-19",
   "memoria": {
-    "HYPE/USD-tendencia-48": {
-      "hora": "2026-11-19 18:00:00+00:00",
-      "n": 25,
-      "media": -0.00762,
-      "total": -0.17645,
-      "ganadores": 0.12
-    },
     "SUSHI/USD-tendencia-48": {
       "hora": "2026-11-19 19:00:00+00:00",
       "n": 27,
       "media": -0.01322,
       "total": -0.30242,
       "ganadores": 0.03704
-    },
-    "SHIB/USD-tendencia-48": {
-      "hora": "2026-11-19 18:00:00+00:00",
-      "n": 28,
-      "media": -0.01327,
-      "total": -0.31305,
-      "ganadores": 0.03571
-    },
-    "ADA/USD-tendencia-48": {
-      "hora": "2026-11-19 18:00:00+00:00",
-      "n": 35,
-      "media": -0.01325,
-      "total": -0.37359,
-      "ganadores": 0.0
     }
   },
   "precios": {
-    "TRUMP/USD": 0.945885
+    "TRUMP/USD": 0.94309
   },
   "eurusd": 1.0992,
   "eurusd_inicio": 1.1193
