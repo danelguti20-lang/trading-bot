@@ -2704,3 +2704,19 @@
 2026-11-19 17:31 | [ACTIVA] Bot A3 (rebote 20) VENDE 43.3690 NVDA a 153.17 | vida 15,940$
 2026-11-19 17:31 | [ACTIVA] Orden enviada: sell 43.3690 NVDA (id f8872481-7d06-4e78-86e8-a2d772579731)
 2026-11-19 17:31 | [ACTIVA] Orden enviada: sell 149.9853 SQQQ (id 45fc9547-1096-4671-aaa5-af468edd5d8e)
+2026-11-19 17:45 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 3, 0 con su regla ganando en 30 días
+2026-11-19 17:45 | [CRIPTO] 🔎 Bot C3 (rebote 10) investiga 33 monedas: señal en 28, 0 con su regla ganando en 30 días
+2026-11-19 17:45 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 160 valores: señal en 8, 6 con su regla ganando las últimas sesiones (SOXS +2.03%/día, SQQQ +0.58%/día, DKNG +0.13%/día, SPDN +0.06%/día)
+2026-11-19 17:46 | [DIARIO] 🕰️ Bot D1 SOXS: stop 55.48 objetivo 57.19 | con comisión: simulación -0.14R, historia -0.37R (33 casos) -> ❌ no
+2026-11-19 17:46 | [DIARIO] 🕰️ Bot D1 SQQQ: stop 45.25 objetivo 46.63 | con comisión: simulación -0.06R, historia -0.30R (36 casos) -> ❌ no
+2026-11-19 17:46 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 160 valores: señal en 9, 0 con su regla ganando las últimas sesiones
+2026-11-19 17:46 | [ACTIVA] 🔎 Bot A1 (ruptura 30) investiga 160 valores: señal en 7, mira primero: WMT, SQQQ, SPDN, SOXS
+2026-11-19 17:46 | [ACTIVA] 📋 Bot A1 WMT: entra a 125.67, stop 124.44, objetivo 128.13 -> ✅ COMPRA
+2026-11-19 17:46 | [ACTIVA] Bot A1 (ruptura 30) COMPRA 56.6157 WMT a 125.67 | vida 16,766$
+2026-11-19 17:46 | [ACTIVA] 🔎 Bot A3 (rebote 20) investiga 160 valores: señal en 9, mira primero: MSFT, UNH, XLU, FXI
+2026-11-19 17:46 | [ACTIVA] 📰 Bot A3 no compra MSFT: The outages keep coming. Some Americans are preparing for a collapse. (risk)
+2026-11-19 17:46 | [ACTIVA] 📋 Bot A3 UNH: entra a 327.58, stop 324.30, objetivo 334.14 -> ✅ COMPRA
+2026-11-19 17:46 | [ACTIVA] 🧠 Bot A3 compra aunque el cerebro diría NO (descanso).
+2026-11-19 17:46 | [ACTIVA] Bot A3 (rebote 20) COMPRA 20.2533 UNH a 327.58 | vida 15,933$
+2026-11-19 17:46 | [ACTIVA] Orden enviada: buy 20.2533 UNH (id fbdf9d96-a5a9-482e-a719-1e32e10f49af)
+2026-11-19 17:46 | [ACTIVA] Orden enviada: buy 56.6157 WMT (id 9282ff6c-8848-4115-95e3-698e74769726)

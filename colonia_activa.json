@@ -5,11 +5,11 @@
     {
       "id": 1,
       "padre": null,
-      "activo": null,
+      "activo": "WMT",
       "estrategia": "ruptura",
       "p": 30,
-      "efectivo": 16773.410717160637,
-      "acciones": 0.0,
+      "efectivo": 9651.404828603077,
+      "acciones": 56.615668,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -18,9 +18,9 @@
       "hoy": "2026-11-19",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 125.67,
+      "stop": 124.44,
+      "meta": 128.13,
       "contra_cerebro": false,
       "perdidas": 2
     },
@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "UNH",
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 15940.029832745135,
-      "acciones": 0.0,
+      "efectivo": 9298.804814797615,
+      "acciones": 20.253344,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,9 +62,9 @@
       "hoy": "2026-11-19",
       "operado_hoy": true,
       "descansa": true,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 327.58,
+      "stop": 324.3,
+      "meta": 334.14,
       "contra_cerebro": true,
       "perdidas": 0
     }
@@ -184,10 +184,10 @@
       "titulares": []
     },
     "UNH": {
-      "hora": "2026-11-18T17:16:32.548789+00:00",
+      "hora": "2026-11-19T16:46:24.377954+00:00",
       "malos": 1,
       "titulares": [
-        "Nvidia Earnings Beat Fails to Rescue Wall Street as Dow Tumbles"
+        "UnitedHealth Shares Sink as New Federal Fraud Crackdown Sparks Healthcare Sell-Off"
       ]
     },
     "QQQ": {
@@ -204,9 +204,17 @@
       "hora": "2026-11-19T15:46:19.574210+00:00",
       "malos": 0,
       "titulares": []
+    },
+    "WMT": {
+      "hora": "2026-11-19T16:46:23.211229+00:00",
+      "malos": 0,
+      "titulares": []
     }
   },
-  "precios": {},
+  "precios": {
+    "WMT": 125.67,
+    "UNH": 327.58
+  },
   "cerebro": {
     "a_favor": {
       "n": 39,
