@@ -2753,3 +2753,17 @@
 2026-11-19 18:31 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 159 valores: señal en 18, 7 con su regla ganando las últimas sesiones (SQQQ +0.24%/día, SPDN +0.07%/día, CRWD +0.04%/día, PLTD -0.01%/día)
 2026-11-19 18:31 | [DIARIO] 🕰️ Bot D2 SQQQ: stop 46.39 objetivo 47.80 | con comisión: simulación +0.03R, historia -0.30R (36 casos) -> ❌ no
 2026-11-19 18:31 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 14 full session(s) of SPDN before 2026-11-19 in the data; the time machine needs at least 20
+2026-11-19 18:45 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 1, 0 con su regla ganando en 30 días
+2026-11-19 18:46 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 160 valores: señal en 11, 6 con su regla ganando las últimas sesiones (SOXS +2.03%/día, SQQQ +0.58%/día, TGT +0.22%/día, SPDN +0.06%/día)
+2026-11-19 18:46 | [DIARIO] 🕰️ Bot D1 SOXS: stop 60.29 objetivo 62.12 | con comisión: simulación +0.04R, historia -0.34R (33 casos) -> ❌ no
+2026-11-19 18:46 | [DIARIO] 🕰️ Bot D1 SQQQ: stop 47.31 objetivo 48.77 | con comisión: simulación -0.04R, historia -0.30R (36 casos) -> ❌ no
+2026-11-19 18:46 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 160 valores: señal en 15, 8 con su regla ganando las últimas sesiones (SQQQ +0.24%/día, SPDN +0.07%/día, HD +0.07%/día, CRWD +0.04%/día)
+2026-11-19 18:46 | [DIARIO] 🕰️ Bot D2 SQQQ: stop 47.31 objetivo 48.77 | con comisión: simulación -0.04R, historia -0.30R (36 casos) -> ❌ no
+2026-11-19 18:46 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 14 full session(s) of SPDN before 2026-11-19 in the data; the time machine needs at least 20
+2026-11-19 18:46 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 160 valores: señal en 1, 0 con su regla ganando las últimas sesiones
+2026-11-19 18:46 | [ACTIVA] 🔎 Bot A3 (rebote 20) investiga 160 valores: señal en 2, mira primero: MRK, XOM
+2026-11-19 18:46 | [ACTIVA] 📰 Bot A3 no compra MRK: HALO Stock Hits Over 3-Month Lows, As German Court Overturns Temporary Ban On Me (legal)
+2026-11-19 18:46 | [ACTIVA] 📋 Bot A3 XOM: entra a 159.06, stop 157.46, objetivo 162.25 -> ✅ COMPRA
+2026-11-19 18:46 | [ACTIVA] 🧠 Bot A3 compra aunque el cerebro diría NO (descanso).
+2026-11-19 18:46 | [ACTIVA] Bot A3 (rebote 20) COMPRA 41.6946 XOM a 159.06 | vida 15,947$
+2026-11-19 18:46 | [ACTIVA] Orden enviada: buy 41.6946 XOM (id a2b08a93-b37a-448e-ac16-91ca6c2aaf25)

@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "XOM",
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 15953.266000649455,
-      "acciones": 0.0,
+      "efectivo": 9314.901892043225,
+      "acciones": 41.694586,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,9 +62,9 @@
       "hoy": "2026-11-19",
       "operado_hoy": true,
       "descansa": true,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 159.055,
+      "stop": 157.46,
+      "meta": 162.25,
       "contra_cerebro": true,
       "perdidas": 0
     }
@@ -169,7 +169,7 @@
       "titulares": []
     },
     "XOM": {
-      "hora": "2026-11-16T19:16:19.801253+00:00",
+      "hora": "2026-11-19T17:46:32.329947+00:00",
       "malos": 0,
       "titulares": []
     },
@@ -217,8 +217,9 @@
     }
   },
   "precios": {
-    "WMT": 126.645,
-    "PANW": 362.43
+    "WMT": 125.85,
+    "PANW": 359.45,
+    "XOM": 159.055
   },
   "cerebro": {
     "a_favor": {
