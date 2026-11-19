@@ -25,23 +25,12 @@
   "trades_hoy": 0,
   "resultado_hoy": 0.0,
   "vistos_hoy": {
-    "2026-11-18": [
-      "EFA",
-      "EWJ",
-      "F",
-      "HON",
-      "INDA",
-      "SNOW",
-      "SPCX",
-      "MDLN",
+    "2026-11-19": [
       "WMT",
-      "XBI",
       "HD",
-      "AVGO",
-      "DE",
-      "NKE",
-      "DDOG",
-      "IEF"
+      "MCD",
+      "AMD",
+      "BABA"
     ]
   }
 }
