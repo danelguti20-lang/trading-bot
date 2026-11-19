@@ -5,11 +5,11 @@
     {
       "id": 1,
       "padre": null,
-      "activo": "NVD",
+      "activo": null,
       "estrategia": "ruptura",
       "p": 30,
-      "efectivo": 9933.37059207587,
-      "acciones": 880.450144,
+      "efectivo": 17022.70232455523,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -18,42 +18,20 @@
       "hoy": "2026-11-19",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 7.85,
-      "stop": 7.77,
-      "meta": 8.01,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
       "perdidas": 0
     },
     {
       "id": 2,
       "padre": null,
-      "activo": null,
+      "activo": "NVD",
       "estrategia": "mañana",
       "p": 0.3,
-      "efectivo": 16663.7556320748,
-      "acciones": 0.0,
-      "referencia": 16666.67,
-      "inicial": 16666.67,
-      "estado": "vivo",
-      "nacido": "2026-11-09",
-      "hijos": 0,
-      "hoy": "2026-11-19",
-      "operado_hoy": false,
-      "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
-      "contra_cerebro": false,
-      "perdidas": 1
-    },
-    {
-      "id": 3,
-      "padre": null,
-      "activo": null,
-      "estrategia": "rebote",
-      "p": 10,
-      "efectivo": 15305.541431871821,
-      "acciones": 0.0,
+      "efectivo": 10329.22019040036,
+      "acciones": 785.137374,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,15 +40,38 @@
       "hoy": "2026-11-19",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 8.06,
+      "stop": 7.97,
+      "meta": 8.24,
+      "contra_cerebro": false,
+      "perdidas": 1
+    },
+    {
+      "id": 3,
+      "padre": null,
+      "activo": "XBI",
+      "estrategia": "rebote",
+      "p": 10,
+      "efectivo": 8929.98466863616,
+      "acciones": 44.298147,
+      "referencia": 16666.67,
+      "inicial": 16666.67,
+      "estado": "vivo",
+      "nacido": "2026-11-09",
+      "hijos": 0,
+      "hoy": "2026-11-19",
+      "operado_hoy": true,
+      "descansa": false,
+      "entrada": 143.78,
+      "stop": 142.34,
+      "meta": 146.66,
       "contra_cerebro": false,
       "perdidas": 0
     }
   ],
   "precios": {
-    "NVD": 7.97
+    "NVD": 8.06,
+    "XBI": 143.78
   },
   "eurusd": 1.0992,
   "eurusd_inicio": 1.1193,
@@ -626,6 +627,36 @@
       "media": -0.00686,
       "ganadores": 0.14286,
       "n": 14
+    },
+    "XLP-rebote-10": {
+      "fecha": "2026-11-19",
+      "media": -0.00337,
+      "ganadores": 0.125,
+      "n": 16
+    },
+    "XBI-rebote-10": {
+      "fecha": "2026-11-19",
+      "media": -0.00095,
+      "ganadores": 0.52632,
+      "n": 19
+    },
+    "TSLA-rebote-10": {
+      "fecha": "2026-11-19",
+      "media": -0.00146,
+      "ganadores": 0.41176,
+      "n": 17
+    },
+    "TQQQ-rebote-10": {
+      "fecha": "2026-11-19",
+      "media": -0.01254,
+      "ganadores": 0.26667,
+      "n": 15
+    },
+    "XLK-rebote-10": {
+      "fecha": "2026-11-19",
+      "media": -0.00899,
+      "ganadores": 0.26667,
+      "n": 15
     }
   },
   "noticias": {
@@ -661,7 +692,7 @@
       ]
     },
     "XBI": {
-      "hora": "2026-11-17T20:16:07.430381+00:00",
+      "hora": "2026-11-19T20:01:09.767910+00:00",
       "malos": 0,
       "titulares": []
     },
@@ -716,7 +747,7 @@
       "titulares": []
     },
     "NVD": {
-      "hora": "2026-11-19T18:31:18.510872+00:00",
+      "hora": "2026-11-19T20:01:04.747910+00:00",
       "malos": 0,
       "titulares": []
     },
@@ -778,9 +809,9 @@
   },
   "cerebro": {
     "a_favor": {
-      "n": 35,
-      "ganadas": 19,
-      "suma": -0.175159
+      "n": 36,
+      "ganadas": 20,
+      "suma": -0.150461
     }
   }
 }
