@@ -2631,3 +2631,19 @@
 2026-11-19 16:02 | [SKILL] 🕰️ MCD: entrada 271.21 stop 268.44 objetivo 276.75 | objetivo antes 2%, stop antes 24% | con comisión: simulación -0.21R, historia -0.35R (34 casos) -> ❌ no
 2026-11-19 16:02 | [SKILL] 🕰️ AMD: entrada 554.47 stop 544.54 objetivo 574.33 | objetivo antes 13%, stop antes 47% | con comisión: simulación -0.14R, historia +0.00R (39 casos) -> ❌ no
 2026-11-19 16:02 | [SKILL] 🕰️ BABA: entrada 87.76 stop 85.43 objetivo 92.42 | objetivo antes 0%, stop antes 2% | con comisión: simulación -0.16R, historia -0.15R (28 casos) -> ❌ no
+2026-11-19 16:15 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 15, 0 con su regla ganando en 30 días
+2026-11-19 16:15 | [CRIPTO] 🔎 Bot C3 (rebote 10) investiga 33 monedas: señal en 7, 0 con su regla ganando en 30 días
+2026-11-19 16:16 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 159 valores: señal en 6, 6 con su regla ganando las últimas sesiones (SQQQ +0.58%/día, TGT +0.22%/día, XBI +0.19%/día, DKNG +0.13%/día)
+2026-11-19 16:16 | [DIARIO] 🕰️ Bot D1 SQQQ: stop 43.98 objetivo 45.33 | con comisión: simulación -0.21R, historia -0.30R (36 casos) -> ❌ no
+2026-11-19 16:16 | [DIARIO] 🕰️ Bot D1 TGT: stop 166.44 objetivo 170.43 | con comisión: simulación -0.32R, historia -0.32R (30 casos) -> ❌ no
+2026-11-19 16:16 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 159 valores: señal en 31, 0 con su regla ganando las últimas sesiones
+2026-11-19 16:16 | [ACTIVA] 🔎 Bot A1 (ruptura 30) investiga 159 valores: señal en 7, mira primero: XBI, WMT, SQQQ, SPDN
+2026-11-19 16:16 | [ACTIVA] 📋 Bot A1 XBI: entra a 147.74, stop 146.26, objetivo 150.70 -> ✅ COMPRA
+2026-11-19 16:16 | [ACTIVA] Bot A1 (ruptura 30) COMPRA 47.8457 XBI a 147.74 | vida 16,983$
+2026-11-19 16:16 | [ACTIVA] Orden enviada: buy 47.8457 XBI (id bbdbd93e-56ec-4304-aa78-2724186faaa6)
+2026-11-19 16:17 | [SKILL] 🔎 Escáner 10:16: 31 roturas, 11 recientes para estudiar.
+2026-11-19 16:17 | [SKILL] 🕰️ DKNG: entrada 17.90 stop 17.58 objetivo 18.54 | objetivo antes 15%, stop antes 49% | con comisión: simulación -0.11R, historia -0.10R (31 casos) -> ❌ no
+2026-11-19 16:17 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 14 full session(s) of SPDN before 2026-11-19 in the data; the time machine needs at least 20
+2026-11-19 16:17 | [SKILL] 🕰️ SQQQ: entrada 44.45 stop 43.60 objetivo 46.15 | objetivo antes 10%, stop antes 38% | con comisión: simulación -0.06R, historia -0.14R (36 casos) -> ❌ no
+2026-11-19 16:17 | [SKILL] 🕰️ DELL: entrada 335.33 stop 329.98 objetivo 346.03 | objetivo antes 17%, stop antes 60% | con comisión: simulación -0.29R, historia -0.02R (25 casos) -> ❌ no
+2026-11-19 16:17 | [SKILL] 🕰️ FXI: entrada 32.22 stop 32.14 objetivo 32.38 | objetivo antes 16%, stop antes 64% | con comisión: simulación -1.02R, historia -0.78R (28 casos) -> ❌ no

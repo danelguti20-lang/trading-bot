@@ -5,22 +5,22 @@
     {
       "id": 1,
       "padre": null,
-      "activo": null,
+      "activo": "XBI",
       "estrategia": "ruptura",
       "p": 30,
-      "efectivo": 16989.831607787615,
-      "acciones": 0.0,
+      "efectivo": 9914.032954784534,
+      "acciones": 47.845742,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-11",
       "hijos": 0,
       "hoy": "2026-11-19",
-      "operado_hoy": false,
+      "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 147.74,
+      "stop": 146.26,
+      "meta": 150.7,
       "contra_cerebro": false,
       "perdidas": 0
     },
@@ -194,10 +194,16 @@
       "hora": "2026-11-18T20:02:15.774558+00:00",
       "malos": 0,
       "titulares": []
+    },
+    "XBI": {
+      "hora": "2026-11-19T15:16:31.269503+00:00",
+      "malos": 0,
+      "titulares": []
     }
   },
   "precios": {
-    "XLP": 89.57
+    "XBI": 147.74,
+    "XLP": 89.49
   },
   "cerebro": {
     "a_favor": {

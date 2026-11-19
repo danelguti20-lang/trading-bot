@@ -150,6 +150,72 @@
       "media": -0.00403,
       "ganadores": 0.25,
       "n": 16
+    },
+    "XBI-ruptura-30": {
+      "fecha": "2026-11-19",
+      "media": 0.00194,
+      "ganadores": 0.625,
+      "n": 8
+    },
+    "WMT-ruptura-30": {
+      "fecha": "2026-11-19",
+      "media": -0.00063,
+      "ganadores": 0.36364,
+      "n": 11
+    },
+    "SQQQ-ruptura-30": {
+      "fecha": "2026-11-19",
+      "media": 0.00578,
+      "ganadores": 0.44444,
+      "n": 9
+    },
+    "SPDN-ruptura-30": {
+      "fecha": "2026-11-19",
+      "media": 0.00059,
+      "ganadores": 0.41667,
+      "n": 12
+    },
+    "TGT-ruptura-30": {
+      "fecha": "2026-11-19",
+      "media": 0.00219,
+      "ganadores": 0.7,
+      "n": 10
+    },
+    "DKNG-ruptura-30": {
+      "fecha": "2026-11-19",
+      "media": 0.0013,
+      "ganadores": 0.44444,
+      "n": 9
+    },
+    "UNH-rebote-10": {
+      "fecha": "2026-11-19",
+      "media": -0.00834,
+      "ganadores": 0.46667,
+      "n": 15
+    },
+    "KRE-rebote-10": {
+      "fecha": "2026-11-19",
+      "media": -0.00411,
+      "ganadores": 0.16667,
+      "n": 18
+    },
+    "XLF-rebote-10": {
+      "fecha": "2026-11-19",
+      "media": -0.00416,
+      "ganadores": 0.0625,
+      "n": 16
+    },
+    "GDX-rebote-10": {
+      "fecha": "2026-11-19",
+      "media": -0.00626,
+      "ganadores": 0.1875,
+      "n": 16
+    },
+    "XLY-rebote-10": {
+      "fecha": "2026-11-19",
+      "media": -0.00374,
+      "ganadores": 0.16667,
+      "n": 18
     }
   },
   "noticias": {
