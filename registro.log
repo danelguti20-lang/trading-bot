@@ -2693,3 +2693,14 @@
 2026-11-19 17:16 | [DIARIO] 🕰️ Bot D1 SQQQ: stop 45.56 objetivo 46.97 | con comisión: simulación -0.07R, historia -0.30R (36 casos) -> ❌ no
 2026-11-19 17:16 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 160 valores: señal en 23, 0 con su regla ganando las últimas sesiones
 2026-11-19 17:16 | [SKILL] 🔎 Escáner 11:16: 34 roturas, 0 recientes para estudiar.
+2026-11-19 17:30 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 3, 0 con su regla ganando en 30 días
+2026-11-19 17:30 | [CRIPTO] 🔎 Bot C3 (rebote 10) investiga 33 monedas: señal en 28, 0 con su regla ganando en 30 días
+2026-11-19 17:30 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 160 valores: señal en 5, 4 con su regla ganando las últimas sesiones (SOXS +2.03%/día, SQQQ +0.58%/día, DKNG +0.13%/día, SPDN +0.06%/día)
+2026-11-19 17:30 | [DIARIO] 🕰️ Bot D1 SOXS: stop 55.52 objetivo 57.23 | con comisión: simulación -0.17R, historia -0.37R (33 casos) -> ❌ no
+2026-11-19 17:30 | [DIARIO] 🕰️ Bot D1 SQQQ: stop 45.23 objetivo 46.61 | con comisión: simulación -0.05R, historia -0.30R (36 casos) -> ❌ no
+2026-11-19 17:31 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 160 valores: señal en 20, 0 con su regla ganando las últimas sesiones
+2026-11-19 17:31 | [ACTIVA] 🛑 Bot A1 STOP: SQQQ a 45.82 (entró a 46.49).
+2026-11-19 17:31 | [ACTIVA] Bot A1 (ruptura 30) VENDE 149.9853 SQQQ a 45.82 | vida 16,773$
+2026-11-19 17:31 | [ACTIVA] Bot A3 (rebote 20) VENDE 43.3690 NVDA a 153.17 | vida 15,940$
+2026-11-19 17:31 | [ACTIVA] Orden enviada: sell 43.3690 NVDA (id f8872481-7d06-4e78-86e8-a2d772579731)
+2026-11-19 17:31 | [ACTIVA] Orden enviada: sell 149.9853 SQQQ (id 45fc9547-1096-4671-aaa5-af468edd5d8e)
