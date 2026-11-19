@@ -49,23 +49,23 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "XLP",
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 15903.747420449956,
-      "acciones": 0.0,
+      "efectivo": 9270.868230923366,
+      "acciones": 74.040482,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-11",
       "hijos": 0,
       "hoy": "2026-11-19",
-      "operado_hoy": false,
+      "operado_hoy": true,
       "descansa": true,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
-      "contra_cerebro": false,
+      "entrada": 89.495,
+      "stop": 88.6,
+      "meta": 91.29,
+      "contra_cerebro": true,
       "perdidas": 0
     }
   ],
@@ -139,7 +139,7 @@
       "titulares": []
     },
     "XLP": {
-      "hora": "2026-11-18T17:01:47.031033+00:00",
+      "hora": "2026-11-19T14:46:13.357436+00:00",
       "malos": 0,
       "titulares": []
     },
@@ -196,7 +196,9 @@
       "titulares": []
     }
   },
-  "precios": {},
+  "precios": {
+    "XLP": 89.495
+  },
   "cerebro": {
     "a_favor": {
       "n": 37,
