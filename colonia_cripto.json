@@ -50,25 +50,11 @@
   ],
   "dia": "2026-11-19",
   "memoria": {
-    "SUSHI/USD-tendencia-48": {
-      "hora": "2026-11-19 15:00:00+00:00",
-      "n": 26,
-      "media": -0.0133,
-      "total": -0.29451,
-      "ganadores": 0.03846
-    },
-    "SHIB/USD-tendencia-48": {
-      "hora": "2026-11-19 15:00:00+00:00",
-      "n": 27,
-      "media": -0.01349,
-      "total": -0.30801,
-      "ganadores": 0.03704
-    },
     "PEPE/USD-tendencia-48": {
-      "hora": "2026-11-19 16:00:00+00:00",
+      "hora": "2026-11-19 17:00:00+00:00",
       "n": 26,
-      "media": -0.01028,
-      "total": -0.24443,
+      "media": -0.00991,
+      "total": -0.23699,
       "ganadores": 0.11538
     },
     "SKY/USD-rebote-10": {
@@ -84,13 +70,6 @@
       "media": -0.008,
       "total": -0.324,
       "ganadores": 0.51064
-    },
-    "PAXG/USD-rebote-10": {
-      "hora": "2026-11-19 15:00:00+00:00",
-      "n": 39,
-      "media": -0.00464,
-      "total": -0.16663,
-      "ganadores": 0.23077
     },
     "UNI/USD-rebote-10": {
       "hora": "2026-11-19 16:00:00+00:00",
@@ -246,13 +225,6 @@
       "total": -0.33253,
       "ganadores": 0.34615
     },
-    "AVAX/USD-rebote-10": {
-      "hora": "2026-11-19 15:00:00+00:00",
-      "n": 44,
-      "media": -0.0059,
-      "total": -0.23427,
-      "ganadores": 0.5
-    },
     "BCH/USD-rebote-10": {
       "hora": "2026-11-19 16:00:00+00:00",
       "n": 44,
@@ -294,10 +266,17 @@
       "media": -0.00643,
       "total": -0.26698,
       "ganadores": 0.38298
+    },
+    "HYPE/USD-tendencia-48": {
+      "hora": "2026-11-19 17:00:00+00:00",
+      "n": 25,
+      "media": -0.00754,
+      "total": -0.17473,
+      "ganadores": 0.12
     }
   },
   "precios": {
-    "TRUMP/USD": 0.95619
+    "TRUMP/USD": 0.9541
   },
   "eurusd": 1.0992,
   "eurusd_inicio": 1.1193

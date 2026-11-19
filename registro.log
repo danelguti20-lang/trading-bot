@@ -2767,3 +2767,11 @@
 2026-11-19 18:46 | [ACTIVA] 🧠 Bot A3 compra aunque el cerebro diría NO (descanso).
 2026-11-19 18:46 | [ACTIVA] Bot A3 (rebote 20) COMPRA 41.6946 XOM a 159.06 | vida 15,947$
 2026-11-19 18:46 | [ACTIVA] Orden enviada: buy 41.6946 XOM (id a2b08a93-b37a-448e-ac16-91ca6c2aaf25)
+2026-11-19 19:00 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 2, 0 con su regla ganando en 30 días
+2026-11-19 19:01 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 160 valores: señal en 10, 6 con su regla ganando las últimas sesiones (SOXS +2.03%/día, SQQQ +0.58%/día, TGT +0.22%/día, SPDN +0.06%/día)
+2026-11-19 19:01 | [DIARIO] 🕰️ Bot D1 SOXS: stop 60.64 objetivo 62.50 | con comisión: simulación -0.07R, historia -0.37R (33 casos) -> ❌ no
+2026-11-19 19:01 | [DIARIO] 🕰️ Bot D1 SQQQ: stop 47.70 objetivo 49.17 | con comisión: simulación -0.08R, historia -0.30R (36 casos) -> ❌ no
+2026-11-19 19:01 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 160 valores: señal en 14, 8 con su regla ganando las últimas sesiones (SQQQ +0.24%/día, SPDN +0.07%/día, HD +0.07%/día, CRWD +0.04%/día)
+2026-11-19 19:01 | [DIARIO] 🕰️ Bot D2 SQQQ: stop 47.70 objetivo 49.17 | con comisión: simulación -0.08R, historia -0.30R (36 casos) -> ❌ no
+2026-11-19 19:01 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 14 full session(s) of SPDN before 2026-11-19 in the data; the time machine needs at least 20
+2026-11-19 19:01 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 160 valores: señal en 1, 0 con su regla ganando las últimas sesiones
