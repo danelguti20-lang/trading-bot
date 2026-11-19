@@ -216,6 +216,54 @@
       "media": -0.00374,
       "ganadores": 0.16667,
       "n": 18
+    },
+    "MCD-ruptura-30": {
+      "fecha": "2026-11-19",
+      "media": -0.00318,
+      "ganadores": 0.33333,
+      "n": 15
+    },
+    "PG-ruptura-30": {
+      "fecha": "2026-11-19",
+      "media": -0.00391,
+      "ganadores": 0.08333,
+      "n": 12
+    },
+    "SOXS-ruptura-30": {
+      "fecha": "2026-11-19",
+      "media": 0.0203,
+      "ganadores": 0.44444,
+      "n": 9
+    },
+    "HD-ruptura-30": {
+      "fecha": "2026-11-19",
+      "media": -0.00082,
+      "ganadores": 0.5,
+      "n": 14
+    },
+    "IEF-ruptura-30": {
+      "fecha": "2026-11-19",
+      "media": -0.00204,
+      "ganadores": 0.16667,
+      "n": 12
+    },
+    "AAPL-rebote-10": {
+      "fecha": "2026-11-19",
+      "media": -0.00223,
+      "ganadores": 0.33333,
+      "n": 18
+    },
+    "LLY-rebote-10": {
+      "fecha": "2026-11-19",
+      "media": -0.00432,
+      "ganadores": 0.29412,
+      "n": 17
+    },
+    "KWEB-rebote-10": {
+      "fecha": "2026-11-19",
+      "media": -0.00375,
+      "ganadores": 0.1,
+      "n": 20
     }
   },
   "noticias": {
