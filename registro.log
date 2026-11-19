@@ -2720,3 +2720,19 @@
 2026-11-19 17:46 | [ACTIVA] Bot A3 (rebote 20) COMPRA 20.2533 UNH a 327.58 | vida 15,933$
 2026-11-19 17:46 | [ACTIVA] Orden enviada: buy 20.2533 UNH (id fbdf9d96-a5a9-482e-a719-1e32e10f49af)
 2026-11-19 17:46 | [ACTIVA] Orden enviada: buy 56.6157 WMT (id 9282ff6c-8848-4115-95e3-698e74769726)
+2026-11-19 18:00 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 1, 0 con su regla ganando en 30 días
+2026-11-19 18:00 | [CRIPTO] 🔎 Bot C3 (rebote 10) investiga 33 monedas: señal en 30, 1 con su regla ganando en 30 días (TRUMP/USD +24.5%)
+2026-11-19 18:00 | [CRIPTO] 🕰️ Bot C3 elige TRUMP/USD: en 30 días su regla hizo 38 operaciones, 58% ganadoras, total +24.5% (con comisión) -> ✅ entra
+2026-11-19 18:00 | [CRIPTO] Bot C3 (rebote 10) COMPRA 15270.705419 TRUMP/USD a 0.9526 | vida 15,314$
+2026-11-19 18:00 | [CRIPTO] Orden enviada: buy 15270.705419 TRUMP/USD (id df8831d5-f384-4228-9b7c-8014426713cd)
+2026-11-19 18:01 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 160 valores: señal en 8, 4 con su regla ganando las últimas sesiones (SOXS +2.03%/día, SQQQ +0.58%/día, SPDN +0.06%/día, HD -0.08%/día)
+2026-11-19 18:01 | [DIARIO] 🕰️ Bot D1 SOXS: stop 59.40 objetivo 61.23 | con comisión: simulación -0.05R, historia -0.37R (33 casos) -> ❌ no
+2026-11-19 18:01 | [DIARIO] 🕰️ Bot D1 SQQQ: stop 46.90 objetivo 48.34 | con comisión: simulación -0.04R, historia -0.30R (36 casos) -> ❌ no
+2026-11-19 18:01 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 160 valores: señal en 14, 8 con su regla ganando las últimas sesiones (SQQQ +0.24%/día, SPDN +0.07%/día, HD +0.07%/día, CRWD +0.04%/día)
+2026-11-19 18:01 | [DIARIO] 🕰️ Bot D2 SQQQ: stop 46.90 objetivo 48.34 | con comisión: simulación -0.04R, historia -0.30R (36 casos) -> ❌ no
+2026-11-19 18:01 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 14 full session(s) of SPDN before 2026-11-19 in the data; the time machine needs at least 20
+2026-11-19 18:01 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 160 valores: señal en 47, 0 con su regla ganando las últimas sesiones
+2026-11-19 18:01 | [ACTIVA] 🔎 Bot A2 (mañana 0.2) investiga 160 valores: señal en 15, mira primero: PANW, CRWD, SQQQ, SPDN
+2026-11-19 18:01 | [ACTIVA] 📋 Bot A2 PANW: entra a 357.27, stop 353.69, objetivo 364.43 -> ✅ COMPRA
+2026-11-19 18:01 | [ACTIVA] Bot A2 (mañana 0.2) COMPRA 19.2907 PANW a 357.27 | vida 16,562$
+2026-11-19 18:01 | [ACTIVA] Orden enviada: buy 19.2907 PANW (id c6ba412a-b4f7-4acf-92a9-c3c3adaaf87e)

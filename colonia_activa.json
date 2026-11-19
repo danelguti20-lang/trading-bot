@@ -27,22 +27,22 @@
     {
       "id": 2,
       "padre": null,
-      "activo": null,
+      "activo": "PANW",
       "estrategia": "mañana",
       "p": 0.2,
-      "efectivo": 16568.947348944967,
-      "acciones": 0.0,
+      "efectivo": 9670.062322401456,
+      "acciones": 19.290713,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-11",
       "hijos": 0,
       "hoy": "2026-11-19",
-      "operado_hoy": false,
+      "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 357.27,
+      "stop": 353.69,
+      "meta": 364.43,
       "contra_cerebro": false,
       "perdidas": 1
     },
@@ -209,11 +209,17 @@
       "hora": "2026-11-19T16:46:23.211229+00:00",
       "malos": 0,
       "titulares": []
+    },
+    "PANW": {
+      "hora": "2026-11-19T17:01:44.698771+00:00",
+      "malos": 0,
+      "titulares": []
     }
   },
   "precios": {
-    "WMT": 125.67,
-    "UNH": 327.58
+    "WMT": 125.54,
+    "PANW": 357.27,
+    "UNH": 326.07
   },
   "cerebro": {
     "a_favor": {
