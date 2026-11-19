@@ -2816,3 +2816,14 @@
 2026-11-19 20:30 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 14 full session(s) of SPDN before 2026-11-19 in the data; the time machine needs at least 20
 2026-11-19 20:31 | [ACTIVA] Bot A3 (rebote 20) VENDE 41.6946 XOM a 158.88 | vida 15,933$
 2026-11-19 20:31 | [ACTIVA] Orden enviada: sell 41.6946 XOM (id d01054ec-3d2d-485d-8413-e3e023f16a56)
+2026-11-19 20:45 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 4, 0 con su regla ganando en 30 días
+2026-11-19 20:45 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 160 valores: señal en 13, 8 con su regla ganando las últimas sesiones (SQQQ +0.24%/día, SPDN +0.07%/día, HD +0.07%/día, PLTD -0.01%/día)
+2026-11-19 20:45 | [DIARIO] 🕰️ Bot D2 SQQQ: stop 47.76 objetivo 49.23 | con comisión: simulación -0.23R, historia -0.30R (36 casos) -> ❌ no
+2026-11-19 20:45 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 14 full session(s) of SPDN before 2026-11-19 in the data; the time machine needs at least 20
+2026-11-19 20:45 | [DIARIO] Bot D3 (rebote 10) VENDE 364.9349 DKNG a 17.31 | vida 15,306$
+2026-11-19 20:45 | [DIARIO] Orden enviada: sell 364.9349 DKNG (id e97e428e-4dd2-4821-92d6-f5111f16b3ae)
+2026-11-19 20:46 | [ACTIVA] 🔎 Bot A3 (rebote 20) investiga 159 valores: señal en 11, mira primero: IBIT, DIS, SNOW, CRM
+2026-11-19 20:46 | [ACTIVA] 📋 Bot A3 IBIT: entra a 35.35, stop 34.99, objetivo 36.07 -> ✅ COMPRA
+2026-11-19 20:46 | [ACTIVA] 🧠 Bot A3 compra aunque el cerebro diría NO (descanso).
+2026-11-19 20:46 | [ACTIVA] Bot A3 (rebote 20) COMPRA 184.9630 IBIT a 35.35 | vida 15,926$
+2026-11-19 20:46 | [ACTIVA] Orden enviada: buy 184.9630 IBIT (id 51e92c01-3928-4c5c-bc9f-bc7d58a1084c)

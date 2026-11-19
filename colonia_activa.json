@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "IBIT",
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 15932.713279899544,
-      "acciones": 0.0,
+      "efectivo": 9387.732610922794,
+      "acciones": 184.963005,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,9 +62,9 @@
       "hoy": "2026-11-19",
       "operado_hoy": true,
       "descansa": true,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 35.35,
+      "stop": 34.99,
+      "meta": 36.07,
       "contra_cerebro": true,
       "perdidas": 1
     }
@@ -214,11 +214,17 @@
       "hora": "2026-11-19T17:01:44.698771+00:00",
       "malos": 0,
       "titulares": []
+    },
+    "IBIT": {
+      "hora": "2026-11-19T19:46:12.935677+00:00",
+      "malos": 0,
+      "titulares": []
     }
   },
   "precios": {
-    "WMT": 126.33,
-    "PANW": 361.865
+    "WMT": 126.245,
+    "PANW": 360.56,
+    "IBIT": 35.35
   },
   "cerebro": {
     "a_favor": {
