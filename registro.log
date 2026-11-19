@@ -2662,3 +2662,20 @@
 2026-11-19 16:32 | [SKILL] 🕰️ PG: entrada 168.38 stop 167.62 objetivo 169.90 | objetivo antes 16%, stop antes 48% | con comisión: simulación -0.45R, historia -0.63R (42 casos) -> ❌ no
 2026-11-19 16:32 | [SKILL]   IEF: stop demasiado pegado (0.05 $), no vale.
 2026-11-19 16:32 | [SKILL] 🕰️ SOXS: entrada 54.27 stop 52.24 objetivo 58.33 | objetivo antes 12%, stop antes 42% | con comisión: simulación -0.04R, historia -0.20R (33 casos) -> ❌ no
+2026-11-19 16:45 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 15, 0 con su regla ganando en 30 días
+2026-11-19 16:45 | [CRIPTO] 🔎 Bot C3 (rebote 10) investiga 33 monedas: señal en 7, 0 con su regla ganando en 30 días
+2026-11-19 16:45 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 161 valores: señal en 8, 5 con su regla ganando las últimas sesiones (SOXS +2.03%/día, SQQQ +0.58%/día, TGT +0.22%/día, SPDN +0.06%/día)
+2026-11-19 16:45 | [DIARIO] 🕰️ Bot D1 SOXS: stop 57.42 objetivo 59.16 | con comisión: simulación -0.25R, historia -0.34R (33 casos) -> ❌ no
+2026-11-19 16:45 | [DIARIO] 🕰️ Bot D1 SQQQ: stop 45.89 objetivo 47.28 | con comisión: simulación -0.22R, historia -0.29R (36 casos) -> ❌ no
+2026-11-19 16:45 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 161 valores: señal en 49, 0 con su regla ganando las últimas sesiones
+2026-11-19 16:46 | [ACTIVA] 🔎 Bot A1 (ruptura 30) investiga 161 valores: señal en 8, mira primero: SQQQ, SPDN, TLT, PG
+2026-11-19 16:46 | [ACTIVA] 📋 Bot A1 SQQQ: entra a 46.49, stop 46.02, objetivo 47.43 -> ✅ COMPRA
+2026-11-19 16:46 | [ACTIVA] Bot A1 (ruptura 30) COMPRA 149.9853 SQQQ a 46.49 | vida 16,881$
+2026-11-19 16:46 | [ACTIVA] 🔎 Bot A3 (rebote 20) investiga 161 valores: señal en 93, mira primero: NVDA, SPY, AMD, SPCX
+2026-11-19 16:46 | [ACTIVA] 📋 Bot A3 NVDA: entra a 152.20, stop 150.67, objetivo 155.26 -> ✅ COMPRA
+2026-11-19 16:46 | [ACTIVA] 🧠 Bot A3 compra aunque el cerebro diría NO (descanso).
+2026-11-19 16:46 | [ACTIVA] Bot A3 (rebote 20) COMPRA 43.3690 NVDA a 152.20 | vida 15,905$
+2026-11-19 16:46 | [ACTIVA] Orden enviada: buy 43.3690 NVDA (id 9f493276-72b0-4257-b2b1-9b7daf987a45)
+2026-11-19 16:46 | [ACTIVA] Orden enviada: buy 149.9853 SQQQ (id 64c06cd7-a94b-4b4f-a097-1b7cf6f859c5)
+2026-11-19 16:46 | [SKILL] 🔎 Escáner 10:46: 34 roturas, 1 recientes para estudiar.
+2026-11-19 16:46 | [SKILL] 🕰️ TLT: entrada 80.21 stop 80.00 objetivo 80.63 | objetivo antes 18%, stop antes 55% | con comisión: simulación -0.82R, historia -0.55R (39 casos) -> ❌ no

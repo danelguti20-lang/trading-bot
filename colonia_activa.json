@@ -5,11 +5,11 @@
     {
       "id": 1,
       "padre": null,
-      "activo": null,
+      "activo": "SQQQ",
       "estrategia": "ruptura",
       "p": 30,
-      "efectivo": 16887.746018826736,
-      "acciones": 0.0,
+      "efectivo": 9907.956139864837,
+      "acciones": 149.98531,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -18,9 +18,9 @@
       "hoy": "2026-11-19",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 46.49,
+      "stop": 46.02,
+      "meta": 47.43,
       "contra_cerebro": false,
       "perdidas": 1
     },
@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "NVDA",
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 15911.205518201816,
-      "acciones": 0.0,
+      "efectivo": 9303.848441081016,
+      "acciones": 43.368964,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,9 +62,9 @@
       "hoy": "2026-11-19",
       "operado_hoy": true,
       "descansa": true,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 152.2,
+      "stop": 150.67,
+      "meta": 155.26,
       "contra_cerebro": true,
       "perdidas": 0
     }
@@ -109,7 +109,7 @@
       "titulares": []
     },
     "NVDA": {
-      "hora": "2026-11-17T15:31:47.493751+00:00",
+      "hora": "2026-11-19T15:46:20.363413+00:00",
       "malos": 0,
       "titulares": []
     },
@@ -199,9 +199,17 @@
       "hora": "2026-11-19T15:16:31.269503+00:00",
       "malos": 0,
       "titulares": []
+    },
+    "SQQQ": {
+      "hora": "2026-11-19T15:46:19.574210+00:00",
+      "malos": 0,
+      "titulares": []
     }
   },
-  "precios": {},
+  "precios": {
+    "SQQQ": 46.49,
+    "NVDA": 152.2
+  },
   "cerebro": {
     "a_favor": {
       "n": 38,
