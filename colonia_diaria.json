@@ -516,6 +516,24 @@
       "media": -0.00532,
       "ganadores": 0.22222,
       "n": 9
+    },
+    "XBI-mañana-0.3": {
+      "fecha": "2026-11-19",
+      "media": -0.0026,
+      "ganadores": 0.4,
+      "n": 10
+    },
+    "QCOM-mañana-0.3": {
+      "fecha": "2026-11-19",
+      "media": -0.0013,
+      "ganadores": 0.46667,
+      "n": 15
+    },
+    "KWEB-mañana-0.3": {
+      "fecha": "2026-11-19",
+      "media": -0.0041,
+      "ganadores": 0.125,
+      "n": 8
     }
   },
   "noticias": {

@@ -2746,3 +2746,10 @@
 2026-11-19 18:16 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 160 valores: señal en 94, 0 con su regla ganando las últimas sesiones
 2026-11-19 18:16 | [ACTIVA] Bot A3 (rebote 20) VENDE 20.2533 UNH a 328.89 | vida 15,953$
 2026-11-19 18:16 | [ACTIVA] Orden enviada: sell 20.2533 UNH (id 70ebbe7e-a281-4762-adc7-9511246bbad2)
+2026-11-19 18:30 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 1, 0 con su regla ganando en 30 días
+2026-11-19 18:31 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 159 valores: señal en 11, 6 con su regla ganando las últimas sesiones (SOXS +2.03%/día, SQQQ +0.58%/día, TGT +0.22%/día, SPDN +0.06%/día)
+2026-11-19 18:31 | [DIARIO] 🕰️ Bot D1 SOXS: stop 58.53 objetivo 60.33 | con comisión: simulación +0.08R, historia -0.37R (33 casos) -> ❌ no
+2026-11-19 18:31 | [DIARIO] 🕰️ Bot D1 SQQQ: stop 46.39 objetivo 47.80 | con comisión: simulación +0.03R, historia -0.30R (36 casos) -> ❌ no
+2026-11-19 18:31 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 159 valores: señal en 18, 7 con su regla ganando las últimas sesiones (SQQQ +0.24%/día, SPDN +0.07%/día, CRWD +0.04%/día, PLTD -0.01%/día)
+2026-11-19 18:31 | [DIARIO] 🕰️ Bot D2 SQQQ: stop 46.39 objetivo 47.80 | con comisión: simulación +0.03R, historia -0.30R (36 casos) -> ❌ no
+2026-11-19 18:31 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 14 full session(s) of SPDN before 2026-11-19 in the data; the time machine needs at least 20
