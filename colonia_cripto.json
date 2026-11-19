@@ -35,20 +35,20 @@
     {
       "id": 3,
       "padre": null,
-      "activo": "TRUMP/USD",
+      "activo": null,
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 760.7333152137217,
-      "acciones": 15477.384913992,
+      "efectivo": 15350.296737076857,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-09",
       "hijos": 0,
-      "entrada": 0.9315455
+      "entrada": null
     }
   ],
-  "dia": "2026-11-18",
+  "dia": "2026-11-19",
   "memoria": {
     "RENDER/USD-rebote-10": {
       "hora": "2026-11-18 22:00:00+00:00",
@@ -196,11 +196,30 @@
       "media": -0.00429,
       "total": -0.20333,
       "ganadores": 0.45098
+    },
+    "POL/USD-tendencia-48": {
+      "hora": "2026-11-18 23:00:00+00:00",
+      "n": 30,
+      "media": -0.01019,
+      "total": -0.26598,
+      "ganadores": 0.06667
+    },
+    "SOL/USD-tendencia-48": {
+      "hora": "2026-11-18 23:00:00+00:00",
+      "n": 23,
+      "media": -0.00892,
+      "total": -0.18675,
+      "ganadores": 0.08696
+    },
+    "GRT/USD-tendencia-48": {
+      "hora": "2026-11-18 23:00:00+00:00",
+      "n": 28,
+      "media": -0.01525,
+      "total": -0.35064,
+      "ganadores": 0.03571
     }
   },
-  "precios": {
-    "TRUMP/USD": 0.94705
-  },
+  "precios": {},
   "eurusd": 1.0968,
   "eurusd_inicio": 1.1193
 }
