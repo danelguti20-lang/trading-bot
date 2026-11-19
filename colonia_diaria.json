@@ -5,22 +5,22 @@
     {
       "id": 1,
       "padre": null,
-      "activo": null,
+      "activo": "NVD",
       "estrategia": "ruptura",
       "p": 30,
-      "efectivo": 16851.81575610627,
-      "acciones": 0.0,
+      "efectivo": 9933.37059207587,
+      "acciones": 880.450144,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-09",
       "hijos": 0,
       "hoy": "2026-11-19",
-      "operado_hoy": false,
+      "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 7.85,
+      "stop": 7.77,
+      "meta": 8.01,
       "contra_cerebro": false,
       "perdidas": 0
     },
@@ -69,7 +69,9 @@
       "perdidas": 0
     }
   ],
-  "precios": {},
+  "precios": {
+    "NVD": 7.85
+  },
   "eurusd": 1.0992,
   "eurusd_inicio": 1.1193,
   "memoria": {
@@ -582,6 +584,30 @@
       "media": -0.00653,
       "ganadores": 0.45,
       "n": 20
+    },
+    "NVD-ruptura-30": {
+      "fecha": "2026-11-19",
+      "media": 0.012,
+      "ganadores": 0.76923,
+      "n": 13
+    },
+    "NVD-mañana-0.3": {
+      "fecha": "2026-11-19",
+      "media": 0.00274,
+      "ganadores": 0.46667,
+      "n": 15
+    },
+    "SNOW-rebote-10": {
+      "fecha": "2026-11-19",
+      "media": -0.00856,
+      "ganadores": 0.16667,
+      "n": 18
+    },
+    "CRM-rebote-10": {
+      "fecha": "2026-11-19",
+      "media": -0.00303,
+      "ganadores": 0.5,
+      "n": 18
     }
   },
   "noticias": {
@@ -672,7 +698,7 @@
       "titulares": []
     },
     "NVD": {
-      "hora": "2026-11-17T17:46:02.461763+00:00",
+      "hora": "2026-11-19T18:31:18.510872+00:00",
       "malos": 0,
       "titulares": []
     },

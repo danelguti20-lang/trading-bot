@@ -2783,3 +2783,13 @@
 2026-11-19 19:16 | [DIARIO] 🕰️ Bot D2 SQQQ: stop 48.11 objetivo 49.58 | con comisión: simulación -0.11R, historia -0.30R (36 casos) -> ❌ no
 2026-11-19 19:16 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 14 full session(s) of SPDN before 2026-11-19 in the data; the time machine needs at least 20
 2026-11-19 19:16 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 160 valores: señal en 14, 0 con su regla ganando las últimas sesiones
+2026-11-19 19:30 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 2, 0 con su regla ganando en 30 días
+2026-11-19 19:31 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 160 valores: señal en 11, 6 con su regla ganando las últimas sesiones (SOXS +2.03%/día, NVD +1.20%/día, SQQQ +0.58%/día, SPDN +0.06%/día)
+2026-11-19 19:31 | [DIARIO] 🕰️ Bot D1 SOXS: stop 60.02 objetivo 61.86 | con comisión: simulación -0.10R, historia -0.37R (33 casos) -> ❌ no
+2026-11-19 19:31 | [DIARIO] 🕰️ Bot D1 NVD: stop 7.77 objetivo 8.01 | con comisión: simulación +0.05R, historia +0.30R (33 casos) -> ✅ COMPRA
+2026-11-19 19:31 | [DIARIO] Bot D1 (ruptura 30) COMPRA 880.4501 NVD a 7.85 | vida 16,845$
+2026-11-19 19:31 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 160 valores: señal en 14, 8 con su regla ganando las últimas sesiones (SQQQ +0.24%/día, SPDN +0.07%/día, HD +0.07%/día, PLTD -0.01%/día)
+2026-11-19 19:31 | [DIARIO] 🕰️ Bot D2 SQQQ: stop 47.60 objetivo 49.07 | con comisión: simulación -0.11R, historia -0.30R (36 casos) -> ❌ no
+2026-11-19 19:31 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 14 full session(s) of SPDN before 2026-11-19 in the data; the time machine needs at least 20
+2026-11-19 19:31 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 160 valores: señal en 4, 0 con su regla ganando las últimas sesiones
+2026-11-19 19:31 | [DIARIO] Orden enviada: buy 880.4501 NVD (id 8de4bbf9-6104-4fd9-a06b-e61d2668971f)
