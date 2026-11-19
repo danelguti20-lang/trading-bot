@@ -306,6 +306,30 @@
       "media": -0.00534,
       "ganadores": 0.17647,
       "n": 17
+    },
+    "ABBV-rebote-10": {
+      "fecha": "2026-11-19",
+      "media": -0.00257,
+      "ganadores": 0.55556,
+      "n": 18
+    },
+    "EFA-rebote-10": {
+      "fecha": "2026-11-19",
+      "media": -0.0047,
+      "ganadores": 0.11111,
+      "n": 18
+    },
+    "XOM-rebote-10": {
+      "fecha": "2026-11-19",
+      "media": -0.00363,
+      "ganadores": 0.27778,
+      "n": 18
+    },
+    "DIA-rebote-10": {
+      "fecha": "2026-11-19",
+      "media": -0.00467,
+      "ganadores": 0.11765,
+      "n": 17
     }
   },
   "noticias": {
