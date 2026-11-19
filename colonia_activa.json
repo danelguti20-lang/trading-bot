@@ -5,11 +5,11 @@
     {
       "id": 1,
       "padre": null,
-      "activo": "WMT",
+      "activo": null,
       "estrategia": "ruptura",
       "p": 30,
-      "efectivo": 9651.404828603077,
-      "acciones": 56.615668,
+      "efectivo": 16789.157232901478,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -18,20 +18,20 @@
       "hoy": "2026-11-19",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 125.67,
-      "stop": 124.44,
-      "meta": 128.13,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
-      "perdidas": 2
+      "perdidas": 0
     },
     {
       "id": 2,
       "padre": null,
-      "activo": "PANW",
+      "activo": null,
       "estrategia": "mañana",
       "p": 0.2,
-      "efectivo": 9670.062322401456,
-      "acciones": 19.290713,
+      "efectivo": 16629.936481351506,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -40,11 +40,11 @@
       "hoy": "2026-11-19",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 357.27,
-      "stop": 353.69,
-      "meta": 364.43,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
-      "perdidas": 1
+      "perdidas": 0
     },
     {
       "id": 3,
@@ -221,15 +221,12 @@
       "titulares": []
     }
   },
-  "precios": {
-    "WMT": 126.3,
-    "PANW": 358.57
-  },
+  "precios": {},
   "cerebro": {
     "a_favor": {
-      "n": 39,
-      "ganadas": 12,
-      "suma": -0.120279
+      "n": 41,
+      "ganadas": 14,
+      "suma": -0.109232
     },
     "en_contra": {
       "n": 13,
