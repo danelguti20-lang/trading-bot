@@ -49,17 +49,9 @@
     }
   ],
   "dia": "2026-11-19",
-  "memoria": {
-    "SUSHI/USD-tendencia-48": {
-      "hora": "2026-11-19 19:00:00+00:00",
-      "n": 27,
-      "media": -0.01322,
-      "total": -0.30242,
-      "ganadores": 0.03704
-    }
-  },
+  "memoria": {},
   "precios": {
-    "TRUMP/USD": 0.938675
+    "TRUMP/USD": 0.93675
   },
   "eurusd": 1.0992,
   "eurusd_inicio": 1.1193
