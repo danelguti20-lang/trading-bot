@@ -2798,3 +2798,11 @@
 2026-11-19 19:46 | [DIARIO] 🕰️ Bot D2 SQQQ: stop 47.77 objetivo 49.24 | con comisión: simulación -0.06R, historia -0.30R (36 casos) -> ❌ no
 2026-11-19 19:46 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 14 full session(s) of SPDN before 2026-11-19 in the data; the time machine needs at least 20
 2026-11-19 19:46 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 161 valores: señal en 5, 0 con su regla ganando las últimas sesiones
+2026-11-19 20:00 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 4, 0 con su regla ganando en 30 días
+2026-11-19 20:01 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 161 valores: señal en 14, 8 con su regla ganando las últimas sesiones (SQQQ +0.24%/día, SPDN +0.07%/día, HD +0.07%/día, PLTD -0.01%/día)
+2026-11-19 20:01 | [DIARIO] 🕰️ Bot D2 SQQQ: stop 47.99 objetivo 49.46 | con comisión: simulación -0.09R, historia -0.30R (36 casos) -> ❌ no
+2026-11-19 20:01 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 14 full session(s) of SPDN before 2026-11-19 in the data; the time machine needs at least 20
+2026-11-19 20:01 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 161 valores: señal en 6, 1 con su regla ganando las últimas sesiones (DKNG -0.10%/día)
+2026-11-19 20:01 | [DIARIO] 🕰️ Bot D3 DKNG: stop 17.05 objetivo 17.58 | con comisión: simulación -0.12R, historia +0.04R (31 casos) -> ✅ COMPRA
+2026-11-19 20:01 | [DIARIO] Bot D3 (rebote 10) COMPRA 364.9349 DKNG a 17.23 | vida 15,281$
+2026-11-19 20:01 | [DIARIO] Orden enviada: buy 364.9349 DKNG (id 6882a1e2-bb44-47b9-82ed-9cf46fbd0a04)

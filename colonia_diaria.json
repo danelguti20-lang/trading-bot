@@ -49,28 +49,29 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "DKNG",
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 15287.124989721,
-      "acciones": 0.0,
+      "efectivo": 8994.8345059417,
+      "acciones": 364.934948,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-09",
       "hijos": 0,
       "hoy": "2026-11-19",
-      "operado_hoy": false,
+      "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 17.225,
+      "stop": 17.05,
+      "meta": 17.58,
       "contra_cerebro": false,
       "perdidas": 0
     }
   ],
   "precios": {
-    "NVD": 7.91
+    "NVD": 7.95,
+    "DKNG": 17.225
   },
   "eurusd": 1.0992,
   "eurusd_inicio": 1.1193,
@@ -608,6 +609,24 @@
       "media": -0.00303,
       "ganadores": 0.5,
       "n": 18
+    },
+    "UBER-rebote-10": {
+      "fecha": "2026-11-19",
+      "media": -0.00288,
+      "ganadores": 0.27778,
+      "n": 18
+    },
+    "DKNG-rebote-10": {
+      "fecha": "2026-11-19",
+      "media": -0.00099,
+      "ganadores": 0.55556,
+      "n": 18
+    },
+    "PYPL-rebote-10": {
+      "fecha": "2026-11-19",
+      "media": -0.00686,
+      "ganadores": 0.14286,
+      "n": 14
     }
   },
   "noticias": {
@@ -749,6 +768,11 @@
     },
     "HD": {
       "hora": "2026-11-18T19:31:26.309924+00:00",
+      "malos": 0,
+      "titulares": []
+    },
+    "DKNG": {
+      "hora": "2026-11-19T19:01:05.605169+00:00",
       "malos": 0,
       "titulares": []
     }
