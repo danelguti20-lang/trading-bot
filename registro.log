@@ -3041,3 +3041,11 @@
 2026-11-20 19:16 | [ACTIVA] 🛑 Bot A3 STOP: SPY a 699.70 (entró a 706.82).
 2026-11-20 19:16 | [ACTIVA] Bot A3 (rebote 20) VENDE 9.2270 SPY a 699.70 | vida 15,577$
 2026-11-20 19:16 | [ACTIVA] Orden enviada: sell 9.2270 SPY (id 80a97d0c-1f82-476b-8ea5-a3110803629b)
+2026-11-20 19:31 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 158 valores: señal en 31, 4 con su regla ganando las últimas sesiones (SPDN +0.12%/día, JNJ +0.06%/día, V -0.16%/día, SQQQ -0.17%/día)
+2026-11-20 19:31 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 15 full session(s) of SPDN before 2026-11-20 in the data; the time machine needs at least 20
+2026-11-20 19:31 | [DIARIO] 📰 Bot D2 no compra JNJ: J&J to install first Ottava robot in US hospital (regulatory)
+2026-11-20 19:31 | [ACTIVA] 🔎 Bot A3 (rebote 20) investiga 158 valores: señal en 46, mira primero: AAPL, META, NFLX, SNDK
+2026-11-20 19:31 | [ACTIVA] 📰 Bot A3 no compra AAPL: Banks race to patch vulnerabilities amid amplified tech outage risk (risk)
+2026-11-20 19:31 | [ACTIVA] 📋 Bot A3 META: entra a 567.37, stop 561.69, objetivo 578.71 -> ✅ COMPRA
+2026-11-20 19:31 | [ACTIVA] Bot A3 (rebote 20) COMPRA 11.4373 META a 567.37 | vida 15,570$
+2026-11-20 19:31 | [ACTIVA] Orden enviada: buy 11.4373 META (id 5d45a69e-b20c-4311-85b0-c6417adeb0de)

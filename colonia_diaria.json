@@ -70,7 +70,7 @@
     }
   ],
   "precios": {
-    "TSLA": 351.31
+    "TSLA": 350.68
   },
   "eurusd": 1.099,
   "eurusd_inicio": 1.1193,
@@ -662,6 +662,12 @@
       "media": -0.00528,
       "ganadores": 0.16667,
       "n": 18
+    },
+    "JNJ-mañana-0.3": {
+      "fecha": "2026-11-20",
+      "media": 0.00059,
+      "ganadores": 0.5,
+      "n": 10
     }
   },
   "noticias": {
