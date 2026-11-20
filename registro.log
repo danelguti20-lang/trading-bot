@@ -2952,3 +2952,21 @@
 2026-11-20 16:17 | [SKILL] 📰 HD descartada por noticias: 343 Companies Report $28.5 Billion In Trump Tariff Refunds. Here's Where The Money Is Goin (legal, macro)
 2026-11-20 16:17 | [SKILL] 📰 WMT descartada por noticias: 343 Companies Report $28.5 Billion In Trump Tariff Refunds. Here's Where The Money Is Goin (legal, macro)
 2026-11-20 16:17 | [SKILL] 🕰️ XLRE: entrada 43.36 stop 43.18 objetivo 43.72 | objetivo antes 15%, stop antes 50% | con comisión: simulación -0.53R, historia -0.49R (27 casos) -> ❌ no
+2026-11-20 16:30 | [CRIPTO] 🔎 Bot C3 (rebote 10) investiga 33 monedas: señal en 5, 1 con su regla ganando en 30 días (TRUMP/USD +17.0%)
+2026-11-20 16:30 | [CRIPTO] 🕰️ Bot C3 elige TRUMP/USD: en 30 días su regla hizo 40 operaciones, 52% ganadoras, total +17.0% (con comisión) -> ✅ entra
+2026-11-20 16:30 | [CRIPTO] Bot C3 (rebote 10) COMPRA 15800.512313 TRUMP/USD a 0.8380 | vida 13,939$
+2026-11-20 16:30 | [CRIPTO] Orden enviada: buy 15800.512313 TRUMP/USD (id 790281ca-fd4d-4e45-a51f-15d67abbff03)
+2026-11-20 16:30 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 161 valores: señal en 19, 5 con su regla ganando las últimas sesiones (SOXS +3.07%/día, SPDN +0.26%/día, ABBV +0.07%/día, XLRE -0.15%/día)
+2026-11-20 16:30 | [DIARIO] 🕰️ Bot D1 SOXS: stop 73.29 objetivo 75.54 | con comisión: simulación -0.15R, historia -0.28R (33 casos) -> ❌ no
+2026-11-20 16:30 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 15 full session(s) of SPDN before 2026-11-20 in the data; the time machine needs at least 20
+2026-11-20 16:30 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 161 valores: señal en 15, 0 con su regla ganando las últimas sesiones
+2026-11-20 16:31 | [ACTIVA] 🔎 Bot A1 (ruptura 30) investiga 161 valores: señal en 17, mira primero: XLP, TLT, SOXS, SPDN
+2026-11-20 16:31 | [ACTIVA] 📋 Bot A1 XLP: entra a 91.75, stop 91.18, objetivo 92.90 -> ✅ COMPRA
+2026-11-20 16:31 | [ACTIVA] Bot A1 (ruptura 30) COMPRA 110.0644 XLP a 91.75 | vida 16,687$
+2026-11-20 16:31 | [ACTIVA] Orden enviada: buy 110.0644 XLP (id 39f38a52-13ff-467d-b8ca-38ea4ab8a6c9)
+2026-11-20 16:32 | [SKILL] 🔎 Escáner 10:31: 81 roturas, 6 recientes para estudiar.
+2026-11-20 16:32 | [SKILL] 🕰️ VZ: entrada 46.75 stop 46.55 objetivo 47.15 | objetivo antes 24%, stop antes 70% | con comisión: simulación -0.66R, historia -0.61R (34 casos) -> ❌ no
+2026-11-20 16:32 | [SKILL]   IEF: stop demasiado pegado (0.11 $), no vale.
+2026-11-20 16:32 | [SKILL] 📰 JNJ descartada por noticias: HALO Faces Legal Setback in Germany Over MRK's Keytruda SC, Stock Down (legal)
+2026-11-20 16:32 | [SKILL] 🕰️ SOXS: entrada 73.60 stop 69.58 objetivo 81.64 | objetivo antes 4%, stop antes 24% | con comisión: simulación +0.01R, historia -0.11R (33 casos) -> ❌ no
+2026-11-20 16:32 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 15 full session(s) of SPDN before 2026-11-20 in the data; the time machine needs at least 20
