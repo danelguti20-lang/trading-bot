@@ -49,22 +49,22 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "NVDA",
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 15847.572959067995,
-      "acciones": 0.0,
+      "efectivo": 9265.86886034324,
+      "acciones": 47.037443,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-11",
       "hijos": 0,
       "hoy": "2026-11-20",
-      "operado_hoy": false,
+      "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 139.785,
+      "stop": 138.38,
+      "meta": 142.59,
       "contra_cerebro": true,
       "perdidas": 2
     }
@@ -109,9 +109,12 @@
       "titulares": []
     },
     "NVDA": {
-      "hora": "2026-11-19T15:46:20.363413+00:00",
-      "malos": 0,
-      "titulares": []
+      "hora": "2026-11-20T14:46:15.200870+00:00",
+      "malos": 2,
+      "titulares": [
+        "Stock Market Today: Tech Futures Sell Off As Anthropic Plunges 10% After IPO (Live Coverage)",
+        "Anthropic stock sinks sharply, while S&P 500 hits worst losing streak since 2024"
+      ]
     },
     "OXY": {
       "hora": "2026-11-12T15:11:48.788173+00:00",
@@ -221,7 +224,9 @@
       "titulares": []
     }
   },
-  "precios": {},
+  "precios": {
+    "NVDA": 139.785
+  },
   "cerebro": {
     "a_favor": {
       "n": 41,
