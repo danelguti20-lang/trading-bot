@@ -49,7 +49,15 @@
     }
   ],
   "dia": "2026-11-20",
-  "memoria": {},
+  "memoria": {
+    "SKY/USD-rebote-10": {
+      "hora": "2026-11-20 06:00:00+00:00",
+      "n": 49,
+      "media": -0.00587,
+      "total": -0.27095,
+      "ganadores": 0.36735
+    }
+  },
   "precios": {},
   "eurusd": 1.0992,
   "eurusd_inicio": 1.1193
