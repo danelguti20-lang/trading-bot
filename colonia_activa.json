@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "SPY",
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 15655.6242079841,
-      "acciones": 0.0,
+      "efectivo": 9127.309616185099,
+      "acciones": 9.22695,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,10 +62,10 @@
       "hoy": "2026-11-20",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
-      "contra_cerebro": true,
+      "entrada": 706.82,
+      "stop": 699.75,
+      "meta": 720.96,
+      "contra_cerebro": false,
       "perdidas": 3
     }
   ],
@@ -227,7 +227,8 @@
     }
   },
   "precios": {
-    "XLP": 91.915
+    "XLP": 91.76,
+    "SPY": 706.82
   },
   "cerebro": {
     "a_favor": {

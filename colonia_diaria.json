@@ -70,7 +70,7 @@
     }
   ],
   "precios": {
-    "SOXS": 75.82
+    "SOXS": 75.71
   },
   "eurusd": 1.099,
   "eurusd_inicio": 1.1193,
@@ -374,6 +374,24 @@
       "media": -0.01333,
       "ganadores": 0.26667,
       "n": 15
+    },
+    "QQQ-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.00667,
+      "ganadores": 0.2,
+      "n": 15
+    },
+    "AAPL-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.00238,
+      "ganadores": 0.33333,
+      "n": 18
+    },
+    "XLF-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.0045,
+      "ganadores": 0.05882,
+      "n": 17
     }
   },
   "noticias": {
