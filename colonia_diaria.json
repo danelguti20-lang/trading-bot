@@ -5,22 +5,22 @@
     {
       "id": 1,
       "padre": null,
-      "activo": null,
+      "activo": "SOXS",
       "estrategia": "ruptura",
       "p": 30,
-      "efectivo": 17022.70232455523,
-      "acciones": 0.0,
+      "efectivo": 9936.83534150037,
+      "acciones": 93.363073,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-09",
       "hijos": 0,
       "hoy": "2026-11-20",
-      "operado_hoy": false,
+      "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 75.82,
+      "stop": 75.06,
+      "meta": 77.34,
       "contra_cerebro": false,
       "perdidas": 0
     },
@@ -69,7 +69,9 @@
       "perdidas": 0
     }
   ],
-  "precios": {},
+  "precios": {
+    "SOXS": 75.82
+  },
   "eurusd": 1.099,
   "eurusd_inicio": 1.1193,
   "memoria": {
@@ -312,6 +314,66 @@
       "media": -0.00261,
       "ganadores": 0.4375,
       "n": 16
+    },
+    "XOM-ruptura-30": {
+      "fecha": "2026-11-20",
+      "media": -0.0005,
+      "ganadores": 0.57143,
+      "n": 7
+    },
+    "CMCSA-ruptura-30": {
+      "fecha": "2026-11-20",
+      "media": -0.00118,
+      "ganadores": 0.5,
+      "n": 12
+    },
+    "NVDA-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.00824,
+      "ganadores": 0.36842,
+      "n": 19
+    },
+    "SPY-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.00606,
+      "ganadores": 0.06667,
+      "n": 15
+    },
+    "MU-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.01008,
+      "ganadores": 0.33333,
+      "n": 18
+    },
+    "AMD-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.00964,
+      "ganadores": 0.4,
+      "n": 15
+    },
+    "IWM-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.00728,
+      "ganadores": 0.0625,
+      "n": 16
+    },
+    "NFLX-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.0066,
+      "ganadores": 0.15789,
+      "n": 19
+    },
+    "SMH-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.00562,
+      "ganadores": 0.41176,
+      "n": 17
+    },
+    "TQQQ-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.01333,
+      "ganadores": 0.26667,
+      "n": 15
     }
   },
   "noticias": {
@@ -458,6 +520,11 @@
     },
     "DKNG": {
       "hora": "2026-11-19T19:01:05.605169+00:00",
+      "malos": 0,
+      "titulares": []
+    },
+    "SOXS": {
+      "hora": "2026-11-20T15:45:51.698541+00:00",
       "malos": 0,
       "titulares": []
     }

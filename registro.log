@@ -2970,3 +2970,12 @@
 2026-11-20 16:32 | [SKILL] 📰 JNJ descartada por noticias: HALO Faces Legal Setback in Germany Over MRK's Keytruda SC, Stock Down (legal)
 2026-11-20 16:32 | [SKILL] 🕰️ SOXS: entrada 73.60 stop 69.58 objetivo 81.64 | objetivo antes 4%, stop antes 24% | con comisión: simulación +0.01R, historia -0.11R (33 casos) -> ❌ no
 2026-11-20 16:32 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 15 full session(s) of SPDN before 2026-11-20 in the data; the time machine needs at least 20
+2026-11-20 16:45 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 160 valores: señal en 19, 7 con su regla ganando las últimas sesiones (SOXS +3.07%/día, SPDN +0.26%/día, ABBV +0.07%/día, XOM -0.05%/día)
+2026-11-20 16:45 | [DIARIO] 🕰️ Bot D1 SOXS: stop 75.06 objetivo 77.34 | con comisión: simulación -0.24R, historia -0.25R (33 casos) -> ✅ COMPRA
+2026-11-20 16:45 | [DIARIO] Bot D1 (ruptura 30) COMPRA 93.3631 SOXS a 75.82 | vida 17,016$
+2026-11-20 16:45 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 160 valores: señal en 43, 0 con su regla ganando las últimas sesiones
+2026-11-20 16:45 | [DIARIO] Orden enviada: buy 93.3631 SOXS (id d1c6f562-bf3a-458d-91a6-0e9ec5ade830)
+2026-11-20 16:46 | [ACTIVA] 🛑 Bot A3 STOP: NVDA a 135.98 (entró a 139.78).
+2026-11-20 16:46 | [ACTIVA] Bot A3 (rebote 20) VENDE 47.0374 NVDA a 135.98 | vida 15,656$
+2026-11-20 16:46 | [ACTIVA] Orden enviada: sell 47.0374 NVDA (id a74a5a19-28d7-4627-a873-7934e792afae)
+2026-11-20 16:47 | [SKILL] 🔎 Escáner 10:46: 80 roturas, 0 recientes para estudiar.
