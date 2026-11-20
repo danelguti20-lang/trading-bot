@@ -3022,3 +3022,12 @@
 2026-11-20 18:46 | [ACTIVA] 🛑 Bot A2 STOP: GOOGL a 272.75 (entró a 275.75).
 2026-11-20 18:46 | [ACTIVA] Bot A2 (mañana 0.2) VENDE 25.0714 GOOGL a 272.75 | vida 16,541$
 2026-11-20 18:46 | [ACTIVA] Orden enviada: sell 25.0714 GOOGL (id de267d07-a299-4d34-98b3-bdd1676bfcb4)
+2026-11-20 19:01 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 158 valores: señal en 33, 3 con su regla ganando las últimas sesiones (SPDN +0.12%/día, V -0.16%/día, SQQQ -0.17%/día)
+2026-11-20 19:01 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 15 full session(s) of SPDN before 2026-11-20 in the data; the time machine needs at least 20
+2026-11-20 19:01 | [DIARIO] 📰 Bot D2 no compra V: JPMorgan Faces Data Leak After Banking Outage: Risks Mount? (risk)
+2026-11-20 19:01 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 158 valores: señal en 19, 1 con su regla ganando las últimas sesiones (TSLA -0.10%/día)
+2026-11-20 19:01 | [DIARIO] 🕰️ Bot D3 TSLA: stop 348.68 objetivo 359.27 | con comisión: simulación -0.25R, historia -0.14R (33 casos) -> ❌ no
+2026-11-20 19:01 | [ACTIVA] 🔎 Bot A2 (mañana 0.2) investiga 158 valores: señal en 34, mira primero: XLE, UNH, TLT, SOXS
+2026-11-20 19:01 | [ACTIVA] 📋 Bot A2 XLE: entra a 61.12, stop 60.50, objetivo 62.36 -> ✅ COMPRA
+2026-11-20 19:01 | [ACTIVA] Bot A2 (mañana 0.2) COMPRA 111.4252 XLE a 61.12 | vida 16,534$
+2026-11-20 19:01 | [ACTIVA] Orden enviada: buy 111.4252 XLE (id 5bf1500c-b69b-4c32-ab82-69a73ae189f7)

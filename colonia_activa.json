@@ -27,11 +27,11 @@
     {
       "id": 2,
       "padre": null,
-      "activo": null,
+      "activo": "XLE",
       "estrategia": "mañana",
       "p": 0.2,
-      "efectivo": 16540.844993954306,
-      "acciones": 0.0,
+      "efectivo": 9723.727746533827,
+      "acciones": 111.425179,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -40,9 +40,9 @@
       "hoy": "2026-11-20",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 61.12,
+      "stop": 60.5,
+      "meta": 62.36,
       "contra_cerebro": false,
       "perdidas": 1
     },
@@ -184,7 +184,7 @@
       "titulares": []
     },
     "XLE": {
-      "hora": "2026-11-18T19:16:39.393658+00:00",
+      "hora": "2026-11-20T18:01:39.325171+00:00",
       "malos": 0,
       "titulares": []
     },
@@ -232,8 +232,9 @@
     }
   },
   "precios": {
-    "XLP": 91.33,
-    "SPY": 700.1
+    "XLP": 91.395,
+    "XLE": 61.12,
+    "SPY": 700.6
   },
   "cerebro": {
     "a_favor": {

@@ -630,6 +630,36 @@
       "media": -0.0047,
       "ganadores": 0.15789,
       "n": 19
+    },
+    "V-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.00578,
+      "ganadores": 0.11111,
+      "n": 18
+    },
+    "COST-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.00368,
+      "ganadores": 0.25,
+      "n": 16
+    },
+    "CAT-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.00924,
+      "ganadores": 0.27778,
+      "n": 18
+    },
+    "MA-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.00533,
+      "ganadores": 0.10526,
+      "n": 19
+    },
+    "PDD-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.00528,
+      "ganadores": 0.16667,
+      "n": 18
     }
   },
   "noticias": {
