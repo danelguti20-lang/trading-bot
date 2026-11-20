@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "TSLA",
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 15247.77187412083,
-      "acciones": 0.0,
+      "efectivo": 8898.57228637982,
+      "acciones": 18.054871,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,14 +62,16 @@
       "hoy": "2026-11-20",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 351.31,
+      "stop": 347.79,
+      "meta": 358.35,
       "contra_cerebro": false,
       "perdidas": 1
     }
   ],
-  "precios": {},
+  "precios": {
+    "TSLA": 351.31
+  },
   "eurusd": 1.099,
   "eurusd_inicio": 1.1193,
   "memoria": {
@@ -780,9 +782,11 @@
       "titulares": []
     },
     "TSLA": {
-      "hora": "2026-11-17T18:16:14.281646+00:00",
-      "malos": 0,
-      "titulares": []
+      "hora": "2026-11-20T18:16:03.410385+00:00",
+      "malos": 1,
+      "titulares": [
+        "Bitcoin sell-off versus the tech sell-off, and the SEC finds eight fake crypto trading platforms"
+      ]
     },
     "SLB": {
       "hora": "2026-11-16T20:31:00.783979+00:00",

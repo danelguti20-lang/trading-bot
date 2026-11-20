@@ -3031,3 +3031,13 @@
 2026-11-20 19:01 | [ACTIVA] 📋 Bot A2 XLE: entra a 61.12, stop 60.50, objetivo 62.36 -> ✅ COMPRA
 2026-11-20 19:01 | [ACTIVA] Bot A2 (mañana 0.2) COMPRA 111.4252 XLE a 61.12 | vida 16,534$
 2026-11-20 19:01 | [ACTIVA] Orden enviada: buy 111.4252 XLE (id 5bf1500c-b69b-4c32-ab82-69a73ae189f7)
+2026-11-20 19:16 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 158 valores: señal en 34, 3 con su regla ganando las últimas sesiones (SPDN +0.12%/día, V -0.16%/día, SQQQ -0.17%/día)
+2026-11-20 19:16 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 15 full session(s) of SPDN before 2026-11-20 in the data; the time machine needs at least 20
+2026-11-20 19:16 | [DIARIO] 📰 Bot D2 no compra V: JPMorgan, Visa Warn of Cyberattack That Hit Outside Vendor (legal, risk)
+2026-11-20 19:16 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 158 valores: señal en 26, 1 con su regla ganando las últimas sesiones (TSLA -0.10%/día)
+2026-11-20 19:16 | [DIARIO] 🕰️ Bot D3 TSLA: stop 347.79 objetivo 358.35 | con comisión: simulación -0.20R, historia -0.14R (33 casos) -> ✅ COMPRA
+2026-11-20 19:16 | [DIARIO] Bot D3 (rebote 10) COMPRA 18.0549 TSLA a 351.31 | vida 15,241$
+2026-11-20 19:16 | [DIARIO] Orden enviada: buy 18.0549 TSLA (id a9ad6afd-1264-44f4-aceb-f415899f52c2)
+2026-11-20 19:16 | [ACTIVA] 🛑 Bot A3 STOP: SPY a 699.70 (entró a 706.82).
+2026-11-20 19:16 | [ACTIVA] Bot A3 (rebote 20) VENDE 9.2270 SPY a 699.70 | vida 15,577$
+2026-11-20 19:16 | [ACTIVA] Orden enviada: sell 9.2270 SPY (id 80a97d0c-1f82-476b-8ea5-a3110803629b)
