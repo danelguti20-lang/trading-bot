@@ -804,6 +804,18 @@
       "media": -0.01287,
       "ganadores": 0.33333,
       "n": 15
+    },
+    "PLTR-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.0039,
+      "ganadores": 0.38889,
+      "n": 18
+    },
+    "BAC-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.00485,
+      "ganadores": 0.16667,
+      "n": 18
     }
   },
   "noticias": {
