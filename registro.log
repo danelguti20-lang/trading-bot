@@ -3059,3 +3059,16 @@
 2026-11-20 20:01 | [DIARIO] 📰 Bot D2 no compra V: JPMorgan, Visa Warn of Cyberattack That Hit Outside Vendor (legal, risk)
 2026-11-20 20:01 | [ACTIVA] Bot A3 (rebote 20) VENDE 11.4373 META a 569.88 | vida 15,593$
 2026-11-20 20:01 | [ACTIVA] Orden enviada: sell 11.4373 META (id 9ba38dc7-2686-460b-8b9b-58f13382882a)
+2026-11-20 20:15 | [CRIPTO] 🔎 Bot C3 (rebote 10) investiga 33 monedas: señal en 7, 0 con su regla ganando en 30 días
+2026-11-20 20:16 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 158 valores: señal en 26, 4 con su regla ganando las últimas sesiones (SPDN +0.12%/día, JNJ +0.06%/día, V -0.16%/día, SQQQ -0.17%/día)
+2026-11-20 20:16 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 15 full session(s) of SPDN before 2026-11-20 in the data; the time machine needs at least 20
+2026-11-20 20:16 | [DIARIO] 📰 Bot D2 no compra JNJ: J&J to install first Ottava robot in US hospital (regulatory)
+2026-11-20 20:16 | [ACTIVA] 🛑 Bot A1 STOP: XLP a 91.08 (entró a 91.75).
+2026-11-20 20:16 | [ACTIVA] Bot A1 (ruptura 30) VENDE 110.0644 XLP a 91.08 | vida 16,602$
+2026-11-20 20:16 | [ACTIVA] 🔎 Bot A3 (rebote 20) investiga 158 valores: señal en 53, mira primero: NVDA, SPY, AMD, AMZN
+2026-11-20 20:16 | [ACTIVA] 📋 Bot A3 NVDA: entra a 132.63, stop 131.30, objetivo 135.29 -> ✅ COMPRA
+2026-11-20 20:16 | [ACTIVA] 🧠 Noticias de pánico en NVDA: Michael Burry Locks In Gains on Nvidia, Chipmaker ETF Puts As AI Rout Deepens | Supply Chain Stocks Sink Amid Wall Street Sell-Off, Though Air Freight Shows Resilience
+2026-11-20 20:16 | [ACTIVA] 🧠 Bot A3 compra aunque el cerebro diría NO (noticias).
+2026-11-20 20:16 | [ACTIVA] Bot A3 (rebote 20) COMPRA 48.8720 NVDA a 132.63 | vida 15,586$
+2026-11-20 20:16 | [ACTIVA] Orden enviada: buy 48.8720 NVDA (id 921cbb42-d053-458b-874a-6d0858027686)
+2026-11-20 20:16 | [ACTIVA] Orden enviada: sell 110.0644 XLP (id 57178b88-0358-47d3-9204-809a60b51838)

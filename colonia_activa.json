@@ -5,11 +5,11 @@
     {
       "id": 1,
       "padre": null,
-      "activo": "XLP",
+      "activo": null,
       "estrategia": "ruptura",
       "p": 30,
-      "efectivo": 6587.929562675499,
-      "acciones": 110.064366,
+      "efectivo": 16602.01758399205,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -18,11 +18,11 @@
       "hoy": "2026-11-20",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 91.755,
-      "stop": 91.18,
-      "meta": 92.9,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
-      "perdidas": 1
+      "perdidas": 2
     },
     {
       "id": 2,
@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "NVDA",
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 15592.708197087726,
-      "acciones": 0.0,
+      "efectivo": 9104.333474778246,
+      "acciones": 48.871996,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,10 +62,10 @@
       "hoy": "2026-11-20",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
-      "contra_cerebro": false,
+      "entrada": 132.63,
+      "stop": 131.3,
+      "meta": 135.29,
+      "contra_cerebro": true,
       "perdidas": 0
     }
   ],
@@ -109,11 +109,12 @@
       "titulares": []
     },
     "NVDA": {
-      "hora": "2026-11-20T14:46:15.200870+00:00",
-      "malos": 2,
+      "hora": "2026-11-20T19:16:33.934513+00:00",
+      "malos": 3,
       "titulares": [
-        "Stock Market Today: Tech Futures Sell Off As Anthropic Plunges 10% After IPO (Live Coverage)",
-        "Anthropic stock sinks sharply, while S&P 500 hits worst losing streak since 2024"
+        "Michael Burry Locks In Gains on Nvidia, Chipmaker ETF Puts As AI Rout Deepens",
+        "Supply Chain Stocks Sink Amid Wall Street Sell-Off, Though Air Freight Shows Resilience",
+        "Update: US Equity Indexes Drop as Anthropic Leads Big-Tech Plunge Amid Sliding Treasury Yields"
       ]
     },
     "OXY": {
@@ -232,14 +233,14 @@
     }
   },
   "precios": {
-    "XLP": 91.28,
-    "XLE": 61.22
+    "XLE": 61.165,
+    "NVDA": 132.63
   },
   "cerebro": {
     "a_favor": {
-      "n": 45,
+      "n": 46,
       "ganadas": 15,
-      "suma": -0.138702
+      "suma": -0.148098
     },
     "en_contra": {
       "n": 14,

@@ -49,7 +49,57 @@
     }
   ],
   "dia": "2026-11-20",
-  "memoria": {},
+  "memoria": {
+    "UNI/USD-rebote-10": {
+      "hora": "2026-11-20 18:00:00+00:00",
+      "n": 48,
+      "media": -0.00746,
+      "total": -0.30906,
+      "ganadores": 0.35417
+    },
+    "ARB/USD-rebote-10": {
+      "hora": "2026-11-20 18:00:00+00:00",
+      "n": 48,
+      "media": -0.00619,
+      "total": -0.26398,
+      "ganadores": 0.4375
+    },
+    "ETH/USD-rebote-10": {
+      "hora": "2026-11-20 18:00:00+00:00",
+      "n": 38,
+      "media": -0.00835,
+      "total": -0.2764,
+      "ganadores": 0.21053
+    },
+    "BTC/USD-rebote-10": {
+      "hora": "2026-11-20 18:00:00+00:00",
+      "n": 38,
+      "media": -0.00822,
+      "total": -0.27139,
+      "ganadores": 0.23684
+    },
+    "AAVE/USD-rebote-10": {
+      "hora": "2026-11-20 18:00:00+00:00",
+      "n": 46,
+      "media": -0.00908,
+      "total": -0.34979,
+      "ganadores": 0.43478
+    },
+    "XRP/USD-rebote-10": {
+      "hora": "2026-11-20 18:00:00+00:00",
+      "n": 44,
+      "media": -0.00832,
+      "total": -0.31182,
+      "ganadores": 0.25
+    },
+    "POL/USD-rebote-10": {
+      "hora": "2026-11-20 18:00:00+00:00",
+      "n": 46,
+      "media": -0.00642,
+      "total": -0.26167,
+      "ganadores": 0.41304
+    }
+  },
   "precios": {},
   "eurusd": 1.099,
   "eurusd_inicio": 1.1193
