@@ -49,45 +49,9 @@
     }
   ],
   "dia": "2026-11-20",
-  "memoria": {
-    "BONK/USD-rebote-10": {
-      "hora": "2026-11-20 14:00:00+00:00",
-      "n": 53,
-      "media": -0.00352,
-      "total": -0.17784,
-      "ganadores": 0.45283
-    },
-    "FIL/USD-rebote-10": {
-      "hora": "2026-11-20 14:00:00+00:00",
-      "n": 51,
-      "media": -0.00797,
-      "total": -0.34248,
-      "ganadores": 0.33333
-    },
-    "CRV/USD-rebote-10": {
-      "hora": "2026-11-20 14:00:00+00:00",
-      "n": 52,
-      "media": -0.00567,
-      "total": -0.26374,
-      "ganadores": 0.53846
-    },
-    "DOGE/USD-rebote-10": {
-      "hora": "2026-11-20 14:00:00+00:00",
-      "n": 46,
-      "media": -0.00523,
-      "total": -0.2197,
-      "ganadores": 0.3913
-    },
-    "TRUMP/USD-rebote-10": {
-      "hora": "2026-11-20 14:00:00+00:00",
-      "n": 40,
-      "media": 0.00733,
-      "total": 0.1697,
-      "ganadores": 0.525
-    }
-  },
+  "memoria": {},
   "precios": {
-    "TRUMP/USD": 0.839452
+    "TRUMP/USD": 0.83515
   },
   "eurusd": 1.099,
   "eurusd_inicio": 1.1193

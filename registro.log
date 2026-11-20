@@ -2994,3 +2994,14 @@
 2026-11-20 17:45 | [DIARIO] Bot D1 (ruptura 30) VENDE 93.3631 SOXS a 78.49 | vida 17,258$
 2026-11-20 17:45 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 160 valores: señal en 78, 0 con su regla ganando las últimas sesiones
 2026-11-20 17:45 | [DIARIO] Orden enviada: sell 93.3631 SOXS (id a6af382e-57dc-4045-ab1f-977502915034)
+2026-11-20 18:01 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 159 valores: señal en 33, 2 con su regla ganando las últimas sesiones (SPDN +0.12%/día, V -0.16%/día)
+2026-11-20 18:01 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 15 full session(s) of SPDN before 2026-11-20 in the data; the time machine needs at least 20
+2026-11-20 18:01 | [DIARIO] 📰 Bot D2 no compra V: JPMorgan Faces Data Leak After Banking Outage: Risks Mount? (risk)
+2026-11-20 18:01 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 159 valores: señal en 25, 2 con su regla ganando las últimas sesiones (MRNA +0.23%/día, TSLA -0.10%/día)
+2026-11-20 18:01 | [DIARIO] 🕰️ Bot D3 MRNA: stop 197.09 objetivo 203.09 | con comisión: simulación -0.16R, historia -0.20R (34 casos) -> ✅ COMPRA
+2026-11-20 18:01 | [DIARIO] Bot D3 (rebote 10) COMPRA 31.9700 MRNA a 199.09 | vida 15,328$
+2026-11-20 18:01 | [DIARIO] Orden enviada: buy 31.9700 MRNA (id aae54c35-b825-4c3c-bc6d-ca6d78ad29cd)
+2026-11-20 18:01 | [ACTIVA] 🔎 Bot A2 (mañana 0.2) investiga 159 valores: señal en 35, mira primero: GOOGL, XLE, UNH, TLT
+2026-11-20 18:01 | [ACTIVA] 📋 Bot A2 GOOGL: entra a 275.75, stop 272.99, objetivo 281.28 -> ✅ COMPRA
+2026-11-20 18:01 | [ACTIVA] Bot A2 (mañana 0.2) COMPRA 25.0714 GOOGL a 275.75 | vida 16,623$
+2026-11-20 18:01 | [ACTIVA] Orden enviada: buy 25.0714 GOOGL (id 1b39aa8c-58af-425b-b26c-950814174079)

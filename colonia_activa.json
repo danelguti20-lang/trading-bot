@@ -27,22 +27,22 @@
     {
       "id": 2,
       "padre": null,
-      "activo": null,
+      "activo": "GOOGL",
       "estrategia": "mañana",
       "p": 0.2,
-      "efectivo": 16629.936481351506,
-      "acciones": 0.0,
+      "efectivo": 9709.447969214307,
+      "acciones": 25.07144,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-11",
       "hijos": 0,
       "hoy": "2026-11-20",
-      "operado_hoy": false,
+      "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 275.755,
+      "stop": 272.99,
+      "meta": 281.28,
       "contra_cerebro": false,
       "perdidas": 0
     },
@@ -224,11 +224,17 @@
       "hora": "2026-11-19T19:46:12.935677+00:00",
       "malos": 0,
       "titulares": []
+    },
+    "GOOGL": {
+      "hora": "2026-11-20T17:01:26.038543+00:00",
+      "malos": 0,
+      "titulares": []
     }
   },
   "precios": {
-    "XLP": 91.445,
-    "SPY": 702.3
+    "XLP": 91.64,
+    "GOOGL": 275.755,
+    "SPY": 703.12
   },
   "cerebro": {
     "a_favor": {
