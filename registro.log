@@ -3049,3 +3049,6 @@
 2026-11-20 19:31 | [ACTIVA] 📋 Bot A3 META: entra a 567.37, stop 561.69, objetivo 578.71 -> ✅ COMPRA
 2026-11-20 19:31 | [ACTIVA] Bot A3 (rebote 20) COMPRA 11.4373 META a 567.37 | vida 15,570$
 2026-11-20 19:31 | [ACTIVA] Orden enviada: buy 11.4373 META (id 5d45a69e-b20c-4311-85b0-c6417adeb0de)
+2026-11-20 19:45 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 158 valores: señal en 34, 3 con su regla ganando las últimas sesiones (SPDN +0.12%/día, V -0.16%/día, SQQQ -0.17%/día)
+2026-11-20 19:45 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 15 full session(s) of SPDN before 2026-11-20 in the data; the time machine needs at least 20
+2026-11-20 19:45 | [DIARIO] 📰 Bot D2 no compra V: JPMorgan, Visa Warn of Cyberattack That Hit Outside Vendor (legal, risk)
