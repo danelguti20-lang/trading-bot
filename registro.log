@@ -3008,3 +3008,9 @@
 2026-11-20 18:15 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 159 valores: señal en 34, 2 con su regla ganando las últimas sesiones (SPDN +0.12%/día, V -0.16%/día)
 2026-11-20 18:15 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 15 full session(s) of SPDN before 2026-11-20 in the data; the time machine needs at least 20
 2026-11-20 18:15 | [DIARIO] 📰 Bot D2 no compra V: JPMorgan Faces Data Leak After Banking Outage: Risks Mount? (risk)
+2026-11-20 18:30 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 159 valores: señal en 33, 3 con su regla ganando las últimas sesiones (SPDN +0.12%/día, V -0.16%/día, SQQQ -0.17%/día)
+2026-11-20 18:30 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 15 full session(s) of SPDN before 2026-11-20 in the data; the time machine needs at least 20
+2026-11-20 18:30 | [DIARIO] 📰 Bot D2 no compra V: JPMorgan Faces Data Leak After Banking Outage: Risks Mount? (risk)
+2026-11-20 18:30 | [DIARIO] 🛑 Bot D3 STOP: MRNA a 196.79 (entró a 199.09).
+2026-11-20 18:30 | [DIARIO] Bot D3 (rebote 10) VENDE 31.9700 MRNA a 196.79 | vida 15,248$
+2026-11-20 18:30 | [DIARIO] Orden enviada: sell 31.9700 MRNA (id 10f40221-dd53-47fe-8351-6d06f90f1ac8)

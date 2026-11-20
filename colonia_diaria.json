@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": "MRNA",
+      "activo": null,
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 8962.68852316651,
-      "acciones": 31.969992,
+      "efectivo": 15247.77187412083,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,16 +62,14 @@
       "hoy": "2026-11-20",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 199.09,
-      "stop": 197.09,
-      "meta": 203.09,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
-      "perdidas": 0
+      "perdidas": 1
     }
   ],
-  "precios": {
-    "MRNA": 197.27
-  },
+  "precios": {},
   "eurusd": 1.099,
   "eurusd_inicio": 1.1193,
   "memoria": {
@@ -614,6 +612,12 @@
       "media": -0.00354,
       "ganadores": 0.22222,
       "n": 9
+    },
+    "SQQQ-mañana-0.3": {
+      "fecha": "2026-11-20",
+      "media": -0.00169,
+      "ganadores": 0.33333,
+      "n": 12
     }
   },
   "noticias": {
@@ -776,9 +780,9 @@
   },
   "cerebro": {
     "a_favor": {
-      "n": 39,
+      "n": 40,
       "ganadas": 22,
-      "suma": -0.114861
+      "suma": -0.12839
     }
   }
 }
