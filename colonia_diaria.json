@@ -70,7 +70,7 @@
     }
   ],
   "precios": {
-    "SOXS": 75.71
+    "SOXS": 75.16
   },
   "eurusd": 1.099,
   "eurusd_inicio": 1.1193,
@@ -391,6 +391,72 @@
       "fecha": "2026-11-20",
       "media": -0.0045,
       "ganadores": 0.05882,
+      "n": 17
+    },
+    "KRE-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.0052,
+      "ganadores": 0.15789,
+      "n": 19
+    },
+    "INTU-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.00465,
+      "ganadores": 0.47059,
+      "n": 17
+    },
+    "KLAC-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.00539,
+      "ganadores": 0.4375,
+      "n": 16
+    },
+    "XLY-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.00449,
+      "ganadores": 0.11111,
+      "n": 18
+    },
+    "UBER-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.00419,
+      "ganadores": 0.27778,
+      "n": 18
+    },
+    "SHOP-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.0091,
+      "ganadores": 0.375,
+      "n": 16
+    },
+    "PFE-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.00532,
+      "ganadores": 0.22222,
+      "n": 18
+    },
+    "UPS-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.00444,
+      "ganadores": 0.38462,
+      "n": 13
+    },
+    "JPM-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.00551,
+      "ganadores": 0.11765,
+      "n": 17
+    },
+    "QCOM-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.00565,
+      "ganadores": 0.41176,
+      "n": 17
+    },
+    "AXP-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.00245,
+      "ganadores": 0.23529,
       "n": 17
     }
   },
