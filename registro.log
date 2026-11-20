@@ -3005,3 +3005,6 @@
 2026-11-20 18:01 | [ACTIVA] 📋 Bot A2 GOOGL: entra a 275.75, stop 272.99, objetivo 281.28 -> ✅ COMPRA
 2026-11-20 18:01 | [ACTIVA] Bot A2 (mañana 0.2) COMPRA 25.0714 GOOGL a 275.75 | vida 16,623$
 2026-11-20 18:01 | [ACTIVA] Orden enviada: buy 25.0714 GOOGL (id 1b39aa8c-58af-425b-b26c-950814174079)
+2026-11-20 18:15 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 159 valores: señal en 34, 2 con su regla ganando las últimas sesiones (SPDN +0.12%/día, V -0.16%/día)
+2026-11-20 18:15 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 15 full session(s) of SPDN before 2026-11-20 in the data; the time machine needs at least 20
+2026-11-20 18:15 | [DIARIO] 📰 Bot D2 no compra V: JPMorgan Faces Data Leak After Banking Outage: Risks Mount? (risk)

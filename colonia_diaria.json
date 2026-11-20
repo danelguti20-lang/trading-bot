@@ -70,7 +70,7 @@
     }
   ],
   "precios": {
-    "MRNA": 199.09
+    "MRNA": 197.27
   },
   "eurusd": 1.099,
   "eurusd_inicio": 1.1193,
@@ -608,6 +608,12 @@
       "media": -0.00428,
       "ganadores": 0.44444,
       "n": 18
+    },
+    "MA-mañana-0.3": {
+      "fecha": "2026-11-20",
+      "media": -0.00354,
+      "ganadores": 0.22222,
+      "n": 9
     }
   },
   "noticias": {
