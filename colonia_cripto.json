@@ -35,58 +35,53 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "TRUMP/USD",
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 15108.486866031028,
-      "acciones": 0.0,
+      "efectivo": 755.4243433013871,
+      "acciones": 15876.474051215,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-09",
       "hijos": 0,
-      "entrada": null
+      "entrada": 0.9017915
     }
   ],
   "dia": "2026-11-20",
   "memoria": {
-    "BONK/USD-rebote-10": {
-      "hora": "2026-11-20 09:00:00+00:00",
-      "n": 53,
-      "media": -0.00438,
-      "total": -0.21394,
-      "ganadores": 0.43396
-    },
-    "XRP/USD-rebote-10": {
-      "hora": "2026-11-20 09:00:00+00:00",
-      "n": 43,
-      "media": -0.0073,
-      "total": -0.27379,
-      "ganadores": 0.25581
-    },
-    "SOL/USD-rebote-10": {
-      "hora": "2026-11-20 09:00:00+00:00",
-      "n": 43,
-      "media": -0.00856,
-      "total": -0.31314,
-      "ganadores": 0.25581
-    },
-    "BCH/USD-rebote-10": {
-      "hora": "2026-11-20 09:00:00+00:00",
-      "n": 46,
-      "media": -0.00545,
-      "total": -0.22646,
-      "ganadores": 0.41304
-    },
     "RENDER/USD-rebote-10": {
-      "hora": "2026-11-20 10:00:00+00:00",
+      "hora": "2026-11-20 11:00:00+00:00",
       "n": 44,
       "media": -0.00271,
       "total": -0.12005,
       "ganadores": 0.5
+    },
+    "TRUMP/USD-rebote-10": {
+      "hora": "2026-11-20 11:00:00+00:00",
+      "n": 39,
+      "media": 0.0085,
+      "total": 0.21616,
+      "ganadores": 0.53846
+    },
+    "HYPE/USD-rebote-10": {
+      "hora": "2026-11-20 11:00:00+00:00",
+      "n": 49,
+      "media": -0.00606,
+      "total": -0.26332,
+      "ganadores": 0.38776
+    },
+    "DOT/USD-rebote-10": {
+      "hora": "2026-11-20 11:00:00+00:00",
+      "n": 46,
+      "media": -0.00556,
+      "total": -0.23298,
+      "ganadores": 0.52174
     }
   },
-  "precios": {},
+  "precios": {
+    "TRUMP/USD": 0.9017915
+  },
   "eurusd": 1.0992,
   "eurusd_inicio": 1.1193
 }
