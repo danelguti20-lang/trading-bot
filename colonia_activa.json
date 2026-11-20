@@ -5,11 +5,11 @@
     {
       "id": 1,
       "padre": null,
-      "activo": "SPY",
+      "activo": null,
       "estrategia": "ruptura",
       "p": 30,
-      "efectivo": 3551.470520241068,
-      "acciones": 18.428481,
+      "efectivo": 16696.98442090783,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -18,11 +18,11 @@
       "hoy": "2026-11-20",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 717.61,
-      "stop": 714.49,
-      "meta": 723.85,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
-      "perdidas": 0
+      "perdidas": 1
     },
     {
       "id": 2,
@@ -227,14 +227,13 @@
     }
   },
   "precios": {
-    "SPY": 717.61,
-    "NVDA": 142.125
+    "NVDA": 140.34
   },
   "cerebro": {
     "a_favor": {
-      "n": 41,
+      "n": 42,
       "ganadas": 14,
-      "suma": -0.109232
+      "suma": -0.116197
     },
     "en_contra": {
       "n": 13,
