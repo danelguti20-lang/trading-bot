@@ -618,6 +618,18 @@
       "media": -0.00169,
       "ganadores": 0.33333,
       "n": 12
+    },
+    "XLP-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.00327,
+      "ganadores": 0.11765,
+      "n": 17
+    },
+    "XLV-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.0047,
+      "ganadores": 0.15789,
+      "n": 19
     }
   },
   "noticias": {
