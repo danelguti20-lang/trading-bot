@@ -48,8 +48,16 @@
       "entrada": null
     }
   ],
-  "dia": "2026-11-19",
-  "memoria": {},
+  "dia": "2026-11-20",
+  "memoria": {
+    "PAXG/USD-rebote-10": {
+      "hora": "2026-11-19 23:00:00+00:00",
+      "n": 40,
+      "media": -0.00544,
+      "total": -0.19722,
+      "ganadores": 0.225
+    }
+  },
   "precios": {},
   "eurusd": 1.0992,
   "eurusd_inicio": 1.1193
