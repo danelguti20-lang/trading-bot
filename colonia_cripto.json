@@ -35,22 +35,60 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "TRUMP/USD",
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 14481.132379773226,
-      "acciones": 0.0,
+      "efectivo": 724.0566189883393,
+      "acciones": 15742.626536447,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-09",
       "hijos": 0,
-      "entrada": null
+      "entrada": 0.871695
     }
   ],
   "dia": "2026-11-20",
-  "memoria": {},
-  "precios": {},
+  "memoria": {
+    "BONK/USD-rebote-10": {
+      "hora": "2026-11-20 14:00:00+00:00",
+      "n": 53,
+      "media": -0.00352,
+      "total": -0.17784,
+      "ganadores": 0.45283
+    },
+    "FIL/USD-rebote-10": {
+      "hora": "2026-11-20 14:00:00+00:00",
+      "n": 51,
+      "media": -0.00797,
+      "total": -0.34248,
+      "ganadores": 0.33333
+    },
+    "CRV/USD-rebote-10": {
+      "hora": "2026-11-20 14:00:00+00:00",
+      "n": 52,
+      "media": -0.00567,
+      "total": -0.26374,
+      "ganadores": 0.53846
+    },
+    "DOGE/USD-rebote-10": {
+      "hora": "2026-11-20 14:00:00+00:00",
+      "n": 46,
+      "media": -0.00523,
+      "total": -0.2197,
+      "ganadores": 0.3913
+    },
+    "TRUMP/USD-rebote-10": {
+      "hora": "2026-11-20 14:00:00+00:00",
+      "n": 40,
+      "media": 0.00733,
+      "total": 0.1697,
+      "ganadores": 0.525
+    }
+  },
+  "precios": {
+    "TRUMP/USD": 0.871695
+  },
   "eurusd": 1.0992,
   "eurusd_inicio": 1.1193
 }

@@ -25,21 +25,12 @@
   "trades_hoy": 0,
   "resultado_hoy": 0.0,
   "vistos_hoy": {
-    "2026-11-19": [
-      "WMT",
-      "HD",
-      "MCD",
-      "AMD",
-      "BABA",
-      "DKNG",
-      "SPDN",
-      "SQQQ",
-      "DELL",
-      "FXI",
-      "PG",
-      "IEF",
-      "SOXS",
-      "TLT"
+    "2026-11-20": [
+      "BA",
+      "CMCSA",
+      "COIN",
+      "CRM",
+      "CSCO"
     ]
   }
 }
