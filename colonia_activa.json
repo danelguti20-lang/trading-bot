@@ -5,11 +5,11 @@
     {
       "id": 1,
       "padre": null,
-      "activo": "TLT",
+      "activo": null,
       "estrategia": "ruptura",
       "p": 30,
-      "efectivo": 9702.239864157047,
-      "acciones": 84.4199,
+      "efectivo": 16567.14794429705,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -18,20 +18,20 @@
       "hoy": "2026-11-20",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 81.65,
-      "stop": 80.83,
-      "meta": 83.29,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
-      "perdidas": 2
+      "perdidas": 3
     },
     {
       "id": 2,
       "padre": null,
-      "activo": "XLE",
+      "activo": null,
       "estrategia": "mañana",
       "p": 0.2,
-      "efectivo": 9723.727746533827,
-      "acciones": 111.425179,
+      "efectivo": 16503.848491770936,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -40,20 +40,20 @@
       "hoy": "2026-11-20",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 61.12,
-      "stop": 60.5,
-      "meta": 62.36,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
-      "perdidas": 1
+      "perdidas": 2
     },
     {
       "id": 3,
       "padre": null,
-      "activo": "AVGO",
+      "activo": null,
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 9038.263246299437,
-      "acciones": 21.19423,
+      "efectivo": 15443.530027439836,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,11 +62,11 @@
       "hoy": "2026-11-20",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 303.745,
-      "stop": 300.7,
-      "meta": 309.84,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": true,
-      "perdidas": 1
+      "perdidas": 2
     }
   ],
   "eurusd": 1.099,
@@ -235,21 +235,17 @@
       "titulares": []
     }
   },
-  "precios": {
-    "TLT": 81.5,
-    "XLE": 60.875,
-    "AVGO": 302.39
-  },
+  "precios": {},
   "cerebro": {
     "a_favor": {
-      "n": 46,
+      "n": 48,
       "ganadas": 15,
-      "suma": -0.148098
+      "suma": -0.158583
     },
     "en_contra": {
-      "n": 15,
+      "n": 16,
       "ganadas": 6,
-      "suma": -0.052115
+      "suma": -0.05814
     }
   }
 }
