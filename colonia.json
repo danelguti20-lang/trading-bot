@@ -5,11 +5,11 @@
     {
       "id": 1,
       "padre": null,
-      "activo": "AMD",
+      "activo": "AMZN",
       "media": 200,
       "gusto": "historia",
-      "efectivo": 7780.026452370553,
-      "acciones": 14.367522,
+      "efectivo": 7281.786759089092,
+      "acciones": 26.634164,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "herido",
@@ -46,11 +46,11 @@
     }
   ],
   "precios": {
-    "AMD": 489.44,
-    "ABBV": 283.575,
-    "XOM": 158.94
+    "AMZN": 247.115,
+    "ABBV": 286.415,
+    "XOM": 159.99
   },
-  "eurusd": 1.0992,
+  "eurusd": 1.099,
   "eurusd_inicio": 1.1193,
   "noticias": {
     "DELL": {
@@ -84,6 +84,11 @@
     },
     "ABBV": {
       "hora": "2026-11-19T21:45:31.363773+00:00",
+      "malos": 0,
+      "titulares": []
+    },
+    "AMZN": {
+      "hora": "2026-11-20T21:45:42.211352+00:00",
       "malos": 0,
       "titulares": []
     }
