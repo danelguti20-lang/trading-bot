@@ -690,6 +690,66 @@
       "media": -0.00513,
       "ganadores": 0.18182,
       "n": 11
+    },
+    "UNH-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.01047,
+      "ganadores": 0.4375,
+      "n": 16
+    },
+    "KO-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.0038,
+      "ganadores": 0.23529,
+      "n": 17
+    },
+    "PG-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.00311,
+      "ganadores": 0.1875,
+      "n": 16
+    },
+    "NOW-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.01311,
+      "ganadores": 0.3125,
+      "n": 16
+    },
+    "XLU-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.00258,
+      "ganadores": 0.15789,
+      "n": 19
+    },
+    "SNOW-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.00899,
+      "ganadores": 0.16667,
+      "n": 18
+    },
+    "PEP-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.00354,
+      "ganadores": 0.29412,
+      "n": 17
+    },
+    "LMT-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.00361,
+      "ganadores": 0.375,
+      "n": 16
+    },
+    "DDOG-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.00708,
+      "ganadores": 0.45,
+      "n": 20
+    },
+    "FDX-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.00324,
+      "ganadores": 0.41176,
+      "n": 17
     }
   },
   "noticias": {

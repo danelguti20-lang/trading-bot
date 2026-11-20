@@ -3086,3 +3086,15 @@
 2026-11-20 20:31 | [ACTIVA] Bot A3 (rebote 20) VENDE 48.8720 NVDA a 130.63 | vida 15,482$
 2026-11-20 20:31 | [ACTIVA] Orden enviada: sell 48.8720 NVDA (id 1b2d4e48-586a-4286-af82-35f5192ade5b)
 2026-11-20 20:31 | [ACTIVA] Orden enviada: buy 84.4199 TLT (id aa17f663-0c13-404f-916d-56b76ffe47f0)
+2026-11-20 20:45 | [CRIPTO] 🔎 Bot C3 (rebote 10) investiga 33 monedas: señal en 7, 0 con su regla ganando en 30 días
+2026-11-20 20:45 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 158 valores: señal en 28, 4 con su regla ganando las últimas sesiones (SPDN +0.12%/día, JNJ +0.06%/día, V -0.16%/día, SQQQ -0.17%/día)
+2026-11-20 20:45 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 15 full session(s) of SPDN before 2026-11-20 in the data; the time machine needs at least 20
+2026-11-20 20:45 | [DIARIO] 📰 Bot D2 no compra JNJ: J&J to install first Ottava robot in US hospital (regulatory)
+2026-11-20 20:46 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 158 valores: señal en 12, 0 con su regla ganando las últimas sesiones
+2026-11-20 20:46 | [ACTIVA] 🔎 Bot A3 (rebote 20) investiga 158 valores: señal en 27, mira primero: NVDA, AVGO, UNH, DELL
+2026-11-20 20:46 | [ACTIVA] 📰 Bot A3 no compra NVDA: Nvidia extends $2.5 trillion rout as SEC probe reportedly investigates its accou (legal)
+2026-11-20 20:46 | [ACTIVA] 📋 Bot A3 AVGO: entra a 303.75, stop 300.70, objetivo 309.84 -> ✅ COMPRA
+2026-11-20 20:46 | [ACTIVA] 🧠 Noticias de pánico en AVGO: Broadcom Stock Plunges 12% and Loses $191 Billion After a Report That Google Cut Its Plans for Broadcom AI Chips | Anthropic Sinks 9% on Day Two as AI Selloff Deepens: Strategist Warns Against “Chasing the IPO”
+2026-11-20 20:46 | [ACTIVA] 🧠 Bot A3 compra aunque el cerebro diría NO (noticias).
+2026-11-20 20:46 | [ACTIVA] Bot A3 (rebote 20) COMPRA 21.1942 AVGO a 303.75 | vida 15,476$
+2026-11-20 20:46 | [ACTIVA] Orden enviada: buy 21.1942 AVGO (id d27fc0f7-e577-4536-9a7f-4b9edfab5921)

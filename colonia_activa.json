@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "AVGO",
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 15482.342279040786,
-      "acciones": 0.0,
+      "efectivo": 9038.263246299437,
+      "acciones": 21.19423,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,9 +62,9 @@
       "hoy": "2026-11-20",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 303.745,
+      "stop": 300.7,
+      "meta": 309.84,
       "contra_cerebro": true,
       "perdidas": 1
     }
@@ -133,9 +133,12 @@
       "titulares": []
     },
     "AVGO": {
-      "hora": "2026-11-16T16:46:07.982019+00:00",
-      "malos": 0,
-      "titulares": []
+      "hora": "2026-11-20T19:46:21.363950+00:00",
+      "malos": 2,
+      "titulares": [
+        "Broadcom Stock Plunges 12% and Loses $191 Billion After a Report That Google Cut Its Plans for Broadcom AI Chips",
+        "Anthropic Sinks 9% on Day Two as AI Selloff Deepens: Strategist Warns Against “Chasing the IPO”"
+      ]
     },
     "NFLX": {
       "hora": "2026-11-13T15:34:55.176567+00:00",
@@ -233,8 +236,9 @@
     }
   },
   "precios": {
-    "TLT": 81.65,
-    "XLE": 60.91
+    "TLT": 81.575,
+    "XLE": 60.96,
+    "AVGO": 303.745
   },
   "cerebro": {
     "a_favor": {
