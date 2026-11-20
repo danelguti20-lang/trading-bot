@@ -750,6 +750,36 @@
       "media": -0.00324,
       "ganadores": 0.41176,
       "n": 17
+    },
+    "VZ-mañana-0.3": {
+      "fecha": "2026-11-20",
+      "media": -0.00245,
+      "ganadores": 0.25,
+      "n": 12
+    },
+    "CRWD-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.00055,
+      "ganadores": 0.4,
+      "n": 15
+    },
+    "HOOD-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.00966,
+      "ganadores": 0.22222,
+      "n": 18
+    },
+    "SOFI-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.00989,
+      "ganadores": 0.44444,
+      "n": 18
+    },
+    "ARM-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.00758,
+      "ganadores": 0.375,
+      "n": 16
     }
   },
   "noticias": {
