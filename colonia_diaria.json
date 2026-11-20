@@ -70,7 +70,7 @@
     }
   ],
   "precios": {
-    "SOXS": 75.16
+    "SOXS": 77.16
   },
   "eurusd": 1.099,
   "eurusd_inicio": 1.1193,
@@ -456,6 +456,48 @@
     "AXP-rebote-10": {
       "fecha": "2026-11-20",
       "media": -0.00245,
+      "ganadores": 0.23529,
+      "n": 17
+    },
+    "MSFT-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.00808,
+      "ganadores": 0.3125,
+      "n": 16
+    },
+    "AMZN-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.00426,
+      "ganadores": 0.27778,
+      "n": 18
+    },
+    "TSLA-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.00096,
+      "ganadores": 0.41176,
+      "n": 17
+    },
+    "EEM-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.00431,
+      "ganadores": 0.11765,
+      "n": 17
+    },
+    "RSP-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.00422,
+      "ganadores": 0.23529,
+      "n": 17
+    },
+    "DELL-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.01313,
+      "ganadores": 0.3,
+      "n": 20
+    },
+    "EWZ-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.00441,
       "ganadores": 0.23529,
       "n": 17
     }
