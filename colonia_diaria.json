@@ -5,11 +5,11 @@
     {
       "id": 1,
       "padre": null,
-      "activo": "SOXS",
+      "activo": null,
       "estrategia": "ruptura",
       "p": 30,
-      "efectivo": 9936.83534150037,
-      "acciones": 93.363073,
+      "efectivo": 17257.574873670597,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -18,9 +18,9 @@
       "hoy": "2026-11-20",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 75.82,
-      "stop": 75.06,
-      "meta": 77.34,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
       "perdidas": 0
     },
@@ -69,9 +69,7 @@
       "perdidas": 0
     }
   ],
-  "precios": {
-    "SOXS": 77.16
-  },
+  "precios": {},
   "eurusd": 1.099,
   "eurusd_inicio": 1.1193,
   "memoria": {
@@ -500,6 +498,12 @@
       "media": -0.00441,
       "ganadores": 0.23529,
       "n": 17
+    },
+    "GOOGL-rebote-10": {
+      "fecha": "2026-11-20",
+      "media": -0.00848,
+      "ganadores": 0.11765,
+      "n": 17
     }
   },
   "noticias": {
@@ -657,9 +661,9 @@
   },
   "cerebro": {
     "a_favor": {
-      "n": 38,
-      "ganadas": 21,
-      "suma": -0.148006
+      "n": 39,
+      "ganadas": 22,
+      "suma": -0.114861
     }
   }
 }
