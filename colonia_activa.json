@@ -5,11 +5,11 @@
     {
       "id": 1,
       "padre": null,
-      "activo": null,
+      "activo": "TLT",
       "estrategia": "ruptura",
       "p": 30,
-      "efectivo": 16602.01758399205,
-      "acciones": 0.0,
+      "efectivo": 9702.239864157047,
+      "acciones": 84.4199,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -18,9 +18,9 @@
       "hoy": "2026-11-20",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 81.65,
+      "stop": 80.83,
+      "meta": 83.29,
       "contra_cerebro": false,
       "perdidas": 2
     },
@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": "NVDA",
+      "activo": null,
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 9104.333474778246,
-      "acciones": 48.871996,
+      "efectivo": 15482.342279040786,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,11 +62,11 @@
       "hoy": "2026-11-20",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 132.63,
-      "stop": 131.3,
-      "meta": 135.29,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": true,
-      "perdidas": 0
+      "perdidas": 1
     }
   ],
   "eurusd": 1.099,
@@ -128,7 +128,7 @@
       "titulares": []
     },
     "TLT": {
-      "hora": "2026-11-13T17:04:48.638273+00:00",
+      "hora": "2026-11-20T19:31:36.795416+00:00",
       "malos": 0,
       "titulares": []
     },
@@ -233,8 +233,8 @@
     }
   },
   "precios": {
-    "XLE": 61.165,
-    "NVDA": 132.63
+    "TLT": 81.65,
+    "XLE": 60.91
   },
   "cerebro": {
     "a_favor": {
@@ -243,9 +243,9 @@
       "suma": -0.148098
     },
     "en_contra": {
-      "n": 14,
+      "n": 15,
       "ganadas": 6,
-      "suma": -0.035103
+      "suma": -0.052115
     }
   }
 }

@@ -3072,3 +3072,17 @@
 2026-11-20 20:16 | [ACTIVA] Bot A3 (rebote 20) COMPRA 48.8720 NVDA a 132.63 | vida 15,586$
 2026-11-20 20:16 | [ACTIVA] Orden enviada: buy 48.8720 NVDA (id 921cbb42-d053-458b-874a-6d0858027686)
 2026-11-20 20:16 | [ACTIVA] Orden enviada: sell 110.0644 XLP (id 57178b88-0358-47d3-9204-809a60b51838)
+2026-11-20 20:30 | [CRIPTO] 🔎 Bot C3 (rebote 10) investiga 33 monedas: señal en 7, 0 con su regla ganando en 30 días
+2026-11-20 20:31 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 158 valores: señal en 21, 4 con su regla ganando las últimas sesiones (SPDN +0.12%/día, JNJ +0.06%/día, ABBV -0.09%/día, SQQQ -0.17%/día)
+2026-11-20 20:31 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 15 full session(s) of SPDN before 2026-11-20 in the data; the time machine needs at least 20
+2026-11-20 20:31 | [DIARIO] 📰 Bot D2 no compra JNJ: J&J to install first Ottava robot in US hospital (regulatory)
+2026-11-20 20:31 | [DIARIO] 🛑 Bot D3 STOP: TSLA a 347.61 (entró a 351.31).
+2026-11-20 20:31 | [DIARIO] Bot D3 (rebote 10) VENDE 18.0549 TSLA a 347.61 | vida 15,168$
+2026-11-20 20:31 | [DIARIO] Orden enviada: sell 18.0549 TSLA (id b5c27565-8149-4fa8-9773-9f9d355401f9)
+2026-11-20 20:31 | [ACTIVA] 🔎 Bot A1 (ruptura 30) investiga 158 valores: señal en 8, mira primero: TLT, SOXS, SPDN, SQQQ
+2026-11-20 20:31 | [ACTIVA] 📋 Bot A1 TLT: entra a 81.65, stop 80.83, objetivo 83.29 -> ✅ COMPRA
+2026-11-20 20:31 | [ACTIVA] Bot A1 (ruptura 30) COMPRA 84.4199 TLT a 81.65 | vida 16,595$
+2026-11-20 20:31 | [ACTIVA] 🛑 Bot A3 STOP: NVDA a 130.63 (entró a 132.63).
+2026-11-20 20:31 | [ACTIVA] Bot A3 (rebote 20) VENDE 48.8720 NVDA a 130.63 | vida 15,482$
+2026-11-20 20:31 | [ACTIVA] Orden enviada: sell 48.8720 NVDA (id 1b2d4e48-586a-4286-af82-35f5192ade5b)
+2026-11-20 20:31 | [ACTIVA] Orden enviada: buy 84.4199 TLT (id aa17f663-0c13-404f-916d-56b76ffe47f0)

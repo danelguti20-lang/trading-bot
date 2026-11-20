@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": "TSLA",
+      "activo": null,
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 8898.57228637982,
-      "acciones": 18.054871,
+      "efectivo": 15168.259756900865,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,16 +62,14 @@
       "hoy": "2026-11-20",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 351.31,
-      "stop": 347.79,
-      "meta": 358.35,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
-      "perdidas": 1
+      "perdidas": 2
     }
   ],
-  "precios": {
-    "TSLA": 348.67
-  },
+  "precios": {},
   "eurusd": 1.099,
   "eurusd_inicio": 1.1193,
   "memoria": {
@@ -668,6 +666,30 @@
       "media": 0.00059,
       "ganadores": 0.5,
       "n": 10
+    },
+    "ABBV-mañana-0.3": {
+      "fecha": "2026-11-20",
+      "media": -0.00094,
+      "ganadores": 0.36364,
+      "n": 11
+    },
+    "XOM-mañana-0.3": {
+      "fecha": "2026-11-20",
+      "media": -0.00272,
+      "ganadores": 0.33333,
+      "n": 9
+    },
+    "NOW-mañana-0.3": {
+      "fecha": "2026-11-20",
+      "media": -0.00547,
+      "ganadores": 0.125,
+      "n": 8
+    },
+    "T-mañana-0.3": {
+      "fecha": "2026-11-20",
+      "media": -0.00513,
+      "ganadores": 0.18182,
+      "n": 11
     }
   },
   "noticias": {
@@ -832,9 +854,9 @@
   },
   "cerebro": {
     "a_favor": {
-      "n": 40,
+      "n": 41,
       "ganadas": 22,
-      "suma": -0.12839
+      "suma": -0.140915
     }
   }
 }
