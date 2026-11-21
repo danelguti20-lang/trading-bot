@@ -49,7 +49,50 @@
     }
   ],
   "dia": "2026-11-21",
-  "memoria": {},
+  "memoria": {
+    "SUSHI/USD-tendencia-48": {
+      "hora": "2026-11-21 15:00:00+00:00",
+      "n": 27,
+      "media": -0.01288,
+      "total": -0.29592,
+      "ganadores": 0.03704
+    },
+    "XTZ/USD-tendencia-48": {
+      "hora": "2026-11-21 15:00:00+00:00",
+      "n": 26,
+      "media": -0.01485,
+      "total": -0.32273,
+      "ganadores": 0.03846
+    },
+    "AAVE/USD-tendencia-48": {
+      "hora": "2026-11-21 15:00:00+00:00",
+      "n": 21,
+      "media": -0.01214,
+      "total": -0.22998,
+      "ganadores": 0.09524
+    },
+    "YFI/USD-tendencia-48": {
+      "hora": "2026-11-21 15:00:00+00:00",
+      "n": 24,
+      "media": -0.00834,
+      "total": -0.18365,
+      "ganadores": 0.125
+    },
+    "UNI/USD-tendencia-48": {
+      "hora": "2026-11-21 15:00:00+00:00",
+      "n": 22,
+      "media": -0.01071,
+      "total": -0.21515,
+      "ganadores": 0.18182
+    },
+    "BCH/USD-tendencia-48": {
+      "hora": "2026-11-21 15:00:00+00:00",
+      "n": 24,
+      "media": -0.0105,
+      "total": -0.22469,
+      "ganadores": 0.04167
+    }
+  },
   "precios": {},
   "eurusd": 1.099,
   "eurusd_inicio": 1.1193
