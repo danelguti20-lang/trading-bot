@@ -239,19 +239,19 @@
       "total": -0.21948,
       "ganadores": 0.46296
     },
-    "TRUMP/USD-tendencia-48": {
-      "hora": "2026-11-21 04:00:00+00:00",
-      "n": 36,
-      "media": -0.06805,
-      "total": -0.93692,
-      "ganadores": 0.02778
-    },
     "SUSHI/USD-rebote-10": {
       "hora": "2026-11-21 05:00:00+00:00",
       "n": 51,
       "media": -0.00659,
       "total": -0.29193,
       "ganadores": 0.37255
+    },
+    "SKY/USD-tendencia-48": {
+      "hora": "2026-11-21 06:00:00+00:00",
+      "n": 19,
+      "media": -0.01053,
+      "total": -0.18306,
+      "ganadores": 0.10526
     }
   },
   "precios": {},
