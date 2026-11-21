@@ -49,7 +49,50 @@
     }
   ],
   "dia": "2026-11-21",
-  "memoria": {},
+  "memoria": {
+    "WIF/USD-rebote-10": {
+      "hora": "2026-11-21 02:00:00+00:00",
+      "n": 45,
+      "media": -0.00641,
+      "total": -0.25871,
+      "ganadores": 0.48889
+    },
+    "ONDO/USD-rebote-10": {
+      "hora": "2026-11-21 02:00:00+00:00",
+      "n": 47,
+      "media": -0.00588,
+      "total": -0.25076,
+      "ganadores": 0.55319
+    },
+    "AVAX/USD-rebote-10": {
+      "hora": "2026-11-21 02:00:00+00:00",
+      "n": 45,
+      "media": -0.00446,
+      "total": -0.18711,
+      "ganadores": 0.53333
+    },
+    "LDO/USD-rebote-10": {
+      "hora": "2026-11-21 02:00:00+00:00",
+      "n": 49,
+      "media": -0.00744,
+      "total": -0.31597,
+      "ganadores": 0.4898
+    },
+    "HYPE/USD-rebote-10": {
+      "hora": "2026-11-21 02:00:00+00:00",
+      "n": 50,
+      "media": -0.00658,
+      "total": -0.2867,
+      "ganadores": 0.38
+    },
+    "ARB/USD-rebote-10": {
+      "hora": "2026-11-21 02:00:00+00:00",
+      "n": 48,
+      "media": -0.00549,
+      "total": -0.23821,
+      "ganadores": 0.4375
+    }
+  },
   "precios": {},
   "eurusd": 1.099,
   "eurusd_inicio": 1.1193
