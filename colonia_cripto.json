@@ -49,15 +49,7 @@
     }
   ],
   "dia": "2026-11-21",
-  "memoria": {
-    "SKY/USD-tendencia-48": {
-      "hora": "2026-11-21 07:00:00+00:00",
-      "n": 19,
-      "media": -0.01053,
-      "total": -0.18306,
-      "ganadores": 0.10526
-    }
-  },
+  "memoria": {},
   "precios": {},
   "eurusd": 1.099,
   "eurusd_inicio": 1.1193
