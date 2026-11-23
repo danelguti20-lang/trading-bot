@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": "NBIZ",
+      "activo": null,
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 9167.120056964086,
-      "acciones": 175.953886,
+      "efectivo": 15992.577160950706,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,16 +62,14 @@
       "hoy": "2026-11-23",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 36.44,
-      "stop": 36.07,
-      "meta": 37.18,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
       "perdidas": 0
     }
   ],
-  "precios": {
-    "NBIZ": 36.44
-  },
+  "precios": {},
   "eurusd": 1.0939,
   "eurusd_inicio": 1.1193,
   "memoria": {
@@ -344,6 +342,36 @@
       "media": 0.05275,
       "ganadores": 0.55556,
       "n": 9
+    },
+    "XLP-ruptura-30": {
+      "fecha": "2026-11-23",
+      "media": -0.00327,
+      "ganadores": 0.41667,
+      "n": 12
+    },
+    "WMT-ruptura-30": {
+      "fecha": "2026-11-23",
+      "media": -0.00263,
+      "ganadores": 0.25,
+      "n": 12
+    },
+    "LLY-ruptura-30": {
+      "fecha": "2026-11-23",
+      "media": -0.00151,
+      "ganadores": 0.5,
+      "n": 8
+    },
+    "GE-ruptura-30": {
+      "fecha": "2026-11-23",
+      "media": -0.00168,
+      "ganadores": 0.45455,
+      "n": 11
+    },
+    "PDD-ruptura-30": {
+      "fecha": "2026-11-23",
+      "media": -0.00658,
+      "ganadores": 0.25,
+      "n": 8
     }
   },
   "noticias": {
@@ -513,9 +541,9 @@
   },
   "cerebro": {
     "a_favor": {
-      "n": 42,
-      "ganadas": 23,
-      "suma": -0.07256
+      "n": 43,
+      "ganadas": 24,
+      "suma": -0.009104
     }
   }
 }

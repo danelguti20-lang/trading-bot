@@ -3559,3 +3559,16 @@
 2026-11-23 16:32 | [SKILL] 🕰️ XLF: entrada 55.78 stop 55.51 objetivo 56.32 | objetivo antes 8%, stop antes 41% | con comisión: simulación -0.49R, historia -0.45R (27 casos) -> ❌ no
 2026-11-23 16:32 | [SKILL] 🕰️ XLI: entrada 162.48 stop 161.34 objetivo 164.76 | objetivo antes 5%, stop antes 32% | con comisión: simulación -0.31R, historia -0.43R (37 casos) -> ❌ no
 2026-11-23 16:32 | [SKILL] 📰 AAPL descartada por noticias: Own Dell Stock? Its Profit Isn't All Cash (legal)
+2026-11-23 16:45 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 32, 0 con su regla ganando en 30 días
+2026-11-23 16:46 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 170 valores: señal en 39, 5 con su regla ganando las últimas sesiones (MU -0.09%/día, MRVL -0.09%/día, LLY -0.15%/día, RSP -0.17%/día)
+2026-11-23 16:46 | [DIARIO] 📰 Bot D1 no compra MU: Micron Soars 20% as Citi Says Ending Nvidia’s Financing Would Cut DRAM Demand On (halt)
+2026-11-23 16:46 | [DIARIO] 📰 Bot D1 no compra MRVL: Is Broadcom Stock's Drop A Chance To Buy? (legal)
+2026-11-23 16:46 | [DIARIO] 🎯 Bot D3 OBJETIVO: NBIZ a 38.83 (entró a 36.44).
+2026-11-23 16:46 | [DIARIO] Bot D3 (rebote 10) VENDE 175.9539 NBIZ a 38.83 | vida 15,993$
+2026-11-23 16:46 | [DIARIO] Orden enviada: sell 175.9539 NBIZ (id 79442b70-8139-4257-9b86-4f987de8c4c0)
+2026-11-23 16:47 | [SKILL] 🔎 Escáner 10:46: 67 roturas, 11 recientes para estudiar.
+2026-11-23 16:47 | [SKILL] 🕰️ GE: entrada 322.23 stop 318.35 objetivo 329.99 | objetivo antes 3%, stop antes 28% | con comisión: simulación -0.20R, historia +0.02R (29 casos) -> ❌ no
+2026-11-23 16:47 | [SKILL] 🕰️ ITB: entrada 92.76 stop 91.83 objetivo 94.62 | objetivo antes 4%, stop antes 27% | con comisión: simulación -0.18R, historia -0.27R (28 casos) -> ❌ no
+2026-11-23 16:47 | [SKILL] 🕰️ XLC: entrada 103.63 stop 102.47 objetivo 105.95 | objetivo antes 0%, stop antes 14% | con comisión: simulación -0.34R, historia -0.55R (35 casos) -> ❌ no
+2026-11-23 16:47 | [SKILL] 🕰️ CRM: entrada 184.72 stop 183.08 objetivo 188.00 | objetivo antes 12%, stop antes 55% | con comisión: simulación -0.39R, historia -0.76R (27 casos) -> ❌ no
+2026-11-23 16:47 | [SKILL] 🕰️ FDX: entrada 311.74 stop 308.36 objetivo 318.50 | objetivo antes 4%, stop antes 29% | con comisión: simulación -0.17R, historia -0.23R (30 casos) -> ❌ no
