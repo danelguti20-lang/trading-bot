@@ -3541,3 +3541,21 @@
 2026-11-23 16:17 | [SKILL] 🕰️ NOW: entrada 92.33 stop 91.31 objetivo 94.37 | objetivo antes 13%, stop antes 60% | con comisión: simulación -0.42R, historia -0.43R (27 casos) -> ❌ no
 2026-11-23 16:17 | [SKILL] 🕰️ TSLA: entrada 390.11 stop 380.94 objetivo 408.45 | objetivo antes 0%, stop antes 14% | con comisión: simulación -0.15R, historia -0.30R (34 casos) -> ❌ no
 2026-11-23 16:17 | [SKILL] 🕰️ XLY: entrada 116.94 stop 116.16 objetivo 118.50 | objetivo antes 5%, stop antes 36% | con comisión: simulación -0.39R, historia -0.52R (37 casos) -> ❌ no
+2026-11-23 16:30 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 32, 0 con su regla ganando en 30 días
+2026-11-23 16:31 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 171 valores: señal en 53, 4 con su regla ganando las últimas sesiones (XLF -0.03%/día, MU -0.09%/día, RSP -0.17%/día, EFA -0.19%/día)
+2026-11-23 16:31 | [DIARIO] 🕰️ Bot D1 XLF: stop 55.50 objetivo 56.46 | con comisión: simulación -0.42R, historia -0.22R (27 casos) -> ❌ no
+2026-11-23 16:31 | [DIARIO] 📰 Bot D1 no compra MU: Micron Soars 20% as Citi Says Ending Nvidia’s Financing Would Cut DRAM Demand On (halt)
+2026-11-23 16:31 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 171 valores: señal en 12, 5 con su regla ganando las últimas sesiones (NBIZ +5.27%/día, NVDQ +1.31%/día, SOXS +0.11%/día, CRWD +0.10%/día)
+2026-11-23 16:31 | [DIARIO] 🕰️ Bot D3 NBIZ: stop 36.07 objetivo 37.18 | con comisión: simulación -0.17R, historia +0.06R (31 casos) -> ✅ COMPRA
+2026-11-23 16:31 | [DIARIO] Bot D3 (rebote 10) COMPRA 175.9539 NBIZ a 36.44 | vida 15,579$
+2026-11-23 16:31 | [DIARIO] Orden enviada: buy 175.9539 NBIZ (id ceb49038-bc3c-45d1-bd27-541a9af0aada)
+2026-11-23 16:31 | [ACTIVA] 🔎 Bot A3 (rebote 20) investiga 171 valores: señal en 11, mira primero: SPDN, SOXS, SQQQ, IEF
+2026-11-23 16:31 | [ACTIVA] 📋 Bot A3 SPDN: entra a 8.90, stop 8.81, objetivo 9.09 -> ✅ COMPRA
+2026-11-23 16:31 | [ACTIVA] Bot A3 (rebote 20) COMPRA 690.5147 SPDN a 8.90 | vida 15,573$
+2026-11-23 16:31 | [ACTIVA] Orden enviada: buy 690.5147 SPDN (id d92a2742-f161-43e8-962f-add362dc6102)
+2026-11-23 16:32 | [SKILL] 🔎 Escáner 10:31: 57 roturas, 19 recientes para estudiar.
+2026-11-23 16:32 | [SKILL] 🕰️ EFA: entrada 98.94 stop 98.65 objetivo 99.52 | objetivo antes 16%, stop antes 61% | con comisión: simulación -0.88R, historia -0.56R (37 casos) -> ❌ no
+2026-11-23 16:32 | [SKILL] 🕰️ PDD: entrada 86.03 stop 84.80 objetivo 88.49 | objetivo antes 0%, stop antes 10% | con comisión: simulación -0.14R, historia -0.29R (28 casos) -> ❌ no
+2026-11-23 16:32 | [SKILL] 🕰️ XLF: entrada 55.78 stop 55.51 objetivo 56.32 | objetivo antes 8%, stop antes 41% | con comisión: simulación -0.49R, historia -0.45R (27 casos) -> ❌ no
+2026-11-23 16:32 | [SKILL] 🕰️ XLI: entrada 162.48 stop 161.34 objetivo 164.76 | objetivo antes 5%, stop antes 32% | con comisión: simulación -0.31R, historia -0.43R (37 casos) -> ❌ no
+2026-11-23 16:32 | [SKILL] 📰 AAPL descartada por noticias: Own Dell Stock? Its Profit Isn't All Cash (legal)

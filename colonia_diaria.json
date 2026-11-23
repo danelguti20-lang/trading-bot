@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "NBIZ",
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 15585.291422409926,
-      "acciones": 0.0,
+      "efectivo": 9167.120056964086,
+      "acciones": 175.953886,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,15 +62,17 @@
       "hoy": "2026-11-23",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 36.44,
+      "stop": 36.07,
+      "meta": 37.18,
       "contra_cerebro": false,
       "perdidas": 0
     }
   ],
-  "precios": {},
-  "eurusd": 1.099,
+  "precios": {
+    "NBIZ": 36.44
+  },
+  "eurusd": 1.0939,
   "eurusd_inicio": 1.1193,
   "memoria": {
     "UNH-rebote-10": {
@@ -276,6 +278,72 @@
       "media": -0.00999,
       "ganadores": 0.125,
       "n": 8
+    },
+    "NVDA-ruptura-30": {
+      "fecha": "2026-11-23",
+      "media": -0.01003,
+      "ganadores": 0.16667,
+      "n": 6
+    },
+    "SPY-ruptura-30": {
+      "fecha": "2026-11-23",
+      "media": -0.00306,
+      "ganadores": 0.09091,
+      "n": 11
+    },
+    "QQQ-ruptura-30": {
+      "fecha": "2026-11-23",
+      "media": -0.00313,
+      "ganadores": 0.3,
+      "n": 10
+    },
+    "AAPL-ruptura-30": {
+      "fecha": "2026-11-23",
+      "media": -0.00667,
+      "ganadores": 0.28571,
+      "n": 7
+    },
+    "XLF-ruptura-30": {
+      "fecha": "2026-11-23",
+      "media": -0.0003,
+      "ganadores": 0.42857,
+      "n": 7
+    },
+    "EFA-ruptura-30": {
+      "fecha": "2026-11-23",
+      "media": -0.00188,
+      "ganadores": 0.36364,
+      "n": 11
+    },
+    "RSP-ruptura-30": {
+      "fecha": "2026-11-23",
+      "media": -0.00168,
+      "ganadores": 0.45455,
+      "n": 11
+    },
+    "TQQQ-ruptura-30": {
+      "fecha": "2026-11-23",
+      "media": -0.00375,
+      "ganadores": 0.44444,
+      "n": 9
+    },
+    "ANT-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.01728,
+      "ganadores": 0.0,
+      "n": 1
+    },
+    "SPDN-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.00133,
+      "ganadores": 0.35714,
+      "n": 14
+    },
+    "NBIZ-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": 0.05275,
+      "ganadores": 0.55556,
+      "n": 9
     }
   },
   "noticias": {
@@ -346,7 +414,7 @@
       "titulares": []
     },
     "NBIZ": {
-      "hora": "2026-11-11T18:35:07.350965+00:00",
+      "hora": "2026-11-23T15:31:15.377736+00:00",
       "malos": 0,
       "titulares": []
     },
