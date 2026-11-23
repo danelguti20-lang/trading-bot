@@ -49,23 +49,23 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "UNH",
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 15443.530027439836,
-      "acciones": 0.0,
+      "efectivo": 9013.914250915896,
+      "acciones": 19.625386,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-11",
       "hijos": 0,
       "hoy": "2026-11-23",
-      "operado_hoy": false,
+      "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
-      "contra_cerebro": true,
+      "entrada": 327.29,
+      "stop": 324.01,
+      "meta": 333.85,
+      "contra_cerebro": false,
       "perdidas": 2
     }
   ],
@@ -193,11 +193,9 @@
       "titulares": []
     },
     "UNH": {
-      "hora": "2026-11-19T16:46:24.377954+00:00",
-      "malos": 1,
-      "titulares": [
-        "UnitedHealth Shares Sink as New Federal Fraud Crackdown Sparks Healthcare Sell-Off"
-      ]
+      "hora": "2026-11-23T14:46:48.218158+00:00",
+      "malos": 0,
+      "titulares": []
     },
     "QQQ": {
       "hora": "2026-11-18T20:02:15.774558+00:00",
@@ -235,7 +233,9 @@
       "titulares": []
     }
   },
-  "precios": {},
+  "precios": {
+    "UNH": 327.29
+  },
   "cerebro": {
     "a_favor": {
       "n": 48,

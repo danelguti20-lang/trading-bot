@@ -72,7 +72,80 @@
   "precios": {},
   "eurusd": 1.099,
   "eurusd_inicio": 1.1193,
-  "memoria": {},
+  "memoria": {
+    "UNH-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.00997,
+      "ganadores": 0.4375,
+      "n": 16
+    },
+    "CRWD-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": 0.00103,
+      "ganadores": 0.4375,
+      "n": 16
+    },
+    "WMT-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.00058,
+      "ganadores": 0.47368,
+      "n": 19
+    },
+    "TLT-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.00315,
+      "ganadores": 0.0,
+      "n": 15
+    },
+    "SOXS-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": 0.00107,
+      "ganadores": 0.5625,
+      "n": 16
+    },
+    "INDA-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.00194,
+      "ganadores": 0.10526,
+      "n": 19
+    },
+    "SQQQ-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.00234,
+      "ganadores": 0.5,
+      "n": 16
+    },
+    "CVX-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.0048,
+      "ganadores": 0.22222,
+      "n": 18
+    },
+    "XOM-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.00278,
+      "ganadores": 0.33333,
+      "n": 18
+    },
+    "IEF-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.00306,
+      "ganadores": 0.0,
+      "n": 17
+    },
+    "CMCSA-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.00208,
+      "ganadores": 0.33333,
+      "n": 18
+    },
+    "COP-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.00496,
+      "ganadores": 0.375,
+      "n": 16
+    }
+  },
   "noticias": {
     "QQQ": {
       "hora": "2026-11-09T19:30:02.655777+00:00",
