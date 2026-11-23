@@ -576,6 +576,24 @@
       "media": -0.00442,
       "ganadores": 0.2,
       "n": 10
+    },
+    "QCOM-ruptura-30": {
+      "fecha": "2026-11-23",
+      "media": -0.00351,
+      "ganadores": 0.5,
+      "n": 10
+    },
+    "LLY-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.00368,
+      "ganadores": 0.29412,
+      "n": 17
+    },
+    "PEP-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.00275,
+      "ganadores": 0.29412,
+      "n": 17
     }
   },
   "noticias": {
