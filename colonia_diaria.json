@@ -822,6 +822,36 @@
       "media": -0.00202,
       "ganadores": 0.25,
       "n": 8
+    },
+    "GOOGL-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.00925,
+      "ganadores": 0.11765,
+      "n": 17
+    },
+    "XLE-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.00325,
+      "ganadores": 0.38889,
+      "n": 18
+    },
+    "KLAC-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.00834,
+      "ganadores": 0.4375,
+      "n": 16
+    },
+    "TXN-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.00495,
+      "ganadores": 0.4375,
+      "n": 16
+    },
+    "IREN-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.00934,
+      "ganadores": 0.4,
+      "n": 20
     }
   },
   "noticias": {
