@@ -414,6 +414,96 @@
       "media": -0.00795,
       "ganadores": 0.3125,
       "n": 16
+    },
+    "XBI-ruptura-30": {
+      "fecha": "2026-11-23",
+      "media": -0.00064,
+      "ganadores": 0.55556,
+      "n": 9
+    },
+    "PG-ruptura-30": {
+      "fecha": "2026-11-23",
+      "media": -0.00396,
+      "ganadores": 0.07692,
+      "n": 13
+    },
+    "DE-ruptura-30": {
+      "fecha": "2026-11-23",
+      "media": -0.0027,
+      "ganadores": 0.3,
+      "n": 10
+    },
+    "HD-ruptura-30": {
+      "fecha": "2026-11-23",
+      "media": -0.00275,
+      "ganadores": 0.4,
+      "n": 15
+    },
+    "NVDA-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.01173,
+      "ganadores": 0.31579,
+      "n": 19
+    },
+    "SPY-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.00693,
+      "ganadores": 0.06667,
+      "n": 15
+    },
+    "QQQ-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.00844,
+      "ganadores": 0.2,
+      "n": 15
+    },
+    "AMZN-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.0042,
+      "ganadores": 0.27778,
+      "n": 18
+    },
+    "SMH-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.00768,
+      "ganadores": 0.41176,
+      "n": 17
+    },
+    "EFA-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.00594,
+      "ganadores": 0.11111,
+      "n": 18
+    },
+    "IBIT-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.00629,
+      "ganadores": 0.38889,
+      "n": 18
+    },
+    "TQQQ-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.01823,
+      "ganadores": 0.26667,
+      "n": 15
+    },
+    "XLK-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.01063,
+      "ganadores": 0.26667,
+      "n": 15
+    },
+    "CRWV-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": 0.00245,
+      "ganadores": 0.52632,
+      "n": 19
+    },
+    "ORCL-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.00374,
+      "ganadores": 0.47059,
+      "n": 17
     }
   },
   "noticias": {
