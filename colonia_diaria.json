@@ -852,6 +852,18 @@
       "media": -0.00934,
       "ganadores": 0.4,
       "n": 20
+    },
+    "HON-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.00631,
+      "ganadores": 0.22222,
+      "n": 18
+    },
+    "FDX-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.0037,
+      "ganadores": 0.41176,
+      "n": 17
     }
   },
   "noticias": {
