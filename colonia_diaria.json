@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": "NVDQ",
+      "activo": null,
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 9067.490839517726,
-      "acciones": 795.649379,
+      "efectivo": 15585.291422409926,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,16 +62,14 @@
       "hoy": "2026-11-23",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 7.66,
-      "stop": 7.58,
-      "meta": 7.82,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
-      "perdidas": 2
+      "perdidas": 0
     }
   ],
-  "precios": {
-    "NVDQ": 7.66
-  },
+  "precios": {},
   "eurusd": 1.099,
   "eurusd_inicio": 1.1193,
   "memoria": {
@@ -218,6 +216,66 @@
       "media": 0.0,
       "ganadores": 0.0,
       "n": 0
+    },
+    "TSLA-ruptura-30": {
+      "fecha": "2026-11-23",
+      "media": -0.00543,
+      "ganadores": 0.27273,
+      "n": 11
+    },
+    "XLV-ruptura-30": {
+      "fecha": "2026-11-23",
+      "media": -0.00324,
+      "ganadores": 0.3,
+      "n": 10
+    },
+    "ABBV-ruptura-30": {
+      "fecha": "2026-11-23",
+      "media": -0.00093,
+      "ganadores": 0.44444,
+      "n": 9
+    },
+    "MRVL-ruptura-30": {
+      "fecha": "2026-11-23",
+      "media": -0.00091,
+      "ganadores": 0.5,
+      "n": 6
+    },
+    "XLY-ruptura-30": {
+      "fecha": "2026-11-23",
+      "media": -0.00334,
+      "ganadores": 0.3,
+      "n": 10
+    },
+    "SHOP-ruptura-30": {
+      "fecha": "2026-11-23",
+      "media": -0.00475,
+      "ganadores": 0.3,
+      "n": 10
+    },
+    "TXN-ruptura-30": {
+      "fecha": "2026-11-23",
+      "media": 0.00084,
+      "ganadores": 0.45455,
+      "n": 11
+    },
+    "LOW-ruptura-30": {
+      "fecha": "2026-11-23",
+      "media": -0.0013,
+      "ganadores": 0.46154,
+      "n": 13
+    },
+    "IBM-ruptura-30": {
+      "fecha": "2026-11-23",
+      "media": -0.00435,
+      "ganadores": 0.27273,
+      "n": 11
+    },
+    "CRM-ruptura-30": {
+      "fecha": "2026-11-23",
+      "media": -0.00999,
+      "ganadores": 0.125,
+      "n": 8
     }
   },
   "noticias": {
@@ -387,9 +445,9 @@
   },
   "cerebro": {
     "a_favor": {
-      "n": 41,
-      "ganadas": 22,
-      "suma": -0.140915
+      "n": 42,
+      "ganadas": 23,
+      "suma": -0.07256
     }
   }
 }

@@ -3526,3 +3526,18 @@
 2026-11-23 16:02 | [SKILL] 📰 MU descartada por noticias: Can Micron Stock Jump 50%? (legal)
 2026-11-23 16:02 | [SKILL] 🕰️ MUU: entrada 12.89 stop 12.52 objetivo 13.63 | objetivo antes 17%, stop antes 65% | con comisión: simulación -0.29R, historia +0.05R (28 casos) -> ❌ no
 2026-11-23 16:02 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: the entry is not in the data: no complete 09:55 bar (closing 10:00 AM) on 2026-11-23 for NVC (the data stops at the 09:50 bar)
+2026-11-23 16:15 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 32, 0 con su regla ganando en 30 días
+2026-11-23 16:16 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 171 valores: señal en 17, 5 con su regla ganando las últimas sesiones (TXN +0.08%/día, MU -0.09%/día, MRVL -0.09%/día, ABBV -0.09%/día)
+2026-11-23 16:16 | [DIARIO] 📰 Bot D1 no compra TXN: What Triggered The Fall In Applied Materials Stock? (legal)
+2026-11-23 16:16 | [DIARIO] 📰 Bot D1 no compra MU: Can Micron Stock Jump 50%? (legal)
+2026-11-23 16:16 | [DIARIO] 🎯 Bot D3 OBJETIVO: NVDQ a 8.20 (entró a 7.66).
+2026-11-23 16:16 | [DIARIO] Bot D3 (rebote 10) VENDE 795.6494 NVDQ a 8.20 | vida 15,585$
+2026-11-23 16:16 | [DIARIO] Orden enviada: sell 795.6494 NVDQ (id 61f7126a-b274-4024-bf24-a8d53d4a2ee1)
+2026-11-23 16:16 | [ACTIVA] Bot A3 (rebote 20) VENDE 19.6254 UNH a 334.88 | vida 15,579$
+2026-11-23 16:16 | [ACTIVA] Orden enviada: sell 19.6254 UNH (id 28d43c1e-3dda-4793-b6a9-872517fedb55)
+2026-11-23 16:17 | [SKILL] 🔎 Escáner 10:16: 38 roturas, 14 recientes para estudiar.
+2026-11-23 16:17 | [SKILL] 🕰️ DIA: entrada 494.58 stop 492.17 objetivo 499.40 | objetivo antes 4%, stop antes 40% | con comisión: simulación -0.56R, historia -0.42R (31 casos) -> ❌ no
+2026-11-23 16:17 | [SKILL] 📰 MRVL descartada por noticias: When Did Nvidia Buyers Break Even After 30% Falls? (legal)
+2026-11-23 16:17 | [SKILL] 🕰️ NOW: entrada 92.33 stop 91.31 objetivo 94.37 | objetivo antes 13%, stop antes 60% | con comisión: simulación -0.42R, historia -0.43R (27 casos) -> ❌ no
+2026-11-23 16:17 | [SKILL] 🕰️ TSLA: entrada 390.11 stop 380.94 objetivo 408.45 | objetivo antes 0%, stop antes 14% | con comisión: simulación -0.15R, historia -0.30R (34 casos) -> ❌ no
+2026-11-23 16:17 | [SKILL] 🕰️ XLY: entrada 116.94 stop 116.16 objetivo 118.50 | objetivo antes 5%, stop antes 36% | con comisión: simulación -0.39R, historia -0.52R (37 casos) -> ❌ no
