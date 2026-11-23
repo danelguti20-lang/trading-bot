@@ -702,6 +702,36 @@
       "media": -0.00636,
       "ganadores": 0.22222,
       "n": 18
+    },
+    "XLU-ruptura-30": {
+      "fecha": "2026-11-23",
+      "media": -0.00287,
+      "ganadores": 0.25,
+      "n": 12
+    },
+    "XLF-mañana-0.3": {
+      "fecha": "2026-11-23",
+      "media": -0.00194,
+      "ganadores": 0.25,
+      "n": 8
+    },
+    "KO-mañana-0.3": {
+      "fecha": "2026-11-23",
+      "media": -0.00367,
+      "ganadores": 0.25,
+      "n": 12
+    },
+    "SNDK-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.01865,
+      "ganadores": 0.11765,
+      "n": 17
+    },
+    "HYG-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.00394,
+      "ganadores": 0.0,
+      "n": 16
     }
   },
   "noticias": {
