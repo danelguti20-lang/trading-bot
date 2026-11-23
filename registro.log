@@ -3595,3 +3595,15 @@
 2026-11-23 17:17 | [SKILL] 🕰️ RTX: entrada 194.37 stop 193.10 objetivo 196.91 | objetivo antes 13%, stop antes 38% | con comisión: simulación -0.21R, historia -0.32R (28 casos) -> ❌ no
 2026-11-23 17:17 | [SKILL] 📰 SCHW descartada por noticias: Why Did Robinhood Markets Stock Fall Again? (legal)
 2026-11-23 17:17 | [SKILL] 📰 INTU descartada por noticias: Intuit Stock Fell 13% On A Small Cut. Is Software's Subscription Model Breaking? (legal)
+2026-11-23 17:30 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 32, 0 con su regla ganando en 30 días
+2026-11-23 17:31 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 172 valores: señal en 58, 4 con su regla ganando las últimas sesiones (XLF -0.03%/día, MU -0.09%/día, MRVL -0.09%/día, RSP -0.17%/día)
+2026-11-23 17:31 | [DIARIO] 🕰️ Bot D1 XLF: stop 55.50 objetivo 56.65 | con comisión: simulación -0.34R, historia -0.20R (27 casos) -> ❌ no
+2026-11-23 17:31 | [DIARIO] 📰 Bot D1 no compra MU: Micron Soars 20% as Citi Says Ending Nvidia’s Financing Would Cut DRAM Demand On (halt)
+2026-11-23 17:31 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 172 valores: señal en 1, 0 con su regla ganando las últimas sesiones
+2026-11-23 17:31 | [ACTIVA] 🔎 Bot A3 (rebote 20) investiga 172 valores: señal en 5, mira primero: AAPL, MSFT, MRK, COP
+2026-11-23 17:31 | [ACTIVA] 📰 Bot A3 no compra AAPL: Is Microsoft Stock Stronger Than It Looks? (legal)
+2026-11-23 17:31 | [ACTIVA] 📰 Bot A3 no compra MSFT: Is Microsoft Stock Stronger Than It Looks? (legal)
+2026-11-23 17:31 | [ACTIVA] 📰 Bot A3 no compra MRK: Will Pfizer Stock Ever Get Back To Its Old High? (legal)
+2026-11-23 17:31 | [ACTIVA] 📋 Bot A3 COP: entra a 133.81, stop 132.47, objetivo 136.49 -> ✅ COMPRA
+2026-11-23 17:31 | [ACTIVA] Bot A3 (rebote 20) COMPRA 48.5346 COP a 133.81 | vida 15,599$
+2026-11-23 17:31 | [ACTIVA] Orden enviada: buy 48.5346 COP (id cbde8313-1766-474e-97ea-6501a007d0e9)

@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "COP",
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 15605.035601027696,
-      "acciones": 0.0,
+      "efectivo": 9104.127699639796,
+      "acciones": 48.53459,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,9 +62,9 @@
       "hoy": "2026-11-23",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 133.81,
+      "stop": 132.47,
+      "meta": 136.49,
       "contra_cerebro": false,
       "perdidas": 0
     }
@@ -241,10 +241,16 @@
       "hora": "2026-11-23T15:31:35.986221+00:00",
       "malos": 0,
       "titulares": []
+    },
+    "COP": {
+      "hora": "2026-11-23T16:31:44.962807+00:00",
+      "malos": 0,
+      "titulares": []
     }
   },
   "precios": {
-    "INDA": 52.03
+    "INDA": 52.09,
+    "COP": 133.81
   },
   "cerebro": {
     "a_favor": {
