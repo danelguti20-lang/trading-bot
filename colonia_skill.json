@@ -25,23 +25,12 @@
   "trades_hoy": 0,
   "resultado_hoy": 0.0,
   "vistos_hoy": {
-    "2026-11-20": [
+    "2026-11-23": [
       "BA",
-      "CMCSA",
-      "COIN",
-      "CRM",
-      "CSCO",
-      "AMGN",
-      "GILD",
-      "HD",
-      "WMT",
-      "XLRE",
-      "VZ",
-      "IEF",
-      "JNJ",
-      "SOXS",
-      "SPDN",
-      "LMT"
+      "IBM",
+      "MU",
+      "MUU",
+      "NVC"
     ]
   }
 }

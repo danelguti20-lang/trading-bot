@@ -3506,3 +3506,23 @@
 2026-11-23 15:46 | [ACTIVA] 📋 Bot A3 UNH: entra a 327.29, stop 324.01, objetivo 333.85 -> ✅ COMPRA
 2026-11-23 15:46 | [ACTIVA] Bot A3 (rebote 20) COMPRA 19.6254 UNH a 327.29 | vida 15,437$
 2026-11-23 15:46 | [ACTIVA] Orden enviada: buy 19.6254 UNH (id 1e2f89b1-58b7-4755-93cb-82aee2bc9ccd)
+2026-11-23 16:00 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 32, 0 con su regla ganando en 30 días
+2026-11-23 16:01 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 171 valores: señal en 5, 2 con su regla ganando las últimas sesiones (MU -0.09%/día, MUU -0.14%/día)
+2026-11-23 16:01 | [DIARIO] 📰 Bot D1 no compra MU: Can Micron Stock Jump 50%? (legal)
+2026-11-23 16:01 | [DIARIO] 🕰️ Bot D1 MUU: stop 12.85 objetivo 13.24 | con comisión: simulación -0.35R, historia -0.16R (28 casos) -> ❌ no
+2026-11-23 16:01 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 171 valores: señal en 11, 3 con su regla ganando las últimas sesiones (NVDQ +1.31%/día, SOXS +0.11%/día, CRWD +0.10%/día)
+2026-11-23 16:01 | [DIARIO] 🕰️ Bot D3 NVDQ: stop 7.58 objetivo 7.82 | con comisión: simulación +0.10R, historia +0.43R (30 casos) -> ✅ COMPRA
+2026-11-23 16:01 | [DIARIO] Bot D3 (rebote 10) COMPRA 795.6494 NVDQ a 7.66 | vida 15,162$
+2026-11-23 16:01 | [DIARIO] Orden enviada: buy 795.6494 NVDQ (id 7301e5f9-a753-4e2a-9281-5447aa117933)
+2026-11-23 16:01 | [ACTIVA] 🔎 Bot A1 (ruptura 30) investiga 171 valores: señal en 8, mira primero: MU, INDA, CRM, AMGN
+2026-11-23 16:01 | [ACTIVA] 📰 Bot A1 no compra MU: Can Micron Stock Jump 50%? (legal)
+2026-11-23 16:01 | [ACTIVA] 📋 Bot A1 INDA: entra a 52.09, stop 51.90, objetivo 52.48 -> ✅ COMPRA
+2026-11-23 16:01 | [ACTIVA] 🧠 Bot A1 compra aunque el cerebro diría NO (descanso).
+2026-11-23 16:01 | [ACTIVA] Bot A1 (ruptura 30) COMPRA 276.8667 INDA a 52.09 | vida 16,553$
+2026-11-23 16:01 | [ACTIVA] Orden enviada: buy 276.8667 INDA (id 9f092c34-21c2-4514-a9f4-3521ca38b664)
+2026-11-23 16:02 | [SKILL] 🔎 Escáner 10:01: 31 roturas, 29 recientes para estudiar.
+2026-11-23 16:02 | [SKILL] 📰 BA descartada por noticias: Archer Aviation's Real Bet Is Boeing's Drone Maker (legal)
+2026-11-23 16:02 | [SKILL] 📰 IBM descartada por noticias: Can D-Wave Stock Outlast Its $143 Million Cash Burn? (legal)
+2026-11-23 16:02 | [SKILL] 📰 MU descartada por noticias: Can Micron Stock Jump 50%? (legal)
+2026-11-23 16:02 | [SKILL] 🕰️ MUU: entrada 12.89 stop 12.52 objetivo 13.63 | objetivo antes 17%, stop antes 65% | con comisión: simulación -0.29R, historia +0.05R (28 casos) -> ❌ no
+2026-11-23 16:02 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: the entry is not in the data: no complete 09:55 bar (closing 10:00 AM) on 2026-11-23 for NVC (the data stops at the 09:50 bar)

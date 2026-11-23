@@ -5,23 +5,23 @@
     {
       "id": 1,
       "padre": null,
-      "activo": null,
+      "activo": "INDA",
       "estrategia": "ruptura",
       "p": 30,
-      "efectivo": 16567.14794429705,
-      "acciones": 0.0,
+      "efectivo": 2129.3552971792087,
+      "acciones": 276.866672,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-11",
       "hijos": 0,
       "hoy": "2026-11-23",
-      "operado_hoy": false,
+      "operado_hoy": true,
       "descansa": true,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
-      "contra_cerebro": false,
+      "entrada": 52.095,
+      "stop": 51.9,
+      "meta": 52.48,
+      "contra_cerebro": true,
       "perdidas": 0
     },
     {
@@ -231,10 +231,16 @@
       "hora": "2026-11-20T17:01:26.038543+00:00",
       "malos": 0,
       "titulares": []
+    },
+    "INDA": {
+      "hora": "2026-11-23T15:01:37.751453+00:00",
+      "malos": 0,
+      "titulares": []
     }
   },
   "precios": {
-    "UNH": 327.29
+    "INDA": 52.095,
+    "UNH": 330.95
   },
   "cerebro": {
     "a_favor": {
