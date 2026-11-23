@@ -3750,3 +3750,16 @@
 2026-11-23 21:01 | [ACTIVA] 🛑 Bot A3 STOP: ANT a 85.79 (entró a 86.94).
 2026-11-23 21:01 | [ACTIVA] Bot A3 (rebote 20) VENDE 74.2287 ANT a 85.79 | vida 15,473$
 2026-11-23 21:01 | [ACTIVA] Orden enviada: sell 74.2287 ANT (id f9673525-eda2-4759-8183-4ee4360dc893)
+2026-11-23 21:15 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 28, 0 con su regla ganando en 30 días
+2026-11-23 21:15 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 168 valores: señal en 64, 4 con su regla ganando las últimas sesiones (XLF -0.03%/día, V -0.04%/día, MU -0.09%/día, RSP -0.17%/día)
+2026-11-23 21:15 | [DIARIO] 🕰️ Bot D1 XLF: stop 55.50 objetivo 56.34 | con comisión: simulación -0.42R, historia -0.22R (27 casos) -> ❌ no
+2026-11-23 21:15 | [DIARIO] 📰 Bot D1 no compra V: Is Mastercard Stock Really Expensive? (legal)
+2026-11-23 21:15 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 168 valores: señal en 66, 4 con su regla ganando las últimas sesiones (LLY +0.07%/día, XLV -0.06%/día, MU -0.06%/día, ABBV -0.18%/día)
+2026-11-23 21:15 | [DIARIO] 📰 Bot D2 no compra LLY: Pfizer’s CEO Wants AI to “Halve the Time to First Human Study.” Here’s What That (people, regulatory)
+2026-11-23 21:15 | [DIARIO] 📰 Bot D2 no compra XLV: Biotech Funds Slide Into Thanksgiving Week — Capricor’s FDA Fight And Back-To-Ba (regulatory)
+2026-11-23 21:15 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 168 valores: señal en 3, 0 con su regla ganando las últimas sesiones
+2026-11-23 21:16 | [ACTIVA] 🔎 Bot A3 (rebote 20) investiga 168 valores: señal en 13, mira primero: SPCX, XLE, GLD, JNJ
+2026-11-23 21:16 | [ACTIVA] 📰 Bot A3 no compra SPCX: Jensen Huang's return to Nvidia: Long or short accountability? (people, regulatory)
+2026-11-23 21:16 | [ACTIVA] 📋 Bot A3 XLE: entra a 59.94, stop 59.33, objetivo 61.15 -> ✅ COMPRA
+2026-11-23 21:16 | [ACTIVA] Bot A3 (rebote 20) COMPRA 106.7294 XLE a 59.94 | vida 15,467$
+2026-11-23 21:16 | [ACTIVA] Orden enviada: buy 106.7294 XLE (id 17e7b39c-1001-4a41-bf76-3d10ba825e26)
