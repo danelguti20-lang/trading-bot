@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "PG",
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 15992.577160950706,
-      "acciones": 0.0,
+      "efectivo": 9351.946536833217,
+      "acciones": 39.002861,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,14 +62,16 @@
       "hoy": "2026-11-23",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 170.09,
+      "stop": 168.38,
+      "meta": 173.51,
       "contra_cerebro": false,
       "perdidas": 0
     }
   ],
-  "precios": {},
+  "precios": {
+    "PG": 170.09
+  },
   "eurusd": 1.0939,
   "eurusd_inicio": 1.1193,
   "memoria": {
@@ -864,6 +866,18 @@
       "media": -0.0037,
       "ganadores": 0.41176,
       "n": 17
+    },
+    "JNJ-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.00331,
+      "ganadores": 0.36842,
+      "n": 19
+    },
+    "PG-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.00197,
+      "ganadores": 0.25,
+      "n": 16
     }
   },
   "noticias": {
@@ -1027,6 +1041,11 @@
     },
     "NVDQ": {
       "hora": "2026-11-23T15:01:18.062961+00:00",
+      "malos": 0,
+      "titulares": []
+    },
+    "PG": {
+      "hora": "2026-11-23T20:31:21.380569+00:00",
       "malos": 0,
       "titulares": []
     }

@@ -3763,3 +3763,14 @@
 2026-11-23 21:16 | [ACTIVA] 📋 Bot A3 XLE: entra a 59.94, stop 59.33, objetivo 61.15 -> ✅ COMPRA
 2026-11-23 21:16 | [ACTIVA] Bot A3 (rebote 20) COMPRA 106.7294 XLE a 59.94 | vida 15,467$
 2026-11-23 21:16 | [ACTIVA] Orden enviada: buy 106.7294 XLE (id 17e7b39c-1001-4a41-bf76-3d10ba825e26)
+2026-11-23 21:30 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 28, 0 con su regla ganando en 30 días
+2026-11-23 21:31 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 167 valores: señal en 68, 4 con su regla ganando las últimas sesiones (XLF -0.03%/día, V -0.04%/día, MU -0.09%/día, RSP -0.17%/día)
+2026-11-23 21:31 | [DIARIO] 🕰️ Bot D1 XLF: stop 55.50 objetivo 56.46 | con comisión: simulación -0.37R, historia -0.22R (27 casos) -> ❌ no
+2026-11-23 21:31 | [DIARIO] 📰 Bot D1 no compra V: Is Mastercard Stock Really Expensive? (legal)
+2026-11-23 21:31 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 167 valores: señal en 73, 4 con su regla ganando las últimas sesiones (LLY +0.07%/día, XLV -0.06%/día, MU -0.06%/día, XLF -0.19%/día)
+2026-11-23 21:31 | [DIARIO] 📰 Bot D2 no compra LLY: Pfizer’s CEO Wants AI to “Halve the Time to First Human Study.” Here’s What That (people, regulatory)
+2026-11-23 21:31 | [DIARIO] 📰 Bot D2 no compra XLV: Biotech Funds Slide Into Thanksgiving Week — Capricor’s FDA Fight And Back-To-Ba (regulatory)
+2026-11-23 21:31 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 167 valores: señal en 5, 1 con su regla ganando las últimas sesiones (PG -0.20%/día)
+2026-11-23 21:31 | [DIARIO] 🕰️ Bot D3 PG: stop 168.38 objetivo 173.51 | con comisión: simulación -0.23R, historia -0.22R (41 casos) -> ✅ COMPRA
+2026-11-23 21:31 | [DIARIO] Bot D3 (rebote 10) COMPRA 39.0029 PG a 170.09 | vida 15,986$
+2026-11-23 21:31 | [DIARIO] Orden enviada: buy 39.0029 PG (id 5c3d5cd6-aae6-4d58-b1d6-10e66774a790)
