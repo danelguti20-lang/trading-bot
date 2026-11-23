@@ -750,6 +750,60 @@
       "media": -0.00599,
       "ganadores": 0.14286,
       "n": 14
+    },
+    "COST-ruptura-30": {
+      "fecha": "2026-11-23",
+      "media": -0.00441,
+      "ganadores": 0.15385,
+      "n": 13
+    },
+    "XLB-ruptura-30": {
+      "fecha": "2026-11-23",
+      "media": -0.00318,
+      "ganadores": 0.25,
+      "n": 12
+    },
+    "MU-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.01152,
+      "ganadores": 0.33333,
+      "n": 18
+    },
+    "DELL-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.01357,
+      "ganadores": 0.3,
+      "n": 20
+    },
+    "SOXL-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.04351,
+      "ganadores": 0.13333,
+      "n": 15
+    },
+    "PANW-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.00291,
+      "ganadores": 0.26667,
+      "n": 15
+    },
+    "MRVL-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.01555,
+      "ganadores": 0.26667,
+      "n": 15
+    },
+    "LRCX-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.0112,
+      "ganadores": 0.33333,
+      "n": 18
+    },
+    "CAT-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.0091,
+      "ganadores": 0.27778,
+      "n": 18
     }
   },
   "noticias": {
