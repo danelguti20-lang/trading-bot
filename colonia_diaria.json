@@ -594,6 +594,24 @@
       "media": -0.00275,
       "ganadores": 0.29412,
       "n": 17
+    },
+    "INDA-ruptura-30": {
+      "fecha": "2026-11-23",
+      "media": -0.00287,
+      "ganadores": 0.07692,
+      "n": 13
+    },
+    "EWZ-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.00573,
+      "ganadores": 0.22222,
+      "n": 18
+    },
+    "DKNG-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.0027,
+      "ganadores": 0.61111,
+      "n": 18
     }
   },
   "noticias": {
