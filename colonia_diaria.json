@@ -732,6 +732,24 @@
       "media": -0.00394,
       "ganadores": 0.0,
       "n": 16
+    },
+    "BAC-mañana-0.3": {
+      "fecha": "2026-11-23",
+      "media": -0.00397,
+      "ganadores": 0.4,
+      "n": 5
+    },
+    "AMD-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.01196,
+      "ganadores": 0.33333,
+      "n": 15
+    },
+    "GE-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.00599,
+      "ganadores": 0.14286,
+      "n": 14
     }
   },
   "noticias": {
