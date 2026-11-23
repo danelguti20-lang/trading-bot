@@ -3583,3 +3583,15 @@
 2026-11-23 17:02 | [SKILL] 🛒 COMPRA 47 MRNA | stop 207.05 | objetivo 221.45 (orden f7355031-8086-401f-b276-587410126322)
 2026-11-23 17:02 | [SKILL] 🕰️ NKE: entrada 33.60 stop 33.26 objetivo 34.28 | objetivo antes 6%, stop antes 41% | con comisión: simulación -0.30R, historia +0.08R (27 casos) -> ❌ no
 2026-11-23 17:02 | [SKILL] 📰 PYPL descartada por noticias: Coinbase Stock's Real Worry Is Its Shrinking Margin (legal)
+2026-11-23 17:15 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 32, 0 con su regla ganando en 30 días
+2026-11-23 17:16 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 171 valores: señal en 55, 4 con su regla ganando las últimas sesiones (XLF -0.03%/día, V -0.04%/día, MU -0.09%/día, RSP -0.17%/día)
+2026-11-23 17:16 | [DIARIO] 🕰️ Bot D1 XLF: stop 55.50 objetivo 56.46 | con comisión: simulación -0.37R, historia -0.22R (27 casos) -> ❌ no
+2026-11-23 17:16 | [DIARIO] 📰 Bot D1 no compra V: Is Mastercard Stock Really Expensive? (legal)
+2026-11-23 17:16 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 171 valores: señal en 1, 0 con su regla ganando las últimas sesiones
+2026-11-23 17:16 | [ACTIVA] Bot A3 (rebote 20) VENDE 690.5147 SPDN a 8.96 | vida 15,605$
+2026-11-23 17:16 | [ACTIVA] Orden enviada: sell 690.5147 SPDN (id 832b736a-1e65-46f6-8bf7-e76fb1c6b17c)
+2026-11-23 17:17 | [SKILL] 🔎 Escáner 11:16: 69 roturas, 4 recientes para estudiar.
+2026-11-23 17:17 | [SKILL] 📰 BAC descartada por noticias: Why Did Goldman Sachs Stock Fall? (legal)
+2026-11-23 17:17 | [SKILL] 🕰️ RTX: entrada 194.37 stop 193.10 objetivo 196.91 | objetivo antes 13%, stop antes 38% | con comisión: simulación -0.21R, historia -0.32R (28 casos) -> ❌ no
+2026-11-23 17:17 | [SKILL] 📰 SCHW descartada por noticias: Why Did Robinhood Markets Stock Fall Again? (legal)
+2026-11-23 17:17 | [SKILL] 📰 INTU descartada por noticias: Intuit Stock Fell 13% On A Small Cut. Is Software's Subscription Model Breaking? (legal)

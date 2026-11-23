@@ -396,6 +396,24 @@
       "media": -0.00272,
       "ganadores": 0.41667,
       "n": 12
+    },
+    "BAC-ruptura-30": {
+      "fecha": "2026-11-23",
+      "media": -0.00521,
+      "ganadores": 0.28571,
+      "n": 7
+    },
+    "MA-ruptura-30": {
+      "fecha": "2026-11-23",
+      "media": -0.002,
+      "ganadores": 0.33333,
+      "n": 9
+    },
+    "MSFT-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.00795,
+      "ganadores": 0.3125,
+      "n": 16
     }
   },
   "noticias": {

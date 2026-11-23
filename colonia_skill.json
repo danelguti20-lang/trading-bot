@@ -3,7 +3,7 @@
   "abiertos": [
     {
       "simbolo": "MRNA",
-      "entrada": 211.85,
+      "entrada": 211.15,
       "stop": 207.05,
       "objetivo": 221.45,
       "riesgo": 4.799999999999983,
@@ -12,7 +12,8 @@
       "acciones": 47,
       "orden": "f7355031-8086-401f-b276-587410126322",
       "dia": "2026-11-23",
-      "hora": "11:01"
+      "hora": "11:01",
+      "lleno": true
     }
   ],
   "cerrados": [
@@ -62,7 +63,11 @@
       "FDX",
       "MRNA",
       "NKE",
-      "PYPL"
+      "PYPL",
+      "BAC",
+      "RTX",
+      "SCHW",
+      "INTU"
     ]
   }
 }
