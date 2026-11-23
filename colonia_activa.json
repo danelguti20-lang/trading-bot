@@ -27,22 +27,22 @@
     {
       "id": 2,
       "padre": null,
-      "activo": null,
+      "activo": "UNH",
       "estrategia": "mañana",
       "p": 0.2,
-      "efectivo": 16503.848491770936,
-      "acciones": 0.0,
+      "efectivo": 9620.368466348937,
+      "acciones": 20.588633,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-11",
       "hijos": 0,
       "hoy": "2026-11-23",
-      "operado_hoy": false,
+      "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 334.0,
+      "stop": 330.66,
+      "meta": 340.68,
       "contra_cerebro": false,
       "perdidas": 2
     },
@@ -193,7 +193,7 @@
       "titulares": []
     },
     "UNH": {
-      "hora": "2026-11-23T14:46:48.218158+00:00",
+      "hora": "2026-11-23T17:01:30.511348+00:00",
       "malos": 0,
       "titulares": []
     },
@@ -249,8 +249,9 @@
     }
   },
   "precios": {
-    "INDA": 52.03,
-    "COP": 133.0
+    "INDA": 52.115,
+    "UNH": 334.0,
+    "COP": 133.405
   },
   "cerebro": {
     "a_favor": {

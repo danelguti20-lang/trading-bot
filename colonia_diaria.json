@@ -504,6 +504,78 @@
       "media": -0.00374,
       "ganadores": 0.47059,
       "n": 17
+    },
+    "MU-mañana-0.3": {
+      "fecha": "2026-11-23",
+      "media": -0.00063,
+      "ganadores": 0.33333,
+      "n": 6
+    },
+    "TSLA-mañana-0.3": {
+      "fecha": "2026-11-23",
+      "media": -0.00316,
+      "ganadores": 0.3,
+      "n": 10
+    },
+    "META-mañana-0.3": {
+      "fecha": "2026-11-23",
+      "media": -0.00647,
+      "ganadores": 0.125,
+      "n": 8
+    },
+    "UNH-mañana-0.3": {
+      "fecha": "2026-11-23",
+      "media": -0.00538,
+      "ganadores": 0.28571,
+      "n": 7
+    },
+    "XLP-mañana-0.3": {
+      "fecha": "2026-11-23",
+      "media": -0.00347,
+      "ganadores": 0.33333,
+      "n": 12
+    },
+    "XLV-mañana-0.3": {
+      "fecha": "2026-11-23",
+      "media": -0.00061,
+      "ganadores": 0.44444,
+      "n": 9
+    },
+    "TLT-mañana-0.3": {
+      "fecha": "2026-11-23",
+      "media": -0.00285,
+      "ganadores": 0.125,
+      "n": 8
+    },
+    "PLTR-mañana-0.3": {
+      "fecha": "2026-11-23",
+      "media": -0.00387,
+      "ganadores": 0.28571,
+      "n": 7
+    },
+    "LLY-mañana-0.3": {
+      "fecha": "2026-11-23",
+      "media": 0.00073,
+      "ganadores": 0.6,
+      "n": 10
+    },
+    "WMT-mañana-0.3": {
+      "fecha": "2026-11-23",
+      "media": -0.00294,
+      "ganadores": 0.33333,
+      "n": 15
+    },
+    "ABBV-mañana-0.3": {
+      "fecha": "2026-11-23",
+      "media": -0.00175,
+      "ganadores": 0.36364,
+      "n": 11
+    },
+    "MA-mañana-0.3": {
+      "fecha": "2026-11-23",
+      "media": -0.00442,
+      "ganadores": 0.2,
+      "n": 10
     }
   },
   "noticias": {
