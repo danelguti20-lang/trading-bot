@@ -1,6 +1,20 @@
 {
-  "efectivo": 50046.39895,
-  "abiertos": [],
+  "efectivo": 40079.492000000006,
+  "abiertos": [
+    {
+      "simbolo": "MRNA",
+      "entrada": 211.85,
+      "stop": 207.05,
+      "objetivo": 221.45,
+      "riesgo": 4.799999999999983,
+      "sim_R": 0.054,
+      "hist_R": 0.084,
+      "acciones": 47,
+      "orden": "f7355031-8086-401f-b276-587410126322",
+      "dia": "2026-11-23",
+      "hora": "11:01"
+    }
+  ],
   "cerrados": [
     {
       "simbolo": "NVD",
@@ -22,7 +36,7 @@
     }
   ],
   "hoy": "2026-11-23",
-  "trades_hoy": 0,
+  "trades_hoy": 1,
   "resultado_hoy": 0.0,
   "vistos_hoy": {
     "2026-11-23": [
@@ -45,7 +59,10 @@
       "ITB",
       "XLC",
       "CRM",
-      "FDX"
+      "FDX",
+      "MRNA",
+      "NKE",
+      "PYPL"
     ]
   }
 }

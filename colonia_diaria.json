@@ -372,6 +372,30 @@
       "media": -0.00658,
       "ganadores": 0.25,
       "n": 8
+    },
+    "META-ruptura-30": {
+      "fecha": "2026-11-23",
+      "media": -0.00769,
+      "ganadores": 0.22222,
+      "n": 9
+    },
+    "TLT-ruptura-30": {
+      "fecha": "2026-11-23",
+      "media": -0.00205,
+      "ganadores": 0.33333,
+      "n": 12
+    },
+    "V-ruptura-30": {
+      "fecha": "2026-11-23",
+      "media": -0.00045,
+      "ganadores": 0.375,
+      "n": 8
+    },
+    "XLI-ruptura-30": {
+      "fecha": "2026-11-23",
+      "media": -0.00272,
+      "ganadores": 0.41667,
+      "n": 12
     }
   },
   "noticias": {
