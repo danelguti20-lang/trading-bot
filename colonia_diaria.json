@@ -672,6 +672,36 @@
       "media": -0.00478,
       "ganadores": 0.47059,
       "n": 17
+    },
+    "AAPL-mañana-0.3": {
+      "fecha": "2026-11-23",
+      "media": -0.00381,
+      "ganadores": 0.25,
+      "n": 8
+    },
+    "SLV-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.00584,
+      "ganadores": 0.17647,
+      "n": 17
+    },
+    "AMGN-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.00415,
+      "ganadores": 0.2,
+      "n": 20
+    },
+    "OXY-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.00504,
+      "ganadores": 0.25,
+      "n": 16
+    },
+    "ABNB-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.00636,
+      "ganadores": 0.22222,
+      "n": 18
     }
   },
   "noticias": {
