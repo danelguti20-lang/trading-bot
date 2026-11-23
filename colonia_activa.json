@@ -5,11 +5,11 @@
     {
       "id": 1,
       "padre": null,
-      "activo": "INDA",
+      "activo": null,
       "estrategia": "ruptura",
       "p": 30,
-      "efectivo": 2129.3552971792087,
-      "acciones": 276.866672,
+      "efectivo": 16539.68415476801,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -18,20 +18,20 @@
       "hoy": "2026-11-23",
       "operado_hoy": true,
       "descansa": true,
-      "entrada": 52.095,
-      "stop": 51.9,
-      "meta": 52.48,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": true,
-      "perdidas": 0
+      "perdidas": 1
     },
     {
       "id": 2,
       "padre": null,
-      "activo": "UNH",
+      "activo": null,
       "estrategia": "mañana",
       "p": 0.2,
-      "efectivo": 9620.368466348937,
-      "acciones": 20.588633,
+      "efectivo": 16520.741671033767,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -40,20 +40,20 @@
       "hoy": "2026-11-23",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 334.0,
-      "stop": 330.66,
-      "meta": 340.68,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
-      "perdidas": 2
+      "perdidas": 0
     },
     {
       "id": 3,
       "padre": null,
-      "activo": "XLE",
+      "activo": null,
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 9069.767037129559,
-      "acciones": 106.729428,
+      "efectivo": 15444.73818474944,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,11 +62,11 @@
       "hoy": "2026-11-23",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 59.935,
-      "stop": 59.33,
-      "meta": 61.15,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
-      "perdidas": 1
+      "perdidas": 2
     }
   ],
   "eurusd": 1.0939,
@@ -255,21 +255,17 @@
       ]
     }
   },
-  "precios": {
-    "INDA": 52.155,
-    "UNH": 335.1,
-    "XLE": 59.795
-  },
+  "precios": {},
   "cerebro": {
     "a_favor": {
-      "n": 53,
-      "ganadas": 18,
-      "suma": -0.153692
+      "n": 55,
+      "ganadas": 19,
+      "suma": -0.155654
     },
     "en_contra": {
-      "n": 16,
+      "n": 17,
       "ganadas": 6,
-      "suma": -0.05814
+      "suma": -0.060044
     }
   }
 }

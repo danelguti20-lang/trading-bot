@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": "PG",
+      "activo": null,
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 9351.946536833217,
-      "acciones": 39.002861,
+      "efectivo": 15980.088444858508,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,16 +62,14 @@
       "hoy": "2026-11-23",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 170.09,
-      "stop": 168.38,
-      "meta": 173.51,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
-      "perdidas": 0
+      "perdidas": 1
     }
   ],
-  "precios": {
-    "PG": 170.09
-  },
+  "precios": {},
   "eurusd": 1.0939,
   "eurusd_inicio": 1.1193,
   "memoria": {
@@ -1052,9 +1050,9 @@
   },
   "cerebro": {
     "a_favor": {
-      "n": 43,
+      "n": 44,
       "ganadas": 24,
-      "suma": -0.009104
+      "suma": -0.010987
     }
   }
 }
