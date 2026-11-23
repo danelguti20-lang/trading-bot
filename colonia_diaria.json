@@ -804,6 +804,18 @@
       "media": -0.0091,
       "ganadores": 0.27778,
       "n": 18
+    },
+    "TSLA-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.00328,
+      "ganadores": 0.41176,
+      "n": 17
+    },
+    "GLD-rebote-10": {
+      "fecha": "2026-11-23",
+      "media": -0.00522,
+      "ganadores": 0.05556,
+      "n": 18
     }
   },
   "noticias": {
