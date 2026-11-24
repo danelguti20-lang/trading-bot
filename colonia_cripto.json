@@ -238,10 +238,52 @@
       "media": -0.01393,
       "total": -0.3285,
       "ganadores": 0.07143
+    },
+    "BTC/USD-rebote-10": {
+      "hora": "2026-11-24 02:00:00+00:00",
+      "n": 39,
+      "media": -0.00583,
+      "total": -0.20711,
+      "ganadores": 0.33333
+    },
+    "HYPE/USD-rebote-10": {
+      "hora": "2026-11-24 02:00:00+00:00",
+      "n": 48,
+      "media": -0.00718,
+      "total": -0.29903,
+      "ganadores": 0.35417
+    },
+    "RENDER/USD-rebote-10": {
+      "hora": "2026-11-24 02:00:00+00:00",
+      "n": 43,
+      "media": -0.00278,
+      "total": -0.12267,
+      "ganadores": 0.55814
+    },
+    "SOL/USD-rebote-10": {
+      "hora": "2026-11-24 02:00:00+00:00",
+      "n": 45,
+      "media": -0.00794,
+      "total": -0.30706,
+      "ganadores": 0.31111
+    },
+    "SKY/USD-rebote-10": {
+      "hora": "2026-11-24 02:00:00+00:00",
+      "n": 51,
+      "media": -0.00533,
+      "total": -0.26123,
+      "ganadores": 0.41176
+    },
+    "ETH/USD-rebote-10": {
+      "hora": "2026-11-24 02:00:00+00:00",
+      "n": 37,
+      "media": -0.00706,
+      "total": -0.23547,
+      "ganadores": 0.27027
     }
   },
   "precios": {
-    "PAXG/USD": 3624.17
+    "PAXG/USD": 3621.485
   },
   "eurusd": 1.0939,
   "eurusd_inicio": 1.1193
