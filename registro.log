@@ -3987,3 +3987,8 @@
 2026-11-24 18:31 | [ACTIVA] 🛑 Bot A3 STOP: SOXS a 60.00 (entró a 60.81).
 2026-11-24 18:31 | [ACTIVA] Bot A3 (rebote 20) VENDE 102.4776 SOXS a 60.00 | vida 15,002$
 2026-11-24 18:31 | [ACTIVA] Orden enviada: sell 102.4776 SOXS (id abbb9e1b-b1ff-4304-9cd5-b461cbc62000)
+2026-11-24 18:45 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 164 valores: señal en 4, 0 con su regla ganando las últimas sesiones
+2026-11-24 18:46 | [ACTIVA] 🔎 Bot A3 (rebote 20) investiga 164 valores: señal en 3, mira primero: SOXS, SPDN, IEF
+2026-11-24 18:46 | [ACTIVA] 📋 Bot A3 SOXS: entra a 59.90, stop 59.30, objetivo 61.10 -> ✅ COMPRA
+2026-11-24 18:46 | [ACTIVA] Bot A3 (rebote 20) COMPRA 104.2076 SOXS a 59.90 | vida 14,995$
+2026-11-24 18:46 | [ACTIVA] Orden enviada: buy 104.2076 SOXS (id 3bd2b0d9-2065-4451-862f-19682a92e367)
