@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "AMZN",
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 15076.163444923306,
-      "acciones": 0.0,
+      "efectivo": 8802.858910526405,
+      "acciones": 24.84061,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,9 +62,9 @@
       "hoy": "2026-11-24",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 252.29,
+      "stop": 249.76,
+      "meta": 257.35,
       "contra_cerebro": false,
       "perdidas": 0
     }
@@ -173,9 +173,11 @@
       "titulares": []
     },
     "AMZN": {
-      "hora": "2026-11-18T15:01:54.866154+00:00",
-      "malos": 0,
-      "titulares": []
+      "hora": "2026-11-24T18:31:13.078943+00:00",
+      "malos": 1,
+      "titulares": [
+        "Anthropic Stock Sinks Below IPO Price. What History Says Happens Next."
+      ]
     },
     "XOM": {
       "hora": "2026-11-19T17:46:32.329947+00:00",
@@ -269,8 +271,9 @@
     }
   },
   "precios": {
-    "XLV": 184.74,
-    "AAPL": 353.31
+    "XLV": 184.92,
+    "AAPL": 353.27,
+    "AMZN": 252.29
   },
   "cerebro": {
     "a_favor": {
