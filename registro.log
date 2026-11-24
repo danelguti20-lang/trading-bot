@@ -3897,3 +3897,20 @@
 2026-11-24 15:46 | [ACTIVA] 📋 Bot A3 SOXL: entra a 35.91, stop 35.55, objetivo 36.63 -> ✅ COMPRA
 2026-11-24 15:46 | [ACTIVA] Bot A3 (rebote 20) COMPRA 178.8331 SOXL a 35.91 | vida 15,438$
 2026-11-24 15:46 | [ACTIVA] Orden enviada: buy 178.8331 SOXL (id 62dba460-ef8d-42f2-8582-f99ee8f11471)
+2026-11-24 16:00 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 3, 0 con su regla ganando en 30 días
+2026-11-24 16:01 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 163 valores: señal en 3, 1 con su regla ganando las últimas sesiones (V -0.09%/día)
+2026-11-24 16:01 | [DIARIO] 🕰️ Bot D1 V: stop 410.87 objetivo 421.49 | con comisión: simulación -0.27R, historia -0.11R (31 casos) -> ❌ no
+2026-11-24 16:01 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 163 valores: señal en 18, 0 con su regla ganando las últimas sesiones
+2026-11-24 16:01 | [ACTIVA] 🔎 Bot A1 (ruptura 30) investiga 162 valores: señal en 19, mira primero: XLV, UNH, NFLX, CRM
+2026-11-24 16:01 | [ACTIVA] 📋 Bot A1 XLV: entra a 183.36, stop 181.52, objetivo 187.04 -> ✅ COMPRA
+2026-11-24 16:01 | [ACTIVA] Bot A1 (ruptura 30) COMPRA 37.4757 XLV a 183.36 | vida 16,533$
+2026-11-24 16:01 | [ACTIVA] 🛑 Bot A3 STOP: SOXL a 34.91 (entró a 35.91).
+2026-11-24 16:01 | [ACTIVA] Bot A3 (rebote 20) VENDE 178.8331 SOXL a 34.91 | vida 15,252$
+2026-11-24 16:01 | [ACTIVA] Orden enviada: sell 178.8331 SOXL (id d2eeb07a-b3ac-48e6-ae95-1bd704f3138b)
+2026-11-24 16:01 | [ACTIVA] Orden enviada: buy 37.4757 XLV (id 8df7eac3-e76d-4b78-8ad3-87e7a7ea27f0)
+2026-11-24 16:02 | [SKILL] 🔎 Escáner 10:01: 67 roturas, 63 recientes para estudiar.
+2026-11-24 16:02 | [SKILL] 📰 AVGO descartada por noticias: NVIDIA Added About $1 Trillion in Minutes on Huang’s Return. Where Does the Price Target G (analyst, legal, people)
+2026-11-24 16:02 | [SKILL] 🕰️ FXI: entrada 31.41 stop 31.29 objetivo 31.65 | objetivo antes 6%, stop antes 49% | con comisión: simulación -0.72R, historia -0.57R (29 casos) -> ❌ no
+2026-11-24 16:02 | [SKILL]   HYG: stop demasiado pegado (0.07 $), no vale.
+2026-11-24 16:02 | [SKILL] 📰 INDA descartada por noticias: EEM Now Moves Like A Chip Fund (legal)
+2026-11-24 16:02 | [SKILL] 📰 META descartada por noticias: Meta's $60 Billion AI Funding Plan Faces Delay Amid Shareholder Lawsuit (legal)

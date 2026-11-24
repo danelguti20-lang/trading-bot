@@ -40,34 +40,12 @@
   "trades_hoy": 0,
   "resultado_hoy": 0.0,
   "vistos_hoy": {
-    "2026-11-23": [
-      "BA",
-      "IBM",
-      "MU",
-      "MUU",
-      "NVC",
-      "DIA",
-      "MRVL",
-      "NOW",
-      "TSLA",
-      "XLY",
-      "EFA",
-      "PDD",
-      "XLF",
-      "XLI",
-      "AAPL",
-      "GE",
-      "ITB",
-      "XLC",
-      "CRM",
-      "FDX",
-      "MRNA",
-      "NKE",
-      "PYPL",
-      "BAC",
-      "RTX",
-      "SCHW",
-      "INTU"
+    "2026-11-24": [
+      "AVGO",
+      "FXI",
+      "HYG",
+      "INDA",
+      "META"
     ]
   }
 }
