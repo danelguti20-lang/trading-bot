@@ -35,17 +35,17 @@
     {
       "id": 3,
       "padre": null,
-      "activo": "TRUMP/USD",
+      "activo": null,
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 917.2991089097413,
-      "acciones": 19494.309347557,
+      "efectivo": 17686.94785798025,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-09",
       "hijos": 0,
-      "entrada": 0.89181
+      "entrada": null
     }
   ],
   "dia": "2026-11-24",
@@ -241,8 +241,7 @@
     }
   },
   "precios": {
-    "PAXG/USD": 3627.63,
-    "TRUMP/USD": 0.8675675
+    "PAXG/USD": 3624.17
   },
   "eurusd": 1.0939,
   "eurusd_inicio": 1.1193
