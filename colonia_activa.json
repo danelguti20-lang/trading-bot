@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "SPCX",
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 15066.979498797156,
-      "acciones": 0.0,
+      "efectivo": 8783.414447228351,
+      "acciones": 49.628713,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,10 +62,10 @@
       "hoy": "2026-11-24",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
-      "contra_cerebro": false,
+      "entrada": 126.485,
+      "stop": 125.22,
+      "meta": 129.01,
+      "contra_cerebro": true,
       "perdidas": 1
     }
   ],
@@ -123,9 +123,12 @@
       "titulares": []
     },
     "SPCX": {
-      "hora": "2026-11-17T17:01:59.319005+00:00",
-      "malos": 0,
-      "titulares": []
+      "hora": "2026-11-24T19:31:34.851041+00:00",
+      "malos": 2,
+      "titulares": [
+        "Anthropic tumbles below $83 IPO price as AI concerns mount: ‘Trying to find its footing’",
+        "Anthropic Stock Sinks Below IPO Price. What History Says Happens Next."
+      ]
     },
     "TLT": {
       "hora": "2026-11-20T19:31:36.795416+00:00",
@@ -271,8 +274,9 @@
     }
   },
   "precios": {
-    "XLV": 185.01,
-    "AAPL": 352.535
+    "XLV": 184.86,
+    "AAPL": 352.51,
+    "SPCX": 126.485
   },
   "cerebro": {
     "a_favor": {
