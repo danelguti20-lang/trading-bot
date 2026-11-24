@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": "SOXS",
+      "activo": null,
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 8859.211225677718,
-      "acciones": 102.477644,
+      "efectivo": 15001.721207037717,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,11 +62,11 @@
       "hoy": "2026-11-24",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 60.815,
-      "stop": 60.2,
-      "meta": 62.04,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
-      "perdidas": 0
+      "perdidas": 1
     }
   ],
   "eurusd": 1.0963,
@@ -269,15 +269,14 @@
     }
   },
   "precios": {
-    "XLV": 184.49,
-    "AAPL": 352.07,
-    "SOXS": 60.815
+    "XLV": 184.53,
+    "AAPL": 352.92
   },
   "cerebro": {
     "a_favor": {
-      "n": 58,
+      "n": 59,
       "ganadas": 20,
-      "suma": -0.19418
+      "suma": -0.209554
     },
     "en_contra": {
       "n": 18,

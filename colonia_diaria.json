@@ -70,8 +70,8 @@
     }
   ],
   "precios": {
-    "WMT": 131.99,
-    "XLV": 184.56
+    "WMT": 132.03,
+    "XLV": 184.5
   },
   "eurusd": 1.0963,
   "eurusd_inicio": 1.1193,
@@ -477,6 +477,30 @@
       "media": -0.00392,
       "ganadores": 0.5625,
       "n": 16
+    },
+    "TLT-rebote-10": {
+      "fecha": "2026-11-24",
+      "media": -0.00301,
+      "ganadores": 0.0,
+      "n": 15
+    },
+    "SPDN-rebote-10": {
+      "fecha": "2026-11-24",
+      "media": -0.00209,
+      "ganadores": 0.35714,
+      "n": 14
+    },
+    "SQQQ-rebote-10": {
+      "fecha": "2026-11-24",
+      "media": -0.00415,
+      "ganadores": 0.5,
+      "n": 16
+    },
+    "IEF-rebote-10": {
+      "fecha": "2026-11-24",
+      "media": -0.00297,
+      "ganadores": 0.0,
+      "n": 17
     }
   },
   "noticias": {
