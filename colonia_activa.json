@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": "AMZN",
+      "activo": null,
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 8802.858910526405,
-      "acciones": 24.84061,
+      "efectivo": 15066.979498797156,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,11 +62,11 @@
       "hoy": "2026-11-24",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 252.29,
-      "stop": 249.76,
-      "meta": 257.35,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
-      "perdidas": 0
+      "perdidas": 1
     }
   ],
   "eurusd": 1.0963,
@@ -271,15 +271,14 @@
     }
   },
   "precios": {
-    "XLV": 184.77,
-    "AAPL": 352.32,
-    "AMZN": 251.64
+    "XLV": 185.01,
+    "AAPL": 352.535
   },
   "cerebro": {
     "a_favor": {
-      "n": 60,
+      "n": 61,
       "ganadas": 21,
-      "suma": -0.197642
+      "suma": -0.199108
     },
     "en_contra": {
       "n": 18,
