@@ -70,8 +70,8 @@
     }
   ],
   "precios": {
-    "WMT": 131.575,
-    "XLV": 183.73
+    "WMT": 131.99,
+    "XLV": 184.56
   },
   "eurusd": 1.0963,
   "eurusd_inicio": 1.1193,
@@ -471,6 +471,12 @@
       "media": 0.00034,
       "ganadores": 0.54545,
       "n": 11
+    },
+    "SOXS-rebote-10": {
+      "fecha": "2026-11-24",
+      "media": -0.00392,
+      "ganadores": 0.5625,
+      "n": 16
     }
   },
   "noticias": {
