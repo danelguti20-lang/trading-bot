@@ -70,7 +70,7 @@
     }
   ],
   "precios": {
-    "WMT": 131.95
+    "WMT": 131.64
   },
   "eurusd": 1.0963,
   "eurusd_inicio": 1.1193,
@@ -380,6 +380,24 @@
       "media": -0.00632,
       "ganadores": 0.22222,
       "n": 18
+    },
+    "LLY-rebote-10": {
+      "fecha": "2026-11-24",
+      "media": -0.00407,
+      "ganadores": 0.23529,
+      "n": 17
+    },
+    "VALE-rebote-10": {
+      "fecha": "2026-11-24",
+      "media": -0.00407,
+      "ganadores": 0.42105,
+      "n": 19
+    },
+    "INTU-rebote-10": {
+      "fecha": "2026-11-24",
+      "media": -0.00419,
+      "ganadores": 0.47059,
+      "n": 17
     }
   },
   "noticias": {
