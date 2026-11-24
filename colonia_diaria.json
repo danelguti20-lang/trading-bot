@@ -27,22 +27,22 @@
     {
       "id": 2,
       "padre": null,
-      "activo": null,
+      "activo": "XLV",
       "estrategia": "mañana",
       "p": 0.3,
-      "efectivo": 16651.09921760592,
-      "acciones": 0.0,
+      "efectivo": 9714.697807257511,
+      "acciones": 37.715517,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-09",
       "hijos": 0,
       "hoy": "2026-11-24",
-      "operado_hoy": false,
+      "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 183.73,
+      "stop": 181.89,
+      "meta": 187.41,
       "contra_cerebro": false,
       "perdidas": 2
     },
@@ -70,7 +70,8 @@
     }
   ],
   "precios": {
-    "WMT": 131.64
+    "WMT": 131.575,
+    "XLV": 183.73
   },
   "eurusd": 1.0963,
   "eurusd_inicio": 1.1193,
@@ -398,6 +399,78 @@
       "media": -0.00419,
       "ganadores": 0.47059,
       "n": 17
+    },
+    "AAPL-mañana-0.3": {
+      "fecha": "2026-11-24",
+      "media": -0.0034,
+      "ganadores": 0.22222,
+      "n": 9
+    },
+    "MSFT-mañana-0.3": {
+      "fecha": "2026-11-24",
+      "media": -0.00482,
+      "ganadores": 0.125,
+      "n": 8
+    },
+    "XLV-mañana-0.3": {
+      "fecha": "2026-11-24",
+      "media": -0.00063,
+      "ganadores": 0.4,
+      "n": 10
+    },
+    "IWM-mañana-0.3": {
+      "fecha": "2026-11-24",
+      "media": -0.00239,
+      "ganadores": 0.16667,
+      "n": 6
+    },
+    "XLP-mañana-0.3": {
+      "fecha": "2026-11-24",
+      "media": -0.00324,
+      "ganadores": 0.30769,
+      "n": 13
+    },
+    "XBI-mañana-0.3": {
+      "fecha": "2026-11-24",
+      "media": -0.0015,
+      "ganadores": 0.5,
+      "n": 10
+    },
+    "BAC-mañana-0.3": {
+      "fecha": "2026-11-24",
+      "media": -0.00469,
+      "ganadores": 0.33333,
+      "n": 6
+    },
+    "RSP-mañana-0.3": {
+      "fecha": "2026-11-24",
+      "media": -0.00218,
+      "ganadores": 0.22222,
+      "n": 9
+    },
+    "XLF-mañana-0.3": {
+      "fecha": "2026-11-24",
+      "media": -0.0023,
+      "ganadores": 0.22222,
+      "n": 9
+    },
+    "XLE-mañana-0.3": {
+      "fecha": "2026-11-24",
+      "media": -0.00588,
+      "ganadores": 0.22222,
+      "n": 9
+    },
+    "SOXS-mañana-0.3": {
+      "fecha": "2026-11-24",
+      "media": -0.00914,
+      "ganadores": 0.13333,
+      "n": 15
+    },
+    "LLY-mañana-0.3": {
+      "fecha": "2026-11-24",
+      "media": 0.00034,
+      "ganadores": 0.54545,
+      "n": 11
     }
   },
   "noticias": {
@@ -566,6 +639,11 @@
     },
     "PG": {
       "hora": "2026-11-23T20:31:21.380569+00:00",
+      "malos": 0,
+      "titulares": []
+    },
+    "XLV": {
+      "hora": "2026-11-24T17:01:03.464852+00:00",
       "malos": 0,
       "titulares": []
     }

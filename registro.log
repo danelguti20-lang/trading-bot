@@ -3966,3 +3966,15 @@
 2026-11-24 17:31 | [ACTIVA] Bot A3 (rebote 20) COMPRA 81.6912 ANT a 76.00 | vida 14,976$
 2026-11-24 17:31 | [ACTIVA] Orden enviada: buy 81.6912 ANT (id 9d47b1ff-9202-491d-9285-2195a1c91428)
 2026-11-24 17:45 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 164 valores: señal en 6, 0 con su regla ganando las últimas sesiones
+2026-11-24 18:01 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 164 valores: señal en 82, 3 con su regla ganando las últimas sesiones (LLY +0.03%/día, XLV -0.06%/día, XBI -0.15%/día)
+2026-11-24 18:01 | [DIARIO] 📰 Bot D2 no compra LLY: Forget Zepbound: Lilly's Retatrutide Just Cut Sleep Apnea Severity by Up to 60% (earnings, regulatory)
+2026-11-24 18:01 | [DIARIO] 🕰️ Bot D2 XLV: stop 181.89 objetivo 187.41 | con comisión: simulación -0.21R, historia -0.21R (29 casos) -> ✅ COMPRA
+2026-11-24 18:01 | [DIARIO] Bot D2 (mañana 0.3) COMPRA 37.7155 XLV a 183.73 | vida 16,644$
+2026-11-24 18:01 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 164 valores: señal en 6, 0 con su regla ganando las últimas sesiones
+2026-11-24 18:01 | [DIARIO] Orden enviada: buy 37.7155 XLV (id ece2a075-b731-4842-bf79-6e88ece20125)
+2026-11-24 18:01 | [ACTIVA] 🔎 Bot A2 (mañana 0.2) investiga 164 valores: señal en 87, mira primero: AAPL, MSFT, IWM, XLP
+2026-11-24 18:01 | [ACTIVA] 📋 Bot A2 AAPL: entra a 351.25, stop 347.73, objetivo 358.29 -> ✅ COMPRA
+2026-11-24 18:01 | [ACTIVA] Bot A2 (mañana 0.2) COMPRA 19.5627 AAPL a 351.25 | vida 16,514$
+2026-11-24 18:01 | [ACTIVA] Bot A3 (rebote 20) VENDE 81.6912 ANT a 77.57 | vida 15,098$
+2026-11-24 18:01 | [ACTIVA] Orden enviada: buy 19.5627 AAPL (id c232411d-b930-4286-8f9a-f7cda748cd03)
+2026-11-24 18:01 | [ACTIVA] Orden enviada: sell 81.6912 ANT (id 326852c6-1dbf-4180-9e26-b92c109c0cf6)

@@ -27,33 +27,11 @@
     {
       "id": 2,
       "padre": null,
-      "activo": null,
+      "activo": "AAPL",
       "estrategia": "mañana",
       "p": 0.2,
-      "efectivo": 16520.741671033767,
-      "acciones": 0.0,
-      "referencia": 16666.67,
-      "inicial": 16666.67,
-      "estado": "vivo",
-      "nacido": "2026-11-11",
-      "hijos": 0,
-      "hoy": "2026-11-24",
-      "operado_hoy": false,
-      "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
-      "contra_cerebro": false,
-      "perdidas": 0
-    },
-    {
-      "id": 3,
-      "padre": null,
-      "activo": "ANT",
-      "estrategia": "rebote",
-      "p": 20,
-      "efectivo": 8767.175522970647,
-      "acciones": 81.691151,
+      "efectivo": 9642.454669197517,
+      "acciones": 19.562749,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,11 +40,33 @@
       "hoy": "2026-11-24",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 76.005,
-      "stop": 75.24,
-      "meta": 77.53,
+      "entrada": 351.25,
+      "stop": 347.73,
+      "meta": 358.29,
       "contra_cerebro": false,
-      "perdidas": 5
+      "perdidas": 0
+    },
+    {
+      "id": 3,
+      "padre": null,
+      "activo": null,
+      "estrategia": "rebote",
+      "p": 20,
+      "efectivo": 15097.621323457577,
+      "acciones": 0.0,
+      "referencia": 16666.67,
+      "inicial": 16666.67,
+      "estado": "vivo",
+      "nacido": "2026-11-11",
+      "hijos": 0,
+      "hoy": "2026-11-24",
+      "operado_hoy": true,
+      "descansa": false,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
+      "contra_cerebro": false,
+      "perdidas": 0
     }
   ],
   "eurusd": 1.0963,
@@ -261,17 +261,22 @@
       "hora": "2026-11-24T15:01:31.374956+00:00",
       "malos": 0,
       "titulares": []
+    },
+    "AAPL": {
+      "hora": "2026-11-24T17:01:21.157705+00:00",
+      "malos": 0,
+      "titulares": []
     }
   },
   "precios": {
-    "XLV": 183.795,
-    "ANT": 76.7
+    "XLV": 183.84,
+    "AAPL": 351.25
   },
   "cerebro": {
     "a_favor": {
-      "n": 57,
-      "ganadas": 19,
-      "suma": -0.21273
+      "n": 58,
+      "ganadas": 20,
+      "suma": -0.19418
     },
     "en_contra": {
       "n": 18,

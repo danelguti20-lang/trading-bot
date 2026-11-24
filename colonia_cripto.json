@@ -49,31 +49,9 @@
     }
   ],
   "dia": "2026-11-24",
-  "memoria": {
-    "PAXG/USD-tendencia-48": {
-      "hora": "2026-11-24 14:00:00+00:00",
-      "n": 23,
-      "media": -0.00536,
-      "total": -0.11674,
-      "ganadores": 0.13043
-    },
-    "SUSHI/USD-tendencia-48": {
-      "hora": "2026-11-24 14:00:00+00:00",
-      "n": 32,
-      "media": -0.01128,
-      "total": -0.3059,
-      "ganadores": 0.0625
-    },
-    "BONK/USD-tendencia-48": {
-      "hora": "2026-11-24 14:00:00+00:00",
-      "n": 31,
-      "media": -0.01366,
-      "total": -0.35068,
-      "ganadores": 0.09677
-    }
-  },
+  "memoria": {},
   "precios": {
-    "TRUMP/USD": 0.8177
+    "TRUMP/USD": 0.8168365
   },
   "eurusd": 1.0963,
   "eurusd_inicio": 1.1193
