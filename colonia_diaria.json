@@ -70,8 +70,8 @@
     }
   ],
   "precios": {
-    "WMT": 132.115,
-    "XLV": 184.745
+    "WMT": 131.93,
+    "XLV": 184.73
   },
   "eurusd": 1.0963,
   "eurusd_inicio": 1.1193,
@@ -501,6 +501,12 @@
       "media": -0.00297,
       "ganadores": 0.0,
       "n": 17
+    },
+    "INSM-rebote-10": {
+      "fecha": "2026-11-24",
+      "media": -0.00155,
+      "ganadores": 0.53333,
+      "n": 15
     }
   },
   "noticias": {

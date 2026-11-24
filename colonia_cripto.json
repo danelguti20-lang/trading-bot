@@ -35,24 +35,30 @@
     {
       "id": 3,
       "padre": null,
-      "activo": "TRUMP/USD",
+      "activo": null,
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 884.3473928989879,
-      "acciones": 20227.487863151,
+      "efectivo": 17605.969133068917,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-09",
       "hijos": 0,
-      "entrada": 0.82861
+      "entrada": null
     }
   ],
   "dia": "2026-11-24",
-  "memoria": {},
-  "precios": {
-    "TRUMP/USD": 0.828647
+  "memoria": {
+    "SUSHI/USD-tendencia-48": {
+      "hora": "2026-11-24 17:00:00+00:00",
+      "n": 33,
+      "media": -0.0118,
+      "total": -0.32565,
+      "ganadores": 0.06061
+    }
   },
+  "precios": {},
   "eurusd": 1.0963,
   "eurusd_inicio": 1.1193
 }
