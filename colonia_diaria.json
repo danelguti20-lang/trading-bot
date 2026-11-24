@@ -49,29 +49,30 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "CRWD",
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 15980.088444858508,
-      "acciones": 0.0,
+      "efectivo": 9316.504353794608,
+      "acciones": 31.48302,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-09",
       "hijos": 0,
       "hoy": "2026-11-24",
-      "operado_hoy": false,
+      "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 211.445,
+      "stop": 209.33,
+      "meta": 215.67,
       "contra_cerebro": false,
       "perdidas": 1
     }
   ],
   "precios": {
-    "WMT": 131.875,
-    "XLV": 184.75
+    "WMT": 131.9,
+    "XLV": 184.77,
+    "CRWD": 211.445
   },
   "eurusd": 1.0963,
   "eurusd_inicio": 1.1193,
@@ -573,6 +574,54 @@
       "media": -0.00203,
       "ganadores": 0.35294,
       "n": 17
+    },
+    "AAPL-rebote-10": {
+      "fecha": "2026-11-24",
+      "media": -0.00331,
+      "ganadores": 0.29412,
+      "n": 17
+    },
+    "KRE-rebote-10": {
+      "fecha": "2026-11-24",
+      "media": -0.00611,
+      "ganadores": 0.11111,
+      "n": 18
+    },
+    "CRWD-rebote-10": {
+      "fecha": "2026-11-24",
+      "media": 0.00074,
+      "ganadores": 0.4375,
+      "n": 16
+    },
+    "MA-rebote-10": {
+      "fecha": "2026-11-24",
+      "media": -0.00529,
+      "ganadores": 0.05263,
+      "n": 19
+    },
+    "MSTR-rebote-10": {
+      "fecha": "2026-11-24",
+      "media": -0.00732,
+      "ganadores": 0.31579,
+      "n": 19
+    },
+    "KO-rebote-10": {
+      "fecha": "2026-11-24",
+      "media": -0.00305,
+      "ganadores": 0.23529,
+      "n": 17
+    },
+    "T-rebote-10": {
+      "fecha": "2026-11-24",
+      "media": -0.00302,
+      "ganadores": 0.36842,
+      "n": 19
+    },
+    "SNOW-rebote-10": {
+      "fecha": "2026-11-24",
+      "media": -0.00992,
+      "ganadores": 0.15789,
+      "n": 19
     }
   },
   "noticias": {
@@ -705,9 +754,11 @@
       "titulares": []
     },
     "CRWD": {
-      "hora": "2026-11-18T15:01:28.402481+00:00",
-      "malos": 0,
-      "titulares": []
+      "hora": "2026-11-24T19:01:21.694918+00:00",
+      "malos": 1,
+      "titulares": [
+        "Don’t Panic, Buy These Instead: Jim Cramer’s Emergency 5-Stock Portfolio"
+      ]
     },
     "WMT": {
       "hora": "2026-11-24T15:15:58.514067+00:00",

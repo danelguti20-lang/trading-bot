@@ -56,6 +56,13 @@
       "media": -0.0118,
       "total": -0.32565,
       "ganadores": 0.06061
+    },
+    "HYPE/USD-rebote-10": {
+      "hora": "2026-11-24 18:00:00+00:00",
+      "n": 49,
+      "media": -0.00823,
+      "total": -0.33931,
+      "ganadores": 0.32653
     }
   },
   "precios": {},
