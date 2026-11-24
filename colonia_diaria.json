@@ -70,7 +70,7 @@
     }
   ],
   "precios": {
-    "WMT": 132.29
+    "WMT": 131.76
   },
   "eurusd": 1.0963,
   "eurusd_inicio": 1.1193,
@@ -266,6 +266,42 @@
       "media": -0.00579,
       "ganadores": 0.29412,
       "n": 17
+    },
+    "NVDA-rebote-10": {
+      "fecha": "2026-11-24",
+      "media": -0.01112,
+      "ganadores": 0.31579,
+      "n": 19
+    },
+    "SPCX-rebote-10": {
+      "fecha": "2026-11-24",
+      "media": -0.00854,
+      "ganadores": 0.1875,
+      "n": 16
+    },
+    "QQQ-rebote-10": {
+      "fecha": "2026-11-24",
+      "media": -0.00767,
+      "ganadores": 0.25,
+      "n": 16
+    },
+    "TSLA-rebote-10": {
+      "fecha": "2026-11-24",
+      "media": -0.00315,
+      "ganadores": 0.41176,
+      "n": 17
+    },
+    "IWM-rebote-10": {
+      "fecha": "2026-11-24",
+      "media": -0.00818,
+      "ganadores": 0.0625,
+      "n": 16
+    },
+    "TQQQ-rebote-10": {
+      "fecha": "2026-11-24",
+      "media": -0.01626,
+      "ganadores": 0.3125,
+      "n": 16
     }
   },
   "noticias": {
