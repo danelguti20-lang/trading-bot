@@ -46,11 +46,11 @@
     }
   ],
   "precios": {
-    "AMZN": 255.205,
-    "ABBV": 288.33,
-    "XOM": 156.93
+    "AMZN": 252.25,
+    "ABBV": 300.34,
+    "XOM": 158.41
   },
-  "eurusd": 1.0939,
+  "eurusd": 1.0963,
   "eurusd_inicio": 1.1193,
   "noticias": {
     "DELL": {
