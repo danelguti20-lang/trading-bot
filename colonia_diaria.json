@@ -70,7 +70,7 @@
     }
   ],
   "precios": {
-    "WMT": 131.87
+    "WMT": 132.235
   },
   "eurusd": 1.0963,
   "eurusd_inicio": 1.1193,
@@ -319,6 +319,30 @@
       "fecha": "2026-11-24",
       "media": -0.00874,
       "ganadores": 0.17647,
+      "n": 17
+    },
+    "HYG-rebote-10": {
+      "fecha": "2026-11-24",
+      "media": -0.00383,
+      "ganadores": 0.0,
+      "n": 16
+    },
+    "META-rebote-10": {
+      "fecha": "2026-11-24",
+      "media": -0.00627,
+      "ganadores": 0.1875,
+      "n": 16
+    },
+    "MRVL-rebote-10": {
+      "fecha": "2026-11-24",
+      "media": -0.01472,
+      "ganadores": 0.33333,
+      "n": 15
+    },
+    "GLD-rebote-10": {
+      "fecha": "2026-11-24",
+      "media": -0.00542,
+      "ganadores": 0.05882,
       "n": 17
     }
   },
