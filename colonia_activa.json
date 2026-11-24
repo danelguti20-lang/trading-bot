@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "NVDA",
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 15252.34689845717,
-      "acciones": 0.0,
+      "efectivo": 8894.95188136405,
+      "acciones": 41.006224,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,10 +62,10 @@
       "hoy": "2026-11-24",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
-      "contra_cerebro": false,
+      "entrada": 154.88,
+      "stop": 153.33,
+      "meta": 157.98,
+      "contra_cerebro": true,
       "perdidas": 3
     }
   ],
@@ -109,12 +109,12 @@
       "titulares": []
     },
     "NVDA": {
-      "hora": "2026-11-20T19:16:33.934513+00:00",
-      "malos": 3,
+      "hora": "2026-11-24T15:16:17.893095+00:00",
+      "malos": 4,
       "titulares": [
-        "Michael Burry Locks In Gains on Nvidia, Chipmaker ETF Puts As AI Rout Deepens",
-        "Supply Chain Stocks Sink Amid Wall Street Sell-Off, Though Air Freight Shows Resilience",
-        "Update: US Equity Indexes Drop as Anthropic Leads Big-Tech Plunge Amid Sliding Treasury Yields"
+        "Is the Stock Market in the Early Stages of a Crash?",
+        "Anthropic Sinks 7% Below IPO Price as AI Stocks Slide: Cramer Blames “Endless Hammering of Small Bids”",
+        "Anthropic Tumbles 9%, Trades Below IPO Price Despite Canaccord’s $135 Target; CoreWeave and Nebius Drop 8%"
       ]
     },
     "OXY": {
@@ -266,7 +266,8 @@
     }
   },
   "precios": {
-    "XLV": 183.36
+    "XLV": 183.47,
+    "NVDA": 154.88
   },
   "cerebro": {
     "a_favor": {

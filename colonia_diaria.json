@@ -5,22 +5,22 @@
     {
       "id": 1,
       "padre": null,
-      "activo": null,
+      "activo": "WMT",
       "estrategia": "ruptura",
       "p": 30,
-      "efectivo": 17257.574873670597,
-      "acciones": 0.0,
+      "efectivo": 10091.777037773896,
+      "acciones": 54.11323,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-09",
       "hijos": 0,
       "hoy": "2026-11-24",
-      "operado_hoy": false,
+      "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 132.29,
+      "stop": 130.96,
+      "meta": 134.95,
       "contra_cerebro": false,
       "perdidas": 0
     },
@@ -69,7 +69,9 @@
       "perdidas": 1
     }
   ],
-  "precios": {},
+  "precios": {
+    "WMT": 132.29
+  },
   "eurusd": 1.0963,
   "eurusd_inicio": 1.1193,
   "memoria": {
@@ -162,6 +164,108 @@
       "media": -0.00239,
       "ganadores": 0.3125,
       "n": 16
+    },
+    "XLP-ruptura-30": {
+      "fecha": "2026-11-24",
+      "media": -0.00315,
+      "ganadores": 0.38462,
+      "n": 13
+    },
+    "SOXS-ruptura-30": {
+      "fecha": "2026-11-24",
+      "media": 0.04045,
+      "ganadores": 0.5,
+      "n": 10
+    },
+    "KRE-ruptura-30": {
+      "fecha": "2026-11-24",
+      "media": -0.00595,
+      "ganadores": 0.2,
+      "n": 5
+    },
+    "WMT-ruptura-30": {
+      "fecha": "2026-11-24",
+      "media": -0.00073,
+      "ganadores": 0.33333,
+      "n": 12
+    },
+    "BAC-ruptura-30": {
+      "fecha": "2026-11-24",
+      "media": -0.00565,
+      "ganadores": 0.25,
+      "n": 8
+    },
+    "UNH-ruptura-30": {
+      "fecha": "2026-11-24",
+      "media": -0.00621,
+      "ganadores": 0.27273,
+      "n": 11
+    },
+    "ABBV-ruptura-30": {
+      "fecha": "2026-11-24",
+      "media": -0.0022,
+      "ganadores": 0.4,
+      "n": 10
+    },
+    "RSP-ruptura-30": {
+      "fecha": "2026-11-24",
+      "media": -0.00142,
+      "ganadores": 0.45455,
+      "n": 11
+    },
+    "XLRE-ruptura-30": {
+      "fecha": "2026-11-24",
+      "media": -0.00191,
+      "ganadores": 0.22222,
+      "n": 9
+    },
+    "XLU-ruptura-30": {
+      "fecha": "2026-11-24",
+      "media": -0.00267,
+      "ganadores": 0.23077,
+      "n": 13
+    },
+    "AMD-rebote-10": {
+      "fecha": "2026-11-24",
+      "media": -0.01135,
+      "ganadores": 0.3125,
+      "n": 16
+    },
+    "MU-rebote-10": {
+      "fecha": "2026-11-24",
+      "media": -0.01053,
+      "ganadores": 0.36842,
+      "n": 19
+    },
+    "SMH-rebote-10": {
+      "fecha": "2026-11-24",
+      "media": -0.00708,
+      "ganadores": 0.41176,
+      "n": 17
+    },
+    "DRAM-rebote-10": {
+      "fecha": "2026-11-24",
+      "media": -0.01237,
+      "ganadores": 0.35294,
+      "n": 17
+    },
+    "GDX-rebote-10": {
+      "fecha": "2026-11-24",
+      "media": -0.00634,
+      "ganadores": 0.1875,
+      "n": 16
+    },
+    "EEM-rebote-10": {
+      "fecha": "2026-11-24",
+      "media": -0.00554,
+      "ganadores": 0.05882,
+      "n": 17
+    },
+    "GS-rebote-10": {
+      "fecha": "2026-11-24",
+      "media": -0.00579,
+      "ganadores": 0.29412,
+      "n": 17
     }
   },
   "noticias": {
@@ -299,7 +403,7 @@
       "titulares": []
     },
     "WMT": {
-      "hora": "2026-11-18T14:46:18.582491+00:00",
+      "hora": "2026-11-24T15:15:58.514067+00:00",
       "malos": 0,
       "titulares": []
     },

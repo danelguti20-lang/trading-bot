@@ -3914,3 +3914,22 @@
 2026-11-24 16:02 | [SKILL]   HYG: stop demasiado pegado (0.07 $), no vale.
 2026-11-24 16:02 | [SKILL] 📰 INDA descartada por noticias: EEM Now Moves Like A Chip Fund (legal)
 2026-11-24 16:02 | [SKILL] 📰 META descartada por noticias: Meta's $60 Billion AI Funding Plan Faces Delay Amid Shareholder Lawsuit (legal)
+2026-11-24 16:15 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 3, 0 con su regla ganando en 30 días
+2026-11-24 16:15 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 162 valores: señal en 40, 5 con su regla ganando las últimas sesiones (SOXS +4.04%/día, WMT -0.07%/día, V -0.09%/día, RSP -0.14%/día)
+2026-11-24 16:15 | [DIARIO] 🕰️ Bot D1 SOXS: stop 58.88 objetivo 60.68 | con comisión: simulación -0.21R, historia -0.25R (32 casos) -> ❌ no
+2026-11-24 16:15 | [DIARIO] 🕰️ Bot D1 WMT: stop 130.96 objetivo 134.95 | con comisión: simulación -0.07R, historia -0.03R (37 casos) -> ✅ COMPRA
+2026-11-24 16:15 | [DIARIO] Bot D1 (ruptura 30) COMPRA 54.1132 WMT a 132.29 | vida 17,250$
+2026-11-24 16:16 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 162 valores: señal en 25, 0 con su regla ganando las últimas sesiones
+2026-11-24 16:16 | [DIARIO] Orden enviada: buy 54.1132 WMT (id 6cafe1b6-ad69-42a4-a7e6-f6364dcc0f4e)
+2026-11-24 16:16 | [ACTIVA] 🔎 Bot A3 (rebote 20) investiga 162 valores: señal en 38, mira primero: NVDA, AMD, MU, QQQ
+2026-11-24 16:16 | [ACTIVA] 📋 Bot A3 NVDA: entra a 154.88, stop 153.33, objetivo 157.98 -> ✅ COMPRA
+2026-11-24 16:16 | [ACTIVA] 🧠 Noticias de pánico en NVDA: Is the Stock Market in the Early Stages of a Crash? | Anthropic Sinks 7% Below IPO Price as AI Stocks Slide: Cramer Blames “Endless Hammering of Small Bids”
+2026-11-24 16:16 | [ACTIVA] 🧠 Bot A3 compra aunque el cerebro diría NO (noticias).
+2026-11-24 16:16 | [ACTIVA] Bot A3 (rebote 20) COMPRA 41.0062 NVDA a 154.88 | vida 15,246$
+2026-11-24 16:16 | [ACTIVA] Orden enviada: buy 41.0062 NVDA (id a3b05cf1-33c8-4864-9e83-4da6d7d8d2b9)
+2026-11-24 16:17 | [SKILL] 🔎 Escáner 10:16: 88 roturas, 26 recientes para estudiar.
+2026-11-24 16:17 | [SKILL] 📰 CMCSA descartada por noticias: Disney Stops Reporting Streaming Profit. Should You Worry? (legal)
+2026-11-24 16:17 | [SKILL] 📰 GILD descartada por noticias: Why Exelixis Stock Can Keep Compounding Your Money (legal)
+2026-11-24 16:17 | [SKILL] 📰 MCD descartada por noticias: McDonald’s and Burger King Items Come in ‘Lighter’ in Price vs. Portion Tests (legal)
+2026-11-24 16:17 | [SKILL] 🕰️ NKE: entrada 35.33 stop 34.58 objetivo 36.83 | objetivo antes 0%, stop antes 12% | con comisión: simulación -0.17R, historia +0.19R (28 casos) -> ❌ no
+2026-11-24 16:17 | [SKILL] 📰 RTX descartada por noticias: Is Lockheed Martin Stock Ready For A Delayed Jet Contract? (legal)
