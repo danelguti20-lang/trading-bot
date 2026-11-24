@@ -49,22 +49,22 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "SOXL",
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 15444.73818474944,
-      "acciones": 0.0,
+      "efectivo": 9016.42117685666,
+      "acciones": 178.833058,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-11",
       "hijos": 0,
       "hoy": "2026-11-24",
-      "operado_hoy": false,
+      "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 35.91,
+      "stop": 35.55,
+      "meta": 36.63,
       "contra_cerebro": false,
       "perdidas": 2
     }
@@ -253,9 +253,16 @@
       "titulares": [
         "Anthropic stock range-bound after IPO sell-off, stuck between $83 support and $93.80 resistance"
       ]
+    },
+    "SOXL": {
+      "hora": "2026-11-24T14:46:12.942595+00:00",
+      "malos": 0,
+      "titulares": []
     }
   },
-  "precios": {},
+  "precios": {
+    "SOXL": 35.91
+  },
   "cerebro": {
     "a_favor": {
       "n": 55,
