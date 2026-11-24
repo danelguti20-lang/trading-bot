@@ -70,8 +70,8 @@
     }
   ],
   "precios": {
-    "WMT": 131.98,
-    "XLV": 184.88
+    "WMT": 131.875,
+    "XLV": 184.75
   },
   "eurusd": 1.0963,
   "eurusd_inicio": 1.1193,
@@ -531,6 +531,48 @@
       "media": -0.00659,
       "ganadores": 0.22222,
       "n": 18
+    },
+    "AMZN-rebote-10": {
+      "fecha": "2026-11-24",
+      "media": -0.00384,
+      "ganadores": 0.27778,
+      "n": 18
+    },
+    "V-rebote-10": {
+      "fecha": "2026-11-24",
+      "media": -0.00613,
+      "ganadores": 0.11765,
+      "n": 17
+    },
+    "VZ-rebote-10": {
+      "fecha": "2026-11-24",
+      "media": -0.00213,
+      "ganadores": 0.36842,
+      "n": 19
+    },
+    "SHOP-rebote-10": {
+      "fecha": "2026-11-24",
+      "media": -0.01065,
+      "ganadores": 0.3125,
+      "n": 16
+    },
+    "UBER-rebote-10": {
+      "fecha": "2026-11-24",
+      "media": -0.00618,
+      "ganadores": 0.22222,
+      "n": 18
+    },
+    "MCD-rebote-10": {
+      "fecha": "2026-11-24",
+      "media": -0.00259,
+      "ganadores": 0.1875,
+      "n": 16
+    },
+    "PEP-rebote-10": {
+      "fecha": "2026-11-24",
+      "media": -0.00203,
+      "ganadores": 0.35294,
+      "n": 17
     }
   },
   "noticias": {
