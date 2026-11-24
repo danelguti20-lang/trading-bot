@@ -70,8 +70,8 @@
     }
   ],
   "precios": {
-    "WMT": 131.93,
-    "XLV": 184.73
+    "WMT": 131.88,
+    "XLV": 184.74
   },
   "eurusd": 1.0963,
   "eurusd_inicio": 1.1193,
@@ -507,6 +507,12 @@
       "media": -0.00155,
       "ganadores": 0.53333,
       "n": 15
+    },
+    "COST-rebote-10": {
+      "fecha": "2026-11-24",
+      "media": -0.00393,
+      "ganadores": 0.25,
+      "n": 16
     }
   },
   "noticias": {
