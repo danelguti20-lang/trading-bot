@@ -5,11 +5,11 @@
     {
       "id": 1,
       "padre": null,
-      "activo": "WMT",
+      "activo": null,
       "estrategia": "ruptura",
       "p": 30,
-      "efectivo": 10091.777037773896,
-      "acciones": 54.11323,
+      "efectivo": 17208.930056128247,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -18,20 +18,20 @@
       "hoy": "2026-11-24",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 132.29,
-      "stop": 130.96,
-      "meta": 134.95,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
-      "perdidas": 0
+      "perdidas": 1
     },
     {
       "id": 2,
       "padre": null,
-      "activo": "XLV",
+      "activo": null,
       "estrategia": "mañana",
       "p": 0.3,
-      "efectivo": 9714.697807257511,
-      "acciones": 37.715517,
+      "efectivo": 16680.19296741972,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -40,11 +40,11 @@
       "hoy": "2026-11-24",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 183.73,
-      "stop": 181.89,
-      "meta": 187.41,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
-      "perdidas": 2
+      "perdidas": 0
     },
     {
       "id": 3,
@@ -69,10 +69,7 @@
       "perdidas": 2
     }
   ],
-  "precios": {
-    "WMT": 131.79,
-    "XLV": 184.89
-  },
+  "precios": {},
   "eurusd": 1.0963,
   "eurusd_inicio": 1.1193,
   "memoria": {
@@ -802,9 +799,9 @@
   },
   "cerebro": {
     "a_favor": {
-      "n": 45,
-      "ganadas": 24,
-      "suma": -0.017141
+      "n": 47,
+      "ganadas": 25,
+      "suma": -0.019739
     }
   }
 }

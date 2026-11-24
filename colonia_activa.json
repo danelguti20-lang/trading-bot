@@ -5,11 +5,11 @@
     {
       "id": 1,
       "padre": null,
-      "activo": "XLV",
+      "activo": null,
       "estrategia": "ruptura",
       "p": 30,
-      "efectivo": 9661.264587548807,
-      "acciones": 37.47572,
+      "efectivo": 16580.78808659981,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -18,20 +18,20 @@
       "hoy": "2026-11-24",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 183.36,
-      "stop": 181.52,
-      "meta": 187.04,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
-      "perdidas": 1
+      "perdidas": 0
     },
     {
       "id": 2,
       "padre": null,
-      "activo": "AAPL",
+      "activo": null,
       "estrategia": "mañana",
       "p": 0.2,
-      "efectivo": 9642.454669197517,
-      "acciones": 19.562749,
+      "efectivo": 16528.007765081093,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -40,20 +40,20 @@
       "hoy": "2026-11-24",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 351.25,
-      "stop": 347.73,
-      "meta": 358.29,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
       "perdidas": 0
     },
     {
       "id": 3,
       "padre": null,
-      "activo": "SPCX",
+      "activo": null,
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 8783.414447228351,
-      "acciones": 49.628713,
+      "efectivo": 15039.055407140575,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,11 +62,11 @@
       "hoy": "2026-11-24",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 126.485,
-      "stop": 125.22,
-      "meta": 129.01,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": true,
-      "perdidas": 1
+      "perdidas": 2
     }
   ],
   "eurusd": 1.0963,
@@ -273,21 +273,17 @@
       "titulares": []
     }
   },
-  "precios": {
-    "XLV": 184.95,
-    "AAPL": 351.875,
-    "SPCX": 126.12
-  },
+  "precios": {},
   "cerebro": {
     "a_favor": {
-      "n": 61,
-      "ganadas": 21,
-      "suma": -0.199108
+      "n": 63,
+      "ganadas": 23,
+      "suma": -0.19208
     },
     "en_contra": {
-      "n": 18,
+      "n": 19,
       "ganadas": 6,
-      "suma": -0.075769
+      "suma": -0.080215
     }
   }
 }
