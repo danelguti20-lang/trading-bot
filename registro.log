@@ -3939,3 +3939,14 @@
 2026-11-24 16:31 | [ACTIVA] Bot A3 (rebote 20) VENDE 41.0062 NVDA a 152.75 | vida 15,152$
 2026-11-24 16:31 | [ACTIVA] Orden enviada: sell 41.0062 NVDA (id 14fd4a3d-4183-41f7-ad81-26c4a6fe23d1)
 2026-11-24 16:32 | [SKILL] 🔎 Escáner 10:31: 89 roturas, 0 recientes para estudiar.
+2026-11-24 16:45 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 3, 0 con su regla ganando en 30 días
+2026-11-24 16:45 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 163 valores: señal en 54, 0 con su regla ganando las últimas sesiones
+2026-11-24 16:46 | [ACTIVA] 🔎 Bot A3 (rebote 20) investiga 163 valores: señal en 55, mira primero: NVDA, ANT, AMD, MU
+2026-11-24 16:46 | [ACTIVA] 📰 Bot A3 no compra NVDA: Forget Zepbound: Lilly's Retatrutide Just Cut Sleep Apnea Severity by Up to 60% (earnings, regulatory)
+2026-11-24 16:46 | [ACTIVA] 📋 Bot A3 ANT: entra a 78.19, stop 77.40, objetivo 79.77 -> ✅ COMPRA
+2026-11-24 16:46 | [ACTIVA] Bot A3 (rebote 20) COMPRA 80.0545 ANT a 78.19 | vida 15,146$
+2026-11-24 16:46 | [ACTIVA] Orden enviada: buy 80.0545 ANT (id d196e9fe-b538-498b-b470-2023164105c0)
+2026-11-24 16:47 | [SKILL] 🔎 Escáner 10:46: 89 roturas, 3 recientes para estudiar.
+2026-11-24 16:47 | [SKILL]   TLT: stop demasiado pegado (0.11 $), no vale.
+2026-11-24 16:47 | [SKILL] 🕰️ ITB: entrada 94.50 stop 93.56 objetivo 96.38 | objetivo antes 5%, stop antes 27% | con comisión: simulación -0.16R, historia -0.13R (29 casos) -> ❌ no
+2026-11-24 16:47 | [SKILL] 🕰️ SQQQ: entrada 49.22 stop 48.52 objetivo 50.62 | objetivo antes 28%, stop antes 51% | con comisión: simulación +0.03R, historia -0.01R (36 casos) -> ❌ no

@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "ANT",
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 15152.38889664805,
-      "acciones": 0.0,
+      "efectivo": 8886.6708196797,
+      "acciones": 80.054465,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,10 +62,10 @@
       "hoy": "2026-11-24",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
-      "contra_cerebro": true,
+      "entrada": 78.19,
+      "stop": 77.4,
+      "meta": 79.77,
+      "contra_cerebro": false,
       "perdidas": 4
     }
   ],
@@ -248,11 +248,9 @@
       "titulares": []
     },
     "ANT": {
-      "hora": "2026-11-23T19:31:30.987903+00:00",
-      "malos": 1,
-      "titulares": [
-        "Anthropic stock range-bound after IPO sell-off, stuck between $83 support and $93.80 resistance"
-      ]
+      "hora": "2026-11-24T15:46:13.060760+00:00",
+      "malos": 0,
+      "titulares": []
     },
     "SOXL": {
       "hora": "2026-11-24T14:46:12.942595+00:00",
@@ -266,7 +264,8 @@
     }
   },
   "precios": {
-    "XLV": 183.24
+    "XLV": 183.62,
+    "ANT": 78.19
   },
   "cerebro": {
     "a_favor": {
