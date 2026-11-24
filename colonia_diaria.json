@@ -70,7 +70,7 @@
     }
   ],
   "precios": {
-    "WMT": 132.22
+    "WMT": 131.95
   },
   "eurusd": 1.0963,
   "eurusd_inicio": 1.1193,
@@ -362,6 +362,24 @@
       "media": -0.00948,
       "ganadores": 0.3125,
       "n": 16
+    },
+    "COIN-rebote-10": {
+      "fecha": "2026-11-24",
+      "media": -0.00868,
+      "ganadores": 0.26316,
+      "n": 19
+    },
+    "SBUX-rebote-10": {
+      "fecha": "2026-11-24",
+      "media": -0.00383,
+      "ganadores": 0.29412,
+      "n": 17
+    },
+    "HON-rebote-10": {
+      "fecha": "2026-11-24",
+      "media": -0.00632,
+      "ganadores": 0.22222,
+      "n": 18
     }
   },
   "noticias": {

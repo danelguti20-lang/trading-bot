@@ -3960,3 +3960,8 @@
 2026-11-24 17:16 | [ACTIVA] Bot A3 (rebote 20) VENDE 80.0545 ANT a 76.22 | vida 14,982$
 2026-11-24 17:16 | [ACTIVA] Orden enviada: sell 80.0545 ANT (id 20bb21c1-45b8-4c95-9e9d-f7d8e0f80bb4)
 2026-11-24 17:17 | [SKILL] 🔎 Escáner 11:16: 86 roturas, 0 recientes para estudiar.
+2026-11-24 17:31 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 164 valores: señal en 6, 0 con su regla ganando las últimas sesiones
+2026-11-24 17:31 | [ACTIVA] 🔎 Bot A3 (rebote 20) investiga 164 valores: señal en 11, mira primero: ANT, AMD, TSLA, INTC
+2026-11-24 17:31 | [ACTIVA] 📋 Bot A3 ANT: entra a 76.00, stop 75.24, objetivo 77.53 -> ✅ COMPRA
+2026-11-24 17:31 | [ACTIVA] Bot A3 (rebote 20) COMPRA 81.6912 ANT a 76.00 | vida 14,976$
+2026-11-24 17:31 | [ACTIVA] Orden enviada: buy 81.6912 ANT (id 9d47b1ff-9202-491d-9285-2195a1c91428)
