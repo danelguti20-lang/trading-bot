@@ -648,6 +648,18 @@
       "media": -0.0037,
       "ganadores": 0.30769,
       "n": 13
+    },
+    "TSLA-mañana-0.3": {
+      "fecha": "2026-11-25",
+      "media": -0.00431,
+      "ganadores": 0.22222,
+      "n": 9
+    },
+    "WMT-rebote-10": {
+      "fecha": "2026-11-25",
+      "media": -0.00012,
+      "ganadores": 0.55556,
+      "n": 18
     }
   },
   "noticias": {
