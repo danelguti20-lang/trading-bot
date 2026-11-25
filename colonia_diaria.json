@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "PG",
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 15975.107089946387,
-      "acciones": 0.0,
+      "efectivo": 9330.674683314368,
+      "acciones": 38.275831,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,15 +62,16 @@
       "hoy": "2026-11-25",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 173.42,
+      "stop": 171.68,
+      "meta": 176.9,
       "contra_cerebro": false,
       "perdidas": 0
     }
   ],
   "precios": {
-    "MU": 597.01
+    "MU": 594.765,
+    "PG": 173.42
   },
   "eurusd": 1.0935,
   "eurusd_inicio": 1.1193,
@@ -722,6 +723,30 @@
       "media": -0.00376,
       "ganadores": 0.44444,
       "n": 18
+    },
+    "ANT-rebote-10": {
+      "fecha": "2026-11-25",
+      "media": -0.00798,
+      "ganadores": 0.33333,
+      "n": 3
+    },
+    "PG-rebote-10": {
+      "fecha": "2026-11-25",
+      "media": -0.00173,
+      "ganadores": 0.26667,
+      "n": 15
+    },
+    "T-rebote-10": {
+      "fecha": "2026-11-25",
+      "media": -0.00285,
+      "ganadores": 0.36842,
+      "n": 19
+    },
+    "BA-rebote-10": {
+      "fecha": "2026-11-25",
+      "media": -0.00503,
+      "ganadores": 0.38889,
+      "n": 18
     }
   },
   "noticias": {
@@ -891,7 +916,7 @@
       "titulares": []
     },
     "PG": {
-      "hora": "2026-11-23T20:31:21.380569+00:00",
+      "hora": "2026-11-25T20:15:47.973986+00:00",
       "malos": 0,
       "titulares": []
     },
