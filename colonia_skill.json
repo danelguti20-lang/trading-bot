@@ -45,7 +45,12 @@
       "AMD",
       "ANET",
       "ARM",
-      "BA"
+      "BA",
+      "T",
+      "PEP",
+      "ADBE",
+      "ANT",
+      "AVGO"
     ]
   }
 }

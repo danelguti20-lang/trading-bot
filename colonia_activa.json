@@ -273,8 +273,8 @@
     }
   },
   "precios": {
-    "UNH": 340.85,
-    "NVDA": 145.18
+    "UNH": 340.895,
+    "NVDA": 144.55
   },
   "cerebro": {
     "a_favor": {

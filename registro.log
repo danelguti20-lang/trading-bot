@@ -4219,3 +4219,14 @@
 2026-11-25 16:02 | [SKILL] 🕰️ ANET: entrada 160.49 stop 158.07 objetivo 165.33 | objetivo antes 11%, stop antes 55% | con comisión: simulación -0.33R, historia -0.29R (28 casos) -> ❌ no
 2026-11-25 16:02 | [SKILL] 🕰️ ARM: entrada 150.70 stop 146.83 objetivo 158.44 | objetivo antes 7%, stop antes 43% | con comisión: simulación -0.20R, historia -0.10R (28 casos) -> ❌ no
 2026-11-25 16:02 | [SKILL] 🕰️ BA: entrada 162.18 stop 160.52 objetivo 165.50 | objetivo antes 12%, stop antes 54% | con comisión: simulación -0.38R, historia -0.47R (35 casos) -> ❌ no
+2026-11-25 16:15 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 160 valores: señal en 19, 2 con su regla ganando las últimas sesiones (CMCSA -0.17%/día, INDA -0.19%/día)
+2026-11-25 16:15 | [DIARIO] 🕰️ Bot D1 CMCSA: stop 25.42 objetivo 25.90 | con comisión: simulación -0.28R, historia -0.24R (34 casos) -> ❌ no
+2026-11-25 16:15 | [DIARIO] 🕰️ Bot D1 INDA: stop 52.76 objetivo 53.08 | con comisión: simulación -0.94R, historia -1.04R (40 casos) -> ❌ no
+2026-11-25 16:15 | [DIARIO] Bot D3 (rebote 10) VENDE 29.0112 LOW a 230.23 | vida 15,975$
+2026-11-25 16:15 | [DIARIO] Orden enviada: sell 29.0112 LOW (id f15bff58-1d0b-4ec1-9665-a0e1cd0eb136)
+2026-11-25 16:16 | [SKILL] 🔎 Escáner 10:16: 66 roturas, 43 recientes para estudiar.
+2026-11-25 16:16 | [SKILL] 🕰️ T: entrada 23.18 stop 23.03 objetivo 23.48 | objetivo antes 18%, stop antes 59% | con comisión: simulación -0.46R, historia -0.66R (39 casos) -> ❌ no
+2026-11-25 16:16 | [SKILL] 🕰️ PEP: entrada 144.60 stop 144.17 objetivo 145.46 | objetivo antes 36%, stop antes 63% | con comisión: simulación -0.59R, historia -0.52R (37 casos) -> ❌ no
+2026-11-25 16:16 | [SKILL] 📰 ADBE descartada por noticias: How Upcoming Earnings Will Impact Adobe (ADBE) Investors (earnings, regulatory)
+2026-11-25 16:16 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 3 full session(s) of ANT before 2026-11-25 in the data; the time machine needs at least 20
+2026-11-25 16:16 | [SKILL] 📰 AVGO descartada por noticias: AI Chips Update - NVIDIA Reinstates Huang Amid Compliance and Leadership Focus (people, regulatory)
