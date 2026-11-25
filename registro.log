@@ -4246,3 +4246,12 @@
 2026-11-25 16:46 | [SKILL] 🕰️ GE: entrada 312.18 stop 309.12 objetivo 318.30 | objetivo antes 9%, stop antes 38% | con comisión: simulación -0.20R, historia -0.03R (30 casos) -> ❌ no
 2026-11-25 16:47 | [SKILL] 🕰️ HD: entrada 357.33 stop 354.77 objetivo 362.45 | objetivo antes 12%, stop antes 37% | con comisión: simulación -0.18R, historia -0.06R (33 casos) -> ❌ no
 2026-11-25 16:47 | [SKILL] 🕰️ HON: entrada 221.29 stop 220.12 objetivo 223.63 | objetivo antes 34%, stop antes 54% | con comisión: simulación -0.17R, historia -0.25R (34 casos) -> ❌ no
+2026-11-25 17:01 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 160 valores: señal en 33, 3 con su regla ganando las últimas sesiones (V -0.09%/día, XLF -0.11%/día, TLT -0.17%/día)
+2026-11-25 17:01 | [DIARIO] 🕰️ Bot D1 V: stop 415.31 objetivo 421.22 | con comisión: simulación -0.33R, historia -0.11R (31 casos) -> ❌ no
+2026-11-25 17:01 | [DIARIO] 🕰️ Bot D1 XLF: stop 55.49 objetivo 56.09 | con comisión: simulación -0.56R, historia -0.59R (28 casos) -> ❌ no
+2026-11-25 17:01 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 160 valores: señal en 3, 0 con su regla ganando las últimas sesiones
+2026-11-25 17:02 | [SKILL] 🔎 Escáner 11:01: 79 roturas, 4 recientes para estudiar.
+2026-11-25 17:02 | [SKILL] 🕰️ WFC: entrada 79.94 stop 79.58 objetivo 80.66 | objetivo antes 25%, stop antes 62% | con comisión: simulación -0.50R, historia -0.44R (26 casos) -> ❌ no
+2026-11-25 17:02 | [SKILL] 🕰️ UPS: entrada 111.04 stop 110.65 objetivo 111.82 | objetivo antes 30%, stop antes 66% | con comisión: simulación -0.61R, historia -0.47R (36 casos) -> ❌ no
+2026-11-25 17:02 | [SKILL] 🕰️ XLRE: entrada 43.56 stop 43.41 objetivo 43.86 | objetivo antes 19%, stop antes 53% | con comisión: simulación -0.59R, historia -0.38R (29 casos) -> ❌ no
+2026-11-25 17:02 | [SKILL] 🕰️ MA: entrada 647.06 stop 643.22 objetivo 654.74 | objetivo antes 9%, stop antes 35% | con comisión: simulación -0.29R, historia -0.35R (29 casos) -> ❌ no

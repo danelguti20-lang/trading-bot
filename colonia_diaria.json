@@ -342,6 +342,42 @@
       "media": -0.00263,
       "ganadores": 0.41176,
       "n": 17
+    },
+    "IBIT-ruptura-30": {
+      "fecha": "2026-11-25",
+      "media": -0.00406,
+      "ganadores": 0.5,
+      "n": 8
+    },
+    "XLF-ruptura-30": {
+      "fecha": "2026-11-25",
+      "media": -0.00111,
+      "ganadores": 0.33333,
+      "n": 9
+    },
+    "MA-ruptura-30": {
+      "fecha": "2026-11-25",
+      "media": -0.00235,
+      "ganadores": 0.27273,
+      "n": 11
+    },
+    "V-ruptura-30": {
+      "fecha": "2026-11-25",
+      "media": -0.00092,
+      "ganadores": 0.3,
+      "n": 10
+    },
+    "C-ruptura-30": {
+      "fecha": "2026-11-25",
+      "media": -0.00671,
+      "ganadores": 0.2,
+      "n": 10
+    },
+    "LRCX-rebote-10": {
+      "fecha": "2026-11-25",
+      "media": -0.01187,
+      "ganadores": 0.33333,
+      "n": 18
     }
   },
   "noticias": {
