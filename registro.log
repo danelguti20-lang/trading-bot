@@ -4205,3 +4205,17 @@
 2026-11-25 15:46 | [ACTIVA] 🧠 Bot A3 compra aunque el cerebro diría NO (noticias).
 2026-11-25 15:46 | [ACTIVA] Bot A3 (rebote 20) COMPRA 43.8533 NVDA a 142.35 | vida 15,033$
 2026-11-25 15:46 | [ACTIVA] Orden enviada: buy 43.8533 NVDA (id ce10a285-bce7-40b0-8702-6db514b474f8)
+2026-11-25 16:00 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 160 valores: señal en 9, 1 con su regla ganando las últimas sesiones (LOW +0.06%/día)
+2026-11-25 16:00 | [DIARIO] 🕰️ Bot D3 LOW: stop 226.24 objetivo 233.11 | con comisión: simulación -0.02R, historia -0.15R (30 casos) -> ✅ COMPRA
+2026-11-25 16:00 | [DIARIO] Bot D3 (rebote 10) COMPRA 29.0112 LOW a 228.53 | vida 15,932$
+2026-11-25 16:00 | [DIARIO] Orden enviada: buy 29.0112 LOW (id 7ac50d69-118d-405f-915b-0b02d680cb3d)
+2026-11-25 16:01 | [ACTIVA] 🔎 Bot A1 (ruptura 30) investiga 160 valores: señal en 5, mira primero: UNH, JPM, MDY, OXY
+2026-11-25 16:01 | [ACTIVA] 📋 Bot A1 UNH: entra a 340.85, stop 337.93, objetivo 346.69 -> ✅ COMPRA
+2026-11-25 16:01 | [ACTIVA] Bot A1 (ruptura 30) COMPRA 23.0180 UNH a 340.85 | vida 16,573$
+2026-11-25 16:01 | [ACTIVA] Orden enviada: buy 23.0180 UNH (id 818dd08a-bca8-4035-888e-eca262edf638)
+2026-11-25 16:01 | [SKILL] 🔎 Escáner 10:01: 50 roturas, 48 recientes para estudiar.
+2026-11-25 16:01 | [SKILL] 🕰️ AMAT: entrada 301.37 stop 298.32 objetivo 307.47 | objetivo antes 24%, stop antes 68% | con comisión: simulación -0.36R, historia -0.28R (31 casos) -> ❌ no
+2026-11-25 16:01 | [SKILL] 🕰️ AMD: entrada 387.53 stop 378.32 objetivo 405.95 | objetivo antes 6%, stop antes 42% | con comisión: simulación -0.19R, historia +0.06R (38 casos) -> ❌ no
+2026-11-25 16:02 | [SKILL] 🕰️ ANET: entrada 160.49 stop 158.07 objetivo 165.33 | objetivo antes 11%, stop antes 55% | con comisión: simulación -0.33R, historia -0.29R (28 casos) -> ❌ no
+2026-11-25 16:02 | [SKILL] 🕰️ ARM: entrada 150.70 stop 146.83 objetivo 158.44 | objetivo antes 7%, stop antes 43% | con comisión: simulación -0.20R, historia -0.10R (28 casos) -> ❌ no
+2026-11-25 16:02 | [SKILL] 🕰️ BA: entrada 162.18 stop 160.52 objetivo 165.50 | objetivo antes 12%, stop antes 54% | con comisión: simulación -0.38R, historia -0.47R (35 casos) -> ❌ no

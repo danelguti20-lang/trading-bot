@@ -50,13 +50,6 @@
   ],
   "dia": "2026-11-25",
   "memoria": {
-    "SKY/USD-tendencia-48": {
-      "hora": "2026-11-25 12:00:00+00:00",
-      "n": 22,
-      "media": -0.0127,
-      "total": -0.24616,
-      "ganadores": 0.09091
-    },
     "CRV/USD-rebote-10": {
       "hora": "2026-11-25 13:00:00+00:00",
       "n": 52,
@@ -220,8 +213,8 @@
     }
   },
   "precios": {
-    "TRUMP/USD": 0.7924105
+    "TRUMP/USD": 0.80686
   },
-  "eurusd": 1.0963,
+  "eurusd": 1.0935,
   "eurusd_inicio": 1.1193
 }

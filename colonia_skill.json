@@ -40,21 +40,12 @@
   "trades_hoy": 0,
   "resultado_hoy": 0.0,
   "vistos_hoy": {
-    "2026-11-24": [
-      "AVGO",
-      "FXI",
-      "HYG",
-      "INDA",
-      "META",
-      "CMCSA",
-      "GILD",
-      "MCD",
-      "NKE",
-      "RTX",
-      "TLT",
-      "ITB",
-      "SQQQ",
-      "JAGX"
+    "2026-11-25": [
+      "AMAT",
+      "AMD",
+      "ANET",
+      "ARM",
+      "BA"
     ]
   }
 }

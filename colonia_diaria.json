@@ -49,28 +49,30 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "LOW",
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 15939.097237988306,
-      "acciones": 0.0,
+      "efectivo": 9302.539602520546,
+      "acciones": 29.011192,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-09",
       "hijos": 0,
       "hoy": "2026-11-25",
-      "operado_hoy": false,
+      "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 228.53,
+      "stop": 226.24,
+      "meta": 233.11,
       "contra_cerebro": false,
       "perdidas": 2
     }
   ],
-  "precios": {},
-  "eurusd": 1.0963,
+  "precios": {
+    "LOW": 228.53
+  },
+  "eurusd": 1.0935,
   "eurusd_inicio": 1.1193,
   "memoria": {
     "SPCX-rebote-10": {
@@ -144,6 +146,60 @@
       "media": -0.04415,
       "ganadores": 0.17647,
       "n": 17
+    },
+    "ABBV-rebote-10": {
+      "fecha": "2026-11-25",
+      "media": -0.00283,
+      "ganadores": 0.44444,
+      "n": 18
+    },
+    "TGT-rebote-10": {
+      "fecha": "2026-11-25",
+      "media": -0.00329,
+      "ganadores": 0.4375,
+      "n": 16
+    },
+    "COST-rebote-10": {
+      "fecha": "2026-11-25",
+      "media": -0.0031,
+      "ganadores": 0.3125,
+      "n": 16
+    },
+    "JNJ-rebote-10": {
+      "fecha": "2026-11-25",
+      "media": -0.00338,
+      "ganadores": 0.38889,
+      "n": 18
+    },
+    "PFE-rebote-10": {
+      "fecha": "2026-11-25",
+      "media": -0.00485,
+      "ganadores": 0.27778,
+      "n": 18
+    },
+    "MRK-rebote-10": {
+      "fecha": "2026-11-25",
+      "media": -0.00587,
+      "ganadores": 0.25,
+      "n": 16
+    },
+    "ITB-rebote-10": {
+      "fecha": "2026-11-25",
+      "media": -0.00388,
+      "ganadores": 0.33333,
+      "n": 18
+    },
+    "LOW-rebote-10": {
+      "fecha": "2026-11-25",
+      "media": 0.00062,
+      "ganadores": 0.625,
+      "n": 16
+    },
+    "HON-rebote-10": {
+      "fecha": "2026-11-25",
+      "media": -0.00572,
+      "ganadores": 0.27778,
+      "n": 18
     }
   },
   "noticias": {
@@ -224,7 +280,7 @@
       "titulares": []
     },
     "LOW": {
-      "hora": "2026-11-12T17:51:53.011332+00:00",
+      "hora": "2026-11-25T15:00:57.925032+00:00",
       "malos": 0,
       "titulares": []
     },
