@@ -5,11 +5,11 @@
     {
       "id": 1,
       "padre": null,
-      "activo": "UNH",
+      "activo": null,
       "estrategia": "ruptura",
       "p": 30,
-      "efectivo": 8727.256077727257,
-      "acciones": 23.018003,
+      "efectivo": 16708.585420335985,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -18,9 +18,9 @@
       "hoy": "2026-11-25",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 340.85,
-      "stop": 337.93,
-      "meta": 346.69,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
       "perdidas": 0
     },
@@ -274,15 +274,14 @@
     }
   },
   "precios": {
-    "UNH": 346.58,
-    "NVDA": 147.28,
-    "SPDN": 9.08
+    "NVDA": 147.67,
+    "SPDN": 9.06
   },
   "cerebro": {
     "a_favor": {
-      "n": 65,
-      "ganadas": 23,
-      "suma": -0.214715
+      "n": 66,
+      "ganadas": 24,
+      "suma": -0.198444
     },
     "en_contra": {
       "n": 21,
