@@ -49,22 +49,22 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "NVDA",
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 15039.055407140575,
-      "acciones": 0.0,
+      "efectivo": 8790.293639992675,
+      "acciones": 43.853314,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-11",
       "hijos": 0,
       "hoy": "2026-11-25",
-      "operado_hoy": false,
+      "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 142.35,
+      "stop": 140.92,
+      "meta": 145.21,
       "contra_cerebro": true,
       "perdidas": 2
     }
@@ -109,12 +109,11 @@
       "titulares": []
     },
     "NVDA": {
-      "hora": "2026-11-24T15:16:17.893095+00:00",
-      "malos": 4,
+      "hora": "2026-11-25T14:46:39.354170+00:00",
+      "malos": 2,
       "titulares": [
-        "Is the Stock Market in the Early Stages of a Crash?",
-        "Anthropic Sinks 7% Below IPO Price as AI Stocks Slide: Cramer Blames “Endless Hammering of Small Bids”",
-        "Anthropic Tumbles 9%, Trades Below IPO Price Despite Canaccord’s $135 Target; CoreWeave and Nebius Drop 8%"
+        "Stock futures plummet as Jensen Huang rebound rally fades",
+        "The Tech Selloff Is Bleeding Back Into the Rest of the Market"
       ]
     },
     "OXY": {
@@ -273,7 +272,9 @@
       "titulares": []
     }
   },
-  "precios": {},
+  "precios": {
+    "NVDA": 142.35
+  },
   "cerebro": {
     "a_favor": {
       "n": 63,
