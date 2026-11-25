@@ -312,6 +312,36 @@
       "media": -0.00354,
       "ganadores": 0.25,
       "n": 16
+    },
+    "TLT-ruptura-30": {
+      "fecha": "2026-11-25",
+      "media": -0.00172,
+      "ganadores": 0.38462,
+      "n": 13
+    },
+    "XLU-ruptura-30": {
+      "fecha": "2026-11-25",
+      "media": -0.00316,
+      "ganadores": 0.23077,
+      "n": 13
+    },
+    "MCD-ruptura-30": {
+      "fecha": "2026-11-25",
+      "media": -0.00222,
+      "ganadores": 0.46667,
+      "n": 15
+    },
+    "PEP-ruptura-30": {
+      "fecha": "2026-11-25",
+      "media": -0.00257,
+      "ganadores": 0.26667,
+      "n": 15
+    },
+    "SCHW-rebote-10": {
+      "fecha": "2026-11-25",
+      "media": -0.00263,
+      "ganadores": 0.41176,
+      "n": 17
     }
   },
   "noticias": {

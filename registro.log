@@ -4236,3 +4236,13 @@
 2026-11-25 16:30 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 160 valores: señal en 4, 0 con su regla ganando las últimas sesiones
 2026-11-25 16:32 | [SKILL] 🔎 Escáner 10:31: 68 roturas, 1 recientes para estudiar.
 2026-11-25 16:32 | [SKILL]   TLT: stop demasiado pegado (0.09 $), no vale.
+2026-11-25 16:45 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 160 valores: señal en 17, 2 con su regla ganando las últimas sesiones (TLT -0.17%/día, CMCSA -0.17%/día)
+2026-11-25 16:45 | [DIARIO] 🕰️ Bot D1 TLT: stop 82.41 objetivo 82.74 | con comisión: simulación -1.61R, historia -1.42R (39 casos) -> ❌ no
+2026-11-25 16:45 | [DIARIO] 🕰️ Bot D1 CMCSA: stop 25.42 objetivo 25.88 | con comisión: simulación -0.42R, historia -0.31R (34 casos) -> ❌ no
+2026-11-25 16:45 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 160 valores: señal en 1, 0 con su regla ganando las últimas sesiones
+2026-11-25 16:46 | [SKILL] 🔎 Escáner 10:46: 75 roturas, 9 recientes para estudiar.
+2026-11-25 16:46 | [SKILL] 🕰️ CMCSA: entrada 25.58 stop 25.46 objetivo 25.82 | objetivo antes 29%, stop antes 66% | con comisión: simulación -0.48R, historia -0.58R (34 casos) -> ❌ no
+2026-11-25 16:46 | [SKILL]   IEF: stop demasiado pegado (0.05 $), no vale.
+2026-11-25 16:46 | [SKILL] 🕰️ GE: entrada 312.18 stop 309.12 objetivo 318.30 | objetivo antes 9%, stop antes 38% | con comisión: simulación -0.20R, historia -0.03R (30 casos) -> ❌ no
+2026-11-25 16:47 | [SKILL] 🕰️ HD: entrada 357.33 stop 354.77 objetivo 362.45 | objetivo antes 12%, stop antes 37% | con comisión: simulación -0.18R, historia -0.06R (33 casos) -> ❌ no
+2026-11-25 16:47 | [SKILL] 🕰️ HON: entrada 221.29 stop 220.12 objetivo 223.63 | objetivo antes 34%, stop antes 54% | con comisión: simulación -0.17R, historia -0.25R (34 casos) -> ❌ no
