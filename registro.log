@@ -4230,3 +4230,9 @@
 2026-11-25 16:16 | [SKILL] 📰 ADBE descartada por noticias: How Upcoming Earnings Will Impact Adobe (ADBE) Investors (earnings, regulatory)
 2026-11-25 16:16 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: only 3 full session(s) of ANT before 2026-11-25 in the data; the time machine needs at least 20
 2026-11-25 16:16 | [SKILL] 📰 AVGO descartada por noticias: AI Chips Update - NVIDIA Reinstates Huang Amid Compliance and Leadership Focus (people, regulatory)
+2026-11-25 16:30 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 160 valores: señal en 7, 2 con su regla ganando las últimas sesiones (RTX -0.11%/día, CMCSA -0.17%/día)
+2026-11-25 16:30 | [DIARIO] 🕰️ Bot D1 RTX: stop 193.17 objetivo 195.35 | con comisión: simulación -0.46R, historia -0.49R (30 casos) -> ❌ no
+2026-11-25 16:30 | [DIARIO] 🕰️ Bot D1 CMCSA: stop 25.42 objetivo 25.82 | con comisión: simulación -0.35R, historia -0.26R (34 casos) -> ❌ no
+2026-11-25 16:30 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 160 valores: señal en 4, 0 con su regla ganando las últimas sesiones
+2026-11-25 16:32 | [SKILL] 🔎 Escáner 10:31: 68 roturas, 1 recientes para estudiar.
+2026-11-25 16:32 | [SKILL]   TLT: stop demasiado pegado (0.09 $), no vale.
