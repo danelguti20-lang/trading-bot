@@ -4269,3 +4269,17 @@
 2026-11-25 17:45 | [DIARIO] Bot D1 (ruptura 30) COMPRA 94.3700 SOXS a 75.89 | vida 17,202$
 2026-11-25 17:45 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 161 valores: señal en 11, 0 con su regla ganando las últimas sesiones
 2026-11-25 17:45 | [DIARIO] Orden enviada: buy 94.3700 SOXS (id a8c756a4-67f3-487d-84e7-f3fe752adf50)
+2026-11-25 18:00 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 1, 0 con su regla ganando en 30 días
+2026-11-25 18:00 | [DIARIO] 🛑 Bot D1 STOP: SOXS a 74.06 (entró a 75.89).
+2026-11-25 18:00 | [DIARIO] Bot D1 (ruptura 30) VENDE 94.3700 SOXS a 74.06 | vida 17,022$
+2026-11-25 18:00 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 161 valores: señal en 78, 0 con su regla ganando las últimas sesiones
+2026-11-25 18:00 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 161 valores: señal en 2, 0 con su regla ganando las últimas sesiones
+2026-11-25 18:00 | [DIARIO] Orden enviada: sell 94.3700 SOXS (id 4aa0fc82-94d9-4a51-a1cf-5689f762d801)
+2026-11-25 18:01 | [ACTIVA] 🔎 Bot A2 (mañana 0.2) investiga 161 valores: señal en 85, mira primero: ANT, SPCX, META, SOXS
+2026-11-25 18:01 | [ACTIVA] 📋 Bot A2 ANT: entra a 80.66, stop 79.85, objetivo 82.28 -> ✅ COMPRA
+2026-11-25 18:01 | [ACTIVA] 🧠 Noticias de pánico en ANT: Amazon Sinks 6%, Sandisk Down 12% as AI Selloff Deepens: Bear Calls AI “Greatest Misallocation of Capital” | Snowflake’s AI Momentum Is Snowballing. Don’t Let the Tech Selloff Scare You.
+2026-11-25 18:01 | [ACTIVA] 🧠 Bot A2 compra aunque el cerebro diría NO (noticias).
+2026-11-25 18:01 | [ACTIVA] Bot A2 (mañana 0.2) COMPRA 85.0801 ANT a 80.66 | vida 16,521$
+2026-11-25 18:01 | [ACTIVA] Bot A3 (rebote 20) VENDE 43.8533 NVDA a 142.27 | vida 15,023$
+2026-11-25 18:01 | [ACTIVA] Orden enviada: buy 85.0801 ANT (id 6c7ecfdb-2cb8-4d2b-a81c-0b3bb99b097a)
+2026-11-25 18:01 | [ACTIVA] Orden enviada: sell 43.8533 NVDA (id 62c0dd1b-cb2d-4053-8c05-f39b76fbc8a5)

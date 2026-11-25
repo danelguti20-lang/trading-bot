@@ -49,9 +49,17 @@
     }
   ],
   "dia": "2026-11-25",
-  "memoria": {},
+  "memoria": {
+    "LTC/USD-tendencia-48": {
+      "hora": "2026-11-25 16:00:00+00:00",
+      "n": 35,
+      "media": -0.01115,
+      "total": -0.32611,
+      "ganadores": 0.05714
+    }
+  },
   "precios": {
-    "TRUMP/USD": 0.795085
+    "TRUMP/USD": 0.8048375
   },
   "eurusd": 1.0935,
   "eurusd_inicio": 1.1193

@@ -27,33 +27,11 @@
     {
       "id": 2,
       "padre": null,
-      "activo": null,
+      "activo": "ANT",
       "estrategia": "mañana",
       "p": 0.2,
-      "efectivo": 16528.007765081093,
-      "acciones": 0.0,
-      "referencia": 16666.67,
-      "inicial": 16666.67,
-      "estado": "vivo",
-      "nacido": "2026-11-11",
-      "hijos": 0,
-      "hoy": "2026-11-25",
-      "operado_hoy": false,
-      "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
-      "contra_cerebro": false,
-      "perdidas": 0
-    },
-    {
-      "id": 3,
-      "padre": null,
-      "activo": "NVDA",
-      "estrategia": "rebote",
-      "p": 20,
-      "efectivo": 8790.293639992675,
-      "acciones": 43.853314,
+      "efectivo": 9658.581350810673,
+      "acciones": 85.080137,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,11 +40,33 @@
       "hoy": "2026-11-25",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 142.35,
-      "stop": 140.92,
-      "meta": 145.21,
+      "entrada": 80.66,
+      "stop": 79.85,
+      "meta": 82.28,
       "contra_cerebro": true,
-      "perdidas": 2
+      "perdidas": 0
+    },
+    {
+      "id": 3,
+      "padre": null,
+      "activo": null,
+      "estrategia": "rebote",
+      "p": 20,
+      "efectivo": 15023.065611789894,
+      "acciones": 0.0,
+      "referencia": 16666.67,
+      "inicial": 16666.67,
+      "estado": "vivo",
+      "nacido": "2026-11-11",
+      "hijos": 0,
+      "hoy": "2026-11-25",
+      "operado_hoy": true,
+      "descansa": false,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
+      "contra_cerebro": true,
+      "perdidas": 3
     }
   ],
   "eurusd": 1.0935,
@@ -252,9 +252,13 @@
       "titulares": []
     },
     "ANT": {
-      "hora": "2026-11-24T15:46:13.060760+00:00",
-      "malos": 0,
-      "titulares": []
+      "hora": "2026-11-25T17:01:13.093035+00:00",
+      "malos": 4,
+      "titulares": [
+        "Amazon Sinks 6%, Sandisk Down 12% as AI Selloff Deepens: Bear Calls AI “Greatest Misallocation of Capital”",
+        "Snowflake’s AI Momentum Is Snowballing. Don’t Let the Tech Selloff Scare You.",
+        "Arthur Hayes Predicts AI Crash Will Trigger Bailout and Bitcoin Boom, but Not Yet"
+      ]
     },
     "SOXL": {
       "hora": "2026-11-24T14:46:12.942595+00:00",
@@ -273,8 +277,8 @@
     }
   },
   "precios": {
-    "UNH": 343.74,
-    "NVDA": 141.73
+    "UNH": 343.02,
+    "ANT": 80.66
   },
   "cerebro": {
     "a_favor": {
@@ -283,9 +287,9 @@
       "suma": -0.19208
     },
     "en_contra": {
-      "n": 19,
+      "n": 20,
       "ganadas": 6,
-      "suma": -0.080215
+      "suma": -0.082776
     }
   }
 }
