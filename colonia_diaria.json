@@ -27,23 +27,23 @@
     {
       "id": 2,
       "padre": null,
-      "activo": null,
+      "activo": "MU",
       "estrategia": "mañana",
       "p": 0.3,
-      "efectivo": 16680.19296741972,
-      "acciones": 0.0,
+      "efectivo": 9726.36763981056,
+      "acciones": 11.642748,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-09",
       "hijos": 0,
       "hoy": "2026-11-25",
-      "operado_hoy": false,
+      "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
-      "contra_cerebro": false,
+      "entrada": 596.67,
+      "stop": 590.7,
+      "meta": 608.61,
+      "contra_cerebro": true,
       "perdidas": 0
     },
     {
@@ -69,7 +69,9 @@
       "perdidas": 0
     }
   ],
-  "precios": {},
+  "precios": {
+    "MU": 596.67
+  },
   "eurusd": 1.0935,
   "eurusd_inicio": 1.1193,
   "memoria": {
@@ -678,6 +680,12 @@
       "media": -0.00264,
       "ganadores": 0.1875,
       "n": 16
+    },
+    "GILD-rebote-10": {
+      "fecha": "2026-11-25",
+      "media": -0.00467,
+      "ganadores": 0.25,
+      "n": 16
     }
   },
   "noticias": {
@@ -855,6 +863,15 @@
       "hora": "2026-11-24T17:01:03.464852+00:00",
       "malos": 0,
       "titulares": []
+    },
+    "MU": {
+      "hora": "2026-11-25T19:30:48.323120+00:00",
+      "malos": 3,
+      "titulares": [
+        "Chip stocks tumble as Nvidia-led AI rally unravels, tariff fears weigh",
+        "The Memory Shortage Has a New Victim: Ambarella Stock Crashes 37%",
+        "Impinj (PI) Stock Is Down 10.9% Today: Chip Selloff Amid AI Spending Fears"
+      ]
     }
   },
   "cerebro": {
