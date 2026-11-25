@@ -70,7 +70,7 @@
     }
   ],
   "precios": {
-    "MU": 596.91
+    "MU": 597.01
   },
   "eurusd": 1.0935,
   "eurusd_inicio": 1.1193,
@@ -714,6 +714,12 @@
     "ADBE-rebote-10": {
       "fecha": "2026-11-25",
       "media": -0.004,
+      "ganadores": 0.44444,
+      "n": 18
+    },
+    "ORCL-rebote-10": {
+      "fecha": "2026-11-25",
+      "media": -0.00376,
       "ganadores": 0.44444,
       "n": 18
     }
