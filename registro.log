@@ -4264,3 +4264,8 @@
 2026-11-25 17:31 | [DIARIO] 🕰️ Bot D1 GDX: stop 68.99 objetivo 71.10 | con comisión: simulación -0.18R, historia -0.44R (33 casos) -> ❌ no
 2026-11-25 17:31 | [DIARIO] 🕰️ Bot D1 V: stop 415.31 objetivo 422.66 | con comisión: simulación -0.37R, historia -0.11R (31 casos) -> ❌ no
 2026-11-25 17:31 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 161 valores: señal en 5, 0 con su regla ganando las últimas sesiones
+2026-11-25 17:45 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 161 valores: señal en 25, 5 con su regla ganando las últimas sesiones (SOXS +3.90%/día, GDX +0.03%/día, V -0.09%/día, TLT -0.17%/día)
+2026-11-25 17:45 | [DIARIO] 🕰️ Bot D1 SOXS: stop 75.13 objetivo 77.41 | con comisión: simulación -0.17R, historia -0.16R (33 casos) -> ✅ COMPRA
+2026-11-25 17:45 | [DIARIO] Bot D1 (ruptura 30) COMPRA 94.3700 SOXS a 75.89 | vida 17,202$
+2026-11-25 17:45 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 161 valores: señal en 11, 0 con su regla ganando las últimas sesiones
+2026-11-25 17:45 | [DIARIO] Orden enviada: buy 94.3700 SOXS (id a8c756a4-67f3-487d-84e7-f3fe752adf50)

@@ -5,22 +5,22 @@
     {
       "id": 1,
       "padre": null,
-      "activo": null,
+      "activo": "SOXS",
       "estrategia": "ruptura",
       "p": 30,
-      "efectivo": 17208.930056128247,
-      "acciones": 0.0,
+      "efectivo": 10040.031371770838,
+      "acciones": 94.369969,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-09",
       "hijos": 0,
       "hoy": "2026-11-25",
-      "operado_hoy": false,
+      "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 75.89,
+      "stop": 75.13,
+      "meta": 77.41,
       "contra_cerebro": false,
       "perdidas": 1
     },
@@ -69,7 +69,9 @@
       "perdidas": 0
     }
   ],
-  "precios": {},
+  "precios": {
+    "SOXS": 75.89
+  },
   "eurusd": 1.0935,
   "eurusd_inicio": 1.1193,
   "memoria": {
@@ -450,6 +452,30 @@
       "media": -0.00636,
       "ganadores": 0.33333,
       "n": 15
+    },
+    "SOXS-ruptura-30": {
+      "fecha": "2026-11-25",
+      "media": 0.03899,
+      "ganadores": 0.54545,
+      "n": 11
+    },
+    "IEF-ruptura-30": {
+      "fecha": "2026-11-25",
+      "media": -0.00184,
+      "ganadores": 0.23077,
+      "n": 13
+    },
+    "INTC-rebote-10": {
+      "fecha": "2026-11-25",
+      "media": -0.01019,
+      "ganadores": 0.17647,
+      "n": 17
+    },
+    "DDOG-rebote-10": {
+      "fecha": "2026-11-25",
+      "media": -0.00811,
+      "ganadores": 0.4,
+      "n": 20
     }
   },
   "noticias": {
@@ -604,7 +630,7 @@
       "titulares": []
     },
     "SOXS": {
-      "hora": "2026-11-20T15:45:51.698541+00:00",
+      "hora": "2026-11-25T16:45:56.356064+00:00",
       "malos": 0,
       "titulares": []
     },
