@@ -5,11 +5,11 @@
     {
       "id": 1,
       "padre": null,
-      "activo": "SPY",
+      "activo": null,
       "estrategia": "ruptura",
       "p": 30,
-      "efectivo": 9746.274964094844,
-      "acciones": 9.711606,
+      "efectivo": 16691.861160759443,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -18,20 +18,20 @@
       "hoy": "2026-11-25",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 716.19,
-      "stop": 709.02,
-      "meta": 730.53,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
-      "perdidas": 0
+      "perdidas": 1
     },
     {
       "id": 2,
       "padre": null,
-      "activo": "NVDA",
+      "activo": null,
       "estrategia": "mañana",
       "p": 0.2,
-      "efectivo": 9790.913682057155,
-      "acciones": 47.847702,
+      "efectivo": 16852.386157500696,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -40,33 +40,33 @@
       "hoy": "2026-11-25",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 145.38,
-      "stop": 143.92,
-      "meta": 148.3,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
       "perdidas": 0
     },
     {
       "id": 3,
       "padre": null,
-      "activo": "XLP",
+      "activo": null,
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 8696.249654033072,
-      "acciones": 66.645267,
+      "efectivo": 14851.443233248923,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
-      "estado": "vivo",
+      "estado": "herido",
       "nacido": "2026-11-11",
       "hijos": 0,
       "hoy": "2026-11-25",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 92.37,
-      "stop": 91.44,
-      "meta": 94.23,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
-      "perdidas": 6
+      "perdidas": 7
     }
   ],
   "eurusd": 1.0935,
@@ -271,16 +271,12 @@
       "titulares": []
     }
   },
-  "precios": {
-    "SPY": 714.28,
-    "NVDA": 148.2,
-    "XLP": 92.25
-  },
+  "precios": {},
   "cerebro": {
     "a_favor": {
-      "n": 67,
-      "ganadas": 24,
-      "suma": -0.202642
+      "n": 70,
+      "ganadas": 25,
+      "suma": -0.19205
     },
     "en_contra": {
       "n": 21,

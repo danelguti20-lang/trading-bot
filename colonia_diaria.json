@@ -27,11 +27,11 @@
     {
       "id": 2,
       "padre": null,
-      "activo": "MU",
+      "activo": null,
       "estrategia": "mañana",
       "p": 0.3,
-      "efectivo": 9726.36763981056,
-      "acciones": 11.642748,
+      "efectivo": 16632.22007213304,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -40,20 +40,20 @@
       "hoy": "2026-11-25",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 596.67,
-      "stop": 590.7,
-      "meta": 608.61,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": true,
-      "perdidas": 0
+      "perdidas": 1
     },
     {
       "id": 3,
       "padre": null,
-      "activo": "PG",
+      "activo": null,
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 9330.674683314368,
-      "acciones": 38.275831,
+      "efectivo": 15963.361002929109,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,17 +62,14 @@
       "hoy": "2026-11-25",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 173.42,
-      "stop": 171.68,
-      "meta": 176.9,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
-      "perdidas": 0
+      "perdidas": 1
     }
   ],
-  "precios": {
-    "MU": 595.39,
-    "PG": 173.1
-  },
+  "precios": {},
   "eurusd": 1.0935,
   "eurusd_inicio": 1.1193,
   "memoria": {
@@ -937,9 +934,14 @@
   },
   "cerebro": {
     "a_favor": {
-      "n": 49,
+      "n": 50,
       "ganadas": 26,
-      "suma": -0.040381
+      "suma": -0.042151
+    },
+    "en_contra": {
+      "n": 1,
+      "ganadas": 0,
+      "suma": -0.006901
     }
   }
 }
