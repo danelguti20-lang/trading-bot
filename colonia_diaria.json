@@ -660,6 +660,18 @@
       "media": -0.00012,
       "ganadores": 0.55556,
       "n": 18
+    },
+    "AAPL-mañana-0.3": {
+      "fecha": "2026-11-25",
+      "media": -0.00308,
+      "ganadores": 0.22222,
+      "n": 9
+    },
+    "MU-mañana-0.3": {
+      "fecha": "2026-11-25",
+      "media": -0.00154,
+      "ganadores": 0.4,
+      "n": 5
     }
   },
   "noticias": {

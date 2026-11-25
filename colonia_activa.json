@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "SPDN",
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 14882.447971430884,
-      "acciones": 0.0,
+      "efectivo": 9158.524465690443,
+      "acciones": 629.758293,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,9 +62,9 @@
       "hoy": "2026-11-25",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 9.08,
+      "stop": 8.98,
+      "meta": 9.28,
       "contra_cerebro": false,
       "perdidas": 5
     }
@@ -239,7 +239,7 @@
       "titulares": []
     },
     "SPDN": {
-      "hora": "2026-11-23T15:31:35.986221+00:00",
+      "hora": "2026-11-25T18:31:36.855409+00:00",
       "malos": 0,
       "titulares": []
     },
@@ -274,8 +274,9 @@
     }
   },
   "precios": {
-    "UNH": 346.59,
-    "NVDA": 146.2
+    "UNH": 346.58,
+    "NVDA": 147.28,
+    "SPDN": 9.08
   },
   "cerebro": {
     "a_favor": {
