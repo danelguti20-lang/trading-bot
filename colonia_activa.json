@@ -5,11 +5,11 @@
     {
       "id": 1,
       "padre": null,
-      "activo": null,
+      "activo": "SPY",
       "estrategia": "ruptura",
       "p": 30,
-      "efectivo": 16708.585420335985,
-      "acciones": 0.0,
+      "efectivo": 9746.274964094844,
+      "acciones": 9.711606,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -18,9 +18,9 @@
       "hoy": "2026-11-25",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 716.19,
+      "stop": 709.02,
+      "meta": 730.53,
       "contra_cerebro": false,
       "perdidas": 0
     },
@@ -160,11 +160,9 @@
       "titulares": []
     },
     "SPY": {
-      "hora": "2026-11-20T15:01:50.278187+00:00",
-      "malos": 1,
-      "titulares": [
-        "Exchange-Traded Funds, Equity Futures Fall Pre-Bell Friday Amid Continued AI Stock Selloff"
-      ]
+      "hora": "2026-11-25T19:02:16.508738+00:00",
+      "malos": 0,
+      "titulares": []
     },
     "GLD": {
       "hora": "2026-11-13T18:48:53.237200+00:00",
@@ -274,7 +272,8 @@
     }
   },
   "precios": {
-    "NVDA": 147.67,
+    "SPY": 716.19,
+    "NVDA": 147.995,
     "SPDN": 9.06
   },
   "cerebro": {

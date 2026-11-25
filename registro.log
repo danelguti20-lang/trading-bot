@@ -4340,3 +4340,12 @@
 2026-11-25 19:46 | [ACTIVA] 🎯 Bot A1 OBJETIVO: UNH a 347.09 (entró a 340.85).
 2026-11-25 19:46 | [ACTIVA] Bot A1 (ruptura 30) VENDE 23.0180 UNH a 347.09 | vida 16,709$
 2026-11-25 19:46 | [ACTIVA] Orden enviada: sell 23.0180 UNH (id 70a60027-bc40-4fe7-92a9-53af79c8d42e)
+2026-11-25 20:01 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 13, 0 con su regla ganando en 30 días
+2026-11-25 20:01 | [CRIPTO] 🔎 Bot C2 (ruptura 24) investiga 33 monedas: señal en 4, 0 con su regla ganando en 30 días
+2026-11-25 20:01 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 160 valores: señal en 127, 1 con su regla ganando las últimas sesiones (MU -0.15%/día)
+2026-11-25 20:01 | [DIARIO] 🕰️ Bot D2 MU: stop 584.14 objetivo 601.87 | con comisión: simulación -0.29R, historia +0.28R (28 casos) -> ❌ no
+2026-11-25 20:01 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 160 valores: señal en 3, 0 con su regla ganando las últimas sesiones
+2026-11-25 20:02 | [ACTIVA] 🔎 Bot A1 (ruptura 30) investiga 160 valores: señal en 125, mira primero: SPY, ANT, AAPL, AMZN
+2026-11-25 20:02 | [ACTIVA] 📋 Bot A1 SPY: entra a 716.19, stop 709.02, objetivo 730.53 -> ✅ COMPRA
+2026-11-25 20:02 | [ACTIVA] Bot A1 (ruptura 30) COMPRA 9.7116 SPY a 716.19 | vida 16,702$
+2026-11-25 20:02 | [ACTIVA] Orden enviada: buy 9.7116 SPY (id 32401cbb-ae44-4968-875b-01fd2e1860a8)
