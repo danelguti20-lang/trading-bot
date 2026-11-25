@@ -420,6 +420,36 @@
       "media": -0.00549,
       "ganadores": 0.26667,
       "n": 15
+    },
+    "HYG-ruptura-30": {
+      "fecha": "2026-11-25",
+      "media": -0.00225,
+      "ganadores": 0.0,
+      "n": 7
+    },
+    "RSP-ruptura-30": {
+      "fecha": "2026-11-25",
+      "media": -0.00148,
+      "ganadores": 0.41667,
+      "n": 12
+    },
+    "NVDA-rebote-10": {
+      "fecha": "2026-11-25",
+      "media": -0.01106,
+      "ganadores": 0.3,
+      "n": 20
+    },
+    "CVX-rebote-10": {
+      "fecha": "2026-11-25",
+      "media": -0.00488,
+      "ganadores": 0.22222,
+      "n": 18
+    },
+    "COP-rebote-10": {
+      "fecha": "2026-11-25",
+      "media": -0.00636,
+      "ganadores": 0.33333,
+      "n": 15
     }
   },
   "noticias": {
