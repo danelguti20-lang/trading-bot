@@ -630,6 +630,24 @@
       "media": -0.00343,
       "ganadores": 0.42857,
       "n": 7
+    },
+    "AMZN-mañana-0.3": {
+      "fecha": "2026-11-25",
+      "media": -0.00355,
+      "ganadores": 0.4,
+      "n": 10
+    },
+    "MSFT-mañana-0.3": {
+      "fecha": "2026-11-25",
+      "media": -0.00569,
+      "ganadores": 0.125,
+      "n": 8
+    },
+    "AVGO-mañana-0.3": {
+      "fecha": "2026-11-25",
+      "media": -0.0037,
+      "ganadores": 0.30769,
+      "n": 13
     }
   },
   "noticias": {

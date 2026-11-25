@@ -27,11 +27,11 @@
     {
       "id": 2,
       "padre": null,
-      "activo": "ANT",
+      "activo": null,
       "estrategia": "mañana",
       "p": 0.2,
-      "efectivo": 9658.581350810673,
-      "acciones": 85.080137,
+      "efectivo": 16753.968697733915,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -40,20 +40,20 @@
       "hoy": "2026-11-25",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 80.66,
-      "stop": 79.85,
-      "meta": 82.28,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": true,
       "perdidas": 0
     },
     {
       "id": 3,
       "padre": null,
-      "activo": "SOXS",
+      "activo": null,
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 8807.284584814375,
-      "acciones": 88.304486,
+      "efectivo": 14890.672462019815,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,11 +62,11 @@
       "hoy": "2026-11-25",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 70.32,
-      "stop": 69.61,
-      "meta": 71.74,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
-      "perdidas": 3
+      "perdidas": 4
     }
   ],
   "eurusd": 1.0935,
@@ -277,20 +277,18 @@
     }
   },
   "precios": {
-    "UNH": 346.0,
-    "ANT": 82.115,
-    "SOXS": 70.63
+    "UNH": 345.725
   },
   "cerebro": {
     "a_favor": {
-      "n": 63,
+      "n": 64,
       "ganadas": 23,
-      "suma": -0.19208
+      "suma": -0.213381
     },
     "en_contra": {
-      "n": 20,
-      "ganadas": 6,
-      "suma": -0.082776
+      "n": 21,
+      "ganadas": 7,
+      "suma": -0.049884
     }
   }
 }
