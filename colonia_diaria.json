@@ -70,7 +70,7 @@
     }
   ],
   "precios": {
-    "MU": 596.67
+    "MU": 596.91
   },
   "eurusd": 1.0935,
   "eurusd_inicio": 1.1193,
@@ -686,6 +686,36 @@
       "media": -0.00467,
       "ganadores": 0.25,
       "n": 16
+    },
+    "XLV-rebote-10": {
+      "fecha": "2026-11-25",
+      "media": -0.00495,
+      "ganadores": 0.11765,
+      "n": 17
+    },
+    "KO-rebote-10": {
+      "fecha": "2026-11-25",
+      "media": -0.00252,
+      "ganadores": 0.23529,
+      "n": 17
+    },
+    "INTU-rebote-10": {
+      "fecha": "2026-11-25",
+      "media": -0.00418,
+      "ganadores": 0.47059,
+      "n": 17
+    },
+    "AMGN-rebote-10": {
+      "fecha": "2026-11-25",
+      "media": -0.00407,
+      "ganadores": 0.26316,
+      "n": 19
+    },
+    "ADBE-rebote-10": {
+      "fecha": "2026-11-25",
+      "media": -0.004,
+      "ganadores": 0.44444,
+      "n": 18
     }
   },
   "noticias": {
