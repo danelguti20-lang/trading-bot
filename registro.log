@@ -4349,3 +4349,8 @@
 2026-11-25 20:02 | [ACTIVA] 📋 Bot A1 SPY: entra a 716.19, stop 709.02, objetivo 730.53 -> ✅ COMPRA
 2026-11-25 20:02 | [ACTIVA] Bot A1 (ruptura 30) COMPRA 9.7116 SPY a 716.19 | vida 16,702$
 2026-11-25 20:02 | [ACTIVA] Orden enviada: buy 9.7116 SPY (id 32401cbb-ae44-4968-875b-01fd2e1860a8)
+2026-11-25 20:15 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 13, 0 con su regla ganando en 30 días
+2026-11-25 20:15 | [CRIPTO] 🔎 Bot C2 (ruptura 24) investiga 33 monedas: señal en 4, 0 con su regla ganando en 30 días
+2026-11-25 20:15 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 160 valores: señal en 127, 1 con su regla ganando las últimas sesiones (MU -0.15%/día)
+2026-11-25 20:15 | [DIARIO] 🕰️ Bot D2 MU: stop 586.46 objetivo 604.25 | con comisión: simulación -0.29R, historia +0.28R (28 casos) -> ❌ no
+2026-11-25 20:15 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 160 valores: señal en 6, 0 con su regla ganando las últimas sesiones
