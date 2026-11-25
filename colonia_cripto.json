@@ -35,32 +35,93 @@
     {
       "id": 3,
       "padre": null,
-      "activo": "TRUMP/USD",
+      "activo": null,
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 880.2984566536252,
-      "acciones": 20747.092023442,
+      "efectivo": 18137.776956990227,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-09",
       "hijos": 0,
-      "entrada": 0.804159
+      "entrada": null
     }
   ],
   "dia": "2026-11-25",
   "memoria": {
     "LTC/USD-tendencia-48": {
-      "hora": "2026-11-25 16:00:00+00:00",
-      "n": 35,
-      "media": -0.01115,
-      "total": -0.32611,
-      "ganadores": 0.05714
+      "hora": "2026-11-25 17:00:00+00:00",
+      "n": 34,
+      "media": -0.01106,
+      "total": -0.31644,
+      "ganadores": 0.05882
+    },
+    "SUSHI/USD-tendencia-48": {
+      "hora": "2026-11-25 17:00:00+00:00",
+      "n": 32,
+      "media": -0.01164,
+      "total": -0.31414,
+      "ganadores": 0.0625
+    },
+    "LINK/USD-tendencia-48": {
+      "hora": "2026-11-25 17:00:00+00:00",
+      "n": 29,
+      "media": -0.01011,
+      "total": -0.25743,
+      "ganadores": 0.06897
+    },
+    "BCH/USD-tendencia-48": {
+      "hora": "2026-11-25 17:00:00+00:00",
+      "n": 23,
+      "media": -0.00888,
+      "total": -0.18665,
+      "ganadores": 0.08696
+    },
+    "XTZ/USD-tendencia-48": {
+      "hora": "2026-11-25 17:00:00+00:00",
+      "n": 27,
+      "media": -0.01201,
+      "total": -0.28052,
+      "ganadores": 0.07407
+    },
+    "BAT/USD-tendencia-48": {
+      "hora": "2026-11-25 17:00:00+00:00",
+      "n": 23,
+      "media": -0.01488,
+      "total": -0.29452,
+      "ganadores": 0.17391
+    },
+    "SKY/USD-tendencia-48": {
+      "hora": "2026-11-25 17:00:00+00:00",
+      "n": 22,
+      "media": -0.01386,
+      "total": -0.26563,
+      "ganadores": 0.09091
+    },
+    "BCH/USD-ruptura-24": {
+      "hora": "2026-11-25 17:00:00+00:00",
+      "n": 5,
+      "media": -0.01837,
+      "total": -0.08994,
+      "ganadores": 0.2
+    },
+    "LTC/USD-ruptura-24": {
+      "hora": "2026-11-25 17:00:00+00:00",
+      "n": 6,
+      "media": -0.02173,
+      "total": -0.12382,
+      "ganadores": 0.0
+    },
+    "XTZ/USD-ruptura-24": {
+      "hora": "2026-11-25 17:00:00+00:00",
+      "n": 5,
+      "media": -0.02149,
+      "total": -0.10311,
+      "ganadores": 0.0
     }
   },
-  "precios": {
-    "TRUMP/USD": 0.835235
-  },
+  "precios": {},
   "eurusd": 1.0935,
   "eurusd_inicio": 1.1193
 }

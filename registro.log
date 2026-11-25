@@ -4302,3 +4302,17 @@
 2026-11-25 18:46 | [ACTIVA] Bot A3 (rebote 20) VENDE 88.3045 SOXS a 68.96 | vida 14,891$
 2026-11-25 18:46 | [ACTIVA] Orden enviada: sell 85.0801 ANT (id 229be6b3-3a4a-4d5f-97c7-e4b169968e4e)
 2026-11-25 18:46 | [ACTIVA] Orden enviada: sell 88.3045 SOXS (id 1b09eb0e-9398-4b3c-a777-1e6e67069143)
+2026-11-25 19:00 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 7, 0 con su regla ganando en 30 días
+2026-11-25 19:00 | [CRIPTO] 🔎 Bot C2 (ruptura 24) investiga 33 monedas: señal en 3, 0 con su regla ganando en 30 días
+2026-11-25 19:00 | [CRIPTO] 🔚 Bot C3 (rebote 10) VENDE 20747.092023 TRUMP/USD a 0.8339 (su señal se acabó): +3.18% | vida 35,439$
+2026-11-25 19:00 | [CRIPTO] Orden enviada: sell todo TRUMP/USD (20718.849227)
+2026-11-25 19:00 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 161 valores: señal en 117, 0 con su regla ganando las últimas sesiones
+2026-11-25 19:00 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 161 valores: señal en 2, 0 con su regla ganando las últimas sesiones
+2026-11-25 19:01 | [ACTIVA] 🔎 Bot A2 (mañana 0.2) investiga 161 valores: señal en 116, mira primero: NVDA, SPY, ANT, AMZN
+2026-11-25 19:01 | [ACTIVA] 📋 Bot A2 NVDA: entra a 145.38, stop 143.92, objetivo 148.30 -> ✅ COMPRA
+2026-11-25 19:01 | [ACTIVA] Bot A2 (mañana 0.2) COMPRA 47.8477 NVDA a 145.38 | vida 16,747$
+2026-11-25 19:01 | [ACTIVA] 🔎 Bot A3 (rebote 20) investiga 161 valores: señal en 2, mira primero: TLT, WMT
+2026-11-25 19:01 | [ACTIVA] 📋 Bot A3 TLT: entra a 82.42, stop 81.59, objetivo 84.08 -> ✅ COMPRA
+2026-11-25 19:01 | [ACTIVA] Bot A3 (rebote 20) COMPRA 74.8395 TLT a 82.42 | vida 14,885$
+2026-11-25 19:01 | [ACTIVA] Orden enviada: buy 47.8477 NVDA (id 4c4f575b-9e1b-493a-a732-ed20e34ecac1)
+2026-11-25 19:01 | [ACTIVA] Orden enviada: buy 74.8395 TLT (id b5bdc105-a8ef-42c1-bb73-e10928ee9379)

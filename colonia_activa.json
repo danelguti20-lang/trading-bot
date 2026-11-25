@@ -27,11 +27,11 @@
     {
       "id": 2,
       "padre": null,
-      "activo": null,
+      "activo": "NVDA",
       "estrategia": "mañana",
       "p": 0.2,
-      "efectivo": 16753.968697733915,
-      "acciones": 0.0,
+      "efectivo": 9790.913682057155,
+      "acciones": 47.847702,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -40,20 +40,20 @@
       "hoy": "2026-11-25",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
-      "contra_cerebro": true,
+      "entrada": 145.38,
+      "stop": 143.92,
+      "meta": 148.3,
+      "contra_cerebro": false,
       "perdidas": 0
     },
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "TLT",
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 14890.672462019815,
-      "acciones": 0.0,
+      "efectivo": 8716.229795347535,
+      "acciones": 74.839534,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -62,9 +62,9 @@
       "hoy": "2026-11-25",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 82.42,
+      "stop": 81.59,
+      "meta": 84.08,
       "contra_cerebro": false,
       "perdidas": 4
     }
@@ -109,12 +109,9 @@
       "titulares": []
     },
     "NVDA": {
-      "hora": "2026-11-25T14:46:39.354170+00:00",
-      "malos": 2,
-      "titulares": [
-        "Stock futures plummet as Jensen Huang rebound rally fades",
-        "The Tech Selloff Is Bleeding Back Into the Rest of the Market"
-      ]
+      "hora": "2026-11-25T18:01:11.455113+00:00",
+      "malos": 0,
+      "titulares": []
     },
     "OXY": {
       "hora": "2026-11-12T15:11:48.788173+00:00",
@@ -130,7 +127,7 @@
       ]
     },
     "TLT": {
-      "hora": "2026-11-20T19:31:36.795416+00:00",
+      "hora": "2026-11-25T18:01:11.946643+00:00",
       "malos": 0,
       "titulares": []
     },
@@ -277,7 +274,9 @@
     }
   },
   "precios": {
-    "UNH": 345.725
+    "UNH": 345.31,
+    "NVDA": 145.38,
+    "TLT": 82.42
   },
   "cerebro": {
     "a_favor": {
