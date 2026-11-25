@@ -4283,3 +4283,10 @@
 2026-11-25 18:01 | [ACTIVA] Bot A3 (rebote 20) VENDE 43.8533 NVDA a 142.27 | vida 15,023$
 2026-11-25 18:01 | [ACTIVA] Orden enviada: buy 85.0801 ANT (id 6c7ecfdb-2cb8-4d2b-a81c-0b3bb99b097a)
 2026-11-25 18:01 | [ACTIVA] Orden enviada: sell 43.8533 NVDA (id 62c0dd1b-cb2d-4053-8c05-f39b76fbc8a5)
+2026-11-25 18:15 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 1, 0 con su regla ganando en 30 días
+2026-11-25 18:15 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 160 valores: señal en 107, 0 con su regla ganando las últimas sesiones
+2026-11-25 18:15 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 160 valores: señal en 5, 0 con su regla ganando las últimas sesiones
+2026-11-25 18:16 | [ACTIVA] 🔎 Bot A3 (rebote 20) investiga 160 valores: señal en 5, mira primero: SOXS, TLT, SPDN, SQQQ
+2026-11-25 18:16 | [ACTIVA] 📋 Bot A3 SOXS: entra a 70.32, stop 69.61, objetivo 71.74 -> ✅ COMPRA
+2026-11-25 18:16 | [ACTIVA] Bot A3 (rebote 20) COMPRA 88.3045 SOXS a 70.32 | vida 15,017$
+2026-11-25 18:16 | [ACTIVA] Orden enviada: buy 88.3045 SOXS (id b90f3b2e-739b-4534-996b-e9c50b77debb)
