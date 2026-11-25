@@ -5,11 +5,11 @@
     {
       "id": 1,
       "padre": null,
-      "activo": "AMZN",
+      "activo": "PLTR",
       "media": 200,
       "gusto": "historia",
-      "efectivo": 7281.786759089092,
-      "acciones": 26.634164,
+      "efectivo": 7235.972349015952,
+      "acciones": 39.979778,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "herido",
@@ -46,11 +46,11 @@
     }
   ],
   "precios": {
-    "AMZN": 252.25,
-    "ABBV": 300.34,
-    "XOM": 158.41
+    "PLTR": 163.59,
+    "ABBV": 294.49,
+    "XOM": 158.17
   },
-  "eurusd": 1.0963,
+  "eurusd": 1.0935,
   "eurusd_inicio": 1.1193,
   "noticias": {
     "DELL": {
@@ -71,9 +71,11 @@
       "titulares": []
     },
     "PLTR": {
-      "hora": "2026-11-10T21:47:50.599644+00:00",
-      "malos": 0,
-      "titulares": []
+      "hora": "2026-11-25T21:45:32.412684+00:00",
+      "malos": 1,
+      "titulares": [
+        "Palantir Stocks Fall 4.62% as Nasdaq Rout Hits AI Software"
+      ]
     },
     "AMD": {
       "hora": "2026-11-19T21:45:30.979943+00:00",
