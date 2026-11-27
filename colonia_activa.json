@@ -5,11 +5,11 @@
     {
       "id": 1,
       "padre": null,
-      "activo": "V",
+      "activo": null,
       "estrategia": "ruptura",
       "p": 30,
-      "efectivo": 6183.913866074603,
-      "acciones": 24.495846,
+      "efectivo": 16713.813480590034,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -18,20 +18,20 @@
       "hoy": "2026-11-27",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 428.54,
-      "stop": 425.99,
-      "meta": 433.64,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
-      "perdidas": 1
+      "perdidas": 0
     },
     {
       "id": 2,
       "padre": null,
-      "activo": "ANT",
+      "activo": null,
       "estrategia": "mañana",
       "p": 0.2,
-      "efectivo": 9856.674888554295,
-      "acciones": 76.39618,
+      "efectivo": 16869.318224854997,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
@@ -40,9 +40,9 @@
       "hoy": "2026-11-27",
       "operado_hoy": true,
       "descansa": false,
-      "entrada": 91.48,
-      "stop": 90.56,
-      "meta": 93.32,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": false,
       "perdidas": 0
     },
@@ -272,15 +272,12 @@
       "titulares": []
     }
   },
-  "precios": {
-    "V": 431.545,
-    "ANT": 92.74
-  },
+  "precios": {},
   "cerebro": {
     "a_favor": {
-      "n": 70,
-      "ganadas": 25,
-      "suma": -0.19205
+      "n": 72,
+      "ganadas": 27,
+      "suma": -0.187545
     },
     "en_contra": {
       "n": 23,
