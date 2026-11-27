@@ -4748,3 +4748,18 @@
 2026-11-27 16:01 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: --until must be on the 5-minute grid and no later than 1:00 PM (an early close)
 2026-11-27 16:01 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: --until must be on the 5-minute grid and no later than 1:00 PM (an early close)
 2026-11-27 16:01 | [SKILL] 📰 DELL descartada por noticias: Dell, Super Micro Under Pressure as Nvidia Halts Shipments to 4 Asian Countries (halt)
+2026-11-27 16:15 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 6, 0 con su regla ganando en 30 días
+2026-11-27 16:15 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 160 valores: señal en 16, 6 con su regla ganando las últimas sesiones (DELL +1.28%/día, TXN +0.23%/día, NKE +0.07%/día, V +0.06%/día)
+2026-11-27 16:15 | [DIARIO] 📰 Bot D1 no compra DELL: Supermicro’s $80 Billion Sales Ambition Could Change Its Stock Outlook (legal)
+2026-11-27 16:15 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: --until must be on the 5-minute grid and no later than 1:00 PM (an early close)
+2026-11-27 16:15 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 160 valores: señal en 3, 1 con su regla ganando las últimas sesiones (HD +0.11%/día)
+2026-11-27 16:15 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: --until must be on the 5-minute grid and no later than 1:00 PM (an early close)
+2026-11-27 16:16 | [ACTIVA] 🛑 Bot A3 STOP: SOXS a 59.08 (entró a 60.14).
+2026-11-27 16:16 | [ACTIVA] Bot A3 (rebote 20) VENDE 101.6832 SOXS a 59.08 | vida 14,731$
+2026-11-27 16:16 | [ACTIVA] Orden enviada: sell 101.6832 SOXS (id 49ed432e-c647-4149-aeb5-f68870879010)
+2026-11-27 16:16 | [SKILL] 🔎 Escáner 10:16: 33 roturas, 13 recientes para estudiar.
+2026-11-27 16:16 | [SKILL] 📰 ANT descartada por noticias: Premarket movers: AI stocks rebound, Vertex slides on FDA review (regulatory, macro)
+2026-11-27 16:16 | [SKILL] 📰 AVGO descartada por noticias: Meta’s Credit Swaps Cost About Twice Microsoft’s and Alphabet’s, per JPMorgan Data. That’s (risk)
+2026-11-27 16:16 | [SKILL]   EWG: stop demasiado pegado (0.07 $), no vale.
+2026-11-27 16:16 | [SKILL] 📰 IBM descartada por noticias: IBM (IBM) Is A Key Supplier In Smart Hospitals And Data Centres (regulatory)
+2026-11-27 16:16 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: --until must be on the 5-minute grid and no later than 1:00 PM (an early close)
