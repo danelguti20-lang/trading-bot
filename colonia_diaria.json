@@ -438,6 +438,48 @@
       "media": 0.00063,
       "ganadores": 0.4,
       "n": 5
+    },
+    "RSP-ruptura-30": {
+      "fecha": "2026-11-27",
+      "media": -0.0002,
+      "ganadores": 0.5,
+      "n": 12
+    },
+    "XLB-mañana-0.3": {
+      "fecha": "2026-11-27",
+      "media": -0.00258,
+      "ganadores": 0.33333,
+      "n": 12
+    },
+    "META-rebote-10": {
+      "fecha": "2026-11-27",
+      "media": -0.0042,
+      "ganadores": 0.25,
+      "n": 16
+    },
+    "NFLX-rebote-10": {
+      "fecha": "2026-11-27",
+      "media": -0.00441,
+      "ganadores": 0.31579,
+      "n": 19
+    },
+    "NU-rebote-10": {
+      "fecha": "2026-11-27",
+      "media": -0.00261,
+      "ganadores": 0.41176,
+      "n": 17
+    },
+    "MSTR-rebote-10": {
+      "fecha": "2026-11-27",
+      "media": -0.00789,
+      "ganadores": 0.35,
+      "n": 20
+    },
+    "UBER-rebote-10": {
+      "fecha": "2026-11-27",
+      "media": -0.0053,
+      "ganadores": 0.33333,
+      "n": 18
     }
   },
   "noticias": {

@@ -4830,3 +4830,11 @@
 2026-11-27 18:01 | [ACTIVA] 📋 Bot A2 ANT: entra a 91.48, stop 90.56, objetivo 93.32 -> ✅ COMPRA
 2026-11-27 18:01 | [ACTIVA] Bot A2 (mañana 0.2) COMPRA 76.3962 ANT a 91.48 | vida 16,845$
 2026-11-27 18:01 | [ACTIVA] Orden enviada: buy 76.3962 ANT (id abd0e2c0-20e1-478d-b904-f086af46e984)
+2026-11-27 18:15 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 14, 0 con su regla ganando en 30 días
+2026-11-27 18:16 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 162 valores: señal en 54, 8 con su regla ganando las últimas sesiones (SOXL +2.02%/día, GDX +0.95%/día, MU +0.33%/día, RSP -0.02%/día)
+2026-11-27 18:16 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: --until must be on the 5-minute grid and no later than 1:00 PM (an early close)
+2026-11-27 18:16 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: --until must be on the 5-minute grid and no later than 1:00 PM (an early close)
+2026-11-27 18:16 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 162 valores: señal en 70, 6 con su regla ganando las últimas sesiones (SOXL +1.13%/día, MU +0.23%/día, GDX -0.07%/día, AVGO -0.09%/día)
+2026-11-27 18:16 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: --until must be on the 5-minute grid and no later than 1:00 PM (an early close)
+2026-11-27 18:16 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: --until must be on the 5-minute grid and no later than 1:00 PM (an early close)
+2026-11-27 18:16 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 162 valores: señal en 5, 0 con su regla ganando las últimas sesiones
