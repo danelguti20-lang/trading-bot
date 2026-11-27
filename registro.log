@@ -4838,3 +4838,13 @@
 2026-11-27 18:16 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: --until must be on the 5-minute grid and no later than 1:00 PM (an early close)
 2026-11-27 18:16 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: --until must be on the 5-minute grid and no later than 1:00 PM (an early close)
 2026-11-27 18:16 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 162 valores: señal en 5, 0 con su regla ganando las últimas sesiones
+2026-11-27 18:30 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 14, 0 con su regla ganando en 30 días
+2026-11-27 18:31 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 162 valores: señal en 64, 6 con su regla ganando las últimas sesiones (SOXL +2.02%/día, GDX +0.95%/día, MU +0.33%/día, IWM -0.06%/día)
+2026-11-27 18:31 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: --until must be on the 5-minute grid and no later than 1:00 PM (an early close)
+2026-11-27 18:31 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: --until must be on the 5-minute grid and no later than 1:00 PM (an early close)
+2026-11-27 18:31 | [DIARIO] 🔎 Bot D2 (mañana 0.3) investiga 162 valores: señal en 72, 7 con su regla ganando las últimas sesiones (MU +0.23%/día, DELL -0.05%/día, GDX -0.07%/día, AVGO -0.09%/día)
+2026-11-27 18:31 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: --until must be on the 5-minute grid and no later than 1:00 PM (an early close)
+2026-11-27 18:31 | [DIARIO] 📰 Bot D2 no compra DELL: Dell Faces AI Server Shipment Halt as Nvidia Tightens Asia Restrictions (halt)
+2026-11-27 18:31 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 162 valores: señal en 5, 0 con su regla ganando las últimas sesiones
+2026-11-27 18:31 | [ACTIVA] Bot A3 (rebote 20) VENDE 74.9244 TLT a 81.33 | vida 14,704$
+2026-11-27 18:31 | [ACTIVA] Orden enviada: sell 74.9244 TLT (id 3e925e8f-c5cb-4d71-9b3e-8b6c30a4ae86)

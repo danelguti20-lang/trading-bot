@@ -49,11 +49,11 @@
     {
       "id": 3,
       "padre": null,
-      "activo": "TLT",
+      "activo": null,
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 8616.336712868015,
-      "acciones": 74.924361,
+      "efectivo": 14703.841394717885,
+      "acciones": 0.0,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "herido",
@@ -62,11 +62,11 @@
       "hoy": "2026-11-27",
       "operado_hoy": true,
       "descansa": true,
-      "entrada": 81.53,
-      "stop": 80.71,
-      "meta": 83.17,
+      "entrada": null,
+      "stop": null,
+      "meta": null,
       "contra_cerebro": true,
-      "perdidas": 1
+      "perdidas": 2
     }
   ],
   "eurusd": 1.0957,
@@ -273,9 +273,8 @@
     }
   },
   "precios": {
-    "V": 430.48,
-    "ANT": 91.88,
-    "TLT": 81.275
+    "V": 431.545,
+    "ANT": 92.74
   },
   "cerebro": {
     "a_favor": {
@@ -284,9 +283,9 @@
       "suma": -0.19205
     },
     "en_contra": {
-      "n": 22,
+      "n": 23,
       "ganadas": 7,
-      "suma": -0.069557
+      "suma": -0.074005
     }
   }
 }

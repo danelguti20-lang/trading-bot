@@ -480,6 +480,36 @@
       "media": -0.0053,
       "ganadores": 0.33333,
       "n": 18
+    },
+    "RSP-mañana-0.3": {
+      "fecha": "2026-11-27",
+      "media": -0.00163,
+      "ganadores": 0.27273,
+      "n": 11
+    },
+    "DELL-mañana-0.3": {
+      "fecha": "2026-11-27",
+      "media": -0.0005,
+      "ganadores": 0.16667,
+      "n": 6
+    },
+    "HYG-rebote-10": {
+      "fecha": "2026-11-27",
+      "media": -0.00375,
+      "ganadores": 0.0,
+      "n": 17
+    },
+    "MRVL-rebote-10": {
+      "fecha": "2026-11-27",
+      "media": -0.01493,
+      "ganadores": 0.29412,
+      "n": 17
+    },
+    "OXY-rebote-10": {
+      "fecha": "2026-11-27",
+      "media": -0.00505,
+      "ganadores": 0.33333,
+      "n": 15
     }
   },
   "noticias": {
