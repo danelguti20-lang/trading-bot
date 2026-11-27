@@ -342,6 +342,24 @@
       "media": -0.04911,
       "ganadores": 0.0,
       "n": 1
+    },
+    "SPY-ruptura-30": {
+      "fecha": "2026-11-27",
+      "media": -0.00255,
+      "ganadores": 0.2,
+      "n": 10
+    },
+    "QQQ-ruptura-30": {
+      "fecha": "2026-11-27",
+      "media": -0.00158,
+      "ganadores": 0.25,
+      "n": 8
+    },
+    "GDX-ruptura-30": {
+      "fecha": "2026-11-27",
+      "media": 0.00953,
+      "ganadores": 0.5,
+      "n": 6
     }
   },
   "noticias": {
