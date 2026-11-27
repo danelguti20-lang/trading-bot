@@ -27,22 +27,22 @@
     {
       "id": 2,
       "padre": null,
-      "activo": null,
+      "activo": "ANT",
       "estrategia": "mañana",
       "p": 0.2,
-      "efectivo": 16852.386157500696,
-      "acciones": 0.0,
+      "efectivo": 9856.674888554295,
+      "acciones": 76.39618,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-11",
       "hijos": 0,
       "hoy": "2026-11-27",
-      "operado_hoy": false,
+      "operado_hoy": true,
       "descansa": false,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
+      "entrada": 91.48,
+      "stop": 90.56,
+      "meta": 93.32,
       "contra_cerebro": false,
       "perdidas": 0
     },
@@ -247,13 +247,9 @@
       "titulares": []
     },
     "ANT": {
-      "hora": "2026-11-25T17:01:13.093035+00:00",
-      "malos": 4,
-      "titulares": [
-        "Amazon Sinks 6%, Sandisk Down 12% as AI Selloff Deepens: Bear Calls AI “Greatest Misallocation of Capital”",
-        "Snowflake’s AI Momentum Is Snowballing. Don’t Let the Tech Selloff Scare You.",
-        "Arthur Hayes Predicts AI Crash Will Trigger Bailout and Bitcoin Boom, but Not Yet"
-      ]
+      "hora": "2026-11-27T17:01:42.943534+00:00",
+      "malos": 0,
+      "titulares": []
     },
     "SOXL": {
       "hora": "2026-11-24T14:46:12.942595+00:00",
@@ -277,8 +273,9 @@
     }
   },
   "precios": {
-    "V": 430.73,
-    "TLT": 81.245
+    "V": 430.735,
+    "ANT": 91.48,
+    "TLT": 81.32
   },
   "cerebro": {
     "a_favor": {
