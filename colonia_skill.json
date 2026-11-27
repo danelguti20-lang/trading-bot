@@ -40,27 +40,12 @@
   "trades_hoy": 0,
   "resultado_hoy": 0.0,
   "vistos_hoy": {
-    "2026-11-25": [
-      "AMAT",
-      "AMD",
-      "ANET",
-      "ARM",
-      "BA",
-      "T",
-      "PEP",
-      "ADBE",
-      "ANT",
-      "AVGO",
-      "TLT",
-      "CMCSA",
-      "IEF",
-      "GE",
-      "HD",
-      "HON",
-      "WFC",
-      "UPS",
-      "XLRE",
-      "MA"
+    "2026-11-27": [
+      "SPDN",
+      "COP",
+      "CRWD",
+      "DE",
+      "DELL"
     ]
   }
 }

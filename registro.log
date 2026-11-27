@@ -4730,3 +4730,21 @@
 2026-11-27 15:46 | [ACTIVA] 🧠 Bot A3 compra aunque el cerebro diría NO (descanso).
 2026-11-27 15:46 | [ACTIVA] Bot A3 (rebote 20) COMPRA 101.6832 SOXS a 60.14 | vida 14,845$
 2026-11-27 15:46 | [ACTIVA] Orden enviada: buy 101.6832 SOXS (id 5ea37d63-decd-4f3d-aa47-8dc3d9aa45d0)
+2026-11-27 16:00 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 6, 0 con su regla ganando en 30 días
+2026-11-27 16:00 | [CRIPTO] 🔎 Bot C3 (rebote 10) investiga 33 monedas: señal en 30, 1 con su regla ganando en 30 días (TRUMP/USD +239.1%)
+2026-11-27 16:00 | [CRIPTO] 🕰️ Bot C3 elige TRUMP/USD: en 30 días su regla hizo 39 operaciones, 56% ganadoras, total +239.1% (con comisión) -> ✅ entra
+2026-11-27 16:00 | [CRIPTO] Bot C3 (rebote 10) COMPRA 20455.329306 TRUMP/USD a 0.8458 | vida 18,214$
+2026-11-27 16:00 | [CRIPTO] Orden enviada: buy 20455.329306 TRUMP/USD (id dacc421d-4e3f-40af-8d3f-79b6ce20e12a)
+2026-11-27 16:00 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 162 valores: señal en 11, 3 con su regla ganando las últimas sesiones (HD +0.11%/día, PG -0.15%/día, INDA -0.16%/día)
+2026-11-27 16:00 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: --until must be on the 5-minute grid and no later than 1:00 PM (an early close)
+2026-11-27 16:01 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: --until must be on the 5-minute grid and no later than 1:00 PM (an early close)
+2026-11-27 16:01 | [ACTIVA] 🔎 Bot A1 (ruptura 30) investiga 162 valores: señal en 4, mira primero: V, DE, VZ, PYPL
+2026-11-27 16:01 | [ACTIVA] 📋 Bot A1 V: entra a 428.54, stop 425.99, objetivo 433.64 -> ✅ COMPRA
+2026-11-27 16:01 | [ACTIVA] Bot A1 (ruptura 30) COMPRA 24.4958 V a 428.54 | vida 16,681$
+2026-11-27 16:01 | [ACTIVA] Orden enviada: buy 24.4958 V (id 4242207e-73b8-486c-b56c-13970a548934)
+2026-11-27 16:01 | [SKILL] 🔎 Escáner 10:01: 20 roturas, 18 recientes para estudiar.
+2026-11-27 16:01 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: --until must be on the 5-minute grid and no later than 1:00 PM (an early close)
+2026-11-27 16:01 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: --until must be on the 5-minute grid and no later than 1:00 PM (an early close)
+2026-11-27 16:01 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: --until must be on the 5-minute grid and no later than 1:00 PM (an early close)
+2026-11-27 16:01 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: --until must be on the 5-minute grid and no later than 1:00 PM (an early close)
+2026-11-27 16:01 | [SKILL] 📰 DELL descartada por noticias: Dell, Super Micro Under Pressure as Nvidia Halts Shipments to 4 Asian Countries (halt)
