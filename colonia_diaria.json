@@ -210,6 +210,30 @@
       "media": -0.00418,
       "ganadores": 0.28571,
       "n": 14
+    },
+    "TSLA-ruptura-30": {
+      "fecha": "2026-11-27",
+      "media": -0.00372,
+      "ganadores": 0.27273,
+      "n": 11
+    },
+    "META-ruptura-30": {
+      "fecha": "2026-11-27",
+      "media": -0.00323,
+      "ganadores": 0.4,
+      "n": 10
+    },
+    "MA-ruptura-30": {
+      "fecha": "2026-11-27",
+      "media": -0.00021,
+      "ganadores": 0.36364,
+      "n": 11
+    },
+    "XOM-ruptura-30": {
+      "fecha": "2026-11-27",
+      "media": -0.00456,
+      "ganadores": 0.5,
+      "n": 6
     }
   },
   "noticias": {

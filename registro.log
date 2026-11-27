@@ -4763,3 +4763,21 @@
 2026-11-27 16:16 | [SKILL]   EWG: stop demasiado pegado (0.07 $), no vale.
 2026-11-27 16:16 | [SKILL] 📰 IBM descartada por noticias: IBM (IBM) Is A Key Supplier In Smart Hospitals And Data Centres (regulatory)
 2026-11-27 16:16 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: --until must be on the 5-minute grid and no later than 1:00 PM (an early close)
+2026-11-27 16:30 | [CRIPTO] 🔎 Bot C1 (tendencia 48) investiga 33 monedas: señal en 6, 0 con su regla ganando en 30 días
+2026-11-27 16:30 | [DIARIO] 🔎 Bot D1 (ruptura 30) investiga 159 valores: señal en 24, 6 con su regla ganando las últimas sesiones (DELL +1.28%/día, TXN +0.23%/día, NKE +0.07%/día, V +0.06%/día)
+2026-11-27 16:30 | [DIARIO] 📰 Bot D1 no compra DELL: Supermicro’s $80 Billion Sales Ambition Could Change Its Stock Outlook (legal)
+2026-11-27 16:30 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: --until must be on the 5-minute grid and no later than 1:00 PM (an early close)
+2026-11-27 16:30 | [DIARIO] 🔎 Bot D3 (rebote 10) investiga 159 valores: señal en 3, 1 con su regla ganando las últimas sesiones (HD +0.11%/día)
+2026-11-27 16:30 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: --until must be on the 5-minute grid and no later than 1:00 PM (an early close)
+2026-11-27 16:31 | [ACTIVA] 🔎 Bot A3 (rebote 20) investiga 159 valores: señal en 7, mira primero: GOOGL, TLT, SOXS, SPDN
+2026-11-27 16:31 | [ACTIVA] 📰 Bot A3 no compra GOOGL: Market Chatter: Hackers Breach US Air Force Cloud Platform Powered by Microsoft, (risk)
+2026-11-27 16:31 | [ACTIVA] 📋 Bot A3 TLT: entra a 81.53, stop 80.71, objetivo 83.17 -> ✅ COMPRA
+2026-11-27 16:31 | [ACTIVA] 🧠 Bot A3 compra aunque el cerebro diría NO (descanso).
+2026-11-27 16:31 | [ACTIVA] Bot A3 (rebote 20) COMPRA 74.9244 TLT a 81.53 | vida 14,725$
+2026-11-27 16:31 | [ACTIVA] Orden enviada: buy 74.9244 TLT (id 3b9aa098-1b59-419e-aabd-3b3c3fd5a0c5)
+2026-11-27 16:31 | [SKILL] 🔎 Escáner 10:31: 40 roturas, 12 recientes para estudiar.
+2026-11-27 16:31 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: --until must be on the 5-minute grid and no later than 1:00 PM (an early close)
+2026-11-27 16:31 | [SKILL] 📰 JNJ descartada por noticias: Janssen Injunction Delays Alvotech’s US Biosimilar Rollout (legal)
+2026-11-27 16:31 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: --until must be on the 5-minute grid and no later than 1:00 PM (an early close)
+2026-11-27 16:31 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: --until must be on the 5-minute grid and no later than 1:00 PM (an early close)
+2026-11-27 16:31 | [SKILL]   trader-timemachine/timemachine.py sin respuesta: timemachine.py: --until must be on the 5-minute grid and no later than 1:00 PM (an early close)
