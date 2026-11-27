@@ -49,23 +49,23 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "SOXS",
       "estrategia": "rebote",
       "p": 20,
-      "efectivo": 14851.443233248923,
-      "acciones": 0.0,
+      "efectivo": 8730.099635199243,
+      "acciones": 101.683212,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "herido",
       "nacido": "2026-11-11",
       "hijos": 0,
       "hoy": "2026-11-27",
-      "operado_hoy": false,
+      "operado_hoy": true,
       "descansa": true,
-      "entrada": null,
-      "stop": null,
-      "meta": null,
-      "contra_cerebro": false,
+      "entrada": 60.14,
+      "stop": 59.53,
+      "meta": 61.36,
+      "contra_cerebro": true,
       "perdidas": 0
     }
   ],
@@ -94,7 +94,7 @@
       ]
     },
     "SOXS": {
-      "hora": "2026-11-25T17:16:10.118313+00:00",
+      "hora": "2026-11-27T14:46:12.421278+00:00",
       "malos": 0,
       "titulares": []
     },
@@ -271,7 +271,9 @@
       "titulares": []
     }
   },
-  "precios": {},
+  "precios": {
+    "SOXS": 60.14
+  },
   "cerebro": {
     "a_favor": {
       "n": 70,
