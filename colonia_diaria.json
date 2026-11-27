@@ -324,6 +324,24 @@
       "media": 0.0,
       "ganadores": 0.0,
       "n": 0
+    },
+    "SOXL-ruptura-30": {
+      "fecha": "2026-11-27",
+      "media": 0.0202,
+      "ganadores": 0.5,
+      "n": 6
+    },
+    "PDD-rebote-10": {
+      "fecha": "2026-11-27",
+      "media": -0.00448,
+      "ganadores": 0.27778,
+      "n": 18
+    },
+    "NCT-rebote-10": {
+      "fecha": "2026-11-27",
+      "media": -0.04911,
+      "ganadores": 0.0,
+      "n": 1
     }
   },
   "noticias": {
