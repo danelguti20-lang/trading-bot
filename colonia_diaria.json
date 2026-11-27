@@ -288,6 +288,42 @@
       "media": -0.00507,
       "ganadores": 0.46667,
       "n": 15
+    },
+    "PANW-ruptura-30": {
+      "fecha": "2026-11-27",
+      "media": -0.00715,
+      "ganadores": 0.28571,
+      "n": 7
+    },
+    "EFA-ruptura-30": {
+      "fecha": "2026-11-27",
+      "media": -0.00117,
+      "ganadores": 0.3,
+      "n": 10
+    },
+    "CVX-rebote-10": {
+      "fecha": "2026-11-27",
+      "media": -0.00443,
+      "ganadores": 0.27778,
+      "n": 18
+    },
+    "NOW-rebote-10": {
+      "fecha": "2026-11-27",
+      "media": -0.00947,
+      "ganadores": 0.38889,
+      "n": 18
+    },
+    "LMT-rebote-10": {
+      "fecha": "2026-11-27",
+      "media": -0.0046,
+      "ganadores": 0.26667,
+      "n": 15
+    },
+    "ZYN-rebote-10": {
+      "fecha": "2026-11-27",
+      "media": 0.0,
+      "ganadores": 0.0,
+      "n": 0
     }
   },
   "noticias": {
