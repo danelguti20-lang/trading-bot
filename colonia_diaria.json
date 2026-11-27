@@ -234,6 +234,54 @@
       "media": -0.00456,
       "ganadores": 0.5,
       "n": 6
+    },
+    "MU-ruptura-30": {
+      "fecha": "2026-11-27",
+      "media": 0.00332,
+      "ganadores": 0.6,
+      "n": 5
+    },
+    "AAPL-ruptura-30": {
+      "fecha": "2026-11-27",
+      "media": -0.00596,
+      "ganadores": 0.28571,
+      "n": 7
+    },
+    "AMZN-ruptura-30": {
+      "fecha": "2026-11-27",
+      "media": -0.00746,
+      "ganadores": 0.125,
+      "n": 8
+    },
+    "IWM-ruptura-30": {
+      "fecha": "2026-11-27",
+      "media": -0.00062,
+      "ganadores": 0.22222,
+      "n": 9
+    },
+    "EEM-ruptura-30": {
+      "fecha": "2026-11-27",
+      "media": -0.00093,
+      "ganadores": 0.28571,
+      "n": 7
+    },
+    "SOXS-rebote-10": {
+      "fecha": "2026-11-27",
+      "media": -0.01018,
+      "ganadores": 0.5,
+      "n": 16
+    },
+    "SPDN-rebote-10": {
+      "fecha": "2026-11-27",
+      "media": -0.00285,
+      "ganadores": 0.3125,
+      "n": 16
+    },
+    "SNDQ-rebote-10": {
+      "fecha": "2026-11-27",
+      "media": -0.00838,
+      "ganadores": 0.33333,
+      "n": 12
     }
   },
   "noticias": {
