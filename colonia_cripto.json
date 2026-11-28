@@ -51,10 +51,10 @@
   "dia": "2026-11-28",
   "memoria": {
     "XTZ/USD-tendencia-48": {
-      "hora": "2026-11-28 16:00:00+00:00",
+      "hora": "2026-11-28 17:00:00+00:00",
       "n": 22,
-      "media": -0.01148,
-      "total": -0.22644,
+      "media": -0.01118,
+      "total": -0.22122,
       "ganadores": 0.09091
     },
     "SKY/USD-tendencia-48": {
@@ -65,7 +65,7 @@
       "ganadores": 0.10526
     },
     "PAXG/USD-tendencia-48": {
-      "hora": "2026-11-28 16:00:00+00:00",
+      "hora": "2026-11-28 17:00:00+00:00",
       "n": 18,
       "media": -0.00538,
       "total": -0.09319,
@@ -73,8 +73,8 @@
     }
   },
   "precios": {
-    "PAXG/USD": 3642.43,
-    "TRUMP/USD": 0.730325
+    "PAXG/USD": 3640.945,
+    "TRUMP/USD": 0.732405
   },
   "eurusd": 1.0957,
   "eurusd_inicio": 1.1193
