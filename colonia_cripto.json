@@ -35,44 +35,44 @@
     {
       "id": 3,
       "padre": null,
-      "activo": null,
+      "activo": "TRUMP/USD",
       "estrategia": "rebote",
       "p": 10,
-      "efectivo": 17009.07143565191,
-      "acciones": 0.0,
+      "efectivo": 850.4535717825602,
+      "acciones": 21574.661935527,
       "referencia": 16666.67,
       "inicial": 16666.67,
       "estado": "vivo",
       "nacido": "2026-11-09",
       "hijos": 0,
-      "entrada": null
+      "entrada": 0.747095
     }
   ],
   "dia": "2026-11-28",
   "memoria": {
     "XTZ/USD-tendencia-48": {
-      "hora": "2026-11-28 13:00:00+00:00",
+      "hora": "2026-11-28 14:00:00+00:00",
       "n": 22,
-      "media": -0.01166,
-      "total": -0.22942,
+      "media": -0.01212,
+      "total": -0.23747,
       "ganadores": 0.09091
     },
     "SKY/USD-tendencia-48": {
-      "hora": "2026-11-28 13:00:00+00:00",
+      "hora": "2026-11-28 14:00:00+00:00",
       "n": 19,
-      "media": -0.01513,
-      "total": -0.25268,
+      "media": -0.016,
+      "total": -0.26529,
       "ganadores": 0.10526
     },
     "WIF/USD-tendencia-48": {
-      "hora": "2026-11-28 13:00:00+00:00",
+      "hora": "2026-11-28 14:00:00+00:00",
       "n": 25,
-      "media": -0.01118,
-      "total": -0.24585,
+      "media": -0.01199,
+      "total": -0.26137,
       "ganadores": 0.04
     },
     "PAXG/USD-tendencia-48": {
-      "hora": "2026-11-28 13:00:00+00:00",
+      "hora": "2026-11-28 14:00:00+00:00",
       "n": 18,
       "media": -0.00538,
       "total": -0.09319,
@@ -86,7 +86,7 @@
       "ganadores": 0.38095
     },
     "PEPE/USD-rebote-10": {
-      "hora": "2026-11-28 13:00:00+00:00",
+      "hora": "2026-11-28 14:00:00+00:00",
       "n": 51,
       "media": -0.00339,
       "total": -0.17081,
@@ -100,7 +100,7 @@
       "ganadores": 0.55769
     },
     "BAT/USD-rebote-10": {
-      "hora": "2026-11-28 13:00:00+00:00",
+      "hora": "2026-11-28 14:00:00+00:00",
       "n": 50,
       "media": -0.01054,
       "total": -0.42064,
@@ -198,15 +198,23 @@
       "ganadores": 0.36957
     },
     "SUSHI/USD-rebote-10": {
-      "hora": "2026-11-28 13:00:00+00:00",
+      "hora": "2026-11-28 14:00:00+00:00",
       "n": 51,
       "media": -0.00463,
       "total": -0.21719,
       "ganadores": 0.5098
+    },
+    "TRUMP/USD-rebote-10": {
+      "hora": "2026-11-28 14:00:00+00:00",
+      "n": 40,
+      "media": 0.0396,
+      "total": 2.27674,
+      "ganadores": 0.55
     }
   },
   "precios": {
-    "PAXG/USD": 3645.165
+    "PAXG/USD": 3643.01,
+    "TRUMP/USD": 0.747095
   },
   "eurusd": 1.0957,
   "eurusd_inicio": 1.1193
